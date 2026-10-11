@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/aescode-32b",
+  "status": "partially_accepted",
+  "created_at": "2026-10-11T07:58:52.543359161Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/AesCode-32B/resolve/ad99f9b429d73400a6e731f2bba684799d1d3449/README.md",
+    "revision": "ad99f9b429d73400a6e731f2bba684799d1d3449",
+    "sha256": "7e59af5ca0c7b9f90dc7f589853f9f2454539bcc983c58d836f4f3d20bfba4c6"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. It starts from Qwen3-VL-32B-Instruct and is trained with cold-start SFT followed by GDPO.",
+      "evidence": "AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. ... AesCode-32B starts from Qwen3-VL-32B-Instruct and is trained with cold-start SFT followed by GDPO",
+      "section": "AesCode-32B",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityImageIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text ... Input: {\"type\": \"image\"...}, {\"type\": \"text\"...} ... output remains structured, editable, and verifiable (HTML/CSS)",
+      "section": "Usage",
+      "confidence": "high"
+    }
+  ]
+}

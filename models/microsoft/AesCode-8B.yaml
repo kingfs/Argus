@@ -1,0 +1,47 @@
+schema_version: 2
+id: microsoft/aescode-8b
+name: AesCode-8B
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/AesCode-8B
+identifiers:
+  huggingface:
+    - microsoft/AesCode-8B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/AesCode-8B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/AesCode-8B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/AesCode-8B
+upstream:
+  huggingface:
+    id: microsoft/AesCode-8B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_vl
+      - image-text-to-text
+      - code-generation
+      - html
+      - multimodal
+      - reinforcement-learning
+      - design
+      - conversational
+      - en
+      - base_model:Qwen/Qwen3-VL-8B-Instruct
+      - base_model:finetune:Qwen/Qwen3-VL-8B-Instruct
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

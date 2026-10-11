@@ -1,0 +1,42 @@
+schema_version: 2
+id: allenai/olmo-hybrid-instruct-dpo-7b
+name: Olmo-Hybrid-Instruct-DPO-7B
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B
+identifiers:
+  huggingface:
+    - allenai/Olmo-Hybrid-Instruct-DPO-7B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-Hybrid-Instruct-DPO-7B
+upstream:
+  huggingface:
+    id: allenai/Olmo-Hybrid-Instruct-DPO-7B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - olmo_hybrid
+      - text-generation
+      - conversational
+      - en
+      - dataset:allenai/Dolci-Instruct-DPO
+      - base_model:allenai/Olmo-Hybrid-7B
+      - base_model:finetune:allenai/Olmo-Hybrid-7B
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

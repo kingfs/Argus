@@ -1,0 +1,45 @@
+schema_version: 2
+id: tencent/penguin-encoder
+name: Penguin-Encoder
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/tencent/Penguin-Encoder
+identifiers:
+  huggingface:
+    - tencent/Penguin-Encoder
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Penguin-Encoder
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Penguin-Encoder
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Penguin-Encoder
+upstream:
+  huggingface:
+    id: tencent/Penguin-Encoder
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - penguinvl_vision_encoder
+      - feature-extraction
+      - multi-modal
+      - large-language-model
+      - vision-language-model
+      - vision-encoder
+      - custom_code
+      - en
+      - arxiv:2603.06569
+      - base_model:Qwen/Qwen3-0.6B
+      - base_model:finetune:Qwen/Qwen3-0.6B
+      - license:apache-2.0
+      - region:us
