@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 850,
+    "models": 855,
     "compiled": 585,
-    "candidates": 239,
+    "candidates": 244,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 824,
+    "model": 829,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 553,
+      "official_huggingface": 558,
       "openrouter": 297
     },
     "unverified": [

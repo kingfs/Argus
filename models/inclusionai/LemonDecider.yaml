@@ -1,0 +1,45 @@
+schema_version: 2
+id: inclusionai/lemondecider
+name: LemonDecider
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/inclusionAI/LemonDecider
+identifiers:
+  huggingface:
+    - inclusionAI/LemonDecider
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LemonDecider
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LemonDecider
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LemonDecider
+upstream:
+  huggingface:
+    id: inclusionAI/LemonDecider
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - autojev_decision
+      - feature-extraction
+      - jev
+      - decision
+      - autojev
+      - typed-decision
+      - classification
+      - distillation
+      - custom_code
+      - base_model:Qwen/Qwen3.5-4B
+      - base_model:finetune:Qwen/Qwen3.5-4B
+      - license:apache-2.0
+      - region:us

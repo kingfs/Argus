@@ -1,0 +1,44 @@
+schema_version: 2
+id: allenai/flexolmo-7x7b-1t-rt
+name: FlexOlmo-7x7B-1T-RT
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/FlexOlmo-7x7B-1T-RT
+identifiers:
+  huggingface:
+    - allenai/FlexOlmo-7x7B-1T-RT
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/FlexOlmo-7x7B-1T-RT
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/FlexOlmo-7x7B-1T-RT
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/FlexOlmo-7x7B-1T-RT
+upstream:
+  huggingface:
+    id: allenai/FlexOlmo-7x7B-1T-RT
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - flex_olmo
+      - text-generation
+      - moe
+      - olmo
+      - flexolmo
+      - conversational
+      - en
+      - arxiv:2507.00000
+      - license:apache-2.0
+      - co2_eq_emissions
+      - endpoints_compatible
+      - region:us
