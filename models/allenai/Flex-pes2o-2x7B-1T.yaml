@@ -1,0 +1,44 @@
+schema_version: 2
+id: allenai/flex-pes2o-2x7b-1t
+name: Flex-pes2o-2x7B-1T
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Flex-pes2o-2x7B-1T
+identifiers:
+  huggingface:
+    - allenai/Flex-pes2o-2x7B-1T
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Flex-pes2o-2x7B-1T
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Flex-pes2o-2x7B-1T
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Flex-pes2o-2x7B-1T
+upstream:
+  huggingface:
+    id: allenai/Flex-pes2o-2x7B-1T
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - flex_olmo
+      - text-generation
+      - moe
+      - olmo
+      - flexolmo
+      - conversational
+      - en
+      - arxiv:2507.00000
+      - license:apache-2.0
+      - co2_eq_emissions
+      - endpoints_compatible
+      - region:us

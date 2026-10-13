@@ -1,0 +1,76 @@
+schema_version: 2
+id: meta/muse-wonder
+name: 'Meta: Muse Wonder'
+provider: Meta
+developer: meta
+description: Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with...
+description_cn: Muse Wonder 是 Meta 推出的前沿推理模型，专为复杂的个人及专业智能体任务而设计。它支持文本、图像、视频、音频和 PDF 文档输入，并以文本形式返回结果，同时...
+context_length: 1048576
+max_output: 943718
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+discovered_at: 2026-10-13T08:37:41.668037106Z
+identifiers:
+  openrouter:
+    - meta/muse-wonder
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: meta/muse-wonder-20261012
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-10-13T08:37:50.59341153Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal
+    - xhigh

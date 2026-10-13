@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 855,
-    "compiled": 585,
-    "candidates": 244,
+    "models": 861,
+    "compiled": 586,
+    "candidates": 249,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 133,
-    "unverified_identities": 244
+    "identity_gaps": 134,
+    "unverified_identities": 245
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 829,
+    "model": 835,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 558,
-      "openrouter": 297
+      "official_huggingface": 563,
+      "openrouter": 298
     },
     "unverified": [
       {
@@ -474,6 +474,11 @@
       },
       {
         "id": "meta/muse-spark-1.3-contributor",
+        "provider": "meta",
+        "source": "openrouter"
+      },
+      {
+        "id": "meta/muse-wonder",
         "provider": "meta",
         "source": "openrouter"
       },
@@ -1631,6 +1636,10 @@
     },
     {
       "id": "meta/muse-spark-1.3-contributor",
+      "provider": "meta"
+    },
+    {
+      "id": "meta/muse-wonder",
       "provider": "meta"
     },
     {
