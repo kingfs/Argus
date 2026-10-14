@@ -1,0 +1,77 @@
+schema_version: 2
+id: google/gemini-4-argon
+name: 'Google: Gemini 4 Argon'
+provider: Google
+developer: google
+lifecycle: candidate
+description: Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across...
+description_cn: Gemini 4 Argon 是谷歌的旗舰推理模型，专为复杂的软件工程、深入的数学和科学问题解决以及自主多步骤智能体而设计。谷歌对该模型进行了训练，使其能够跨...
+context_length: 1048576
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+aliases:
+  - google/gemini-4-argon:batch
+discovered_at: 2026-10-14T06:49:57.587761055Z
+identifiers:
+  openrouter:
+    - google/gemini-4-argon
+    - google/gemini-4-argon:batch
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: google/gemini-4-argon-20261013
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-10-14T06:50:01.897724107Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - medium

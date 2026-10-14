@@ -1,0 +1,59 @@
+schema_version: 2
+id: liquid/lfm2.5-24b-a2b-base
+name: LFM2.5-24B-A2B-Base
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-Base
+identifiers:
+  huggingface:
+    - LiquidAI/LFM2.5-24B-A2B-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-Base
+upstream:
+  huggingface:
+    id: LiquidAI/LFM2.5-24B-A2B-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - lfm2_moe
+      - text-generation
+      - liquid
+      - lfm2.5
+      - edge
+      - moe
+      - conversational
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - ja
+      - ko
+      - es
+      - pt
+      - it
+      - vi
+      - th
+      - id
+      - hi
+      - ru
+      - pl
+      - arxiv:2511.23404
+      - license:other
+      - endpoints_compatible
+      - region:us

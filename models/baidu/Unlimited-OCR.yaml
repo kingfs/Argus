@@ -1,0 +1,47 @@
+schema_version: 2
+id: baidu/unlimited-ocr
+name: Unlimited-OCR
+provider: Baidu ERNIE
+developer: baidu
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/baidu/Unlimited-OCR
+identifiers:
+  huggingface:
+    - baidu/Unlimited-OCR
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/baidu/Unlimited-OCR
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/baidu/Unlimited-OCR
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/baidu/Unlimited-OCR
+upstream:
+  huggingface:
+    id: baidu/Unlimited-OCR
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - unlimited_ocr
+      - feature-extraction
+      - baidu
+      - vision-language
+      - ocr
+      - custom_code
+      - image-text-to-text
+      - conversational
+      - multilingual
+      - arxiv:2606.23050
+      - license:mit
+      - eval-results
+      - deploy:sagemaker
+      - region:us

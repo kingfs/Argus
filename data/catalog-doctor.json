@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 861,
-    "compiled": 586,
-    "candidates": 249,
+    "models": 868,
+    "compiled": 587,
+    "candidates": 255,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 134,
-    "unverified_identities": 245
+    "identity_gaps": 135,
+    "unverified_identities": 246
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 835,
+    "model": 842,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 563,
-      "openrouter": 298
+      "official_huggingface": 569,
+      "openrouter": 299
     },
     "unverified": [
       {
@@ -384,6 +384,11 @@
       },
       {
         "id": "google/gemini-3.8-flash",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "google/gemini-4-argon",
         "provider": "google",
         "source": "openrouter"
       },
@@ -1342,6 +1347,7 @@
     "ibm-granite/granite-4.1-30b-base",
     "ibm-granite/granite-4.1-3b-base",
     "ibm-granite/granite-4.1-8b-base",
+    "liquid/lfm2.5-24b-a2b-base",
     "nvidia/nemotron-3-nano-30b-a3b-base",
     "nvidia/nemotron-3-super-120b-a12b-base",
     "nvidia/nemotron-3-ultra-550b-a55b-base",
@@ -1568,6 +1574,10 @@
     },
     {
       "id": "google/gemini-3.8-flash",
+      "provider": "google"
+    },
+    {
+      "id": "google/gemini-4-argon",
       "provider": "google"
     },
     {

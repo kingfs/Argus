@@ -1,0 +1,55 @@
+schema_version: 2
+id: liquid/lfm2.5-24b-a2b-mlx-5bit
+name: LFM2.5-24B-A2B-MLX-5bit
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+identifiers:
+  huggingface:
+    - LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+upstream:
+  huggingface:
+    id: LiquidAI/LFM2.5-24B-A2B-MLX-5bit
+    pipeline_tag: text-generation
+    tags:
+      - mlx
+      - safetensors
+      - lfm2_moe
+      - liquid
+      - lfm2.5
+      - edge
+      - moe
+      - text-generation
+      - conversational
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - ja
+      - ko
+      - es
+      - pt
+      - it
+      - arxiv:2511.23404
+      - base_model:LiquidAI/LFM2.5-24B-A2B
+      - base_model:quantized:LiquidAI/LFM2.5-24B-A2B
+      - license:other
+      - 5-bit
+      - region:us

@@ -1,0 +1,117 @@
+schema_version: 2
+id: liquid/lfm-2.5-24b-a2b
+name: 'LiquidAI: LFM2.5-24B-A2B'
+provider: Liquid
+developer: liquid
+lifecycle: active
+description: LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid...
+description_cn: LFM2.5-24B-A2B 是 Liquid AI 开发的一种混合专家推理模型，总参数量为 240 亿，激活参数量为 24.5 亿。它在回答前始终进行推理，专为调用工具的智能体而构建。Liquid...
+context_length: 128000
+max_output: 8192
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-10-14T06:49:57.587414462Z
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B
+identifiers:
+  huggingface:
+    - LiquidAI/LFM2.5-24B-A2B
+  openrouter:
+    - liquid/lfm-2.5-24b-a2b
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: liquid/lfm-2.5-24b-a2b-20261012
+    huggingface_id: LiquidAI/LFM2.5-24B-A2B
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-14T06:50:01.899113354Z
+  huggingface:
+    id: LiquidAI/LFM2.5-24B-A2B
+    revision: 1769516ac588c4c558089c94f27d96b0dc67b183
+    pipeline_tag: text-generation
+    model_type: lfm2_moe
+    architectures:
+      - Lfm2MoeForCausalLM
+    license: other
+    tags:
+      - ar
+      - arxiv:2511.23404
+      - base_model:LiquidAI/LFM2.5-24B-A2B-Base
+      - base_model:finetune:LiquidAI/LFM2.5-24B-A2B-Base
+      - conversational
+      - de
+      - edge
+      - en
+      - endpoints_compatible
+      - es
+      - fr
+      - hi
+      - id
+      - it
+      - ja
+      - ko
+      - lfm2.5
+      - lfm2_moe
+      - license:other
+      - liquid
+      - moe
+      - pl
+      - pt
+      - region:us
+      - ru
+      - safetensors
+      - text-generation
+      - th
+      - transformers
+      - vi
+      - zh
+    config_context_length: 131072
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-10-14T06:50:02.366712035Z
+reasoning:
+  supported: true
+  mandatory: true
