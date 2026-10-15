@@ -3,7 +3,7 @@ id: inclusionai/ling-3.1-flash
 name: 'inclusionAI: Ling 3.1 Flash'
 provider: Inclusionai
 developer: inclusionai
-lifecycle: candidate
+lifecycle: active
 description: Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.
 description_cn: Ling 3.1 Flash 是由 inclusionAI 开发的一款混合推理专家混合（MoE）模型，总参数为 560B，激活参数为 25B。
 context_length: 262144
@@ -14,7 +14,11 @@ features:
   - ModalityTextIn
   - ModalityTextOut
 discovered_at: 2026-10-03T07:11:38.035466028Z
+links:
+  model_card: https://huggingface.co/inclusionAI/Ling-3.1-flash
 identifiers:
+  huggingface:
+    - inclusionAI/Ling-3.1-flash
   openrouter:
     - inclusionai/ling-3.1-flash
 provenance:
@@ -40,13 +44,17 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
+      - logit_bias
       - logprobs
       - max_tokens
+      - min_p
       - presence_penalty
       - reasoning
       - repetition_penalty
+      - response_format
       - seed
       - stop
+      - structured_outputs
       - temperature
       - tool_choice
       - tools
@@ -57,7 +65,29 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-10-03T07:11:43.279461407Z
+    fetched_at: 2026-10-15T06:37:26.677596675Z
+  huggingface:
+    id: inclusionAI/Ling-3.1-flash
+    revision: a4ccd6b45c002ddb236f9cb77d52cc427482bf19
+    pipeline_tag: text-generation
+    model_type: bailing_hybrid
+    architectures:
+      - BailingMoeV3ForCausalLM
+    license: mit
+    tags:
+      - bailing_hybrid
+      - conversational
+      - custom_code
+      - fp8
+      - license:mit
+      - region:us
+      - safetensors
+      - text-generation
+    config_context_length: 262144
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-10-15T06:37:27.405127432Z
 reasoning:
   supported: true
   default_enabled: true

@@ -36,6 +36,7 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - logit_bias
+      - logprobs
       - max_tokens
       - min_p
       - presence_penalty
@@ -46,6 +47,7 @@ upstream:
       - structured_outputs
       - temperature
       - top_k
+      - top_logprobs
       - top_p
     input_modalities:
       - image
@@ -53,7 +55,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-08-31"
-    fetched_at: 2026-07-29T10:38:16.494604097Z
+    fetched_at: 2026-10-15T06:37:26.676674166Z
   huggingface:
     id: google/gemma-3-4b-it
     revision: 093f9f388b31de276ce2de164bdc2081324b9767

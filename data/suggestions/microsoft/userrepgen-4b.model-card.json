@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/userrepgen-4b",
+  "status": "partially_accepted",
+  "created_at": "2026-10-15T06:38:51.718623714Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/UserRepGen-4B/resolve/bfc905b249365cab00e94ba308f2cea5b23bbc6e/README.md",
+    "revision": "bfc905b249365cab00e94ba308f2cea5b23bbc6e",
+    "sha256": "739ced4c3e8793197079c2c3ad365f5a1fd7e3a4806aae034cf19751f03422da"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "UserRepGen-4B is a fine-tuned Qwen3.5-4B language model that generates a structured, natural-language user representation (task and behavior descriptions) from a multi-turn user-assistant conversation to condition a separate LLM-based user simulator.",
+      "evidence": "UserRepGen-4B is a fine-tuned Qwen3.5-4B language model that generates a structured, natural-language user representation from a multi-turn user-assistant conversation.",
+      "section": "# UserRepGen-4B",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 9216,
+      "evidence": "Training sequence length | 9,216 tokens: up to 8,192 prompt tokens and 1,024 completion tokens",
+      "section": "## Model details",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 1024,
+      "evidence": "9,216 tokens: up to 8,192 prompt tokens and 1,024 completion tokens",
+      "section": "## Model details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Inputs | Text-only, multi-turn user-assistant conversations",
+      "section": "## Model details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "enable_thinking=False",
+      "section": "### Quickstart",
+      "confidence": "medium"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "json",
+      "evidence": "Validate it as JSON containing `task` and `user_behavior` fields.",
+      "section": "## How to use",
+      "confidence": "medium"
+    }
+  ]
+}

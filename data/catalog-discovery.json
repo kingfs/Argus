@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 863,
-  "models_with_official_links": 671,
+  "models": 868,
+  "models_with_official_links": 677,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -4209,7 +4209,6 @@
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-24B-A2B-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-FP8",
       "last_modified": "2026-10-13T06:11:42Z",
       "pipeline_tag": "text-generation",
@@ -4279,7 +4278,6 @@
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-24B-A2B-MLX-4bit",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:4bit",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-4bit",
       "last_modified": "2026-10-13T06:11:38Z",
       "pipeline_tag": "text-generation",
@@ -4390,7 +4388,6 @@
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-24B-A2B-MLX-8bit",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:8bit",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-8bit",
       "last_modified": "2026-10-13T06:11:41Z",
       "pipeline_tag": "text-generation",
@@ -4427,7 +4424,6 @@
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-24B-A2B-MLX-bf16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-MLX-bf16",
       "last_modified": "2026-10-12T20:18:04Z",
       "pipeline_tag": "text-generation",
@@ -8766,6 +8762,28 @@
         "custom_code",
         "en",
         "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "prime-intellect",
+      "organization": "PrimeIntellect",
+      "repository_id": "PrimeIntellect/DeepSeek-V4.1-Flash-bf16",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:bf16",
+      "url": "https://huggingface.co/PrimeIntellect/DeepSeek-V4.1-Flash-bf16",
+      "last_modified": "2026-10-15T00:38:30Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v41",
+        "text-generation",
+        "conversational",
+        "base_model:deepseek-ai/DeepSeek-V4.1-Flash",
+        "base_model:finetune:deepseek-ai/DeepSeek-V4.1-Flash",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ]
     },
@@ -18447,7 +18465,8 @@
       "provider_id": "qwen",
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.5-0.8B",
-      "status": "new",
+      "registry_id": "qwen/qwen3.5-0.8b",
+      "status": "materialized",
       "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
       "last_modified": "2026-03-02T11:26:58Z",
       "pipeline_tag": "image-text-to-text",
@@ -18588,7 +18607,8 @@
       "provider_id": "qwen",
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.5-2B",
-      "status": "new",
+      "registry_id": "qwen/qwen3.5-2b",
+      "status": "materialized",
       "url": "https://huggingface.co/Qwen/Qwen3.5-2B",
       "last_modified": "2026-03-02T11:26:29Z",
       "pipeline_tag": "image-text-to-text",
@@ -31397,7 +31417,8 @@
       "provider_id": "allenai",
       "organization": "allenai",
       "repository_id": "allenai/Flex-math-2x7B-1T",
-      "status": "new",
+      "registry_id": "allenai/flex-math-2x7b-1t",
+      "status": "materialized",
       "url": "https://huggingface.co/allenai/Flex-math-2x7B-1T",
       "last_modified": "2026-03-02T19:12:45Z",
       "pipeline_tag": "text-generation",
@@ -31835,6 +31856,20 @@
       "tags": [
         "fme",
         "arxiv:2512.18224",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "allenai",
+      "organization": "allenai",
+      "repository_id": "allenai/HiRO-ACEv2",
+      "status": "new",
+      "url": "https://huggingface.co/allenai/HiRO-ACEv2",
+      "last_modified": "2026-10-14T13:15:49Z",
+      "tags": [
+        "fme",
+        "arxiv:2610.17693",
         "license:apache-2.0",
         "region:us"
       ]
@@ -90290,7 +90325,7 @@
       "repository_id": "ibm-granite/granitelib-core-r1.0",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0",
-      "last_modified": "2026-10-05T14:29:16Z",
+      "last_modified": "2026-10-14T17:59:20Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "granite-library",
@@ -90315,7 +90350,7 @@
       "repository_id": "ibm-granite/granitelib-guardian-r1.0",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granitelib-guardian-r1.0",
-      "last_modified": "2026-06-11T15:12:07Z",
+      "last_modified": "2026-10-14T18:09:29Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "granite-library",
@@ -90358,7 +90393,7 @@
       "repository_id": "ibm-granite/granitelib-rag-r1.0",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granitelib-rag-r1.0",
-      "last_modified": "2026-05-20T18:46:28Z",
+      "last_modified": "2026-10-14T21:48:14Z",
       "tags": [
         "granite-library",
         "safetensors",
@@ -90390,7 +90425,7 @@
       "repository_id": "inclusionAI/AI-Transparency",
       "status": "new",
       "url": "https://huggingface.co/inclusionAI/AI-Transparency",
-      "last_modified": "2026-09-24T08:45:36Z",
+      "last_modified": "2026-10-14T12:30:45Z",
       "tags": [
         "documentation",
         "transparency",
@@ -90633,6 +90668,30 @@
         "conversational",
         "custom_code",
         "arxiv:2609.13287",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/LLaDA2.2-flash",
+      "registry_id": "inclusionai/llada2.2-flash",
+      "status": "materialized",
+      "url": "https://huggingface.co/inclusionAI/LLaDA2.2-flash",
+      "last_modified": "2026-10-14T07:18:31Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llada2_moe",
+        "text-generation",
+        "dllm",
+        "diffusion",
+        "llm",
+        "text_generation",
+        "conversational",
+        "custom_code",
+        "license:apache-2.0",
         "region:us"
       ]
     },
@@ -90990,6 +91049,26 @@
         "base_model:inclusionAI/Ling-3.0-tiny",
         "base_model:finetune:inclusionAI/Ling-3.0-tiny",
         "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Ling-3.1-flash",
+      "registry_id": "inclusionai/ling-3.1-flash",
+      "status": "identity_applied",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "last_modified": "2026-10-15T02:30:27Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "bailing_hybrid",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "license:mit",
+        "fp8",
         "region:us"
       ]
     },
@@ -98898,6 +98977,34 @@
         "base_model:meta-llama/Llama-3.1-8B",
         "base_model:finetune:meta-llama/Llama-3.1-8B",
         "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "microsoft",
+      "organization": "microsoft",
+      "repository_id": "microsoft/UserRepGen-4B",
+      "registry_id": "microsoft/userrepgen-4b",
+      "status": "materialized",
+      "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+      "last_modified": "2026-10-14T22:03:45Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "user-representation",
+        "user-simulation",
+        "simulation",
+        "multi-turn",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen3.5-4B",
+        "base_model:finetune:Qwen/Qwen3.5-4B",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ]
     },
@@ -112093,7 +112200,7 @@
       "repository_id": "nvidia/DeepSeek-V4.1-Flash-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4",
-      "last_modified": "2026-09-17T01:24:11Z",
+      "last_modified": "2026-10-14T16:40:46Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "Model Optimizer",
@@ -114274,7 +114381,7 @@
       "repository_id": "nvidia/Kumo-Relational",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Relational",
-      "last_modified": "2026-10-06T00:23:37Z",
+      "last_modified": "2026-10-14T17:14:23Z",
       "tags": [
         "kumo_relational",
         "relational-foundation-model",
@@ -114291,7 +114398,7 @@
       "repository_id": "nvidia/Kumo-Tabular",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Tabular",
-      "last_modified": "2026-10-06T00:23:36Z",
+      "last_modified": "2026-10-14T17:14:39Z",
       "tags": [
         "kumo_tabular",
         "tabular-foundation-model",
@@ -121717,9 +121824,10 @@
       "repository_id": "nvidia/PhysicalAI-Simulation-VoMP-Model",
       "status": "new",
       "url": "https://huggingface.co/nvidia/PhysicalAI-Simulation-VoMP-Model",
-      "last_modified": "2026-10-13T16:51:54Z",
+      "last_modified": "2026-10-14T17:55:13Z",
       "tags": [
         "safetensors",
+        "dataset:nvidia/PhysicalAI-Robotics-PhysicalAssets-VoMP",
         "arxiv:2510.22975",
         "region:us"
       ]
@@ -121810,14 +121918,16 @@
       "repository_id": "nvidia/PixelUMM",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/PixelUMM",
-      "last_modified": "2026-10-01T21:29:11Z",
-      "pipeline_tag": "image-to-text",
+      "last_modified": "2026-10-15T06:07:25Z",
+      "pipeline_tag": "any-to-any",
       "tags": [
         "multimodal",
         "image-generation",
         "video-generation",
         "image-to-text",
         "video-text-to-text",
+        "any-to-any",
+        "arxiv:2609.38597",
         "base_model:Qwen/Qwen3-8B",
         "base_model:finetune:Qwen/Qwen3-8B",
         "license:other",
@@ -125964,6 +126074,18 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/interp-dit-crps-era5",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/interp-dit-crps-era5",
+      "last_modified": "2026-10-14T17:51:23Z",
+      "tags": [
+        "arxiv:2212.09748",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/isaaclab-arena-envs",
       "status": "new",
       "url": "https://huggingface.co/nvidia/isaaclab-arena-envs",
@@ -129371,7 +129493,7 @@
       "repository_id": "nvidia/stormscope-goes-mrms",
       "status": "new",
       "url": "https://huggingface.co/nvidia/stormscope-goes-mrms",
-      "last_modified": "2026-06-26T00:18:25Z",
+      "last_modified": "2026-10-14T21:10:22Z",
       "tags": [
         "license:other",
         "region:us"
@@ -131688,6 +131810,54 @@
         "license:apache-2.0",
         "eval-results",
         "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "stepfun",
+      "organization": "stepfun-ai",
+      "repository_id": "stepfun-ai/Step-5-Preview",
+      "registry_id": "stepfun/step-5-preview",
+      "status": "identity_applied",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+      "last_modified": "2026-10-15T01:28:10Z",
+      "tags": [
+        "safetensors",
+        "step5_vl",
+        "license:other",
+        "fp8",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "stepfun",
+      "organization": "stepfun-ai",
+      "repository_id": "stepfun-ai/Step-5-Preview-BF16",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:bf16",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16",
+      "last_modified": "2026-10-15T01:31:42Z",
+      "tags": [
+        "safetensors",
+        "step5_vl",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "stepfun",
+      "organization": "stepfun-ai",
+      "repository_id": "stepfun-ai/Step-5-Preview-NVFP4",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:nvfp4",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4",
+      "last_modified": "2026-10-15T01:26:46Z",
+      "tags": [
+        "safetensors",
+        "step5_vl",
+        "license:other",
+        "8-bit",
+        "modelopt",
         "region:us"
       ]
     },

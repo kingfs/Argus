@@ -1,0 +1,58 @@
+schema_version: 2
+id: microsoft/userrepgen-4b
+name: UserRepGen-4B
+provider: Microsoft
+developer: microsoft
+lifecycle: active
+description: UserRepGen-4B is a fine-tuned Qwen3.5-4B language model that generates a structured, natural-language user representation (task and behavior descriptions) from a multi-turn user-assistant conversation to condition a separate LLM-based user simulator.
+description_cn: UserRepGen-4B 是一个基于 Qwen3.5-4B 微调的语言模型，能够从多轮用户-助手对话中生成结构化的自然语言用户表征（包括任务和行为描述），为独立的基于 LLM 的用户模拟器提供条件输入。
+context_length: 9216
+max_output: 1024
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/UserRepGen-4B
+identifiers:
+  huggingface:
+    - microsoft/UserRepGen-4B
+provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/UserRepGen-4B/resolve/bfc905b249365cab00e94ba308f2cea5b23bbc6e/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/UserRepGen-4B/resolve/bfc905b249365cab00e94ba308f2cea5b23bbc6e/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/UserRepGen-4B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/UserRepGen-4B
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/UserRepGen-4B/resolve/bfc905b249365cab00e94ba308f2cea5b23bbc6e/README.md
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/UserRepGen-4B
+upstream:
+  huggingface:
+    id: microsoft/UserRepGen-4B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - image-text-to-text
+      - user-representation
+      - user-simulation
+      - simulation
+      - multi-turn
+      - text-generation
+      - conversational
+      - en
+      - base_model:Qwen/Qwen3.5-4B
+      - base_model:finetune:Qwen/Qwen3.5-4B
+      - license:mit
+      - endpoints_compatible
+      - region:us

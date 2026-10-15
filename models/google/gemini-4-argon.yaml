@@ -20,11 +20,13 @@ features:
   - ModalityVideoIn
 aliases:
   - google/gemini-4-argon:batch
+  - ~google/gemini-pro-latest
 discovered_at: 2026-10-14T06:49:57.587761055Z
 identifiers:
   openrouter:
     - google/gemini-4-argon
     - google/gemini-4-argon:batch
+    - ~google/gemini-pro-latest
 provenance:
   context_length:
     source: openrouter

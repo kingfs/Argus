@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 868,
-    "compiled": 587,
-    "candidates": 255,
+    "models": 873,
+    "compiled": 590,
+    "candidates": 257,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 135,
-    "unverified_identities": 246
+    "identity_gaps": 133,
+    "unverified_identities": 244
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 842,
+    "model": 847,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 569,
-      "openrouter": 299
+      "official_huggingface": 576,
+      "openrouter": 297
     },
     "unverified": [
       {
@@ -409,11 +409,6 @@
       },
       {
         "id": "inclusionai/ling-3.0-flash-sante",
-        "provider": "inclusionai",
-        "source": "openrouter"
-      },
-      {
-        "id": "inclusionai/ling-3.1-flash",
         "provider": "inclusionai",
         "source": "openrouter"
       },
@@ -1103,11 +1098,6 @@
         "source": "openrouter"
       },
       {
-        "id": "stepfun/step-5-preview",
-        "provider": "stepfun",
-        "source": "openrouter"
-      },
-      {
         "id": "tngtech/tng-r1t-chimera",
         "provider": "tngtech",
         "source": "openrouter"
@@ -1597,10 +1587,6 @@
       "provider": "inclusionai"
     },
     {
-      "id": "inclusionai/ling-3.1-flash",
-      "provider": "inclusionai"
-    },
-    {
       "id": "inference-net/schematron-v2-small",
       "provider": "inference-net"
     },
@@ -1855,10 +1841,6 @@
     {
       "id": "sakana/sakana-namazu",
       "provider": "sakana"
-    },
-    {
-      "id": "stepfun/step-5-preview",
-      "provider": "stepfun"
     },
     {
       "id": "tngtech/tng-r1t-chimera",

@@ -1,0 +1,42 @@
+schema_version: 2
+id: inclusionai/llada2.2-flash
+name: LLaDA2.2-flash
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/LLaDA2.2-flash
+identifiers:
+  huggingface:
+    - inclusionAI/LLaDA2.2-flash
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LLaDA2.2-flash
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LLaDA2.2-flash
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LLaDA2.2-flash
+upstream:
+  huggingface:
+    id: inclusionAI/LLaDA2.2-flash
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - llada2_moe
+      - text-generation
+      - dllm
+      - diffusion
+      - llm
+      - text_generation
+      - conversational
+      - custom_code
+      - license:apache-2.0
+      - region:us
