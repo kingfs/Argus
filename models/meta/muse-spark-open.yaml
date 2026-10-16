@@ -1,0 +1,112 @@
+schema_version: 2
+id: meta/muse-spark-open
+name: 'Meta: Muse Spark Open'
+provider: Meta
+developer: meta
+description: Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the repos developers...
+description_cn: Muse Spark Open 是一款针对编码优化的开放权重模型。专为智能体编码工作流而训练，它在开发者仓库中提供了更高的首次尝试准确率、可靠的工具调用能力和深入的代码库理解能力……
+context_length: 1048576
+max_output: 943718
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+discovered_at: 2026-10-16T06:30:35.40228384Z
+links:
+  model_card: https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B
+identifiers:
+  huggingface:
+    - meta-models/Muse-Spark-Open-816B-A42B
+  openrouter:
+    - meta/muse-spark-open
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: meta/muse-spark-open-20261015
+    huggingface_id: meta-models/Muse-Spark-Open-816B-A42B
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-10-16T06:30:39.112550598Z
+  huggingface:
+    id: meta-models/Muse-Spark-Open-816B-A42B
+    revision: 0fb02478b02565b2ce7fc57e6051c91172774ac9
+    pipeline_tag: image-text-to-text
+    model_type: muse_spark
+    architectures:
+      - MuseSparkForConditionalGeneration
+    license: other
+    tags:
+      - conversational
+      - deploy:sagemaker
+      - en
+      - endpoints_compatible
+      - facebook
+      - image-text-to-text
+      - license:other
+      - meta
+      - muse
+      - muse-spark
+      - muse_spark
+      - pytorch
+      - region:us
+      - safetensors
+      - transformers
+    fetched_at: 2026-10-16T06:30:39.464058469Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - medium
+    - xhigh

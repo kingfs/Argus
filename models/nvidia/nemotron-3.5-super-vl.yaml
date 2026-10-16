@@ -1,0 +1,75 @@
+schema_version: 2
+id: nvidia/nemotron-3.5-super-vl
+name: 'NVIDIA: Nemotron 3.5 Super VL'
+provider: Nvidia
+developer: nvidia
+lifecycle: candidate
+description: NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...
+description_cn: NVIDIA Nemotron 3.5 Super VL 是 NVIDIA 推出的一款开放多模态混合专家模型，总参数为 1200 亿，其中 120 亿为激活参数。它支持文本、图像、文档、GUI 截图和视频……
+context_length: 1048576
+max_output: 235929
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+aliases:
+  - nvidia/nemotron-3.5-super-vl:free
+discovered_at: 2026-10-16T06:30:35.402697975Z
+identifiers:
+  openrouter:
+    - nvidia/nemotron-3.5-super-vl
+    - nvidia/nemotron-3.5-super-vl:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: nvidia/nemotron-3.5-super-vl-20261015
+    huggingface_id: nvidia/NVIDIA-Nemotron-3.5-Super-VL
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-10-16T06:30:39.116320843Z
+reasoning:
+  supported: true

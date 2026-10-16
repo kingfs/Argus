@@ -3,10 +3,11 @@ id: microsoft/aescode-32b
 name: AesCode-32B
 provider: Microsoft
 developer: microsoft
-lifecycle: candidate
+lifecycle: active
 description: AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. It starts from Qwen3-VL-32B-Instruct and is trained with cold-start SFT followed by GDPO.
 description_cn: AesCode 能够生成包含丰富信息的视觉内容，例如幻灯片、海报和数据看板，输出格式为 HTML/CSS。该模型基于 Qwen3-VL-32B-Instruct 构建，采用冷启动 SFT，随后进行 GDPO 训练。
-context_length: 0
+context_length: 24576
+max_output: 12000
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -17,6 +18,9 @@ identifiers:
   huggingface:
     - microsoft/AesCode-32B
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/AesCode-32B/resolve/3f9157f331c574b470149ddd88e67d5bd13481f8/README.md
   description:
     source: official_model_card
     url: https://huggingface.co/microsoft/AesCode-32B/resolve/ad99f9b429d73400a6e731f2bba684799d1d3449/README.md
@@ -26,6 +30,9 @@ provenance:
   id:
     source: official_huggingface
     url: https://huggingface.co/microsoft/AesCode-32B
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/AesCode-32B/resolve/3f9157f331c574b470149ddd88e67d5bd13481f8/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/microsoft/AesCode-32B

@@ -1,0 +1,41 @@
+schema_version: 2
+id: ibm-granite/granite-switch-4.1-30b
+name: granite-switch-4.1-30b
+provider: IBM Granite
+developer: ibm-granite
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/ibm-granite/granite-switch-4.1-30b
+identifiers:
+  huggingface:
+    - ibm-granite/granite-switch-4.1-30b
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ibm-granite/granite-switch-4.1-30b
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-switch-4.1-30b
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-switch-4.1-30b
+upstream:
+  huggingface:
+    id: ibm-granite/granite-switch-4.1-30b
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - granite_switch
+      - text-generation
+      - language
+      - granite-switch
+      - granite-4.1
+      - conversational
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

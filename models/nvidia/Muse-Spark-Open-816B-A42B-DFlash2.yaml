@@ -1,0 +1,45 @@
+schema_version: 2
+id: nvidia/muse-spark-open-816b-a42b-dflash2
+name: Muse-Spark-Open-816B-A42B-DFlash2
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+identifiers:
+  huggingface:
+    - nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+upstream:
+  huggingface:
+    id: nvidia/Muse-Spark-Open-816B-A42B-DFlash2
+    pipeline_tag: image-text-to-text
+    tags:
+      - Model Optimizer
+      - safetensors
+      - qwen3
+      - nvidia
+      - ModelOpt
+      - Muse-Spark-Open-816B-A42B
+      - DFlash
+      - DFlash2
+      - image-text-to-text
+      - arxiv:2602.06036
+      - base_model:meta-models/Muse-Spark-Open-816B-A42B
+      - base_model:finetune:meta-models/Muse-Spark-Open-816B-A42B
+      - license:other
+      - region:us

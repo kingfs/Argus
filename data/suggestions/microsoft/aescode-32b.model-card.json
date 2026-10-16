@@ -3,11 +3,11 @@
   "kind": "model_card",
   "model_id": "microsoft/aescode-32b",
   "status": "partially_accepted",
-  "created_at": "2026-10-11T07:58:52.543359161Z",
+  "created_at": "2026-10-16T06:32:03.121753725Z",
   "source": {
-    "url": "https://huggingface.co/microsoft/AesCode-32B/resolve/ad99f9b429d73400a6e731f2bba684799d1d3449/README.md",
-    "revision": "ad99f9b429d73400a6e731f2bba684799d1d3449",
-    "sha256": "7e59af5ca0c7b9f90dc7f589853f9f2454539bcc983c58d836f4f3d20bfba4c6"
+    "url": "https://huggingface.co/microsoft/AesCode-32B/resolve/3f9157f331c574b470149ddd88e67d5bd13481f8/README.md",
+    "revision": "3f9157f331c574b470149ddd88e67d5bd13481f8",
+    "sha256": "2324128f4c67a6efdf4eb5bc4b04efa05df180c40bbdc8449a3db512d118738d"
   },
   "generator": {
     "model": "qwen/qwen3.8-27b",
@@ -16,9 +16,9 @@
   "claims": [
     {
       "field": "description",
-      "value": "AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. It starts from Qwen3-VL-32B-Instruct and is trained with cold-start SFT followed by GDPO.",
-      "evidence": "AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS. ... AesCode-32B starts from Qwen3-VL-32B-Instruct and is trained with cold-start SFT followed by GDPO",
-      "section": "AesCode-32B",
+      "value": "AesCode-32B is a model that generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS, trained from Qwen3-VL-32B-Instruct using cold-start SFT and GDPO reinforcement learning.",
+      "evidence": "AesCode generates information-rich visual artifacts such as slides, posters, and dashboards as HTML/CSS... AesCode-32B starts from **Qwen3-VL-32B-Instruct** and is trained with cold-start SFT followed by GDPO",
+      "section": "Intended Use",
       "confidence": "high"
     },
     {
@@ -28,8 +28,50 @@
         "ModalityImageIn",
         "ModalityTextOut"
       ],
-      "evidence": "pipeline_tag: image-text-to-text ... Input: {\"type\": \"image\"...}, {\"type\": \"text\"...} ... output remains structured, editable, and verifiable (HTML/CSS)",
+      "evidence": "pipeline_tag: image-text-to-text",
+      "section": "Intended Use",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 24576,
+      "evidence": "Reported scores use three rollouts per prompt at temperature 0.8, top-p 0.95, up to 12,000 output tokens and a 24,576-token context.",
       "section": "Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 12000,
+      "evidence": "Reported scores use three rollouts per prompt at temperature 0.8, top-p 0.95, up to 12,000 output tokens and a 24,576-token context.",
+      "section": "Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "The model requires transformers\u003e=4.57 and utilizes bf16 weights, requiring approximately 65 GB of accelerator memory for parameters alone.",
+      "evidence": "The model follows the Qwen3-VL chat interface and requires `transformers\u003e=4.57`. ... The weights are bf16; plan for roughly 65 GB of accelerator memory for the parameters alone.",
+      "section": "Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "The model emits a complete HTML document, using HTML table structures for tables and ECharts specifications for charts.",
+      "evidence": "The model emits a complete HTML document. Tables use HTML table structures and charts use ECharts specifications, keeping both directly inspectable and verifiable.",
+      "section": "Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "AesCode-32B achieves an Overall score of 85.89 and a Rule score of 94.33 on its evaluation benchmark.",
+      "evidence": "It leads the comparison on Overall at **85.89** and reaches Rule **94.33**, compared with 85.90 for GPT-5.5 and 88.04 for Claude Opus 4.8.",
+      "section": "Results",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "The model was trained with cold-start SFT on 3,000 demonstrations followed by reinforcement learning (GDPO) over 7,408 prompts for 520 steps.",
+      "evidence": "**Cold-start SFT.** 3,000 demonstrations at learning rate 1e-5. **Reinforcement learning.** GDPO over 7,408 prompts for 520 steps",
+      "section": "Training",
       "confidence": "high"
     }
   ]

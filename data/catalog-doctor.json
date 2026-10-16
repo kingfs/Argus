@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 873,
-    "compiled": 590,
-    "candidates": 257,
+    "models": 880,
+    "compiled": 592,
+    "candidates": 262,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 133,
-    "unverified_identities": 244
+    "identity_gaps": 134,
+    "unverified_identities": 246
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 847,
+    "model": 854,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 576,
-      "openrouter": 297
+      "official_huggingface": 581,
+      "openrouter": 299
     },
     "unverified": [
       {
@@ -478,6 +478,11 @@
         "source": "openrouter"
       },
       {
+        "id": "meta/muse-spark-open",
+        "provider": "meta",
+        "source": "openrouter"
+      },
+      {
         "id": "meta/muse-wonder",
         "provider": "meta",
         "source": "openrouter"
@@ -580,6 +585,11 @@
       {
         "id": "mistralai/pixtral-large-2411",
         "provider": "mistral",
+        "source": "openrouter"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-super-vl",
+        "provider": "nvidia",
         "source": "openrouter"
       },
       {
@@ -1717,6 +1727,10 @@
     {
       "id": "mistralai/pixtral-large-2411",
       "provider": "mistral"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "provider": "nvidia"
     },
     {
       "id": "nvidia/switchyard",
