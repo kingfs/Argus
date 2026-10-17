@@ -46,7 +46,6 @@ upstream:
       - frequency_penalty
       - include_reasoning
       - logit_bias
-      - logprobs
       - max_completion_tokens
       - max_tokens
       - min_p
@@ -62,13 +61,12 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-10-13T08:37:50.59910889Z
+    fetched_at: 2026-10-17T06:19:40.817239723Z
   huggingface:
     id: tencent/Hy4-preview
     revision: ce1ba0b6738bbab76b6bfd82b1801c0915dca729

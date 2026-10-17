@@ -1,0 +1,41 @@
+schema_version: 2
+id: tencent/hy-memory-30b-a3b
+name: Hy-Memory-30B-A3B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Hy-Memory-30B-A3B
+identifiers:
+  huggingface:
+    - tencent/Hy-Memory-30B-A3B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Hy-Memory-30B-A3B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy-Memory-30B-A3B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy-Memory-30B-A3B
+upstream:
+  huggingface:
+    id: tencent/Hy-Memory-30B-A3B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - hy_v3
+      - text-generation
+      - conversational
+      - en
+      - zh
+      - arxiv:2610.22196
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

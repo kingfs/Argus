@@ -8876,7 +8876,7 @@ func init() {
 			ContextLenVal:   1000000,
 			MaxOutputVal:    65536,
 			FeaturesVal:     CapChat | CapFunctionCall | CapJsonMode | ModalityImageIn | ModalityTextIn | ModalityTextOut | CapMultimodal,
-			AliasList:       []string{"qwen3.7-plus"},
+			AliasList:       []string{"qwen/qwen3.7-plus:batch", "qwen3.7-plus"},
 		},
 		"qwen/qwen3.8-2.4t-a95b": {
 			IDVal:           "qwen/qwen3.8-2.4t-a95b",
@@ -11312,6 +11312,7 @@ func init() {
 		"qwen/qwen3.5-9b:batch":                 "qwen/qwen3.5-9b",
 		"qwen/qwen3.6-plus-preview:free":        "qwen/qwen3.6-plus-preview",
 		"qwen/qwen3.6-plus:free":                "qwen/qwen3.6-plus",
+		"qwen/qwen3.7-plus:batch":               "qwen/qwen3.7-plus",
 		"qwen/qwen3.8-2.4t-a95b:batch":          "qwen/qwen3.8-2.4t-a95b",
 		"qwen/qwen3.8-27b:free":                 "qwen/qwen3.8-27b",
 		"qwen2.5":                               "qwen/qwen-2.5-72b-instruct",

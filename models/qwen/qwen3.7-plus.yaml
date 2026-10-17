@@ -14,10 +14,13 @@ features:
   - ModalityImageIn
   - ModalityTextIn
   - ModalityTextOut
+aliases:
+  - qwen/qwen3.7-plus:batch
 discovered_at: 2026-07-29T10:43:51.694353434Z
 identifiers:
   openrouter:
     - qwen/qwen3.7-plus
+    - qwen/qwen3.7-plus:batch
 upstream:
   openrouter:
     canonical_slug: qwen/qwen3.7-plus-20260602

@@ -32,6 +32,7 @@ upstream:
       - frequency_penalty
       - max_tokens
       - response_format
+      - stop
       - structured_outputs
       - temperature
       - tool_choice
@@ -43,7 +44,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2025-06-30"
-    fetched_at: 2026-10-15T06:37:26.683718177Z
+    fetched_at: 2026-10-17T06:19:40.758247493Z
   huggingface:
     id: Qwen/Qwen3-Coder-30B-A3B-Instruct
     revision: b2cff646eb4bb1d68355c01b18ae02e7cf42d120

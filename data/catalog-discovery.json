@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 875,
-  "models_with_official_links": 684,
+  "models": 880,
+  "models_with_official_links": 690,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -43870,6 +43870,42 @@
         "safetensors",
         "llama",
         "arxiv:2602.01469",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "amazon",
+      "organization": "amazon",
+      "repository_id": "amazon/LAR-27B",
+      "status": "new",
+      "url": "https://huggingface.co/amazon/LAR-27B",
+      "last_modified": "2026-10-14T21:26:49Z",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "en",
+        "dataset:nebius/SWE-rebench",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:finetune:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "amazon",
+      "organization": "amazon",
+      "repository_id": "amazon/LAR-9B",
+      "status": "new",
+      "url": "https://huggingface.co/amazon/LAR-9B",
+      "last_modified": "2026-10-14T21:27:02Z",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "en",
+        "dataset:nebius/SWE-rebench",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:finetune:Qwen/Qwen3.5-9B",
         "license:apache-2.0",
         "region:us"
       ]
@@ -103588,6 +103624,26 @@
     {
       "provider_id": "microsoft",
       "organization": "microsoft",
+      "repository_id": "microsoft/scFM-dataselection",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-domain:biomedicine",
+      "url": "https://huggingface.co/microsoft/scFM-dataselection",
+      "last_modified": "2026-10-16T13:54:25Z",
+      "tags": [
+        "safetensors",
+        "single-cell",
+        "biology",
+        "geneformer",
+        "scvi",
+        "self-supervised-learning",
+        "pca",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "microsoft",
+      "organization": "microsoft",
       "repository_id": "microsoft/sd-turbo-webnn",
       "status": "packaging",
       "url": "https://huggingface.co/microsoft/sd-turbo-webnn",
@@ -108464,7 +108520,6 @@
       "organization": "mistralai",
       "repository_id": "mistralai/Timestral-123M",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:time-series-forecasting",
       "url": "https://huggingface.co/mistralai/Timestral-123M",
       "last_modified": "2026-10-15T15:34:35Z",
       "pipeline_tag": "time-series-forecasting",
@@ -108485,7 +108540,6 @@
       "organization": "mistralai",
       "repository_id": "mistralai/Timestral-209M",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:time-series-forecasting",
       "url": "https://huggingface.co/mistralai/Timestral-209M",
       "last_modified": "2026-10-15T15:33:49Z",
       "pipeline_tag": "time-series-forecasting",
@@ -108506,7 +108560,6 @@
       "organization": "mistralai",
       "repository_id": "mistralai/Timestral-28M",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:time-series-forecasting",
       "url": "https://huggingface.co/mistralai/Timestral-28M",
       "last_modified": "2026-10-15T15:34:54Z",
       "pipeline_tag": "time-series-forecasting",
@@ -108527,7 +108580,6 @@
       "organization": "mistralai",
       "repository_id": "mistralai/Timestral-5M",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:time-series-forecasting",
       "url": "https://huggingface.co/mistralai/Timestral-5M",
       "last_modified": "2026-10-15T15:35:21Z",
       "pipeline_tag": "time-series-forecasting",
@@ -113033,6 +113085,35 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/GLM-5.3-Flash-FP4-Local",
+      "registry_id": "nvidia/glm-5.3-flash-fp4-local",
+      "status": "materialized",
+      "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local",
+      "last_modified": "2026-10-16T20:28:36Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "Model Optimizer",
+        "safetensors",
+        "glm5_next",
+        "nvidia",
+        "ModelOpt",
+        "GLM-5",
+        "quantized",
+        "FP4",
+        "fp4",
+        "image-text-to-text",
+        "conversational",
+        "base_model:zai-org/GLM-5.3-Flash",
+        "base_model:quantized:zai-org/GLM-5.3-Flash",
+        "license:other",
+        "8-bit",
+        "modelopt",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/GLM-5.3-Flash-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
@@ -114548,7 +114629,7 @@
       "repository_id": "nvidia/Kumo-Anomaly",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Anomaly",
-      "last_modified": "2026-09-22T22:03:57Z",
+      "last_modified": "2026-10-16T17:28:54Z",
       "tags": [
         "Kumo-TS",
         "en",
@@ -114563,7 +114644,7 @@
       "repository_id": "nvidia/Kumo-Forecast",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Forecast",
-      "last_modified": "2026-10-01T19:13:18Z",
+      "last_modified": "2026-10-16T20:15:38Z",
       "tags": [
         "kumo-ts",
         "en",
@@ -118237,9 +118318,10 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
-      "status": "new",
+      "registry_id": "nvidia/nvidia-nemotron-3.5-bolt-74b-a9b-24gb-lilicorr",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
-      "last_modified": "2026-10-15T15:42:38Z",
+      "last_modified": "2026-10-16T16:04:20Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "Model Optimizer",
@@ -118290,7 +118372,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
       "last_modified": "2026-10-15T18:06:22Z",
       "pipeline_tag": "image-text-to-text",
@@ -118475,9 +118556,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-      "last_modified": "2026-10-15T21:37:18Z",
+      "last_modified": "2026-10-16T23:39:54Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -118499,6 +118579,7 @@
         "dataset:nvidia/nemotron-pre-training-datasets",
         "license:other",
         "endpoints_compatible",
+        "deploy:sagemaker",
         "region:us"
       ]
     },
@@ -118507,7 +118588,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
       "last_modified": "2026-10-15T17:03:20Z",
       "pipeline_tag": "image-text-to-text",
@@ -118539,9 +118619,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:nvfp4",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
-      "last_modified": "2026-10-16T02:48:55Z",
+      "last_modified": "2026-10-16T23:39:43Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -118562,9 +118641,11 @@
         "base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
         "base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
         "license:other",
+        "eval-results",
         "endpoints_compatible",
         "8-bit",
         "modelopt_mixed",
+        "deploy:sagemaker",
         "region:us"
       ]
     },
@@ -118572,9 +118653,10 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
-      "status": "new",
+      "registry_id": "nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4-lilicorr",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
-      "last_modified": "2026-10-15T14:22:07Z",
+      "last_modified": "2026-10-16T23:39:58Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "Model Optimizer",
@@ -118845,6 +118927,112 @@
         "base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "base_model:quantized:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
         "license:other",
+        "8-bit",
+        "modelopt",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:bf16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "last_modified": "2026-10-16T23:54:11Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "dory",
+        "text-generation",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "conversational",
+        "en",
+        "dataset:nvidia/nemotron-post-training-v3",
+        "dataset:nvidia/nemotron-pre-training-datasets",
+        "license:other",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+      "last_modified": "2026-10-17T00:30:11Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "gguf",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "dory",
+        "text-generation",
+        "en",
+        "dataset:nvidia/nemotron-post-training-v3",
+        "dataset:nvidia/nemotron-pre-training-datasets",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8",
+      "registry_id": "nvidia/nvidia-nemotron-labs-dory1.0-4b-mxfp8",
+      "status": "materialized",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8",
+      "last_modified": "2026-10-17T00:19:56Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "dory",
+        "text-generation",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "conversational",
+        "en",
+        "dataset:nvidia/nemotron-post-training-v3",
+        "dataset:nvidia/nemotron-pre-training-datasets",
+        "license:other",
+        "endpoints_compatible",
+        "compressed-tensors",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:nvfp4",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
+      "last_modified": "2026-10-17T00:16:07Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "dory",
+        "text-generation",
+        "nvidia",
+        "pytorch",
+        "nemotron-labs",
+        "conversational",
+        "en",
+        "dataset:nvidia/nemotron-post-training-v3",
+        "dataset:nvidia/nemotron-pre-training-datasets",
+        "license:other",
+        "endpoints_compatible",
         "8-bit",
         "modelopt",
         "region:us"
@@ -120080,9 +120268,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-3.5-Embed-1B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16",
-      "last_modified": "2026-10-15T22:04:21Z",
+      "last_modified": "2026-10-16T09:50:43Z",
       "pipeline_tag": "visual-document-retrieval",
       "tags": [
         "sentence-transformers",
@@ -120143,9 +120330,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-3.5-Embed-8B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
-      "last_modified": "2026-10-15T22:08:16Z",
+      "last_modified": "2026-10-16T10:09:03Z",
       "pipeline_tag": "visual-document-retrieval",
       "tags": [
         "sentence-transformers",
@@ -120206,9 +120392,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
-      "last_modified": "2026-10-15T22:12:21Z",
+      "last_modified": "2026-10-16T10:36:06Z",
       "pipeline_tag": "text-ranking",
       "tags": [
         "sentence-transformers",
@@ -126838,6 +127023,19 @@
         "base_model:hexgrad/Kokoro-82M",
         "base_model:quantized:hexgrad/Kokoro-82M",
         "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/lidarverse",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/lidarverse",
+      "last_modified": "2026-10-16T05:46:28Z",
+      "tags": [
+        "arxiv:2610.19201",
+        "license:openmdw-1.1",
         "region:us"
       ]
     },
@@ -135576,6 +135774,29 @@
     {
       "provider_id": "tencent",
       "organization": "tencent",
+      "repository_id": "tencent/Hy-Memory-30B-A3B",
+      "registry_id": "tencent/hy-memory-30b-a3b",
+      "status": "materialized",
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "last_modified": "2026-10-16T08:12:51Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hy_v3",
+        "text-generation",
+        "conversational",
+        "en",
+        "zh",
+        "arxiv:2610.22196",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
       "repository_id": "tencent/Hy3-FP8",
       "status": "out_of_scope",
       "scope_reason": "out-of-scope-quantization:fp8",
@@ -135880,6 +136101,22 @@
         "arxiv:2603.06569",
         "base_model:Qwen/Qwen3-8B",
         "base_model:finetune:Qwen/Qwen3-8B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/Qwen3-8B-DSpine-b16",
+      "status": "new",
+      "url": "https://huggingface.co/tencent/Qwen3-8B-DSpine-b16",
+      "last_modified": "2026-10-16T15:04:48Z",
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "custom_code",
+        "arxiv:2609.36173",
         "license:apache-2.0",
         "region:us"
       ]

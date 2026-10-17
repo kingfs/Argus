@@ -1,0 +1,46 @@
+schema_version: 2
+id: nvidia/nvidia-nemotron-3.5-bolt-74b-a9b-24gb-lilicorr
+name: NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+identifiers:
+  huggingface:
+    - nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+upstream:
+  huggingface:
+    id: nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr
+    pipeline_tag: text-generation
+    tags:
+      - Model Optimizer
+      - safetensors
+      - qwen3
+      - nvidia
+      - ModelOpt
+      - Nemotron-3.5-Bolt
+      - latent-moe
+      - LiLiCorr
+      - text-generation
+      - arxiv:2608.20530
+      - base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB
+      - base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB
+      - license:other
+      - 8-bit
+      - modelopt_fp4
+      - region:us
