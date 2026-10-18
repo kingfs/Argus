@@ -1,0 +1,48 @@
+schema_version: 2
+id: nvidia/qwen3.8-flash-next-fp4-local
+name: Qwen3.8-Flash-Next-FP4-Local
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local
+identifiers:
+  huggingface:
+    - nvidia/Qwen3.8-Flash-Next-FP4-Local
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local
+upstream:
+  huggingface:
+    id: nvidia/Qwen3.8-Flash-Next-FP4-Local
+    pipeline_tag: image-text-to-text
+    tags:
+      - Model Optimizer
+      - safetensors
+      - qwen4_exp
+      - nvidia
+      - ModelOpt
+      - Qwen3.8
+      - quantized
+      - FP4
+      - fp4
+      - image-text-to-text
+      - conversational
+      - base_model:Qwen/Qwen3.8-Flash-Next
+      - base_model:quantized:Qwen/Qwen3.8-Flash-Next
+      - license:other
+      - 8-bit
+      - modelopt
+      - region:us

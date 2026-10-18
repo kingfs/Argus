@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 880,
-  "models_with_official_links": 690,
+  "models": 886,
+  "models_with_official_links": 695,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -5127,7 +5127,7 @@
       "repository_id": "LiquidAI/d1-omni-600M-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/d1-omni-600M-GGUF",
-      "last_modified": "2026-10-07T21:21:05Z",
+      "last_modified": "2026-10-17T09:33:50Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "gguf",
@@ -18770,7 +18770,8 @@
       "provider_id": "qwen",
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.5-4B",
-      "status": "new",
+      "registry_id": "qwen/qwen3.5-4b",
+      "status": "materialized",
       "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
       "last_modified": "2026-03-02T00:52:52Z",
       "pipeline_tag": "image-text-to-text",
@@ -50528,6 +50529,28 @@
       "status": "identity_applied",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "last_modified": "2026-09-10T06:25:21Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v41",
+        "text-generation",
+        "image-text-to-text",
+        "license:mit",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "deepseek",
+      "organization": "deepseek-ai",
+      "repository_id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "registry_id": "deepseek/deepseek-v4.1-flash-1017",
+      "status": "identity_applied",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "last_modified": "2026-10-17T05:46:55Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -103626,7 +103649,6 @@
       "organization": "microsoft",
       "repository_id": "microsoft/scFM-dataselection",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-domain:biomedicine",
       "url": "https://huggingface.co/microsoft/scFM-dataselection",
       "last_modified": "2026-10-16T13:54:25Z",
       "tags": [
@@ -118244,7 +118266,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-      "status": "new",
+      "registry_id": "nvidia/nvidia-nemotron-3.5-bolt-74b-a9b-24gb",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "last_modified": "2026-10-15T18:09:19Z",
       "pipeline_tag": "image-text-to-text",
@@ -118580,7 +118603,8 @@
         "license:other",
         "endpoints_compatible",
         "deploy:sagemaker",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ]
     },
     {
@@ -118937,7 +118961,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "last_modified": "2026-10-16T23:54:11Z",
       "pipeline_tag": "text-generation",
@@ -119015,7 +119038,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:nvfp4",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
       "last_modified": "2026-10-17T00:16:07Z",
       "pipeline_tag": "text-generation",
@@ -120384,6 +120406,32 @@
         "base_model:mistralai/Ministral-3-8B-Instruct-2512-BF16",
         "base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512-BF16",
         "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Nemotron-3.5-Parse",
+      "registry_id": "nvidia/nemotron-3.5-parse",
+      "status": "materialized",
+      "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+      "last_modified": "2026-10-18T02:52:38Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nemotron_parse",
+        "text-generation",
+        "VLM",
+        "OCR",
+        "Parse",
+        "image-text-to-text",
+        "conversational",
+        "custom_code",
+        "license:openmdw-1.1",
+        "eval-results",
+        "endpoints_compatible",
         "region:us"
       ]
     },
@@ -124130,7 +124178,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
-      "status": "new",
+      "registry_id": "nvidia/qwen3.8-flash-next-fp4-local",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "last_modified": "2026-10-15T19:45:54Z",
       "pipeline_tag": "image-text-to-text",
@@ -132862,7 +132911,8 @@
       "provider_id": "prism-ml",
       "organization": "prism-ml",
       "repository_id": "prism-ml/Ternary-Bonsai-2-9B-mlx-2bit",
-      "status": "new",
+      "registry_id": "prism-ml/ternary-bonsai-2-9b-mlx-2bit",
+      "status": "materialized",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-9B-mlx-2bit",
       "last_modified": "2026-10-14T22:14:49Z",
       "pipeline_tag": "image-text-to-text",
@@ -135789,6 +135839,32 @@
         "en",
         "zh",
         "arxiv:2610.22196",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/Hy-Memory-30B-A3B-FP8",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:fp8",
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B-FP8",
+      "last_modified": "2026-10-18T00:06:26Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hy_v3",
+        "text-generation",
+        "fp8",
+        "conversational",
+        "en",
+        "zh",
+        "arxiv:2610.22196",
+        "base_model:tencent/Hy-Memory-30B-A3B",
+        "base_model:quantized:tencent/Hy-Memory-30B-A3B",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"

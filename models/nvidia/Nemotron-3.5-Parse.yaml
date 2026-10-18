@@ -1,0 +1,45 @@
+schema_version: 2
+id: nvidia/nemotron-3.5-parse
+name: Nemotron-3.5-Parse
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-3.5-Parse
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-3.5-Parse
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-3.5-Parse
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-3.5-Parse
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-3.5-Parse
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-3.5-Parse
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - nemotron_parse
+      - text-generation
+      - VLM
+      - OCR
+      - Parse
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - license:openmdw-1.1
+      - eval-results
+      - endpoints_compatible
+      - region:us

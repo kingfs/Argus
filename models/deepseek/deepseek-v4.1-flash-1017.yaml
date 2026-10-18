@@ -1,0 +1,111 @@
+schema_version: 2
+id: deepseek/deepseek-v4.1-flash-1017
+name: 'DeepSeek: DeepSeek V4.1 Flash 1017'
+provider: DeepSeek
+developer: deepseek
+lifecycle: active
+description: DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model...
+description_cn: DeepSeek V4.1 Flash 1017 是 DeepSeek V4.1 Flash 在 2026 年 10 月 17 日的快照，由 DeepSeek 通过 `deepseek-flash` API 模型名称提供服务。V4.1 Flash 是一个稀疏混合专家模型...
+context_length: 1048576
+max_output: 393216
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - ~deepseek/deepseek-flash-latest
+discovered_at: 2026-10-18T06:43:14.956433528Z
+links:
+  model_card: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+identifiers:
+  huggingface:
+    - deepseek-ai/DeepSeek-V4.1-Flash-1017
+  openrouter:
+    - deepseek/deepseek-v4.1-flash-1017
+    - ~deepseek/deepseek-flash-latest
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: deepseek/deepseek-v4.1-flash-20261017
+    huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash-1017
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - parallel_tool_calls
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-18T06:43:23.997080668Z
+  huggingface:
+    id: deepseek-ai/DeepSeek-V4.1-Flash-1017
+    revision: 1bae0e1088993b9b82de08f59de5be5a34e42170
+    pipeline_tag: image-text-to-text
+    model_type: deepseek_v41
+    architectures:
+      - DeepseekV41ForCausalLM
+    license: mit
+    tags:
+      - 8-bit
+      - deepseek_v41
+      - endpoints_compatible
+      - fp8
+      - image-text-to-text
+      - license:mit
+      - region:us
+      - safetensors
+      - text-generation
+      - transformers
+    tokenizer_model_max_length: 1048576
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-10-18T06:43:24.395795301Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - low
+    - max
+    - none
