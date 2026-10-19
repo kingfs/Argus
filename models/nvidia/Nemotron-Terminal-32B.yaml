@@ -1,0 +1,49 @@
+schema_version: 2
+id: nvidia/nemotron-terminal-32b
+name: Nemotron-Terminal-32B
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Terminal-32B
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Terminal-32B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Terminal-32B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Terminal-32B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Terminal-32B
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Terminal-32B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3
+      - text-generation
+      - nvidia
+      - nemotron-terminal
+      - terminal
+      - code-agent
+      - SFT
+      - pytorch
+      - conversational
+      - en
+      - arxiv:2602.21193
+      - license:other
+      - eval-results
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us
+      - deploy:azure

@@ -1,0 +1,50 @@
+schema_version: 2
+id: nvidia/nemotron-research-goosereason-4b-instruct
+name: Nemotron-Research-GooseReason-4B-Instruct
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Research-GooseReason-4B-Instruct
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Research-GooseReason-4B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Research-GooseReason-4B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Research-GooseReason-4B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Research-GooseReason-4B-Instruct
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Research-GooseReason-4B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3
+      - text-generation
+      - reasoning
+      - rlvr
+      - math
+      - code
+      - stem
+      - nvidia
+      - conversational
+      - en
+      - arxiv:2601.22975
+      - arxiv:2505.24864
+      - base_model:Qwen/Qwen3-4B-Instruct-2507
+      - base_model:finetune:Qwen/Qwen3-4B-Instruct-2507
+      - license:cc-by-nc-4.0
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

@@ -27,11 +27,15 @@ upstream:
   openrouter:
     canonical_slug: morph/morph-v3-fast
     supported_parameters:
+      - logprobs
       - max_tokens
+      - response_format
       - stop
+      - structured_outputs
       - temperature
+      - top_logprobs
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:40:15.624968196Z
+    fetched_at: 2026-10-19T07:02:43.95701892Z
