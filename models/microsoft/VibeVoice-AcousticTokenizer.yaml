@@ -1,0 +1,44 @@
+schema_version: 2
+id: microsoft/vibevoice-acoustictokenizer
+name: VibeVoice-AcousticTokenizer
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+description: VibeVoice Acoustic Tokenizer is a feature extraction model designed to encode and decode audio, serving as a core component for the VibeVoice TTS and ASR systems. It operates at a low frame rate to preserve audio fidelity and efficiency.
+description_cn: VibeVoice Acoustic Tokenizer 是一个特征提取模型，旨在对音频进行编码和解码，是 VibeVoice TTS 和 ASR 系统的核心组件。它以低帧率运行，以保留音频保真度和效率。
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer
+identifiers:
+  huggingface:
+    - microsoft/VibeVoice-AcousticTokenizer
+provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer/resolve/f0643be7cab5b9c91c6f0038e3b8dde13e3e107e/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer
+upstream:
+  huggingface:
+    id: microsoft/VibeVoice-AcousticTokenizer
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - vibevoice_acoustic_tokenizer
+      - feature-extraction
+      - audio tokenizer
+      - arxiv:2508.19205
+      - license:mit
+      - endpoints_compatible
+      - region:us

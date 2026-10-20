@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/vibevoice-acoustictokenizer",
+  "status": "partially_accepted",
+  "created_at": "2026-10-20T06:48:47.886432527Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/VibeVoice-AcousticTokenizer/resolve/f0643be7cab5b9c91c6f0038e3b8dde13e3e107e/README.md",
+    "revision": "f0643be7cab5b9c91c6f0038e3b8dde13e3e107e",
+    "sha256": "434fd85f71564185d28a900334da5e3570aaef83bbcfd57d82708d1be67bb0d7"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "VibeVoice Acoustic Tokenizer is a feature extraction model designed to encode and decode audio, serving as a core component for the VibeVoice TTS and ASR systems. It operates at a low frame rate to preserve audio fidelity and efficiency.",
+      "evidence": "The speech tokenizer is a key component for both VibeVoice [TTS](https://huggingface.co/microsoft/VibeVoice-1.5B) and [ASR](https://huggingface.co/microsoft/VibeVoice-ASR).",
+      "section": "VibeVoice Acoustic Tokenizer",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityAudioIn",
+        "ModalityAudioOut"
+      ],
+      "evidence": "encoded_outputs = model.encode(inputs.input_values, sample=False)\n    print(\"Latent shape:\", encoded_outputs.latents.shape)... decoded_outputs = model.decode(**encoded_outputs)",
+      "section": "Example",
+      "confidence": "high"
+    }
+  ]
+}

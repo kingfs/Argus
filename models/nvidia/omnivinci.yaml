@@ -1,0 +1,45 @@
+schema_version: 2
+id: nvidia/omnivinci
+name: omnivinci
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/nvidia/omnivinci
+identifiers:
+  huggingface:
+    - nvidia/omnivinci
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/omnivinci
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/omnivinci
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/omnivinci
+upstream:
+  huggingface:
+    id: nvidia/omnivinci
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - vila
+      - feature-extraction
+      - omni-modal
+      - multimodal
+      - vision
+      - audio
+      - video
+      - llm
+      - custom_code
+      - arxiv:2510.15870
+      - license:apache-2.0
+      - model-index
+      - region:us

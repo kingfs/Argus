@@ -1,0 +1,64 @@
+schema_version: 2
+id: inception/mercury-3
+name: 'Inception: Mercury 3'
+provider: Inception
+developer: inception
+description: Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...
+description_cn: Mercury 3 是由 Inception 推出的基于扩散的语言模型，是该实验室迄今能力最强的模型。它适用于智能体工作流以及延迟会级放实时应用等场景，例...
+context_length: 1000000
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-10-20T06:47:20.506446854Z
+identifiers:
+  openrouter:
+    - inception/mercury-3
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: inception/mercury-3-20261019
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-20T06:47:25.122150859Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - medium
+    - none

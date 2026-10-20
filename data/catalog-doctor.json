@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 896,
-    "compiled": 593,
-    "candidates": 277,
+    "models": 903,
+    "compiled": 594,
+    "candidates": 283,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 134,
-    "unverified_identities": 246
+    "identity_gaps": 135,
+    "unverified_identities": 247
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 870,
+    "model": 877,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 597,
-      "openrouter": 299
+      "official_huggingface": 602,
+      "openrouter": 301
     },
     "unverified": [
       {
@@ -499,6 +499,11 @@
       },
       {
         "id": "minimax/minimax-m2-her",
+        "provider": "minimax",
+        "source": "openrouter"
+      },
+      {
+        "id": "minimax/minimax-m3.1-flash",
         "provider": "minimax",
         "source": "openrouter"
       },
@@ -1365,7 +1370,8 @@
     "qwen/qwen3.5-35b-a3b-base",
     "qwen/qwen3.5-4b-base",
     "qwen/qwen3.5-9b-base",
-    "tencent/hy3-preview-base"
+    "tencent/hy3-preview-base",
+    "tencent/youtu-llm-2b-base"
   ],
   "identity_gaps": [
     {
@@ -1658,6 +1664,10 @@
     },
     {
       "id": "minimax/minimax-m2-her",
+      "provider": "minimax"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
       "provider": "minimax"
     },
     {

@@ -1,0 +1,40 @@
+schema_version: 2
+id: minimax/minimax-m3.1-flash
+name: 'MiniMax: MiniMax M3.1 Flash (free)'
+provider: Minimax
+developer: minimax
+lifecycle: candidate
+description: MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...
+description_cn: MiniMax-M3.1-Flash 是 MiniMax 推出的一款多模态模型。与 M3 相比，它在多个基准测试中均有显著提升，特别是在复杂智能体任务、编码和网络安全方面。它专为复杂...
+context_length: 1000000
+max_output: 524288
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+aliases:
+  - minimax/minimax-m3.1-flash:free
+discovered_at: 2026-10-20T06:47:20.503734343Z
+identifiers:
+  openrouter:
+    - minimax/minimax-m3.1-flash
+    - minimax/minimax-m3.1-flash:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter

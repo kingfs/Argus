@@ -1,0 +1,38 @@
+schema_version: 2
+id: tencent/youtu-llm-2b-base
+name: Youtu-LLM-2B-Base
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Youtu-LLM-2B-Base
+identifiers:
+  huggingface:
+    - tencent/Youtu-LLM-2B-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Youtu-LLM-2B-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-LLM-2B-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-LLM-2B-Base
+upstream:
+  huggingface:
+    id: tencent/Youtu-LLM-2B-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - youtu
+      - text-generation
+      - arxiv:2512.24618
+      - license:other
+      - endpoints_compatible
+      - region:us
