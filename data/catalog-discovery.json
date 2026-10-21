@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 898,
-  "models_with_official_links": 706,
+  "models": 903,
+  "models_with_official_links": 711,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -4202,6 +4202,56 @@
         "license:other",
         "endpoints_compatible",
         "region:us"
+      ]
+    },
+    {
+      "provider_id": "liquid",
+      "organization": "LiquidAI",
+      "repository_id": "LiquidAI/LFM2.5-24B-A2B-DSpark",
+      "status": "serving_variant",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-DSpark",
+      "last_modified": "2026-10-21T01:11:30Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "sglang",
+        "safetensors",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "lfm2",
+        "lfm2_moe",
+        "draft-model",
+        "moe",
+        "text-generation",
+        "base_model:LiquidAI/LFM2.5-24B-A2B",
+        "base_model:finetune:LiquidAI/LFM2.5-24B-A2B",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "liquid",
+      "organization": "LiquidAI",
+      "repository_id": "LiquidAI/LFM2.5-24B-A2B-DSpark-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-DSpark-GGUF",
+      "last_modified": "2026-10-21T01:11:31Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "speculative-decoding",
+        "dspark",
+        "lfm2",
+        "lfm2_moe",
+        "draft-model",
+        "text-generation",
+        "base_model:LiquidAI/LFM2.5-24B-A2B-DSpark",
+        "base_model:quantized:LiquidAI/LFM2.5-24B-A2B-DSpark",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ]
     },
     {
@@ -8762,6 +8812,20 @@
         "custom_code",
         "en",
         "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "prime-intellect",
+      "organization": "PrimeIntellect",
+      "repository_id": "PrimeIntellect/DeepSeek-V4-Flash-Base-bf16",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:bf16",
+      "url": "https://huggingface.co/PrimeIntellect/DeepSeek-V4-Flash-Base-bf16",
+      "last_modified": "2026-09-22T19:12:17Z",
+      "tags": [
+        "safetensors",
+        "deepseek_v4",
         "region:us"
       ]
     },
@@ -17061,7 +17125,8 @@
       "provider_id": "qwen",
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3-Coder-Next-Base",
-      "status": "new",
+      "registry_id": "qwen/qwen3-coder-next-base",
+      "status": "materialized",
       "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next-Base",
       "last_modified": "2026-02-03T14:14:04Z",
       "pipeline_tag": "text-generation",
@@ -99082,6 +99147,33 @@
     {
       "provider_id": "microsoft",
       "organization": "microsoft",
+      "repository_id": "microsoft/Sentiment-Analysis-7B",
+      "registry_id": "microsoft/sentiment-analysis-7b",
+      "status": "materialized",
+      "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B",
+      "last_modified": "2026-10-20T19:28:08Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "sentiment-analysis",
+        "text-classification",
+        "reinforcement-learning",
+        "conversational",
+        "en",
+        "base_model:mistralai/Mistral-7B-Instruct-v0.2",
+        "base_model:finetune:mistralai/Mistral-7B-Instruct-v0.2",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "microsoft",
+      "organization": "microsoft",
       "repository_id": "microsoft/SportsBERT",
       "status": "out_of_scope",
       "scope_reason": "out-of-scope-pipeline:fill-mask",
@@ -99635,7 +99727,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/X-Reasoner-7B",
-      "status": "new",
+      "registry_id": "microsoft/x-reasoner-7b",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/X-Reasoner-7B",
       "last_modified": "2026-02-03T23:24:00Z",
       "pipeline_tag": "image-text-to-text",
@@ -99973,6 +100066,19 @@
       "scope_reason": "out-of-scope-domain:biomedicine",
       "url": "https://huggingface.co/microsoft/bioemu",
       "last_modified": "2025-10-27T17:04:26Z",
+      "tags": [
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "microsoft",
+      "organization": "microsoft",
+      "repository_id": "microsoft/bioemu2",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-domain:biomedicine",
+      "url": "https://huggingface.co/microsoft/bioemu2",
+      "last_modified": "2026-10-19T10:15:41Z",
       "tags": [
         "license:mit",
         "region:us"
@@ -111960,6 +112066,70 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-H-Dreams",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:image-to-video",
+      "url": "https://huggingface.co/nvidia/Cosmos3-H-Dreams",
+      "last_modified": "2026-10-19T16:38:28Z",
+      "pipeline_tag": "image-to-video",
+      "tags": [
+        "nv-medtech",
+        "custom",
+        "simulation",
+        "surgical-robotics",
+        "video-generation",
+        "real-time",
+        "interactive",
+        "autoregressive",
+        "policy-evaluation",
+        "vla-evaluation",
+        "healthcare-robotics",
+        "world-model",
+        "image-to-video",
+        "dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment",
+        "arxiv:2608.24199",
+        "arxiv:2506.08009",
+        "arxiv:2405.14867",
+        "base_model:nvidia/Cosmos3-H-Embodied-Nano",
+        "base_model:finetune:nvidia/Cosmos3-H-Embodied-Nano",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-H-Embodied-Nano",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/Cosmos3-H-Embodied-Nano",
+      "last_modified": "2026-10-20T17:26:44Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "nv-medtech",
+        "custom",
+        "simulation",
+        "surgical-robotics",
+        "video-generation",
+        "world-model",
+        "forward-dynamics",
+        "inverse-dynamics",
+        "policy",
+        "policy-evaluation",
+        "imitation-learning",
+        "healthcare-robotics",
+        "robotics",
+        "dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment",
+        "arxiv:2511.00062",
+        "base_model:nvidia/Cosmos3-Nano",
+        "base_model:finetune:nvidia/Cosmos3-Nano",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/Cosmos3-Nano",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Cosmos3-Nano",
@@ -111999,6 +112169,92 @@
         "cosmos3",
         "world action model",
         "policy model",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-Nano-Sim-Auto",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto",
+      "last_modified": "2026-10-21T02:33:18Z",
+      "tags": [
+        "cosmos",
+        "diffusers",
+        "safetensors",
+        "cosmos3_omni",
+        "nvidia",
+        "cosmos3",
+        "omnimodel",
+        "arxiv:1706.08500",
+        "arxiv:1812.01717",
+        "arxiv:2603.03283",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-Nano-Sim-Bimanual",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual",
+      "last_modified": "2026-10-21T02:33:21Z",
+      "tags": [
+        "cosmos",
+        "diffusers",
+        "safetensors",
+        "cosmos3_omni",
+        "nvidia",
+        "cosmos3",
+        "omnimodel",
+        "arxiv:2512.01989",
+        "arxiv:2605.15178",
+        "arxiv:1801.03924",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-Nano-Sim-Transfer",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer",
+      "last_modified": "2026-10-21T03:28:58Z",
+      "tags": [
+        "cosmos",
+        "diffusers",
+        "safetensors",
+        "cosmos3_omni",
+        "nvidia",
+        "cosmos3",
+        "omnimodel",
+        "arxiv:2512.01989",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Cosmos3-Nano-Transfer-Auto",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto",
+      "last_modified": "2026-10-21T02:33:20Z",
+      "tags": [
+        "cosmos",
+        "diffusers",
+        "safetensors",
+        "cosmos3_omni",
+        "nvidia",
+        "cosmos3",
+        "omnimodel",
+        "arxiv:1706.08500",
+        "arxiv:1812.01717",
+        "arxiv:2603.03283",
         "license:other",
         "region:us"
       ]
@@ -113077,6 +113333,79 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/Flora-Captioner",
+      "registry_id": "nvidia/flora-captioner",
+      "status": "materialized",
+      "url": "https://huggingface.co/nvidia/Flora-Captioner",
+      "last_modified": "2026-10-19T18:58:31Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.5",
+        "video",
+        "video-captioning",
+        "data-engine",
+        "conversational",
+        "arxiv:2503.14734",
+        "base_model:Qwen/Qwen3.5-27B",
+        "base_model:finetune:Qwen/Qwen3.5-27B",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Flora-Rewarder",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/Flora-Rewarder",
+      "last_modified": "2026-10-19T18:58:33Z",
+      "pipeline_tag": "video-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "robotics",
+        "reward-model",
+        "vlm",
+        "gr00t",
+        "system-2",
+        "video-text-to-text",
+        "arxiv:2503.14734",
+        "base_model:Qwen/Qwen3.5-27B",
+        "base_model:finetune:Qwen/Qwen3.5-27B",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Flora-TempSeg",
+      "status": "packaging",
+      "url": "https://huggingface.co/nvidia/Flora-TempSeg",
+      "last_modified": "2026-10-19T18:58:32Z",
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "qwen3.5",
+        "video",
+        "temporal-segmentation",
+        "data-engine",
+        "arxiv:2503.14734",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:adapter:Qwen/Qwen3.5-9B",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/Frame_VAD_Multilingual_MarbleNet_v2.0",
       "status": "out_of_scope",
       "scope_reason": "out-of-scope-pipeline:voice-activity-detection",
@@ -113158,7 +113487,7 @@
       "repository_id": "nvidia/GEM-X",
       "status": "new",
       "url": "https://huggingface.co/nvidia/GEM-X",
-      "last_modified": "2026-10-15T21:13:41Z",
+      "last_modified": "2026-10-20T23:14:50Z",
       "tags": [
         "gem",
         "onnx",
@@ -114849,7 +115178,7 @@
       "repository_id": "nvidia/Kumo-Anomaly",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Anomaly",
-      "last_modified": "2026-10-16T17:28:54Z",
+      "last_modified": "2026-10-20T17:13:41Z",
       "tags": [
         "Kumo-TS",
         "en",
@@ -114864,7 +115193,7 @@
       "repository_id": "nvidia/Kumo-Forecast",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Kumo-Forecast",
-      "last_modified": "2026-10-19T21:10:18Z",
+      "last_modified": "2026-10-20T18:17:04Z",
       "tags": [
         "kumo-ts",
         "en",
@@ -118619,7 +118948,8 @@
         "base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
         "license:other",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "deploy:sagemaker"
       ]
     },
     {
@@ -118801,8 +119131,8 @@
         "license:other",
         "endpoints_compatible",
         "deploy:sagemaker",
-        "region:us",
-        "deploy:azure"
+        "deploy:azure",
+        "region:us"
       ]
     },
     {
@@ -120489,7 +120819,7 @@
       "repository_id": "nvidia/Nemotron-3.5-Embed-1B-BF16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16",
-      "last_modified": "2026-10-19T10:39:43Z",
+      "last_modified": "2026-10-20T21:07:35Z",
       "pipeline_tag": "visual-document-retrieval",
       "tags": [
         "sentence-transformers",
@@ -120548,10 +120878,41 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/Nemotron-3.5-Embed-1B-NVFP4",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-quantization:nvfp4",
+      "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-NVFP4",
+      "last_modified": "2026-10-19T12:13:40Z",
+      "pipeline_tag": "visual-document-retrieval",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "mistral3",
+        "feature-extraction",
+        "multimodal-embedding",
+        "image-embeddings",
+        "text-embeddings",
+        "retrieval",
+        "rag",
+        "semantic-search",
+        "transformers",
+        "visual-document-retrieval",
+        "multilingual",
+        "base_model:nvidia/Nemotron-3.5-Embed-1B-BF16",
+        "base_model:quantized:nvidia/Nemotron-3.5-Embed-1B-BF16",
+        "license:other",
+        "8-bit",
+        "compressed-tensors",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-3.5-Embed-8B-BF16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
-      "last_modified": "2026-10-19T10:39:47Z",
+      "last_modified": "2026-10-20T21:10:09Z",
       "pipeline_tag": "visual-document-retrieval",
       "tags": [
         "sentence-transformers",
@@ -120639,7 +121000,7 @@
       "repository_id": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
-      "last_modified": "2026-10-19T10:39:50Z",
+      "last_modified": "2026-10-20T21:28:18Z",
       "pipeline_tag": "text-ranking",
       "tags": [
         "sentence-transformers",
@@ -124568,6 +124929,73 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/RFD4-Proteina",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-domain:protein",
+      "url": "https://huggingface.co/nvidia/RFD4-Proteina",
+      "last_modified": "2026-10-20T23:59:50Z",
+      "tags": [
+        "rfd4-proteina",
+        "safetensors",
+        "rfd4_proteina",
+        "biology",
+        "protein-design",
+        "biomolecular-design",
+        "structure-generation",
+        "flow-matching",
+        "annotated-cif",
+        "en",
+        "dataset:nvidia/RFD4-Proteina",
+        "license:bsd-3-clause",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/RFD4-Proteina-Diffusers",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-domain:protein",
+      "url": "https://huggingface.co/nvidia/RFD4-Proteina-Diffusers",
+      "last_modified": "2026-10-20T22:38:21Z",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "biology",
+        "protein-design",
+        "biomolecular-design",
+        "structure-generation",
+        "flow-matching",
+        "annotated-cif",
+        "en",
+        "base_model:nvidia/RFD4-Proteina",
+        "base_model:finetune:nvidia/RFD4-Proteina",
+        "license:bsd-3-clause",
+        "diffusers:RFD4ProteinaPipeline",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/RFD4-Proteina-prep",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-domain:protein",
+      "url": "https://huggingface.co/nvidia/RFD4-Proteina-prep",
+      "last_modified": "2026-10-20T22:55:24Z",
+      "tags": [
+        "diffusers",
+        "modular-diffusers",
+        "biology",
+        "protein-design",
+        "annotated-cif",
+        "license:bsd-3-clause",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/RNAPro-Private-Best-500M",
       "status": "new",
       "url": "https://huggingface.co/nvidia/RNAPro-Private-Best-500M",
@@ -126279,6 +126707,29 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
+      "last_modified": "2026-10-20T16:53:17Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "cosmos",
+        "safetensors",
+        "cosmos3_omni",
+        "robotics",
+        "libero",
+        "vla",
+        "custom_code",
+        "base_model:nvidia/Cosmos3-Nano",
+        "base_model:finetune:nvidia/Cosmos3-Nano",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/cosmos3-nano-libero10-sdg-export-D5",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D5",
@@ -126367,10 +126818,56 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
+      "last_modified": "2026-10-20T16:53:21Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "cosmos",
+        "safetensors",
+        "cosmos3_omni",
+        "robotics",
+        "libero",
+        "vla",
+        "custom_code",
+        "base_model:nvidia/Cosmos3-Nano",
+        "base_model:finetune:nvidia/Cosmos3-Nano",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_2",
       "last_modified": "2026-10-18T20:16:30Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "cosmos",
+        "safetensors",
+        "cosmos3_omni",
+        "robotics",
+        "libero",
+        "vla",
+        "custom_code",
+        "base_model:nvidia/Cosmos3-Nano",
+        "base_model:finetune:nvidia/Cosmos3-Nano",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
+      "last_modified": "2026-10-20T16:53:27Z",
       "pipeline_tag": "robotics",
       "tags": [
         "cosmos",
@@ -137430,7 +137927,8 @@
       "provider_id": "tencent",
       "organization": "tencent",
       "repository_id": "tencent/Youtu-HiChunk",
-      "status": "new",
+      "registry_id": "tencent/youtu-hichunk",
+      "status": "materialized",
       "url": "https://huggingface.co/tencent/Youtu-HiChunk",
       "last_modified": "2026-02-04T02:29:39Z",
       "pipeline_tag": "feature-extraction",

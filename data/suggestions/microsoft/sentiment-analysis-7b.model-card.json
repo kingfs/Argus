@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/sentiment-analysis-7b",
+  "status": "partially_accepted",
+  "created_at": "2026-10-21T06:42:04.789046353Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B/resolve/c443f040bb22ad30d69dbdd4482c8aa0f46a4d62/README.md",
+    "revision": "c443f040bb22ad30d69dbdd4482c8aa0f46a4d62",
+    "sha256": "fbd582f3ddeded4750aed2718f4fb96ec557ded8baa83aac00641fa7a7bea2ca"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent. It is built on mistralai/Mistral-7B-Instruct-v0.2 and fine-tuned with reinforcement learning using an LLM as a judge.",
+      "evidence": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent",
+      "section": "Sentiment-Analysis-7B",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "The model generates a response where the first token is the sentiment label (Negative, Neutral, or Positive), followed by a short explanation. The base model accuracy was 62.0% and the fine-tuned model achieved 72.8% accuracy.",
+      "evidence": "the first token is the sentiment label (Negative, Neutral, or Positive) ... mistralai/Mistral-7B-Instruct-v0.2 62.0% ... Sentiment-Analysis-7B (ours) 72.8%",
+      "section": "Evaluation metrics",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation ... Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages",
+      "section": "Sentiment-Analysis-7B",
+      "confidence": "high"
+    }
+  ]
+}

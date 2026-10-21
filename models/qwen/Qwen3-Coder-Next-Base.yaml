@@ -1,0 +1,38 @@
+schema_version: 2
+id: qwen/qwen3-coder-next-base
+name: Qwen3-Coder-Next-Base
+provider: Qwen
+developer: qwen
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
+identifiers:
+  huggingface:
+    - Qwen/Qwen3-Coder-Next-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
+upstream:
+  huggingface:
+    id: Qwen/Qwen3-Coder-Next-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_next
+      - text-generation
+      - conversational
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

@@ -1,6 +1,6 @@
 schema_version: 2
 id: minimax/minimax-m3.1-flash
-name: 'MiniMax: MiniMax M3.1 Flash (free)'
+name: 'MiniMax: MiniMax M3.1 Flash'
 provider: Minimax
 developer: minimax
 lifecycle: candidate

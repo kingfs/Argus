@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 903,
+    "models": 908,
     "compiled": 594,
-    "candidates": 283,
+    "candidates": 288,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 877,
+    "model": 882,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 602,
+      "official_huggingface": 607,
       "openrouter": 301
     },
     "unverified": [
@@ -1365,6 +1365,7 @@
     "nvidia/sdllm-duo-1.7b-base",
     "nvidia/sdllm-esolm-1.7b-base",
     "nvidia/sdllm-mdlm-1.7b-base",
+    "qwen/qwen3-coder-next-base",
     "qwen/qwen3.5-0.8b-base",
     "qwen/qwen3.5-2b-base",
     "qwen/qwen3.5-35b-a3b-base",

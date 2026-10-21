@@ -1,0 +1,50 @@
+schema_version: 2
+id: microsoft/sentiment-analysis-7b
+name: Sentiment-Analysis-7B
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+description: Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent. It is built on mistralai/Mistral-7B-Instruct-v0.2 and fine-tuned with reinforcement learning using an LLM as a judge.
+description_cn: Sentiment-Analysis-7B 是一个 7B 参数的自回归语言模型，经过微调，用于对面向服务、产品或代理的用户消息进行情感分类。该模型基于 mistralai/Mistral-7B-Instruct-v0.2，使用 LLM 作为评判标准的强化学习进行微调。
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Sentiment-Analysis-7B
+identifiers:
+  huggingface:
+    - microsoft/Sentiment-Analysis-7B
+provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/Sentiment-Analysis-7B/resolve/c443f040bb22ad30d69dbdd4482c8aa0f46a4d62/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Sentiment-Analysis-7B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Sentiment-Analysis-7B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Sentiment-Analysis-7B
+upstream:
+  huggingface:
+    id: microsoft/Sentiment-Analysis-7B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mistral
+      - text-generation
+      - sentiment-analysis
+      - text-classification
+      - reinforcement-learning
+      - conversational
+      - en
+      - base_model:mistralai/Mistral-7B-Instruct-v0.2
+      - base_model:finetune:mistralai/Mistral-7B-Instruct-v0.2
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

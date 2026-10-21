@@ -1,0 +1,39 @@
+schema_version: 2
+id: tencent/youtu-hichunk
+name: Youtu-HiChunk
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/tencent/Youtu-HiChunk
+identifiers:
+  huggingface:
+    - tencent/Youtu-HiChunk
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Youtu-HiChunk
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-HiChunk
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-HiChunk
+upstream:
+  huggingface:
+    id: tencent/Youtu-HiChunk
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - utu_v1
+      - feature-extraction
+      - custom_code
+      - zh
+      - arxiv:2509.11552
+      - license:other
+      - region:us

@@ -1,0 +1,45 @@
+schema_version: 2
+id: nvidia/flora-captioner
+name: Flora-Captioner
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Flora-Captioner
+identifiers:
+  huggingface:
+    - nvidia/Flora-Captioner
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Flora-Captioner
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Flora-Captioner
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Flora-Captioner
+upstream:
+  huggingface:
+    id: nvidia/Flora-Captioner
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - image-text-to-text
+      - qwen3.5
+      - video
+      - video-captioning
+      - data-engine
+      - conversational
+      - arxiv:2503.14734
+      - base_model:Qwen/Qwen3.5-27B
+      - base_model:finetune:Qwen/Qwen3.5-27B
+      - endpoints_compatible
+      - region:us

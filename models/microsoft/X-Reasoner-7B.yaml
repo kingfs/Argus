@@ -1,0 +1,45 @@
+schema_version: 2
+id: microsoft/x-reasoner-7b
+name: X-Reasoner-7B
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/X-Reasoner-7B
+identifiers:
+  huggingface:
+    - microsoft/X-Reasoner-7B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/X-Reasoner-7B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/X-Reasoner-7B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/X-Reasoner-7B
+upstream:
+  huggingface:
+    id: microsoft/X-Reasoner-7B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen2_5_vl
+      - image-text-to-text
+      - multimodal
+      - conversational
+      - en
+      - arxiv:2505.03981
+      - base_model:Qwen/Qwen2.5-VL-7B-Instruct
+      - base_model:finetune:Qwen/Qwen2.5-VL-7B-Instruct
+      - license:apache-2.0
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us
