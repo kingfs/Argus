@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "arcee-ai/trinity-mini-base-pre-anneal",
+  "status": "partially_accepted",
+  "created_at": "2026-10-22T06:46:12.489888753Z",
+  "source": {
+    "url": "https://huggingface.co/arcee-ai/Trinity-Mini-Base-Pre-Anneal/resolve/a55edb6c35670d8e9ca7d24fe6ef7ea70c2b47cc/README.md",
+    "revision": "a55edb6c35670d8e9ca7d24fe6ef7ea70c2b47cc",
+    "sha256": "c2a36f36bc4a17ed7b6f3f660f8e866862360d1b8a68c542b3f7c11e77bcf64b"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Arcee AI 26B MoE model with 3B active parameters. Base pre-anneal checkpoint trained on 8.8T tokens. Not suitable for chatting without finetuning.",
+      "evidence": "Trinity-Mini-Base-Pre-Anneal is an Arcee AI 26B MoE model with 3B active parameters. ... This checkpoint is not suitable for chatting or general use without further finetuning",
+      "section": "Trinity Mini Base Pre Anneal",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 4096,
+      "evidence": "* **Context length:** 4K",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "* **Model Architecture:** AfmoeForCausalLM",
+      "section": "Model Details",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+schema_version: 2
+id: inclusionai/ling-3.0-flash-ubtree
+name: Ling-3.0-flash-UBTree
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree
+identifiers:
+  huggingface:
+    - inclusionAI/Ling-3.0-flash-UBTree
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree
+upstream:
+  huggingface:
+    id: inclusionAI/Ling-3.0-flash-UBTree
+    pipeline_tag: text-generation
+    tags:
+      - sglang
+      - safetensors
+      - qwen3
+      - speculative-decoding
+      - tree-speculative-decoding
+      - ubtree
+      - dflash
+      - ling3
+      - arxiv:2609.39972
+      - text-generation
+      - zh
+      - en
+      - base_model:inclusionAI/Ling-3.0-flash
+      - base_model:finetune:inclusionAI/Ling-3.0-flash
+      - license:mit
+      - region:us

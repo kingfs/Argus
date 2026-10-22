@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "arcee-ai/trinity-large-thinking-w4a16",
+  "status": "partially_accepted",
+  "created_at": "2026-10-22T06:45:51.322516418Z",
+  "source": {
+    "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking-W4A16/resolve/71953c3bc7f8f817ee3cef0fd7ed86190b3f8f1f/README.md",
+    "revision": "71953c3bc7f8f817ee3cef0fd7ed86190b3f8f1f",
+    "sha256": "d1d0143d9b1e41f43a23e1034c71fe33c1f8c8e42bd1ddc2f273e8460b7cf774"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "W4A16 quantized weights of Trinity-Large-Thinking, a 398B-parameter sparse MoE model with approximately 13B active parameters per token, post-trained with extended chain-of-thought reasoning and agentic RL.",
+      "evidence": "Trinity-Large-Thinking is a reasoning-optimized variant of Arcee AI's Trinity-Large family — a 398B-parameter sparse Mixture-of-Experts (MoE) model with approximately 13B active parameters per token",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "This repository contains the W4A16 quantized weights of Trinity-Large-Thinking (INT4 weights, 16-bit activations).",
+      "evidence": "This repository contains the W4A16 quantized weights of Trinity-Large-Thinking (INT4 weights, 16-bit activations).",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "post-trained with extended chain-of-thought reasoning and agentic RL.",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "deepseek_r1",
+      "evidence": "--reasoning-parser deepseek_r1 \\",
+      "section": "vLLM",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Outputs text from user inputs in provided code examples and tags.",
+      "section": "Transformers",
+      "confidence": "high"
+    }
+  ]
+}

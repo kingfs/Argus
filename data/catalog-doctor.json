@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 908,
-    "compiled": 594,
-    "candidates": 288,
+    "models": 913,
+    "compiled": 598,
+    "candidates": 289,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 882,
+    "model": 887,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 607,
+      "official_huggingface": 612,
       "openrouter": 301
     },
     "unverified": [
@@ -1372,7 +1372,8 @@
     "qwen/qwen3.5-4b-base",
     "qwen/qwen3.5-9b-base",
     "tencent/hy3-preview-base",
-    "tencent/youtu-llm-2b-base"
+    "tencent/youtu-llm-2b-base",
+    "tencent/youtu-llm-a7b-base"
   ],
   "identity_gaps": [
     {

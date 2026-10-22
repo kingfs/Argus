@@ -3,8 +3,10 @@ id: arcee-ai/trinity-mini-w4a16
 name: Trinity-Mini-W4A16
 provider: Arcee AI
 developer: arcee-ai
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: W4A16 quantized weights of Trinity-Mini, an Arcee AI 26B MoE model with 3B active parameters.
+description_cn: Trinity-Mini 的 W4A16 量化权重。Trinity-Mini 是 Arcee AI 的 260 亿参数 MoE 模型，激活参数为 30 亿。
+context_length: 131072
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - arcee-ai/Trinity-Mini-W4A16
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Mini-W4A16/resolve/16022478460695ec5ba78805b6c23577f6b0aab4/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Mini-W4A16/resolve/16022478460695ec5ba78805b6c23577f6b0aab4/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/arcee-ai/Trinity-Mini-W4A16
@@ -23,6 +31,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/arcee-ai/Trinity-Mini-W4A16
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Mini-W4A16/resolve/16022478460695ec5ba78805b6c23577f6b0aab4/README.md
 upstream:
   huggingface:
     id: arcee-ai/Trinity-Mini-W4A16
@@ -51,3 +62,5 @@ upstream:
       - endpoints_compatible
       - compressed-tensors
       - region:us
+reasoning:
+  supported: true

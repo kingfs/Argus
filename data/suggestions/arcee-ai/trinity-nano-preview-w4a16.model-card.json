@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "arcee-ai/trinity-nano-preview-w4a16",
+  "status": "partially_accepted",
+  "created_at": "2026-10-22T06:45:29.530964508Z",
+  "source": {
+    "url": "https://huggingface.co/arcee-ai/Trinity-Nano-Preview-W4A16/resolve/ad776dcdd3db993eef00a8f5dad6e06c1b1a84ad/README.md",
+    "revision": "ad776dcdd3db993eef00a8f5dad6e06c1b1a84ad",
+    "sha256": "985050b33bd13cb31458ee7407d80d62ddb714f1fec25ca6f1b62d1dbd8088f1"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Trinity Nano Preview W4A16 is a preview of Arcee AI's 6B MoE model with 1B active parameters. It is the small-sized model in the Trinity family, an open-weight model for enterprise and tinkerers. This is a chat tuned model. It contains W4A16 quantized weights (INT4 weights, 16-bit activations). It is trained on 10T tokens.",
+      "evidence": "Trinity Nano Preview is a preview of Arcee AI's 6B MoE model with 1B active parameters. It is the small-sized model in our new Trinity family... This is a chat tuned model... This repository contains the W4A16 quantized weights of Trinity-Nano-Preview (INT4 weights, 16-bit activations).",
+      "section": "Trinity Nano Preview W4A16",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 128000,
+      "evidence": "**Context length:** 128k",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "This is a chat tuned model, with a delightful personality and charm we think users will love.",
+      "section": "Trinity Nano Preview W4A16",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "deepseek_r1",
+      "evidence": "--reasoning-parser deepseek_r1",
+      "section": "VLLM",
+      "confidence": "high"
+    }
+  ]
+}

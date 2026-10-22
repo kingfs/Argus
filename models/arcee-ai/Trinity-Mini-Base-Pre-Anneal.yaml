@@ -3,7 +3,9 @@ id: arcee-ai/trinity-mini-base-pre-anneal
 name: Trinity-Mini-Base-Pre-Anneal
 provider: Arcee AI
 developer: arcee-ai
-lifecycle: candidate
+lifecycle: active
+description: Arcee AI 26B MoE model with 3B active parameters. Base pre-anneal checkpoint trained on 8.8T tokens. Not suitable for chatting without finetuning.
+description_cn: Arcee AI 的 260 亿参数 MoE 模型，激活参数为 30 亿。这是基于 8.8 万亿个 token 训练的基础预退火（pre-anneal）检查点。未经微调不适合用于对话。
 context_length: 4096
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/arcee-ai/Trinity-Mini-Base-Pre-Anneal
+  description:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Mini-Base-Pre-Anneal/resolve/a55edb6c35670d8e9ca7d24fe6ef7ea70c2b47cc/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/arcee-ai/Trinity-Mini-Base-Pre-Anneal

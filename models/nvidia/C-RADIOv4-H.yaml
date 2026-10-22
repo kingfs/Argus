@@ -1,0 +1,41 @@
+schema_version: 2
+id: nvidia/c-radiov4-h
+name: C-RADIOv4-H
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/nvidia/C-RADIOv4-H
+identifiers:
+  huggingface:
+    - nvidia/C-RADIOv4-H
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/C-RADIOv4-H
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/C-RADIOv4-H
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/C-RADIOv4-H
+upstream:
+  huggingface:
+    id: nvidia/C-RADIOv4-H
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - feature-extraction
+      - custom_code
+      - arxiv:2312.06709
+      - arxiv:2410.01680
+      - arxiv:2412.07679
+      - arxiv:2502.16025
+      - arxiv:2601.17237
+      - license:other
+      - region:us

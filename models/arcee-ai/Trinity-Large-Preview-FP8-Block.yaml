@@ -3,8 +3,10 @@ id: arcee-ai/trinity-large-preview-fp8-block
 name: Trinity-Large-Preview-FP8-Block
 provider: Arcee AI
 developer: arcee-ai
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Trinity-Large-Preview is a 398B-parameter sparse Mixture-of-Experts (MoE) model with approximately 13B active parameters per token. It is the largest model in Arcee AI's Trinity family, trained on more than 17 trillion tokens. This repository contains the FP8 block-quantized weights of Trinity-Large-Preview.
+description_cn: Trinity-Large-Preview 是一个具有 3980 亿参数的大型稀疏混合专家（MoE）模型，每个 token 约有 130 亿参数处于激活状态。它是 Arcee AI Trinity 系列中规模最大的模型，基于超过 17 万亿个 token 训练而成。本仓库包含 Trinity-Large-Preview 的 FP8 块量化权重。
+context_length: 524288
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - arcee-ai/Trinity-Large-Preview-FP8-Block
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Large-Preview-FP8-Block/resolve/6ce7e5ec8d8c4deeaf896934a1fcd6e764a56db6/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Large-Preview-FP8-Block/resolve/6ce7e5ec8d8c4deeaf896934a1fcd6e764a56db6/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/arcee-ai/Trinity-Large-Preview-FP8-Block

@@ -3,8 +3,10 @@ id: arcee-ai/trinity-nano-preview-w4a16
 name: Trinity-Nano-Preview-W4A16
 provider: Arcee AI
 developer: arcee-ai
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Trinity Nano Preview W4A16 is a preview of Arcee AI's 6B MoE model with 1B active parameters. It is the small-sized model in the Trinity family, an open-weight model for enterprise and tinkerers. This is a chat tuned model. It contains W4A16 quantized weights (INT4 weights, 16-bit activations). It is trained on 10T tokens.
+description_cn: Trinity Nano Preview W4A16 是 Arcee AI 60 亿参数 MoE 模型（激活参数为 10 亿）的预览版。它是 Trinity 系列中的小型模型，是一款面向企业和业余爱好者的开放权重模型。该模型已完成对话调优。包含 W4A16 量化权重（INT4 权重，16 位激活值）。该模型基于 10 万亿个 token 训练。
+context_length: 128000
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - arcee-ai/Trinity-Nano-Preview-W4A16
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Nano-Preview-W4A16/resolve/ad776dcdd3db993eef00a8f5dad6e06c1b1a84ad/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Nano-Preview-W4A16/resolve/ad776dcdd3db993eef00a8f5dad6e06c1b1a84ad/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/arcee-ai/Trinity-Nano-Preview-W4A16

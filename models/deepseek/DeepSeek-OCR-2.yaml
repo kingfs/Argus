@@ -1,0 +1,46 @@
+schema_version: 2
+id: deepseek/deepseek-ocr-2
+name: DeepSeek-OCR-2
+provider: DeepSeek
+developer: deepseek
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
+identifiers:
+  huggingface:
+    - deepseek-ai/DeepSeek-OCR-2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/deepseek-ai/DeepSeek-OCR-2
+upstream:
+  huggingface:
+    id: deepseek-ai/DeepSeek-OCR-2
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - deepseek_vl_v2
+      - feature-extraction
+      - deepseek
+      - vision-language
+      - ocr
+      - custom_code
+      - image-text-to-text
+      - multilingual
+      - arxiv:2601.20552
+      - arxiv:2510.18234
+      - license:apache-2.0
+      - eval-results
+      - region:us

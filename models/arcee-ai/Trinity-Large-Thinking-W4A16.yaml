@@ -4,6 +4,8 @@ name: Trinity-Large-Thinking-W4A16
 provider: Arcee AI
 developer: arcee-ai
 lifecycle: candidate
+description: W4A16 quantized weights of Trinity-Large-Thinking, a 398B-parameter sparse MoE model with approximately 13B active parameters per token, post-trained with extended chain-of-thought reasoning and agentic RL.
+description_cn: Trinity-Large-Thinking 的 W4A16 量化权重。该模型为具有 3980 亿参数的大型稀疏 MoE 模型，每个 token 约有 130 亿参数处于激活状态，经过扩展思维链推理和多智能体强化学习的后续训练。
 context_length: 0
 features:
   - ModalityTextIn
@@ -14,6 +16,9 @@ identifiers:
   huggingface:
     - arcee-ai/Trinity-Large-Thinking-W4A16
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Large-Thinking-W4A16/resolve/71953c3bc7f8f817ee3cef0fd7ed86190b3f8f1f/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/arcee-ai/Trinity-Large-Thinking-W4A16
@@ -23,6 +28,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/arcee-ai/Trinity-Large-Thinking-W4A16
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/arcee-ai/Trinity-Large-Thinking-W4A16/resolve/71953c3bc7f8f817ee3cef0fd7ed86190b3f8f1f/README.md
 upstream:
   huggingface:
     id: arcee-ai/Trinity-Large-Thinking-W4A16
@@ -56,3 +64,5 @@ upstream:
       - endpoints_compatible
       - compressed-tensors
       - region:us
+reasoning:
+  supported: true

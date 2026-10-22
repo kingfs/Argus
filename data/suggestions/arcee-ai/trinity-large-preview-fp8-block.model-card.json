@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "arcee-ai/trinity-large-preview-fp8-block",
+  "status": "partially_accepted",
+  "created_at": "2026-10-22T06:45:07.902870887Z",
+  "source": {
+    "url": "https://huggingface.co/arcee-ai/Trinity-Large-Preview-FP8-Block/resolve/6ce7e5ec8d8c4deeaf896934a1fcd6e764a56db6/README.md",
+    "revision": "6ce7e5ec8d8c4deeaf896934a1fcd6e764a56db6",
+    "sha256": "9a9db9009981d97c280c36e679623e277b2eb7aae9eabd9836e940d0dce750c5"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Trinity-Large-Preview is a 398B-parameter sparse Mixture-of-Experts (MoE) model with approximately 13B active parameters per token. It is the largest model in Arcee AI's Trinity family, trained on more than 17 trillion tokens. This repository contains the FP8 block-quantized weights of Trinity-Large-Preview.",
+      "evidence": "Trinity-Large-Preview is a 398B-parameter sparse Mixture-of-Experts (MoE) model with approximately 13B active parameters per token... This repository contains the FP8 block-quantized weights of Trinity-Large-Preview",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 524288,
+      "evidence": "Context length after extension | 512k",
+      "section": "Architecture",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "CapFunctionCall"
+      ],
+      "evidence": "--enable-auto-tool-choice \\\n  --tool-call-parser hermes",
+      "section": "VLLM",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "hermes",
+      "evidence": "--tool-call-parser hermes",
+      "section": "VLLM",
+      "confidence": "high"
+    }
+  ]
+}

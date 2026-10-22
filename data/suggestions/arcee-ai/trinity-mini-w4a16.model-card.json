@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "arcee-ai/trinity-mini-w4a16",
+  "status": "partially_accepted",
+  "created_at": "2026-10-22T06:46:34.179692139Z",
+  "source": {
+    "url": "https://huggingface.co/arcee-ai/Trinity-Mini-W4A16/resolve/16022478460695ec5ba78805b6c23577f6b0aab4/README.md",
+    "revision": "16022478460695ec5ba78805b6c23577f6b0aab4",
+    "sha256": "6fd7fe613bb2411a1b1e6f3509850eb90c14a23bdf7f014a14280b3f9a2e34c3"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "W4A16 quantized weights of Trinity-Mini, an Arcee AI 26B MoE model with 3B active parameters.",
+      "evidence": "This repository contains the W4A16 quantized weights of Trinity-Mini (INT4 weights, 16-bit activations). Trinity Mini is an Arcee AI 26B MoE model with 3B active parameters.",
+      "section": "Trinity Mini W4A16",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "Context length: 128k",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Trinity Mini is an Arcee AI 26B MoE model with 3B active parameters. It is the medium-sized model in our new Trinity family, a series of open-weight models for enterprise and tinkerers alike.",
+      "section": "Trinity Mini W4A16",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "This model is tuned for reasoning, but in testing, it uses a similar total token count to competitive instruction-tuned models.",
+      "section": "Trinity Mini W4A16",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "deepseek_r1",
+      "evidence": "--reasoning-parser deepseek_r1",
+      "section": "VLLM",
+      "confidence": "high"
+    }
+  ]
+}
