@@ -52,6 +52,7 @@ upstream:
       - logprobs
       - max_tokens
       - min_p
+      - parallel_tool_calls
       - presence_penalty
       - reasoning
       - repetition_penalty
@@ -72,7 +73,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-03T07:11:43.287301682Z
+    fetched_at: 2026-10-23T06:39:07.216263278Z
   huggingface:
     id: XiaomiMiMo/MiMo-V2.6-Flash-RL
     revision: 5711b268169967567844e1e560e8a3966da959b1

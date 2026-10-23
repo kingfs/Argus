@@ -44,7 +44,6 @@ upstream:
       - reasoning
       - reasoning_effort
       - repetition_penalty
-      - seed
       - stop
       - temperature
       - tool_choice
@@ -57,7 +56,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-15T06:52:28.95812415Z
+    fetched_at: 2026-10-23T06:39:07.214716976Z
   huggingface:
     id: thinkingmachines/Inkling
     revision: 828496eeae4c243ff1a22f7f28ff83694f2f7bc9

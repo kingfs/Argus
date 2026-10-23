@@ -34,7 +34,6 @@ upstream:
       - max_tokens
       - presence_penalty
       - reasoning
-      - repetition_penalty
       - response_format
       - seed
       - stop
@@ -51,7 +50,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-09-30T07:36:58.660056677Z
+    fetched_at: 2026-10-23T06:39:07.215601841Z
   huggingface:
     id: XiaomiMiMo/MiMo-V2.5
     revision: 63651580ca774f8504f676040460aed3e1244ac1

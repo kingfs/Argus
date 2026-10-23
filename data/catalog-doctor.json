@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 913,
-    "compiled": 598,
-    "candidates": 289,
+    "models": 918,
+    "compiled": 599,
+    "candidates": 293,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 135,
-    "unverified_identities": 247
+    "identity_gaps": 133,
+    "unverified_identities": 245
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 887,
+    "model": 892,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 612,
-      "openrouter": 301
+      "official_huggingface": 619,
+      "openrouter": 299
     },
     "unverified": [
       {
@@ -408,11 +408,6 @@
         "source": "openrouter"
       },
       {
-        "id": "inclusionai/ling-3.0-flash-sante",
-        "provider": "inclusionai",
-        "source": "openrouter"
-      },
-      {
         "id": "inference-net/schematron-v2-small",
         "provider": "inference-net",
         "source": "openrouter"
@@ -499,11 +494,6 @@
       },
       {
         "id": "minimax/minimax-m2-her",
-        "provider": "minimax",
-        "source": "openrouter"
-      },
-      {
-        "id": "minimax/minimax-m3.1-flash",
         "provider": "minimax",
         "source": "openrouter"
       },
@@ -1353,6 +1343,7 @@
     "ibm-granite/granite-4.1-3b-base",
     "ibm-granite/granite-4.1-8b-base",
     "liquid/lfm2.5-24b-a2b-base",
+    "moonshotai/kimi-k2-base",
     "nvidia/nemotron-3-nano-30b-a3b-base",
     "nvidia/nemotron-3-super-120b-a12b-base",
     "nvidia/nemotron-3-ultra-550b-a55b-base",
@@ -1601,10 +1592,6 @@
       "provider": "google"
     },
     {
-      "id": "inclusionai/ling-3.0-flash-sante",
-      "provider": "inclusionai"
-    },
-    {
       "id": "inference-net/schematron-v2-small",
       "provider": "inference-net"
     },
@@ -1666,10 +1653,6 @@
     },
     {
       "id": "minimax/minimax-m2-her",
-      "provider": "minimax"
-    },
-    {
-      "id": "minimax/minimax-m3.1-flash",
       "provider": "minimax"
     },
     {

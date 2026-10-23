@@ -26,28 +26,23 @@ upstream:
     canonical_slug: xiaomi/mimo-v2.5-pro-20260422
     huggingface_id: XiaomiMiMo/MiMo-V2.5-Pro
     supported_parameters:
-      - frequency_penalty
       - include_reasoning
       - logprobs
       - max_tokens
-      - presence_penalty
       - reasoning
-      - repetition_penalty
       - response_format
       - seed
-      - stop
       - structured_outputs
       - temperature
       - tool_choice
       - tools
-      - top_k
       - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-30T07:36:58.66033231Z
+    fetched_at: 2026-10-23T06:39:07.215882065Z
   huggingface:
     id: XiaomiMiMo/MiMo-V2.5-Pro
     revision: 21d1ecfecd7bd70f31be25ca49d7edd21f003659

@@ -1,0 +1,43 @@
+schema_version: 2
+id: moonshotai/kimi-vl-a3b-thinking
+name: Kimi-VL-A3B-Thinking
+provider: Moonshot AI
+developer: moonshotai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking
+identifiers:
+  huggingface:
+    - moonshotai/Kimi-VL-A3B-Thinking
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking
+upstream:
+  huggingface:
+    id: moonshotai/Kimi-VL-A3B-Thinking
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - kimi_vl
+      - feature-extraction
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - arxiv:2504.07491
+      - base_model:moonshotai/Kimi-VL-A3B-Instruct
+      - base_model:finetune:moonshotai/Kimi-VL-A3B-Instruct
+      - license:mit
+      - region:us

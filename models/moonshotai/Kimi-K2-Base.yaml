@@ -1,0 +1,40 @@
+schema_version: 2
+id: moonshotai/kimi-k2-base
+name: Kimi-K2-Base
+provider: Moonshot AI
+developer: moonshotai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/moonshotai/Kimi-K2-Base
+identifiers:
+  huggingface:
+    - moonshotai/Kimi-K2-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/moonshotai/Kimi-K2-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-K2-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-K2-Base
+upstream:
+  huggingface:
+    id: moonshotai/Kimi-K2-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - kimi_k2
+      - text-generation
+      - conversational
+      - custom_code
+      - license:other
+      - endpoints_compatible
+      - fp8
+      - region:us

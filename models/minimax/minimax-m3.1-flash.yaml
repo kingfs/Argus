@@ -3,7 +3,7 @@ id: minimax/minimax-m3.1-flash
 name: 'MiniMax: MiniMax M3.1 Flash'
 provider: Minimax
 developer: minimax
-lifecycle: candidate
+lifecycle: active
 description: MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...
 description_cn: MiniMax-M3.1-Flash 是 MiniMax 推出的一款多模态模型。与 M3 相比，它在多个基准测试中均有显著提升，特别是在复杂智能体任务、编码和网络安全方面。它专为复杂...
 context_length: 1000000
@@ -19,7 +19,11 @@ features:
 aliases:
   - minimax/minimax-m3.1-flash:free
 discovered_at: 2026-10-20T06:47:20.503734343Z
+links:
+  model_card: https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash
 identifiers:
+  huggingface:
+    - MiniMaxAI/MiniMax-M3.1-Flash
   openrouter:
     - minimax/minimax-m3.1-flash
     - minimax/minimax-m3.1-flash:free
@@ -38,3 +42,80 @@ provenance:
     source: openrouter
   provider:
     source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: minimax/minimax-m3.1-flash-20261019
+    huggingface_id: MiniMaxAI/MiniMax-M3.1-Flash
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-10-23T06:39:07.205823929Z
+  huggingface:
+    id: MiniMaxAI/MiniMax-M3.1-Flash
+    revision: 54e4e69dfc452b1e94a426c24a4fdeeaa8e3ad5e
+    pipeline_tag: image-text-to-text
+    model_type: minimax_m3_vl
+    architectures:
+      - MiniMaxM3SparseForConditionalGeneration
+    license: other
+    tags:
+      - 8-bit
+      - agent
+      - arxiv:2606.13392
+      - coding
+      - conversational
+      - custom_code
+      - endpoints_compatible
+      - image-text-to-text
+      - license:other
+      - minimax_m3_vl
+      - moe
+      - multimodal
+      - mxfp8
+      - region:us
+      - safetensors
+      - transformers
+      - video
+    tokenizer_model_max_length: 40960000
+    processor_class: MiniMaxVLProcessor
+    structured_files:
+      - config.json
+      - preprocessor_config.json
+      - tokenizer_config.json
+    fetched_at: 2026-10-23T06:39:07.783910802Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: max
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - xhigh

@@ -15,7 +15,11 @@ features:
 aliases:
   - inclusionai/ling-3.0-flash-sante:free
 discovered_at: 2026-09-05T06:24:48.985988915Z
+links:
+  model_card: https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante
 identifiers:
+  huggingface:
+    - inclusionAI/Ling-3.0-flash-Sante
   openrouter:
     - inclusionai/ling-3.0-flash-sante
     - inclusionai/ling-3.0-flash-sante:free
@@ -60,6 +64,27 @@ upstream:
     output_modalities:
       - text
     fetched_at: 2026-10-09T08:06:05.166065301Z
+  huggingface:
+    id: inclusionAI/Ling-3.0-flash-Sante
+    revision: f74bd27bd26ffc71a50dd847805f8f7666ff0b43
+    pipeline_tag: text-generation
+    model_type: bailing_hybrid
+    architectures:
+      - BailingMoeV3ForCausalLM
+    license: mit
+    tags:
+      - bailing_hybrid
+      - conversational
+      - custom_code
+      - license:mit
+      - region:us
+      - safetensors
+      - text-generation
+    config_context_length: 262144
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-10-23T06:39:07.599211199Z
 reasoning:
   supported: true
   default_enabled: true
