@@ -65,6 +65,7 @@ upstream:
       - temperature
       - tool_choice
       - tools
+      - top_a
       - top_k
       - top_logprobs
       - top_p
@@ -73,7 +74,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-10-23T06:39:07.202991402Z
+    fetched_at: 2026-10-24T06:36:08.494706441Z
   huggingface:
     id: deepseek-ai/DeepSeek-V4.1-Flash
     revision: fb2764a5cf321eaa5070ca8f9e892818f477c16d

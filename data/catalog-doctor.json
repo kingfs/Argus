@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 918,
+    "models": 924,
     "compiled": 599,
-    "candidates": 293,
+    "candidates": 299,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 133,
-    "unverified_identities": 245
+    "identity_gaps": 134,
+    "unverified_identities": 246
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 892,
+    "model": 898,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 619,
-      "openrouter": 299
+      "official_huggingface": 624,
+      "openrouter": 300
     },
     "unverified": [
       {
@@ -580,6 +580,11 @@
       {
         "id": "mistralai/pixtral-large-2411",
         "provider": "mistral",
+        "source": "openrouter"
+      },
+      {
+        "id": "moonshotai/kimi-k3.1-pro",
+        "provider": "moonshotai",
         "source": "openrouter"
       },
       {
@@ -1344,6 +1349,7 @@
     "ibm-granite/granite-4.1-8b-base",
     "liquid/lfm2.5-24b-a2b-base",
     "moonshotai/kimi-k2-base",
+    "moonshotai/kimi-linear-48b-a3b-base",
     "nvidia/nemotron-3-nano-30b-a3b-base",
     "nvidia/nemotron-3-super-120b-a12b-base",
     "nvidia/nemotron-3-ultra-550b-a55b-base",
@@ -1722,6 +1728,10 @@
     {
       "id": "mistralai/pixtral-large-2411",
       "provider": "mistral"
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "provider": "moonshotai"
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl",

@@ -1,0 +1,41 @@
+schema_version: 2
+id: moonshotai/moonlight-16b-a3b
+name: Moonlight-16B-A3B
+provider: Moonshot AI
+developer: moonshotai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/moonshotai/Moonlight-16B-A3B
+identifiers:
+  huggingface:
+    - moonshotai/Moonlight-16B-A3B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/moonshotai/Moonlight-16B-A3B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Moonlight-16B-A3B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Moonlight-16B-A3B
+upstream:
+  huggingface:
+    id: moonshotai/Moonlight-16B-A3B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - deepseek_v3
+      - text-generation
+      - conversational
+      - custom_code
+      - arxiv:2502.16982
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

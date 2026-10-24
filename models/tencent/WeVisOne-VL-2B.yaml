@@ -1,0 +1,47 @@
+schema_version: 2
+id: tencent/wevisone-vl-2b
+name: WeVisOne-VL-2B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeVisOne-VL-2B
+identifiers:
+  huggingface:
+    - tencent/WeVisOne-VL-2B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeVisOne-VL-2B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeVisOne-VL-2B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeVisOne-VL-2B
+upstream:
+  huggingface:
+    id: tencent/WeVisOne-VL-2B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_vl
+      - image-text-to-text
+      - vision-language
+      - object-detection
+      - referring-expression-comprehension
+      - object-counting
+      - point-grounding
+      - ocr
+      - referring-expression-segmentation
+      - image-matting
+      - conversational
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

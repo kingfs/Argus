@@ -1,0 +1,47 @@
+schema_version: 2
+id: moonshotai/kimi-vl-a3b-instruct
+name: Kimi-VL-A3B-Instruct
+provider: Moonshot AI
+developer: moonshotai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct
+identifiers:
+  huggingface:
+    - moonshotai/Kimi-VL-A3B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct
+upstream:
+  huggingface:
+    id: moonshotai/Kimi-VL-A3B-Instruct
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - kimi_vl
+      - feature-extraction
+      - agent
+      - video
+      - screenspot
+      - long-context
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - arxiv:2504.07491
+      - base_model:moonshotai/Moonlight-16B-A3B
+      - base_model:finetune:moonshotai/Moonlight-16B-A3B
+      - license:mit
+      - region:us
