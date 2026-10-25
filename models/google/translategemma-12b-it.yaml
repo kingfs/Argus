@@ -1,0 +1,42 @@
+schema_version: 2
+id: google/translategemma-12b-it
+name: translategemma-12b-it
+provider: Google
+developer: google
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/google/translategemma-12b-it
+identifiers:
+  huggingface:
+    - google/translategemma-12b-it
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/google/translategemma-12b-it
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/google/translategemma-12b-it
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/google/translategemma-12b-it
+upstream:
+  huggingface:
+    id: google/translategemma-12b-it
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - gemma3
+      - image-text-to-text
+      - conversational
+      - arxiv:2601.09012
+      - arxiv:2503.19786
+      - license:gemma
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

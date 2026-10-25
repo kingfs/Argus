@@ -1,0 +1,43 @@
+schema_version: 2
+id: nvidia/gpt-oss-120b-eagle3-short-context
+name: gpt-oss-120b-Eagle3-short-context
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-short-context
+identifiers:
+  huggingface:
+    - nvidia/gpt-oss-120b-Eagle3-short-context
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-short-context
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-short-context
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-short-context
+upstream:
+  huggingface:
+    id: nvidia/gpt-oss-120b-Eagle3-short-context
+    pipeline_tag: text-generation
+    tags:
+      - Model Optimizer
+      - safetensors
+      - llama
+      - nvidia
+      - ModelOpt
+      - gpt-oss-120b
+      - quantized
+      - Eagle3
+      - text-generation
+      - base_model:openai/gpt-oss-120b
+      - base_model:finetune:openai/gpt-oss-120b
+      - license:other
+      - region:us

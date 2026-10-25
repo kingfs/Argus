@@ -1,0 +1,45 @@
+schema_version: 2
+id: tencent/youtu-parsing
+name: Youtu-Parsing
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Youtu-Parsing
+identifiers:
+  huggingface:
+    - tencent/Youtu-Parsing
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Youtu-Parsing
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-Parsing
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Youtu-Parsing
+upstream:
+  huggingface:
+    id: tencent/Youtu-Parsing
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - youtu_vl
+      - text-generation
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - arxiv:2601.20430
+      - arxiv:2601.19798
+      - arxiv:2512.24618
+      - base_model:tencent/Youtu-LLM-2B
+      - base_model:finetune:tencent/Youtu-LLM-2B
+      - license:other
+      - region:us

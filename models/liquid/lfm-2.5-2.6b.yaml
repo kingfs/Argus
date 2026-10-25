@@ -39,7 +39,37 @@ provenance:
     source: openrouter
   provider:
     source: openrouter
+  reasoning:
+    source: openrouter
 upstream:
+  openrouter:
+    canonical_slug: liquid/lfm-2.5-2.6b-20260811
+    huggingface_id: LiquidAI/LFM2.5-2.6B
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-25T07:02:58.608392046Z
   huggingface:
     id: LiquidAI/LFM2.5-2.6B
     revision: 654f9463ce32b05d0429d76fe1f580b27d4c1ac0
@@ -85,3 +115,6 @@ upstream:
       - config.json
       - tokenizer_config.json
     fetched_at: 2026-09-28T10:28:56.228181866Z
+reasoning:
+  supported: true
+  mandatory: true
