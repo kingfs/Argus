@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/phi-3-medium-128k-instruct-onnx-directml",
+  "status": "partially_accepted",
+  "created_at": "2026-10-26T07:09:59.74063819Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml/resolve/35d680acd90f760c93e2f0bddd463313717ab68d/README.md",
+    "revision": "35d680acd90f760c93e2f0bddd463313717ab68d",
+    "sha256": "3ac35de9da4e722678d8557780000f5ca83b6346ca15e4a8f005d6e3ce818050"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Optimized ONNX DirectML version of Phi-3-medium-128k-instruct, a 14B parameter model trained with Phi-3 datasets for high-quality reasoning. Includes INT4 quantization via AWQ for hardware acceleration on Windows GPUs using ONNX Runtime.",
+      "evidence": "Phi-3 Medium is a 14B parameter, lightweight, state-of-the-art open model trained with the Phi-3 datasets... Optimized variants of the Phi-3 Medium models are published here in ONNX format and run with DirectML.",
+      "section": "# Phi-3 Medium-128K-Instruct ONNX DirectML models",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "two variants: [4K](https://huggingface.co/microsoft/Phi-3-medium-4k-instruct) and [128K](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct), which are the context lengths (in tokens) that they can support.",
+      "section": "# Phi-3 Medium-128K-Instruct ONNX DirectML models",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "---",
+      "confidence": "high"
+    }
+  ]
+}

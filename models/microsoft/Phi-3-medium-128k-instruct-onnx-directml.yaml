@@ -1,0 +1,51 @@
+schema_version: 2
+id: microsoft/phi-3-medium-128k-instruct-onnx-directml
+name: Phi-3-medium-128k-instruct-onnx-directml
+provider: Microsoft
+developer: microsoft
+lifecycle: active
+description: Optimized ONNX DirectML version of Phi-3-medium-128k-instruct, a 14B parameter model trained with Phi-3 datasets for high-quality reasoning. Includes INT4 quantization via AWQ for hardware acceleration on Windows GPUs using ONNX Runtime.
+description_cn: Phi-3-medium-128k-instruct 的优化 ONNX DirectML 版本，这是一款 140 亿参数模型，使用 Phi-3 数据集训练，具备高水准推理能力。通过 AWQ 进行 INT4 量化，支持在 Windows GPU 上利用 ONNX Runtime 实现硬件加速。
+context_length: 131072
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml
+identifiers:
+  huggingface:
+    - microsoft/Phi-3-medium-128k-instruct-onnx-directml
+provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml/resolve/35d680acd90f760c93e2f0bddd463313717ab68d/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml/resolve/35d680acd90f760c93e2f0bddd463313717ab68d/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-directml
+upstream:
+  huggingface:
+    id: microsoft/Phi-3-medium-128k-instruct-onnx-directml
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - onnx
+      - phi3
+      - text-generation
+      - ONNX
+      - DML
+      - ONNXRuntime
+      - nlp
+      - conversational
+      - custom_code
+      - arxiv:2306.00978
+      - license:mit
+      - region:us

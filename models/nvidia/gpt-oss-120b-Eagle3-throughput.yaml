@@ -1,0 +1,43 @@
+schema_version: 2
+id: nvidia/gpt-oss-120b-eagle3-throughput
+name: gpt-oss-120b-Eagle3-throughput
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-throughput
+identifiers:
+  huggingface:
+    - nvidia/gpt-oss-120b-Eagle3-throughput
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-throughput
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-throughput
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-throughput
+upstream:
+  huggingface:
+    id: nvidia/gpt-oss-120b-Eagle3-throughput
+    pipeline_tag: text-generation
+    tags:
+      - Model Optimizer
+      - safetensors
+      - llama
+      - nvidia
+      - ModelOpt
+      - gpt-oss-120b
+      - quantized
+      - Eagle3
+      - text-generation
+      - base_model:openai/gpt-oss-120b
+      - base_model:finetune:openai/gpt-oss-120b
+      - license:other
+      - region:us

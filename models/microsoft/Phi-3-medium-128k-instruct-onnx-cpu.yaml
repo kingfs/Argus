@@ -1,0 +1,42 @@
+schema_version: 2
+id: microsoft/phi-3-medium-128k-instruct-onnx-cpu
+name: Phi-3-medium-128k-instruct-onnx-cpu
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+identifiers:
+  huggingface:
+    - microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+upstream:
+  huggingface:
+    id: microsoft/Phi-3-medium-128k-instruct-onnx-cpu
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - onnx
+      - phi3
+      - text-generation
+      - ONNX
+      - DML
+      - ONNXRuntime
+      - nlp
+      - conversational
+      - custom_code
+      - license:mit
+      - region:us
