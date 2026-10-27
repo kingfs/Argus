@@ -1,0 +1,42 @@
+schema_version: 2
+id: inclusionai/lbs-27b
+name: LBS-27B
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/LBS-27B
+identifiers:
+  huggingface:
+    - inclusionAI/LBS-27B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LBS-27B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LBS-27B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LBS-27B
+upstream:
+  huggingface:
+    id: inclusionAI/LBS-27B
+    pipeline_tag: image-text-to-text
+    tags:
+      - safetensors
+      - qwen3_5
+      - gui-grounding
+      - agentic-vision
+      - visual-question-answering
+      - high-resolution
+      - reinforcement-learning
+      - image-text-to-text
+      - conversational
+      - license:apache-2.0
+      - region:us

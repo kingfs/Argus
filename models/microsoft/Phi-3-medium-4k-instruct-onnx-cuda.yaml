@@ -1,0 +1,50 @@
+schema_version: 2
+id: microsoft/phi-3-medium-4k-instruct-onnx-cuda
+name: Phi-3-medium-4k-instruct-onnx-cuda
+provider: Microsoft
+developer: microsoft
+lifecycle: active
+description: Optimized ONNX version of Phi-3 Medium-4K-Instruct for NVIDIA GPUs using ONNX Runtime. Supports FP16 and INT4 quantization. Phi-3 Medium is a 14B parameter model.
+description_cn: Phi-3 Medium-4K-Instruct 的优化 ONNX 版本，适用于 NVIDIA GPU，使用 ONNX Runtime。支持 FP16 和 INT4 量化。Phi-3 Medium 为 14B 参数模型。
+context_length: 4096
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+identifiers:
+  huggingface:
+    - microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda/resolve/5152243c860cf661df49b9b64b6c90db635cc7a9/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda/resolve/5152243c860cf661df49b9b64b6c90db635cc7a9/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+upstream:
+  huggingface:
+    id: microsoft/Phi-3-medium-4k-instruct-onnx-cuda
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - onnx
+      - phi3
+      - text-generation
+      - ONNX
+      - DML
+      - ONNXRuntime
+      - nlp
+      - conversational
+      - custom_code
+      - license:mit
+      - region:us

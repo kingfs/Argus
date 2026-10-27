@@ -1,0 +1,48 @@
+schema_version: 2
+id: inclusionai/zwz-2b
+name: ZwZ-2B
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/ZwZ-2B
+identifiers:
+  huggingface:
+    - inclusionAI/ZwZ-2B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/ZwZ-2B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/ZwZ-2B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/ZwZ-2B
+upstream:
+  huggingface:
+    id: inclusionAI/ZwZ-2B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_vl
+      - image-text-to-text
+      - zwz2
+      - vision-language
+      - visual-reasoning
+      - reinforcement-learning
+      - grpo
+      - conversational
+      - en
+      - dataset:inclusionAI/ZwZ2-RL-VQA
+      - arxiv:2602.11858
+      - base_model:Qwen/Qwen3.5-4B
+      - base_model:finetune:Qwen/Qwen3.5-4B
+      - endpoints_compatible
+      - region:us

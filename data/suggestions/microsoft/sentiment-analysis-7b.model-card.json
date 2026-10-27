@@ -2,12 +2,12 @@
   "schema_version": 1,
   "kind": "model_card",
   "model_id": "microsoft/sentiment-analysis-7b",
-  "status": "partially_accepted",
-  "created_at": "2026-10-21T06:42:04.789046353Z",
+  "status": "pending",
+  "created_at": "2026-10-27T06:57:04.122164564Z",
   "source": {
-    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B/resolve/c443f040bb22ad30d69dbdd4482c8aa0f46a4d62/README.md",
-    "revision": "c443f040bb22ad30d69dbdd4482c8aa0f46a4d62",
-    "sha256": "fbd582f3ddeded4750aed2718f4fb96ec557ded8baa83aac00641fa7a7bea2ca"
+    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B/resolve/ac3324057c2bfeeb2ab56c7a7c786316538552b1/README.md",
+    "revision": "ac3324057c2bfeeb2ab56c7a7c786316538552b1",
+    "sha256": "3ef2787634f6eacea1491c6e37894c96935d8e771bf03662b4820a7c70bad9bb"
   },
   "generator": {
     "model": "qwen/qwen3.8-27b",
@@ -16,16 +16,9 @@
   "claims": [
     {
       "field": "description",
-      "value": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent. It is built on mistralai/Mistral-7B-Instruct-v0.2 and fine-tuned with reinforcement learning using an LLM as a judge.",
-      "evidence": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent",
+      "value": "A 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent. It generates a sentiment label (Negative, Neutral, or Positive) as the first token, followed by a short explanation. Built on Mistral-7B-Instruct-v0.2 and fine-tuned with reinforcement learning.",
+      "evidence": "Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages directed at a service, product, or agent (the \"Target\").",
       "section": "Sentiment-Analysis-7B",
-      "confidence": "high"
-    },
-    {
-      "field": "description",
-      "value": "The model generates a response where the first token is the sentiment label (Negative, Neutral, or Positive), followed by a short explanation. The base model accuracy was 62.0% and the fine-tuned model achieved 72.8% accuracy.",
-      "evidence": "the first token is the sentiment label (Negative, Neutral, or Positive) ... mistralai/Mistral-7B-Instruct-v0.2 62.0% ... Sentiment-Analysis-7B (ours) 72.8%",
-      "section": "Evaluation metrics",
       "confidence": "high"
     },
     {
@@ -34,7 +27,7 @@
         "ModalityTextIn",
         "ModalityTextOut"
       ],
-      "evidence": "pipeline_tag: text-generation ... Sentiment-Analysis-7B is a 7B-parameter autoregressive language model fine-tuned for sentiment classification of user messages",
+      "evidence": "pipeline_tag: text-generation",
       "section": "Sentiment-Analysis-7B",
       "confidence": "high"
     }

@@ -1,0 +1,82 @@
+schema_version: 2
+id: openai/gpt-6.1-terra
+name: 'OpenAI: GPT-6.1 Terra Pro'
+provider: OpenAI
+developer: openai
+lifecycle: candidate
+description: GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...
+description_cn: GPT-6.1 Terra Pro 与 [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra) 底层模型相同，通过将 `reasoning.mode` 设置为 `pro` 进行服务，以便在复杂任务中提供更高品质的回复。**成本提示：** pro 模式消耗远远更多...
+context_length: 1050000
+max_output: 128000
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - openai/gpt-6.1-terra-pro
+  - openai/gpt-6.1-terra-pro:batch
+  - openai/gpt-6.1-terra:batch
+  - ~openai/gpt-terra-latest
+discovered_at: 2026-10-27T06:56:15.220211164Z
+links:
+  documentation: https://platform.openai.com/docs/models
+identifiers:
+  openrouter:
+    - openai/gpt-6.1-terra
+    - openai/gpt-6.1-terra-pro
+    - openai/gpt-6.1-terra-pro:batch
+    - openai/gpt-6.1-terra:batch
+    - ~openai/gpt-terra-latest
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: openai/gpt-6.1-terra-20261026
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - seed
+      - structured_outputs
+      - tool_choice
+      - tools
+      - verbosity
+    input_modalities:
+      - file
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-27T06:56:20.339894742Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - none
+    - xhigh

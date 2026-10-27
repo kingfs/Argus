@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "microsoft/phi-3-medium-4k-instruct-onnx-cuda",
+  "status": "partially_accepted",
+  "created_at": "2026-10-27T06:56:22.766185068Z",
+  "source": {
+    "url": "https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cuda/resolve/5152243c860cf661df49b9b64b6c90db635cc7a9/README.md",
+    "revision": "5152243c860cf661df49b9b64b6c90db635cc7a9",
+    "sha256": "2ecdd24f9d565df1f83da293601401b4f7e01cd1295117d84b48899709503c7f"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Optimized ONNX version of Phi-3 Medium-4K-Instruct for NVIDIA GPUs using ONNX Runtime. Supports FP16 and INT4 quantization. Phi-3 Medium is a 14B parameter model.",
+      "evidence": "This repository hosts the optimized versions of Phi-3-medium-4k-instruct to accelerate inference with ONNX Runtime for your machines with NVIDIA GPUs.",
+      "section": "# Phi-3 Medium-4K-Instruct ONNX CUDA models",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 4096,
+      "evidence": "Phi-3 Medium is a 14B parameter... two variants: 4K and 128K, which are the context lengths (in tokens) that they can support.",
+      "section": "# Phi-3 Medium-4K-Instruct ONNX CUDA models",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 4096,
+      "evidence": "Medium version in two variants: 4K... which are the context lengths (in tokens) that they can support.",
+      "section": "# Phi-3 Medium-4K-Instruct ONNX CUDA models",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "Frontmatter",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn"
+      ],
+      "evidence": "text-generat... generate-tutorial... LLMs straight into your app",
+      "section": "## How to Get Started with the Model",
+      "confidence": "medium"
+    }
+  ]
+}
