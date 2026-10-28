@@ -1,0 +1,99 @@
+schema_version: 2
+id: prism-ml/ternary-bonsai-2-9b
+name: 'PrismML: Ternary Bonsai 2 9B'
+provider: Prism-Ml
+developer: prism-ml
+lifecycle: active
+description: Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient...
+description_cn: Ternary Bonsai 2 9B 是 PrismML 推出的紧凑型开放权重语言模型，适用于对话式 AI、推理及工具使用。该模型基于 Qwen3.5 构建，采用打包至 2 比特的三值权重以实现高效...
+context_length: 262144
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-10-28T07:38:00.669562001Z
+links:
+  model_card: https://huggingface.co/prism-ml/Ternary-Bonsai-2-9B-gguf
+identifiers:
+  huggingface:
+    - prism-ml/Ternary-Bonsai-2-9B-gguf
+  openrouter:
+    - prism-ml/ternary-bonsai-2-9b
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: prism-ml/ternary-bonsai-2-9b-20261015
+    huggingface_id: prism-ml/Ternary-Bonsai-2-9B-gguf
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logprobs
+      - max_tokens
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-10-28T07:38:05.034155385Z
+  huggingface:
+    id: prism-ml/Ternary-Bonsai-2-9B-gguf
+    revision: 5b2abb02362efbed46bbe204014b02837778b2c2
+    pipeline_tag: image-text-to-text
+    license: apache-2.0
+    tags:
+      - 2-bit
+      - base_model:Qwen/Qwen3.5-9B
+      - base_model:quantized:Qwen/Qwen3.5-9B
+      - bonsai
+      - conversational
+      - cuda
+      - endpoints_compatible
+      - gguf
+      - hybrid-attention
+      - image-text-to-text
+      - license:apache-2.0
+      - llama-cpp
+      - llama.cpp
+      - metal
+      - on-device
+      - prismml
+      - region:us
+      - ternary
+      - vision
+    fetched_at: 2026-10-28T07:38:05.462696488Z
+reasoning:
+  supported: true
+  default_enabled: true

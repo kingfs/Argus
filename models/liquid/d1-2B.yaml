@@ -1,0 +1,68 @@
+schema_version: 2
+id: liquid/d1-2b
+name: d1-2B
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/d1-2B
+identifiers:
+  huggingface:
+    - LiquidAI/d1-2B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/d1-2B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/d1-2B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/d1-2B
+upstream:
+  huggingface:
+    id: LiquidAI/d1-2B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - lfm3_vl
+      - feature-extraction
+      - liquid
+      - lfm3
+      - edge
+      - decision
+      - classification
+      - extraction
+      - calibration
+      - system-one
+      - multimodal
+      - decision-model
+      - custom_code
+      - image-text-to-text
+      - conversational
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - it
+      - ja
+      - ko
+      - pt
+      - es
+      - vi
+      - th
+      - id
+      - hi
+      - ru
+      - pl
+      - base_model:LiquidAI/LFM3-VL-2B
+      - base_model:finetune:LiquidAI/LFM3-VL-2B
+      - license:other
+      - region:us
