@@ -3,7 +3,9 @@ id: ibm-granite/granite-8b-code-instruct-128k
 name: granite-8b-code-instruct-128k
 provider: IBM Granite
 developer: ibm-granite
-lifecycle: candidate
+lifecycle: active
+description: Granite-8B-Code-Instruct-128K is an 8B parameter long-context instruct model fine-tuned from Granite-8B-Code-Base-128K. It is designed to respond to coding-related instructions over long-context input up to 128K length.
+description_cn: Granite-8B-Code-Instruct-128K 是一款 8B 参数的长上下文指令模型，由 Granite-8B-Code-Base-128K 微调而来。该模型专为处理长达 128K 的长上下文输入中的编码相关指令而设计。
 context_length: 128000
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k/resolve/bed93d8de15bb9bb55cb1da10ae860e2883f4254/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k

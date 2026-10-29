@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-8b-code-instruct-128k",
+  "status": "partially_accepted",
+  "created_at": "2026-10-29T07:46:03.910200269Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-8b-code-instruct-128k/resolve/bed93d8de15bb9bb55cb1da10ae860e2883f4254/README.md",
+    "revision": "bed93d8de15bb9bb55cb1da10ae860e2883f4254",
+    "sha256": "ef9b7265bf393c2fbfee800c3b376f4638b75329acc3b0afa6c864e76d76c338"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite-8B-Code-Instruct-128K is an 8B parameter long-context instruct model fine-tuned from Granite-8B-Code-Base-128K. It is designed to respond to coding-related instructions over long-context input up to 128K length.",
+      "evidence": "**Granite-8B-Code-Instruct-128K** is a 8B parameter long-context instruct model fine tuned from *Granite-8B-Code-Base-128K* ... designed to respond to coding related instructions over long-conext input up to 128K length",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "respond to coding related instructions over long-conext input up to 128K length",
+      "section": "Intended use",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "Model Card Metadata",
+      "confidence": "high"
+    }
+  ]
+}

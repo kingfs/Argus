@@ -34,7 +34,6 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logprobs
       - max_tokens
       - presence_penalty
       - reasoning
@@ -47,13 +46,12 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:40:03.661826778Z
+    fetched_at: 2026-10-29T07:44:13.157924947Z
   huggingface:
     id: moonshotai/Kimi-K2-Thinking
     revision: a51ccc050d73dab088bf7b0e2dd9b30ae85a4e55

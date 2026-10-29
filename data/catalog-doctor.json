@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 946,
-    "compiled": 602,
-    "candidates": 318,
+    "models": 951,
+    "compiled": 604,
+    "candidates": 321,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 920,
+    "model": 925,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 645,
+      "official_huggingface": 650,
       "openrouter": 301
     },
     "unverified": [
@@ -1375,7 +1375,8 @@
     "qwen/qwen3.5-9b-base",
     "tencent/hy3-preview-base",
     "tencent/youtu-llm-2b-base",
-    "tencent/youtu-llm-a7b-base"
+    "tencent/youtu-llm-a7b-base",
+    "xiaomi/mimo-v2.5-pro-base"
   ],
   "identity_gaps": [
     {

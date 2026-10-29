@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-3b-code-instruct-2k",
+  "status": "partially_accepted",
+  "created_at": "2026-10-29T07:45:42.577641163Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-3b-code-instruct-2k/resolve/7bba6a5cc837e53ded2c92209e256d48f4c25f00/README.md",
+    "revision": "7bba6a5cc837e53ded2c92209e256d48f4c25f00",
+    "sha256": "03b865225004d761b0dd76de5ab8eff00ad98c37f0bd9028706df1e9e1db6d29"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite-3B-Code-Instruct-2K is a 3B parameter model fine-tuned from Granite-3B-Code-Base-2K on permissively licensed instruction data to enhance instruction following, logical reasoning, and problem-solving. It is deprecated for new projects.",
+      "evidence": "is a 3B parameter model fine tuned from *Granite-3B-Code-Base-2K* on a combination of **permissively licensed** instruction data",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 2048,
+      "evidence": "New applications/projects should use the latest mainline Granite language model family, whose code capabilities supercede this model.",
+      "section": "DEPRECATION WARNING",
+      "confidence": "low"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "designed to respond to coding related instructions and can be used to build coding assistants.",
+      "section": "Intended use",
+      "confidence": "high"
+    }
+  ]
+}

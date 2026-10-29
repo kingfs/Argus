@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-4.1-3b-base",
+  "status": "pending",
+  "created_at": "2026-10-29T07:44:58.128714992Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-base/resolve/dacb9cb9157bec98e99b09f285c92a4d58405c96/README.md",
+    "revision": "dacb9cb9157bec98e99b09f285c92a4d58405c96",
+    "sha256": "6205241d02cc80a6a5363c6ce223262ee2ed9709e460018d883a572592164d40"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "context_length",
+      "value": 524288,
+      "evidence": "An additional training phase is applied to expand the model’s context window to 512K tokens.",
+      "section": "Granite-4.1-3B-Base",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "designed to support a broad range of general text-to-text generation tasks",
+      "section": "Granite-4.1-3B-Base",
+      "confidence": "high"
+    }
+  ]
+}

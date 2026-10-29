@@ -3,7 +3,9 @@ id: ibm-granite/granite-3b-code-instruct-2k
 name: granite-3b-code-instruct-2k
 provider: IBM Granite
 developer: ibm-granite
-lifecycle: candidate
+lifecycle: active
+description: Granite-3B-Code-Instruct-2K is a 3B parameter model fine-tuned from Granite-3B-Code-Base-2K on permissively licensed instruction data to enhance instruction following, logical reasoning, and problem-solving. It is deprecated for new projects.
+description_cn: Granite-3B-Code-Instruct-2K 是一款 3B 参数模型，由 Granite-3B-Code-Base-2K 基于宽松许可的指令数据微调而来，旨在增强指令遵循、逻辑推理和问题解决能力。该模型已弃用，不建议用于新项目。
 context_length: 2048
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/ibm-granite/granite-3b-code-instruct-2k
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-3b-code-instruct-2k/resolve/7bba6a5cc837e53ded2c92209e256d48f4c25f00/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-3b-code-instruct-2k

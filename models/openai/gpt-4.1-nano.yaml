@@ -29,7 +29,6 @@ upstream:
     canonical_slug: openai/gpt-4.1-nano-2025-04-14
     supported_parameters:
       - max_completion_tokens
-      - max_tokens
       - response_format
       - seed
       - structured_outputs
@@ -44,4 +43,4 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-06-30"
-    fetched_at: 2026-07-29T10:41:08.245183059Z
+    fetched_at: 2026-10-29T07:44:13.159310392Z

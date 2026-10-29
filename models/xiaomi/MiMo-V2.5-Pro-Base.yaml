@@ -1,0 +1,44 @@
+schema_version: 2
+id: xiaomi/mimo-v2.5-pro-base
+name: MiMo-V2.5-Pro-Base
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-V2.5-Pro-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-Base
+upstream:
+  huggingface:
+    id: XiaomiMiMo/MiMo-V2.5-Pro-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mimo_v2
+      - text-generation
+      - agent
+      - long-context
+      - code
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - license:mit
+      - fp8
+      - region:us
