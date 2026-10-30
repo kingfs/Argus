@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 951,
-    "compiled": 604,
-    "candidates": 321,
+    "models": 956,
+    "compiled": 605,
+    "candidates": 325,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 134,
-    "unverified_identities": 247
+    "identity_gaps": 133,
+    "unverified_identities": 246
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 925,
+    "model": 930,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 650,
-      "openrouter": 301
+      "official_huggingface": 656,
+      "openrouter": 300
     },
     "unverified": [
       {
@@ -539,11 +539,6 @@
       },
       {
         "id": "mistralai/mistral-large-2512",
-        "provider": "mistral",
-        "source": "openrouter"
-      },
-      {
-        "id": "mistralai/mistral-large-4-0",
         "provider": "mistral",
         "source": "openrouter"
       },
@@ -1376,6 +1371,8 @@
     "tencent/hy3-preview-base",
     "tencent/youtu-llm-2b-base",
     "tencent/youtu-llm-a7b-base",
+    "xiaomi/mimo-v2-flash-base",
+    "xiaomi/mimo-v2.5-base",
     "xiaomi/mimo-v2.5-pro-base"
   ],
   "identity_gaps": [
@@ -1701,10 +1698,6 @@
     },
     {
       "id": "mistralai/mistral-large-2512",
-      "provider": "mistral"
-    },
-    {
-      "id": "mistralai/mistral-large-4-0",
       "provider": "mistral"
     },
     {

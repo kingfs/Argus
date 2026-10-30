@@ -1,0 +1,43 @@
+schema_version: 2
+id: xiaomi/mimo-vl-7b-sft-2508
+name: MiMo-VL-7B-SFT-2508
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-VL-7B-SFT-2508
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508
+upstream:
+  huggingface:
+    id: XiaomiMiMo/MiMo-VL-7B-SFT-2508
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen2_5_vl
+      - image-text-to-text
+      - conversational
+      - arxiv:2506.03569
+      - base_model:XiaomiMiMo/MiMo-VL-7B-SFT-2508
+      - base_model:finetune:XiaomiMiMo/MiMo-VL-7B-SFT-2508
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

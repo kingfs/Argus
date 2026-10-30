@@ -4,6 +4,8 @@ name: granite-20b-code-base-8k
 provider: IBM Granite
 developer: ibm-granite
 lifecycle: candidate
+description: Granite-20B-Code-Base-8K is a decoder-only code model designed for code generative tasks. It is a base model, trained from scratch, with 20B parameters. It is deprecated and not recommended for new projects.
+description_cn: Granite-20B-Code-Base-8K 是一款专为代码生成任务设计的仅解码器代码模型。这是一个从零开始训练的基础模型，拥有 200 亿参数。该模型已弃用，不推荐用于新项目。
 context_length: 0
 features:
   - ModalityTextIn
@@ -14,6 +16,9 @@ identifiers:
   huggingface:
     - ibm-granite/granite-20b-code-base-8k
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-20b-code-base-8k/resolve/8bbfb1d3e7a3b2f3b3f7bdbcb558f8dfca6cd8fa/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-20b-code-base-8k

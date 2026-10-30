@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-20b-code-base-8k",
+  "status": "partially_accepted",
+  "created_at": "2026-10-30T07:51:39.909290994Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-20b-code-base-8k/resolve/8bbfb1d3e7a3b2f3b3f7bdbcb558f8dfca6cd8fa/README.md",
+    "revision": "8bbfb1d3e7a3b2f3b3f7bdbcb558f8dfca6cd8fa",
+    "sha256": "b309a81701214d40c1310b11c664a0c9a75f62953ff290dc5eb1b81cebd2cfcd"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite-20B-Code-Base-8K is a decoder-only code model designed for code generative tasks. It is a base model, trained from scratch, with 20B parameters. It is deprecated and not recommended for new projects.",
+      "evidence": "Granite-20B-Code-Base-8K is a decoder-only code model designed for code generative tasks... NOT RECOMMENDED FOR USE IN NEW PROJECTS",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "YAML Frontmatter",
+      "confidence": "high"
+    }
+  ]
+}

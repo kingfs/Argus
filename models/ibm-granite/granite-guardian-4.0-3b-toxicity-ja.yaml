@@ -3,7 +3,9 @@ id: ibm-granite/granite-guardian-4.0-3b-toxicity-ja
 name: granite-guardian-4.0-3b-toxicity-ja
 provider: IBM Granite
 developer: ibm-granite
-lifecycle: candidate
+lifecycle: active
+description: Granite Guardian 4.0 3B Toxicity Japanese is a standalone model specializing in Japanese toxicity detection. Built on granite-4.0-micro, it uses continual learning with Japanese data to assess harmful content such as harm, social bias, violence, and profanity. It operates as a judge model for binary safety classification.
+description_cn: Granite Guardian 4.0 3B Toxicity Japanese 是一款专注于日语毒性检测的独立模型。基于 granite-4.0-micro 构建，它使用日语数据进行持续学习，以评估有害内容，如伤害、社会偏见、暴力以及亵渎性语言。它作为评判模型运行，用于二元安全分类。
 context_length: 131072
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/ibm-granite/granite-guardian-4.0-3b-toxicity-ja
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-guardian-4.0-3b-toxicity-ja/resolve/84893b0e6f2beaaf05f64599f482fdb413214e95/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-guardian-4.0-3b-toxicity-ja

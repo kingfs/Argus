@@ -1,0 +1,38 @@
+schema_version: 2
+id: xiaomi/mimo-7b-mtps
+name: MiMo-7B-MTPs
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-7B-MTPs
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-7B-MTPs
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-MTPs
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-MTPs
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-MTPs
+upstream:
+  huggingface:
+    id: XiaomiMiMo/MiMo-7B-MTPs
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - mimo
+      - feature-extraction
+      - custom_code
+      - arxiv:2505.07608
+      - license:mit
+      - region:us

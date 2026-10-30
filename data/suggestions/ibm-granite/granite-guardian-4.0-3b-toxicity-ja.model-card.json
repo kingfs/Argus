@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-guardian-4.0-3b-toxicity-ja",
+  "status": "partially_accepted",
+  "created_at": "2026-10-30T07:51:18.780645273Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-guardian-4.0-3b-toxicity-ja/resolve/84893b0e6f2beaaf05f64599f482fdb413214e95/README.md",
+    "revision": "84893b0e6f2beaaf05f64599f482fdb413214e95",
+    "sha256": "0af686e8e7a303dcff15c729660ad149a157cdc057c1a03eeea701c4c76ec5e8"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite Guardian 4.0 3B Toxicity Japanese is a standalone model specializing in Japanese toxicity detection. Built on granite-4.0-micro, it uses continual learning with Japanese data to assess harmful content such as harm, social bias, violence, and profanity. It operates as a judge model for binary safety classification.",
+      "evidence": "Granite Guardian 4.0 3B Toxicity Japanese is a standalone model that extends Granite Guardian's safety detection capabilities to Japanese, with a specialization on toxicity detection.",
+      "section": "# Granite Guardian 4.0 3B Toxicity Japanese",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "enabling the granite-4.0-micro model to assess whether user or assistant text contains harmful content in Japanese",
+      "section": "### Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "Unlike the broader Granite Guardian framework, it does not support capabilities such as RAG evaluation (e.g., groundedness or relevance) or agentic workflow risk detection.",
+      "section": "### Usage",
+      "confidence": "medium"
+    }
+  ]
+}

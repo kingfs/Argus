@@ -48,7 +48,6 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
       - min_p
@@ -72,7 +71,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-15T06:37:26.68536675Z
+    fetched_at: 2026-10-30T07:50:14.556698174Z
   huggingface:
     id: stepfun-ai/Step-5-Preview
     revision: 364b3b03fed2477aa0953fe855a2c4c8c48ee3cc

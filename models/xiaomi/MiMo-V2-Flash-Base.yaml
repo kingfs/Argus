@@ -1,0 +1,42 @@
+schema_version: 2
+id: xiaomi/mimo-v2-flash-base
+name: MiMo-V2-Flash-Base
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash-Base
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-V2-Flash-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash-Base
+upstream:
+  huggingface:
+    id: XiaomiMiMo/MiMo-V2-Flash-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mimo_v2_flash
+      - text-generation
+      - conversational
+      - custom_code
+      - base_model:XiaomiMiMo/MiMo-V2-Flash-Base
+      - base_model:quantized:XiaomiMiMo/MiMo-V2-Flash-Base
+      - license:mit
+      - endpoints_compatible
+      - fp8
+      - region:us

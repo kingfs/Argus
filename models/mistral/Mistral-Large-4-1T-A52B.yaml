@@ -1,0 +1,81 @@
+schema_version: 2
+id: mistral/mistral-large-4-1t-a52b
+name: Mistral-Large-4-1T-A52B
+provider: Mistral
+developer: mistral
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B
+identifiers:
+  huggingface:
+    - mistralai/Mistral-Large-4-1T-A52B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B
+upstream:
+  huggingface:
+    id: mistralai/Mistral-Large-4-1T-A52B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - mistral_large4
+      - image-text-to-text
+      - vLLM
+      - SGLang
+      - llama.cpp
+      - conversational
+      - en
+      - fr
+      - de
+      - es
+      - pt
+      - it
+      - ja
+      - ko
+      - ru
+      - zh
+      - ar
+      - fa
+      - id
+      - ms
+      - ne
+      - pl
+      - ro
+      - sr
+      - sv
+      - tr
+      - uk
+      - vi
+      - hi
+      - bn
+      - bg
+      - hr
+      - cs
+      - da
+      - nl
+      - et
+      - fi
+      - el
+      - hu
+      - ga
+      - lv
+      - lt
+      - mt
+      - sk
+      - sl
+      - license:other
+      - endpoints_compatible
+      - fp8
+      - region:us

@@ -37,7 +37,6 @@ upstream:
       - max_tokens
       - reasoning
       - response_format
-      - stop
       - structured_outputs
       - temperature
       - tool_choice
@@ -49,7 +48,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2025-03-31"
-    fetched_at: 2026-10-06T08:15:04.369931599Z
+    fetched_at: 2026-10-30T07:50:14.54873094Z
   huggingface:
     id: deepseek-ai/DeepSeek-V3.1-Terminus
     revision: 19510d6dc61f79dbd925bd51ee8a9081c509a4b6
