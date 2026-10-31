@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-3b-code-base-128k",
+  "status": "partially_accepted",
+  "created_at": "2026-10-31T07:39:41.733790714Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-3b-code-base-128k/resolve/ab7f9cc61d94a9e87528b47d2c60888cb801f2ad/README.md",
+    "revision": "ab7f9cc61d94a9e87528b47d2c60888cb801f2ad",
+    "sha256": "fc5545a36d38f9cad8d6cd622a6cd20810aed4a4cc7e7a04cc1ae5dd60a027a8"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite-3B-Code-Base-128K extends the context length of Granite-3B-Code-Base from 2K to 128K with continual pretraining. It is a 3B parameter model trained on code data from 116 programming languages, intended for enterprise software engineering tasks like code generation, explanation, and fixing. The model is marked as deprecated for new projects in favor of newer Granite models.",
+      "evidence": "Granite-3B-Code-Base-128K extends the context length of Granite-3B-Code-Base from 2K to 128K with continual pretraining... All Granite Code Base models, including the 3B parameter model... trained on a large amount of code data from 116 programming languages.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "Granite-3B-Code-Base-128K extends the context length of Granite-3B-Code-Base from 2K to 128K",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation ... Tasks include code generation, code explanation, code fixing...",
+      "section": "Intended use",
+      "confidence": "high"
+    }
+  ]
+}

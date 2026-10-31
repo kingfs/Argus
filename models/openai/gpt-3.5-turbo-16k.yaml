@@ -27,7 +27,6 @@ upstream:
       - logit_bias
       - logprobs
       - max_completion_tokens
-      - max_tokens
       - presence_penalty
       - response_format
       - seed
@@ -43,4 +42,4 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2021-09-30"
-    fetched_at: 2026-07-29T10:41:04.294567129Z
+    fetched_at: 2026-10-31T07:38:15.806873625Z

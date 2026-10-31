@@ -3,7 +3,9 @@ id: ibm-granite/granite-3b-code-base-128k
 name: granite-3b-code-base-128k
 provider: IBM Granite
 developer: ibm-granite
-lifecycle: candidate
+lifecycle: active
+description: Granite-3B-Code-Base-128K extends the context length of Granite-3B-Code-Base from 2K to 128K with continual pretraining. It is a 3B parameter model trained on code data from 116 programming languages, intended for enterprise software engineering tasks like code generation, explanation, and fixing. The model is marked as deprecated for new projects in favor of newer Granite models.
+description_cn: Granite-3B-Code-Base-128K 通过持续预训练将 Granite-3B-Code-Base 的上下文长度从 2K 扩展至 128K。这是一个 3B 参数模型，使用来自 116 种编程语言的数据进行训练，旨在执行代码生成、解释和修复等企业软件工程任务。该模型已被标记为弃用，建议新项目使用更新的 Granite 模型。
 context_length: 128000
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/ibm-granite/granite-3b-code-base-128k
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-3b-code-base-128k/resolve/ab7f9cc61d94a9e87528b47d2c60888cb801f2ad/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-3b-code-base-128k
