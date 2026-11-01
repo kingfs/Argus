@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 961,
-    "compiled": 606,
-    "candidates": 329,
+    "models": 966,
+    "compiled": 607,
+    "candidates": 333,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 935,
+    "model": 940,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 661,
+      "official_huggingface": 666,
       "openrouter": 300
     },
     "unverified": [
@@ -1348,6 +1348,7 @@
     "ibm-granite/granite-4.1-3b-base",
     "ibm-granite/granite-4.1-8b-base",
     "liquid/lfm2.5-24b-a2b-base",
+    "liquid/lfm3-1.7b-base",
     "moonshotai/kimi-k2-base",
     "moonshotai/kimi-linear-48b-a3b-base",
     "nvidia/nemotron-3-nano-30b-a3b-base",

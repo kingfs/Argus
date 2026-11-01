@@ -3,7 +3,9 @@ id: ibm-granite/granite-8b-code-base-128k
 name: granite-8b-code-base-128k
 provider: IBM Granite
 developer: ibm-granite
-lifecycle: candidate
+lifecycle: active
+description: Granite-8B-Code-Base-128K extends the context length of Granite-8B-Code-Base to 128K with continual pretraining for long-context code tasks.
+description_cn: Granite-8B-Code-Base-128K 通过面向长上下文代码任务的持续预训练，将 Granite-8B-Code-Base 的上下文长度扩展至 128K。
 context_length: 128000
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/ibm-granite/granite-8b-code-base-128k
+  description:
+    source: official_model_card
+    url: https://huggingface.co/ibm-granite/granite-8b-code-base-128k/resolve/76002e2a45fc57438094622fe8403f2ee03a84e7/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/ibm-granite/granite-8b-code-base-128k

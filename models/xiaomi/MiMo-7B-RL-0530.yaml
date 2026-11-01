@@ -1,0 +1,39 @@
+schema_version: 2
+id: xiaomi/mimo-7b-rl-0530
+name: MiMo-7B-RL-0530
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-7B-RL-0530
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530
+upstream:
+  huggingface:
+    id: XiaomiMiMo/MiMo-7B-RL-0530
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mimo
+      - text-generation
+      - conversational
+      - custom_code
+      - arxiv:2505.07608
+      - license:mit
+      - region:us

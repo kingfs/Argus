@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "ibm-granite/granite-8b-code-base-128k",
+  "status": "partially_accepted",
+  "created_at": "2026-11-01T08:18:48.986022944Z",
+  "source": {
+    "url": "https://huggingface.co/ibm-granite/granite-8b-code-base-128k/resolve/76002e2a45fc57438094622fe8403f2ee03a84e7/README.md",
+    "revision": "76002e2a45fc57438094622fe8403f2ee03a84e7",
+    "sha256": "d23a3e6814f808c63dff228025308f3b5b7a6eec3c5456be4a04d41859ccc9fa"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Granite-8B-Code-Base-128K extends the context length of Granite-8B-Code-Base to 128K with continual pretraining for long-context code tasks.",
+      "evidence": "Granite-8B-Code-Base-128K extends the context length of Granite-8B-Code-Base from 4K to 128K with continual pretraining",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 128000,
+      "evidence": "allows it to effectively utilize up to 128K tokens of context",
+      "section": "Training Data",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "MODEL CARD",
+      "confidence": "high"
+    }
+  ]
+}

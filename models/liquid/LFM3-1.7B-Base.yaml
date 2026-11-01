@@ -1,0 +1,56 @@
+schema_version: 2
+id: liquid/lfm3-1.7b-base
+name: LFM3-1.7B-Base
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM3-1.7B-Base
+identifiers:
+  huggingface:
+    - LiquidAI/LFM3-1.7B-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-Base
+upstream:
+  huggingface:
+    id: LiquidAI/LFM3-1.7B-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - lfm3
+      - text-generation
+      - liquid
+      - edge
+      - conversational
+      - custom_code
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - it
+      - ja
+      - ko
+      - pt
+      - es
+      - vi
+      - th
+      - id
+      - hi
+      - ru
+      - pl
+      - license:other
+      - region:us
