@@ -1,0 +1,45 @@
+schema_version: 2
+id: eleutherai/pythia-160m-weight-seed2
+name: pythia-160m-weight-seed2
+provider: EleutherAI
+developer: eleutherai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
+identifiers:
+  huggingface:
+    - EleutherAI/pythia-160m-weight-seed2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
+upstream:
+  huggingface:
+    id: EleutherAI/pythia-160m-weight-seed2
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - pytorch
+      - gpt_neox
+      - text-generation
+      - causal-lm
+      - pythia
+      - polypythias
+      - en
+      - dataset:EleutherAI/pile
+      - dataset:EleutherAI/pile-preshuffled-seeds
+      - arxiv:2503.09543
+      - license:apache-2.0
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

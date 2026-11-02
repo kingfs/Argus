@@ -1,0 +1,42 @@
+schema_version: 2
+id: eleutherai/pythia-160m-weight-seed2-corrected
+name: pythia-160m-weight-seed2-corrected
+provider: EleutherAI
+developer: eleutherai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected
+identifiers:
+  huggingface:
+    - EleutherAI/pythia-160m-weight-seed2-corrected
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected
+upstream:
+  huggingface:
+    id: EleutherAI/pythia-160m-weight-seed2-corrected
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - pytorch
+      - gpt_neox
+      - text-generation
+      - pythia
+      - gpt-neox
+      - reproducibility
+      - en
+      - license:apache-2.0
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

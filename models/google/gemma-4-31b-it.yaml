@@ -37,6 +37,7 @@ upstream:
       - include_reasoning
       - logit_bias
       - logprobs
+      - max_completion_tokens
       - max_tokens
       - min_p
       - presence_penalty
@@ -58,7 +59,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-08-16T02:50:20.89314179Z
+    fetched_at: 2026-11-02T08:30:57.264320794Z
   huggingface:
     id: google/gemma-4-31B-it
     revision: 842da3794eaa0b77d5f08bae87a17459d91ff475
