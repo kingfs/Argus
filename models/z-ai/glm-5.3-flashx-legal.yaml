@@ -1,0 +1,70 @@
+schema_version: 2
+id: z-ai/glm-5.3-flashx-legal
+name: 'Z.ai: GLM 5.3 FlashX Legal'
+provider: Z-Ai
+developer: zai
+lifecycle: candidate
+description: GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-training and post-training with reinforcement...
+description_cn: GLM-5.3-FlashX-Legal（GLM-Legal）是智谱AI面向法律领域推出的 GLM-5.3-FlashX 变体，属于原生多模态模型，可接收文本、图像和视频输入并输出文本。该模型通过法律领域的中期训练（mid-training）和基于强化学习的后期训练（post-training）……
+context_length: 1048576
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+discovered_at: 2026-11-03T08:44:23.790593734Z
+identifiers:
+  openrouter:
+    - z-ai/glm-5.3-flashx-legal
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: z-ai/glm-5.3-flashx-legal-20261102
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-03T08:44:30.439383586Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_enabled: true
+  default_effort: max
+  supported_efforts:
+    - high
+    - low
+    - max

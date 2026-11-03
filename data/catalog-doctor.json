@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 971,
+    "models": 977,
     "compiled": 607,
-    "candidates": 338,
+    "candidates": 344,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 133,
-    "unverified_identities": 246
+    "identity_gaps": 134,
+    "unverified_identities": 247
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 945,
+    "model": 951,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 671,
-      "openrouter": 300
+      "official_huggingface": 676,
+      "openrouter": 301
     },
     "unverified": [
       {
@@ -1243,6 +1243,11 @@
         "source": "openrouter"
       },
       {
+        "id": "z-ai/glm-5.3-flashx-legal",
+        "provider": "zai",
+        "source": "openrouter"
+      },
+      {
         "id": "z-ai/glm-5.3-prime",
         "provider": "zai",
         "source": "openrouter"
@@ -1900,6 +1905,10 @@
     },
     {
       "id": "z-ai/glm-5.3-flashx",
+      "provider": "zai"
+    },
+    {
+      "id": "z-ai/glm-5.3-flashx-legal",
       "provider": "zai"
     },
     {

@@ -1,0 +1,56 @@
+schema_version: 2
+id: liquid/lfm2.5-8b-a1b
+name: LFM2.5-8B-A1B
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+identifiers:
+  huggingface:
+    - LiquidAI/LFM2.5-8B-A1B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-8B-A1B
+upstream:
+  huggingface:
+    id: LiquidAI/LFM2.5-8B-A1B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - lfm2_moe
+      - text-generation
+      - liquid
+      - lfm2.5
+      - edge
+      - conversational
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - ja
+      - ko
+      - es
+      - pt
+      - it
+      - arxiv:2511.23404
+      - arxiv:2607.15232
+      - base_model:LiquidAI/LFM2.5-8B-A1B-Base
+      - base_model:finetune:LiquidAI/LFM2.5-8B-A1B-Base
+      - license:other
+      - eval-results
+      - endpoints_compatible
+      - region:us

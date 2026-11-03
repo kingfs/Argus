@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 966,
-  "models_with_official_links": 776,
+  "models": 972,
+  "models_with_official_links": 781,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -4756,6 +4756,44 @@
     {
       "provider_id": "liquid",
       "organization": "LiquidAI",
+      "repository_id": "LiquidAI/LFM2.5-8B-A1B",
+      "registry_id": "liquid/lfm2.5-8b-a1b",
+      "status": "materialized",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+      "last_modified": "2026-11-03T06:57:48Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2_moe",
+        "text-generation",
+        "liquid",
+        "lfm2.5",
+        "edge",
+        "conversational",
+        "en",
+        "ar",
+        "zh",
+        "fr",
+        "de",
+        "ja",
+        "ko",
+        "es",
+        "pt",
+        "it",
+        "arxiv:2511.23404",
+        "arxiv:2607.15232",
+        "base_model:LiquidAI/LFM2.5-8B-A1B-Base",
+        "base_model:finetune:LiquidAI/LFM2.5-8B-A1B-Base",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "liquid",
+      "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
@@ -5129,7 +5167,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-FP8",
-      "last_modified": "2026-10-27T17:04:13Z",
+      "last_modified": "2026-11-03T07:40:26Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -5153,7 +5191,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
-      "last_modified": "2026-10-28T22:16:43Z",
+      "last_modified": "2026-11-03T07:40:29Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "gguf",
@@ -5191,7 +5229,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-4bit",
-      "last_modified": "2026-10-27T15:39:57Z",
+      "last_modified": "2026-11-03T07:40:33Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "mlx",
@@ -5228,9 +5266,10 @@
       "provider_id": "liquid",
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM3-1.7B-MLX-5bit",
-      "status": "new",
+      "registry_id": "liquid/lfm3-1.7b-mlx-5bit",
+      "status": "materialized",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-5bit",
-      "last_modified": "2026-10-27T15:39:55Z",
+      "last_modified": "2026-11-03T07:40:37Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "mlx",
@@ -5267,9 +5306,10 @@
       "provider_id": "liquid",
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM3-1.7B-MLX-6bit",
-      "status": "new",
+      "registry_id": "liquid/lfm3-1.7b-mlx-6bit",
+      "status": "materialized",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-6bit",
-      "last_modified": "2026-10-27T15:39:53Z",
+      "last_modified": "2026-11-03T07:40:41Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "mlx",
@@ -5308,7 +5348,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-8bit",
-      "last_modified": "2026-10-27T15:39:51Z",
+      "last_modified": "2026-11-03T07:40:45Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "mlx",
@@ -5347,7 +5387,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-MLX-bf16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-bf16",
-      "last_modified": "2026-10-27T15:39:49Z",
+      "last_modified": "2026-11-03T07:40:48Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "mlx",
@@ -5385,7 +5425,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-NVFP4",
-      "last_modified": "2026-10-28T18:52:22Z",
+      "last_modified": "2026-11-03T07:40:52Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -5400,6 +5440,7 @@
         "base_model:LiquidAI/LFM3-1.7B",
         "base_model:quantized:LiquidAI/LFM3-1.7B",
         "license:other",
+        "8-bit",
         "region:us"
       ]
     },
@@ -5409,7 +5450,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-ONNX",
-      "last_modified": "2026-10-28T02:24:34Z",
+      "last_modified": "2026-11-03T07:40:55Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "onnxruntime",
@@ -5447,7 +5488,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B",
       "status": "new",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
-      "last_modified": "2026-10-31T00:51:45Z",
+      "last_modified": "2026-11-03T07:40:58Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -5492,7 +5533,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-GGUF",
-      "last_modified": "2026-10-29T18:16:15Z",
+      "last_modified": "2026-11-03T07:41:01Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "gguf",
@@ -5535,7 +5576,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-MLX-4bit",
-      "last_modified": "2026-10-27T15:40:12Z",
+      "last_modified": "2026-11-03T07:41:06Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5578,7 +5619,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-MLX-8bit",
-      "last_modified": "2026-10-27T15:40:10Z",
+      "last_modified": "2026-11-03T07:41:09Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5621,7 +5662,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B-MLX-bf16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-MLX-bf16",
-      "last_modified": "2026-10-27T15:40:08Z",
+      "last_modified": "2026-11-03T07:41:12Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5663,7 +5704,7 @@
       "repository_id": "LiquidAI/LFM3-Audio-2B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-ONNX",
-      "last_modified": "2026-10-28T02:25:57Z",
+      "last_modified": "2026-11-03T07:41:15Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "onnxruntime",
@@ -5703,7 +5744,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B",
       "status": "new",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
-      "last_modified": "2026-10-28T23:16:38Z",
+      "last_modified": "2026-11-03T07:41:18Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -5755,7 +5796,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF",
-      "last_modified": "2026-10-29T18:16:25Z",
+      "last_modified": "2026-11-03T07:41:21Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "gguf",
@@ -5804,7 +5845,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-MLX-4bit",
-      "last_modified": "2026-10-27T15:40:18Z",
+      "last_modified": "2026-11-03T07:41:25Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5855,7 +5896,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-MLX-8bit",
-      "last_modified": "2026-10-27T15:40:16Z",
+      "last_modified": "2026-11-03T07:41:28Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5906,7 +5947,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B-MLX-bf16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-MLX-bf16",
-      "last_modified": "2026-10-27T15:40:14Z",
+      "last_modified": "2026-11-03T07:41:32Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "mlx",
@@ -5956,7 +5997,7 @@
       "repository_id": "LiquidAI/LFM3-Omni-2B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-ONNX",
-      "last_modified": "2026-10-28T02:25:58Z",
+      "last_modified": "2026-11-03T07:41:34Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "onnxruntime",
@@ -6043,7 +6084,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-FP8",
-      "last_modified": "2026-10-28T18:34:29Z",
+      "last_modified": "2026-11-03T07:41:39Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -6084,7 +6125,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-GGUF",
-      "last_modified": "2026-10-28T21:21:57Z",
+      "last_modified": "2026-11-03T07:41:42Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "gguf",
@@ -6122,7 +6163,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-MLX-4bit",
-      "last_modified": "2026-10-28T18:33:38Z",
+      "last_modified": "2026-11-03T07:41:46Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6244,7 +6285,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-MLX-8bit",
-      "last_modified": "2026-10-28T18:33:32Z",
+      "last_modified": "2026-11-03T07:41:54Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6284,7 +6325,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-MLX-bf16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-MLX-bf16",
-      "last_modified": "2026-10-28T18:33:31Z",
+      "last_modified": "2026-11-03T07:41:57Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6323,7 +6364,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-NVFP4",
-      "last_modified": "2026-10-28T18:55:54Z",
+      "last_modified": "2026-11-03T07:42:00Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -6355,6 +6396,7 @@
         "base_model:LiquidAI/LFM3-VL-2B",
         "base_model:quantized:LiquidAI/LFM3-VL-2B",
         "license:other",
+        "8-bit",
         "region:us"
       ]
     },
@@ -6364,7 +6406,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-ONNX",
-      "last_modified": "2026-10-28T18:33:29Z",
+      "last_modified": "2026-11-03T07:42:03Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "onnxruntime",
@@ -6403,7 +6445,7 @@
       "repository_id": "LiquidAI/LeapBundles",
       "status": "new",
       "url": "https://huggingface.co/LiquidAI/LeapBundles",
-      "last_modified": "2026-09-10T18:00:52Z",
+      "last_modified": "2026-11-03T02:38:47Z",
       "tags": [
         "region:us"
       ]
@@ -6412,7 +6454,8 @@
       "provider_id": "liquid",
       "organization": "LiquidAI",
       "repository_id": "LiquidAI/Liquid-Codec",
-      "status": "new",
+      "registry_id": "liquid/liquid-codec",
+      "status": "materialized",
       "url": "https://huggingface.co/LiquidAI/Liquid-Codec",
       "last_modified": "2026-10-27T17:16:46Z",
       "pipeline_tag": "feature-extraction",
@@ -6485,7 +6528,7 @@
       "repository_id": "LiquidAI/d1-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/d1-2B-GGUF",
-      "last_modified": "2026-10-28T13:27:40Z",
+      "last_modified": "2026-11-03T07:42:09Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "gguf",
@@ -6531,7 +6574,7 @@
       "repository_id": "LiquidAI/d1-2B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-2B-MLX-4bit",
-      "last_modified": "2026-10-27T15:40:24Z",
+      "last_modified": "2026-11-03T07:42:13Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6578,7 +6621,7 @@
       "repository_id": "LiquidAI/d1-2B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-2B-MLX-8bit",
-      "last_modified": "2026-10-27T15:40:22Z",
+      "last_modified": "2026-11-03T07:42:16Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6625,7 +6668,7 @@
       "repository_id": "LiquidAI/d1-2B-MLX-fp16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-2B-MLX-fp16",
-      "last_modified": "2026-10-27T15:40:20Z",
+      "last_modified": "2026-11-03T07:42:19Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6671,7 +6714,7 @@
       "repository_id": "LiquidAI/d1-2B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/d1-2B-ONNX",
-      "last_modified": "2026-10-28T02:25:58Z",
+      "last_modified": "2026-11-03T07:42:22Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "onnxruntime",
@@ -6804,7 +6847,7 @@
       "repository_id": "LiquidAI/d1-3B-MLX-4bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-3B-MLX-4bit",
-      "last_modified": "2026-10-12T02:26:37Z",
+      "last_modified": "2026-11-02T19:16:36Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6853,7 +6896,7 @@
       "repository_id": "LiquidAI/d1-3B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-3B-MLX-8bit",
-      "last_modified": "2026-10-12T02:26:36Z",
+      "last_modified": "2026-11-02T19:16:34Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -6902,7 +6945,7 @@
       "repository_id": "LiquidAI/d1-3B-MLX-fp16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-3B-MLX-fp16",
-      "last_modified": "2026-10-12T02:26:31Z",
+      "last_modified": "2026-11-02T19:16:32Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -7004,7 +7047,7 @@
       "repository_id": "LiquidAI/d1-Omni-2B",
       "status": "new",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B",
-      "last_modified": "2026-10-29T14:55:59Z",
+      "last_modified": "2026-11-03T07:42:25Z",
       "pipeline_tag": "audio-text-to-text",
       "tags": [
         "transformers",
@@ -7053,7 +7096,7 @@
       "repository_id": "LiquidAI/d1-Omni-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B-GGUF",
-      "last_modified": "2026-10-28T13:27:43Z",
+      "last_modified": "2026-11-03T07:42:28Z",
       "pipeline_tag": "audio-text-to-text",
       "tags": [
         "gguf",
@@ -7100,7 +7143,7 @@
       "repository_id": "LiquidAI/d1-Omni-2B-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B-MLX-8bit",
-      "last_modified": "2026-10-27T16:21:56Z",
+      "last_modified": "2026-11-03T07:42:32Z",
       "pipeline_tag": "audio-text-to-text",
       "tags": [
         "mlx",
@@ -7147,7 +7190,7 @@
       "repository_id": "LiquidAI/d1-Omni-2B-MLX-fp16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B-MLX-fp16",
-      "last_modified": "2026-10-27T16:21:56Z",
+      "last_modified": "2026-11-03T07:42:37Z",
       "pipeline_tag": "audio-text-to-text",
       "tags": [
         "mlx",
@@ -7193,7 +7236,7 @@
       "repository_id": "LiquidAI/d1-Omni-2B-ONNX",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B-ONNX",
-      "last_modified": "2026-10-28T02:25:59Z",
+      "last_modified": "2026-11-03T07:42:40Z",
       "pipeline_tag": "audio-text-to-text",
       "tags": [
         "onnxruntime",
@@ -7326,7 +7369,7 @@
       "repository_id": "LiquidAI/d1-omni-600M-MLX-8bit",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-omni-600M-MLX-8bit",
-      "last_modified": "2026-10-12T02:26:39Z",
+      "last_modified": "2026-11-02T19:16:38Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -7374,7 +7417,7 @@
       "repository_id": "LiquidAI/d1-omni-600M-MLX-fp16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/d1-omni-600M-MLX-fp16",
-      "last_modified": "2026-10-12T02:26:38Z",
+      "last_modified": "2026-11-02T19:16:37Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "mlx",
@@ -92504,7 +92547,7 @@
       "repository_id": "ibm-granite/granite-speech-5.0-2b",
       "status": "new",
       "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
-      "last_modified": "2026-10-26T21:06:47Z",
+      "last_modified": "2026-11-02T14:44:08Z",
       "pipeline_tag": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -94203,9 +94246,10 @@
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
       "repository_id": "inclusionAI/Ling-3.1-flash-1019",
-      "status": "new",
+      "registry_id": "inclusionai/ling-3.1-flash-1019",
+      "status": "materialized",
       "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
-      "last_modified": "2026-10-27T10:46:00Z",
+      "last_modified": "2026-11-02T11:22:15Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "safetensors",
@@ -99950,10 +99994,10 @@
       "organization": "microsoft",
       "repository_id": "microsoft/Graphormer",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-backbone:graphormer",
       "url": "https://huggingface.co/microsoft/Graphormer",
-      "last_modified": "2025-11-24T17:26:27Z",
+      "last_modified": "2026-11-03T00:29:38Z",
       "tags": [
+        "arxiv:2606.02618",
         "license:mit",
         "region:us"
       ]
@@ -116927,7 +116971,7 @@
       "repository_id": "nvidia/GEM-X",
       "status": "new",
       "url": "https://huggingface.co/nvidia/GEM-X",
-      "last_modified": "2026-10-21T19:59:14Z",
+      "last_modified": "2026-11-02T19:13:07Z",
       "tags": [
         "gem",
         "onnx",
@@ -122839,6 +122883,7 @@
         "dataset:nvidia/nemotron-post-training-v3",
         "dataset:nvidia/nemotron-pre-training-datasets",
         "license:other",
+        "eval-results",
         "endpoints_compatible",
         "deploy:sagemaker",
         "deploy:azure",
@@ -129230,7 +129275,7 @@
       "repository_id": "nvidia/SOMA-X",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/SOMA-X",
-      "last_modified": "2026-10-09T23:29:16Z",
+      "last_modified": "2026-11-02T23:34:58Z",
       "pipeline_tag": "robotics",
       "tags": [
         "soma-x",
@@ -135599,6 +135644,20 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/strata",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/strata",
+      "last_modified": "2026-11-02T21:53:48Z",
+      "tags": [
+        "pixeldit",
+        "arxiv:2606.31248",
+        "license:openmdw-1.1",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0",
       "status": "new",
       "url": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pc_v1.0",
@@ -137811,6 +137870,33 @@
         "safetensors",
         "laguna",
         "region:us"
+      ]
+    },
+    {
+      "provider_id": "prism-ml",
+      "organization": "prism-ml",
+      "repository_id": "prism-ml/Ternary-Bonsai-1.7B-gguf",
+      "status": "packaging",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-1.7B-gguf",
+      "last_modified": "2026-11-02T22:18:22Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "ternary",
+        "1.58-bit",
+        "llama-cpp",
+        "q2_0",
+        "on-device",
+        "prismml",
+        "bonsai",
+        "text-generation",
+        "base_model:prism-ml/Ternary-Bonsai-1.7B-unpacked",
+        "base_model:quantized:prism-ml/Ternary-Bonsai-1.7B-unpacked",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ]
     },
     {

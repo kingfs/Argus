@@ -1,0 +1,41 @@
+schema_version: 2
+id: liquid/liquid-codec
+name: Liquid-Codec
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/LiquidAI/Liquid-Codec
+identifiers:
+  huggingface:
+    - LiquidAI/Liquid-Codec
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/Liquid-Codec
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/Liquid-Codec
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/Liquid-Codec
+upstream:
+  huggingface:
+    id: LiquidAI/Liquid-Codec
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - liquid_codec
+      - feature-extraction
+      - audio
+      - audio-codec
+      - pytorch
+      - bfloat16
+      - custom_code
+      - license:other
+      - region:us

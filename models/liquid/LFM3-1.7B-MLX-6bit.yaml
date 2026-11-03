@@ -1,0 +1,58 @@
+schema_version: 2
+id: liquid/lfm3-1.7b-mlx-6bit
+name: LFM3-1.7B-MLX-6bit
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-6bit
+identifiers:
+  huggingface:
+    - LiquidAI/LFM3-1.7B-MLX-6bit
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-6bit
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-6bit
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM3-1.7B-MLX-6bit
+upstream:
+  huggingface:
+    id: LiquidAI/LFM3-1.7B-MLX-6bit
+    pipeline_tag: text-generation
+    tags:
+      - mlx
+      - safetensors
+      - lfm3
+      - liquid
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - it
+      - ja
+      - ko
+      - pt
+      - es
+      - vi
+      - th
+      - id
+      - hi
+      - ru
+      - pl
+      - base_model:LiquidAI/LFM3-1.7B
+      - base_model:quantized:LiquidAI/LFM3-1.7B
+      - license:other
+      - 6-bit
+      - region:us

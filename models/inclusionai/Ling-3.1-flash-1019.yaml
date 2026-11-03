@@ -1,0 +1,39 @@
+schema_version: 2
+id: inclusionai/ling-3.1-flash-1019
+name: Ling-3.1-flash-1019
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/Ling-3.1-flash-1019
+identifiers:
+  huggingface:
+    - inclusionAI/Ling-3.1-flash-1019
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-1019
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-1019
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-1019
+upstream:
+  huggingface:
+    id: inclusionAI/Ling-3.1-flash-1019
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - bailing_hybrid
+      - text-generation
+      - conversational
+      - custom_code
+      - license:mit
+      - eval-results
+      - fp8
+      - region:us
