@@ -37,12 +37,15 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
+      - logit_bias
       - logprobs
       - max_tokens
       - presence_penalty
       - reasoning
       - repetition_penalty
       - response_format
+      - seed
+      - stop
       - structured_outputs
       - temperature
       - top_k
@@ -53,7 +56,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-08-31"
-    fetched_at: 2026-10-16T06:30:39.115614272Z
+    fetched_at: 2026-11-04T08:12:44.087300242Z
   huggingface:
     id: NousResearch/Hermes-4-405B
     revision: 88e3dce03c4a5535e2f4a2bcc08e939a2b302f82

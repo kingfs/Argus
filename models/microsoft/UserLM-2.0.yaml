@@ -1,0 +1,47 @@
+schema_version: 2
+id: microsoft/userlm-2.0
+name: UserLM-2.0
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/UserLM-2.0
+identifiers:
+  huggingface:
+    - microsoft/UserLM-2.0
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/UserLM-2.0
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/UserLM-2.0
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/UserLM-2.0
+upstream:
+  huggingface:
+    id: microsoft/UserLM-2.0
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - llama
+      - text-generation
+      - userlm
+      - user-simulation
+      - simulation
+      - multi-turn
+      - conversational
+      - en
+      - dataset:allenai/WildChat-4.8M
+      - base_model:meta-llama/Llama-3.1-8B-Instruct
+      - base_model:finetune:meta-llama/Llama-3.1-8B-Instruct
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

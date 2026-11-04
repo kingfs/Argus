@@ -17,11 +17,13 @@ features:
   - ModalityTextIn
   - ModalityTextOut
 aliases:
+  - x-ai/grok-4.7:batch
   - ~x-ai/grok-latest
 discovered_at: 2026-09-22T06:57:30.199157613Z
 identifiers:
   openrouter:
     - x-ai/grok-4.7
+    - x-ai/grok-4.7:batch
     - ~x-ai/grok-latest
 provenance:
   context_length:

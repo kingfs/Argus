@@ -1,0 +1,37 @@
+schema_version: 2
+id: inclusionai/ling-3.1-flash-base
+name: Ling-3.1-flash-base
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/Ling-3.1-flash-base
+identifiers:
+  huggingface:
+    - inclusionAI/Ling-3.1-flash-base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/Ling-3.1-flash-base
+upstream:
+  huggingface:
+    id: inclusionAI/Ling-3.1-flash-base
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - bailing_hybrid
+      - text-generation
+      - conversational
+      - custom_code
+      - license:mit
+      - region:us

@@ -1,0 +1,55 @@
+schema_version: 2
+id: liquid/lfm2.5-350m
+name: LFM2.5-350M
+provider: Liquid AI
+developer: liquid
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM2.5-350M
+identifiers:
+  huggingface:
+    - LiquidAI/LFM2.5-350M
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/LiquidAI/LFM2.5-350M
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-350M
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/LiquidAI/LFM2.5-350M
+upstream:
+  huggingface:
+    id: LiquidAI/LFM2.5-350M
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - lfm2
+      - text-generation
+      - liquid
+      - lfm2.5
+      - edge
+      - conversational
+      - en
+      - ar
+      - zh
+      - fr
+      - de
+      - ja
+      - ko
+      - es
+      - pt
+      - arxiv:2511.23404
+      - base_model:LiquidAI/LFM2.5-350M-Base
+      - base_model:finetune:LiquidAI/LFM2.5-350M-Base
+      - license:other
+      - eval-results
+      - endpoints_compatible
+      - deploy:azure
+      - region:us

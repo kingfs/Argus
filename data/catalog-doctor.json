@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 977,
+    "models": 983,
     "compiled": 607,
-    "candidates": 344,
+    "candidates": 350,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 134,
-    "unverified_identities": 247
+    "identity_gaps": 135,
+    "unverified_identities": 248
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 951,
+    "model": 957,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 676,
-      "openrouter": 301
+      "official_huggingface": 681,
+      "openrouter": 302
     },
     "unverified": [
       {
@@ -1108,6 +1108,11 @@
         "source": "openrouter"
       },
       {
+        "id": "tencent/hy4",
+        "provider": "tencent",
+        "source": "openrouter"
+      },
+      {
         "id": "tngtech/tng-r1t-chimera",
         "provider": "tngtech",
         "source": "openrouter"
@@ -1352,6 +1357,7 @@
     "ibm-granite/granite-4.1-30b-base",
     "ibm-granite/granite-4.1-3b-base",
     "ibm-granite/granite-4.1-8b-base",
+    "inclusionai/ling-3.1-flash-base",
     "liquid/lfm2.5-24b-a2b-base",
     "liquid/lfm3-1.7b-base",
     "moonshotai/kimi-k2-base",
@@ -1866,6 +1872,10 @@
     {
       "id": "sakana/sakana-namazu",
       "provider": "sakana"
+    },
+    {
+      "id": "tencent/hy4",
+      "provider": "tencent"
     },
     {
       "id": "tngtech/tng-r1t-chimera",

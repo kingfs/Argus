@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 972,
-  "models_with_official_links": 781,
+  "models": 978,
+  "models_with_official_links": 786,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -418,6 +418,33 @@
         "other",
         "arxiv:2505.17478",
         "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "bytedance-seed",
+      "organization": "ByteDance-Seed",
+      "repository_id": "ByteDance-Seed/GenFirst",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:text-to-image",
+      "url": "https://huggingface.co/ByteDance-Seed/GenFirst",
+      "last_modified": "2026-11-03T06:38:43Z",
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "pytorch",
+        "diffusers",
+        "safetensors",
+        "diffusion",
+        "latent-diffusion",
+        "end-to-end-training",
+        "variational-autoencoder",
+        "text-to-image",
+        "class-conditional-image-generation",
+        "sit",
+        "mmdit",
+        "arxiv:2608.29335",
+        "arxiv:2406.02507",
+        "license:cc-by-nc-4.0",
         "region:us"
       ]
     },
@@ -4724,6 +4751,43 @@
     {
       "provider_id": "liquid",
       "organization": "LiquidAI",
+      "repository_id": "LiquidAI/LFM2.5-350M",
+      "registry_id": "liquid/lfm2.5-350m",
+      "status": "materialized",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-350M",
+      "last_modified": "2026-11-03T18:09:20Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "liquid",
+        "lfm2.5",
+        "edge",
+        "conversational",
+        "en",
+        "ar",
+        "zh",
+        "fr",
+        "de",
+        "ja",
+        "ko",
+        "es",
+        "pt",
+        "arxiv:2511.23404",
+        "base_model:LiquidAI/LFM2.5-350M-Base",
+        "base_model:finetune:LiquidAI/LFM2.5-350M-Base",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:azure",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "liquid",
+      "organization": "LiquidAI",
       "repository_id": "LiquidAI/LFM2.5-350M-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF",
@@ -5191,7 +5255,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
-      "last_modified": "2026-11-03T07:40:29Z",
+      "last_modified": "2026-11-03T14:48:57Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "gguf",
@@ -6125,7 +6189,7 @@
       "repository_id": "LiquidAI/LFM3-VL-2B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-GGUF",
-      "last_modified": "2026-11-03T07:41:42Z",
+      "last_modified": "2026-11-03T14:49:00Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "gguf",
@@ -60543,7 +60607,7 @@
       "repository_id": "google/gemma-4-E2B",
       "status": "new",
       "url": "https://huggingface.co/google/gemma-4-E2B",
-      "last_modified": "2026-07-15T16:39:18Z",
+      "last_modified": "2026-11-03T16:10:07Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -60563,7 +60627,7 @@
       "repository_id": "google/gemma-4-E2B-it",
       "status": "new",
       "url": "https://huggingface.co/google/gemma-4-E2B-it",
-      "last_modified": "2026-07-20T16:41:56Z",
+      "last_modified": "2026-11-03T16:10:29Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -60578,8 +60642,8 @@
         "eval-results",
         "endpoints_compatible",
         "deploy:sagemaker",
-        "region:us",
-        "deploy:azure"
+        "deploy:azure",
+        "region:us"
       ]
     },
     {
@@ -60742,7 +60806,7 @@
       "repository_id": "google/gemma-4-E4B",
       "status": "new",
       "url": "https://huggingface.co/google/gemma-4-E4B",
-      "last_modified": "2026-07-15T16:40:09Z",
+      "last_modified": "2026-11-03T16:10:47Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -60762,7 +60826,7 @@
       "repository_id": "google/gemma-4-E4B-it",
       "status": "new",
       "url": "https://huggingface.co/google/gemma-4-E4B-it",
-      "last_modified": "2026-07-20T16:42:03Z",
+      "last_modified": "2026-11-03T16:13:15Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "transformers",
@@ -60777,8 +60841,8 @@
         "eval-results",
         "endpoints_compatible",
         "deploy:sagemaker",
-        "region:us",
-        "deploy:azure"
+        "deploy:azure",
+        "region:us"
       ]
     },
     {
@@ -92525,20 +92589,19 @@
       "repository_id": "ibm-granite/granite-speech-4.1-2b-plus-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granite-speech-4.1-2b-plus-GGUF",
-      "last_modified": "2026-06-30T22:40:17Z",
+      "last_modified": "2026-11-03T21:10:59Z",
       "tags": [
         "llama.cpp",
         "gguf",
         "language",
         "granite-4.1",
-        "speech",
         "base_model:ibm-granite/granite-speech-4.1-2b-plus",
         "base_model:quantized:ibm-granite/granite-speech-4.1-2b-plus",
         "license:apache-2.0",
         "endpoints_compatible",
+        "deploy:azure",
         "region:us",
-        "conversational",
-        "deploy:azure"
+        "conversational"
       ]
     },
     {
@@ -92547,7 +92610,7 @@
       "repository_id": "ibm-granite/granite-speech-5.0-2b",
       "status": "new",
       "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
-      "last_modified": "2026-11-02T14:44:08Z",
+      "last_modified": "2026-11-03T21:40:01Z",
       "pipeline_tag": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -94267,7 +94330,8 @@
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
       "repository_id": "inclusionAI/Ling-3.1-flash-base",
-      "status": "new",
+      "registry_id": "inclusionai/ling-3.1-flash-base",
+      "status": "materialized",
       "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-base",
       "last_modified": "2026-10-26T03:29:03Z",
       "pipeline_tag": "text-generation",
@@ -101296,7 +101360,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-medium-4k-instruct-onnx-cpu",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-medium-4k-instruct-onnx-cpu",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-medium-4k-instruct-onnx-cpu",
       "last_modified": "2026-01-23T02:24:24Z",
       "pipeline_tag": "text-generation",
@@ -101557,7 +101622,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-small-8k-instruct-onnx-cuda",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-small-8k-instruct-onnx-cuda",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-small-8k-instruct-onnx-cuda",
       "last_modified": "2026-01-23T02:23:46Z",
       "pipeline_tag": "text-generation",
@@ -102612,7 +102678,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/UserLM-2.0",
-      "status": "new",
+      "registry_id": "microsoft/userlm-2.0",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/UserLM-2.0",
       "last_modified": "2026-10-01T17:43:37Z",
       "pipeline_tag": "text-generation",
@@ -124264,6 +124331,30 @@
         "image-text-to-text",
         "conversational",
         "custom_code",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball",
+      "last_modified": "2026-11-03T01:21:44Z",
+      "pipeline_tag": "any-to-any",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "NemotronH_Nano_Omni_Reasoning_V3",
+        "feature-extraction",
+        "nvidia",
+        "pytorch",
+        "multimodal",
+        "any-to-any",
+        "custom_code",
+        "base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+        "base_model:finetune:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
         "license:other",
         "region:us"
       ]

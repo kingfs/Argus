@@ -36,19 +36,9 @@ upstream:
     canonical_slug: meta-llama/llama-3.1-70b-instruct
     huggingface_id: meta-llama/Meta-Llama-3.1-70B-Instruct
     supported_parameters:
-      - frequency_penalty
-      - logit_bias
       - max_tokens
-      - min_p
-      - presence_penalty
-      - repetition_penalty
-      - response_format
-      - seed
       - stop
-      - structured_outputs
       - temperature
-      - tool_choice
-      - tools
       - top_k
       - top_p
     input_modalities:
@@ -56,7 +46,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2023-12-31"
-    fetched_at: 2026-09-05T06:24:53.014723471Z
+    fetched_at: 2026-11-04T08:12:44.08482535Z
   huggingface:
     id: meta-llama/Llama-3.1-70B-Instruct
     revision: 1605565b47bb9346c5515c34102e054115b4f98b

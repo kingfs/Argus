@@ -51,16 +51,18 @@ upstream:
       - response_format
       - stop
       - structured_outputs
+      - temperature
       - tool_choice
       - tools
       - top_logprobs
+      - top_p
     input_modalities:
       - image
       - text
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-27T06:56:20.337879216Z
+    fetched_at: 2026-11-04T08:12:44.086864753Z
 reasoning:
   supported: true
   default_enabled: true

@@ -1,8 +1,9 @@
 {
-  "failure_count": 3,
+  "failure_count": 4,
   "failures": {
     "inference-net/schematron-v2-small": "Hugging Face model request returned 401 Unauthorized",
     "inference-net/schematron-v2-turbo": "Hugging Face model request returned 401 Unauthorized",
-    "nvidia/nemotron-3.5-super-vl": "Hugging Face model request returned 401 Unauthorized"
+    "nvidia/nemotron-3.5-super-vl": "Hugging Face model request returned 401 Unauthorized",
+    "tencent/hy4": "Hugging Face model request returned 401 Unauthorized"
   }
 }

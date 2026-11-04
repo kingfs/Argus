@@ -1,0 +1,68 @@
+schema_version: 2
+id: tencent/hy4
+name: 'Tencent: Hy4'
+provider: Tencent
+developer: tencent
+lifecycle: candidate
+description: The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity...
+description_cn: Hy4 正式发布版本相较于 Hy4 预览版实现了全面且显著的提升，尤其在智能体能力方面表现卓越，在多种长周期、真实生产力场景中性能均大幅提升。
+context_length: 1048576
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-04T08:12:39.230946615Z
+identifiers:
+  openrouter:
+    - tencent/hy4
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: tencent/hy4-20261104
+    huggingface_id: tencent/Hy4
+    supported_parameters:
+      - include_reasoning
+      - max_completion_tokens
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-04T08:12:44.091645957Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - low
+    - none

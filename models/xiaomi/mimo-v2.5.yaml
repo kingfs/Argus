@@ -35,7 +35,6 @@ upstream:
       - presence_penalty
       - reasoning
       - response_format
-      - seed
       - stop
       - structured_outputs
       - temperature
@@ -50,7 +49,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-23T06:39:07.215601841Z
+    fetched_at: 2026-11-04T08:12:44.093262146Z
   huggingface:
     id: XiaomiMiMo/MiMo-V2.5
     revision: 63651580ca774f8504f676040460aed3e1244ac1
