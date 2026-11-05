@@ -3,7 +3,7 @@ id: moonshotai/kimi-k3.1-pro
 name: 'MoonshotAI: Kimi K3.1 Pro'
 provider: Moonshotai
 developer: moonshotai
-lifecycle: candidate
+lifecycle: active
 description: Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...
 description_cn: Kimi K3.1 Pro 是月之暗面（Moonshot AI）的旗舰级开源多模态推理模型，是 Kimi K3 的后训练演进版本，支持 100 万 token 上下窗口。该模型专为长周期编码、3D...
 context_length: 1048576
@@ -17,7 +17,11 @@ features:
   - ModalityTextOut
   - ModalityVideoIn
 discovered_at: 2026-10-24T06:36:01.08734502Z
+links:
+  model_card: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
 identifiers:
+  huggingface:
+    - moonshotai/Kimi-K3.1-Pro
   openrouter:
     - moonshotai/kimi-k3.1-pro
 provenance:
@@ -40,20 +44,26 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: moonshotai/kimi-k3.1-pro-20261023
+    huggingface_id: moonshotai/Kimi-K3.1-Pro
     supported_parameters:
       - frequency_penalty
       - include_reasoning
+      - logit_bias
       - logprobs
       - max_tokens
+      - min_p
       - presence_penalty
       - reasoning
       - reasoning_effort
+      - repetition_penalty
       - response_format
+      - seed
       - stop
       - structured_outputs
       - temperature
       - tool_choice
       - tools
+      - top_k
       - top_logprobs
       - top_p
     input_modalities:
@@ -62,7 +72,34 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-11-04T08:12:44.086864753Z
+    fetched_at: 2026-11-05T08:39:24.874631534Z
+  huggingface:
+    id: moonshotai/Kimi-K3.1-Pro
+    revision: d9e99b0792a5e93b78ea9bea62a68167e36ddd9e
+    pipeline_tag: image-text-to-text
+    model_type: kimi_k31
+    architectures:
+      - KimiK31ForConditionalGeneration
+    license: other
+    tags:
+      - 8-bit
+      - compressed-tensors
+      - conversational
+      - custom_code
+      - endpoints_compatible
+      - eval-results
+      - image-text-to-text
+      - kimi_k31
+      - license:other
+      - region:us
+      - safetensors
+      - text-generation
+      - transformers
+    structured_files:
+      - config.json
+      - preprocessor_config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-05T08:39:25.245531829Z
 reasoning:
   supported: true
   default_enabled: true

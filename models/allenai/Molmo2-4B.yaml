@@ -1,0 +1,54 @@
+schema_version: 2
+id: allenai/molmo2-4b
+name: Molmo2-4B
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Molmo2-4B
+identifiers:
+  huggingface:
+    - allenai/Molmo2-4B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Molmo2-4B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Molmo2-4B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Molmo2-4B
+upstream:
+  huggingface:
+    id: allenai/Molmo2-4B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - molmo2
+      - image-text-to-text
+      - multimodal
+      - olmo
+      - molmo
+      - conversational
+      - custom_code
+      - en
+      - dataset:allenai/Molmo2-Cap
+      - dataset:allenai/Molmo2-VideoCapQA
+      - dataset:allenai/Molmo2-VideoSubtitleQA
+      - dataset:allenai/Molmo2-AskModelAnything
+      - dataset:allenai/Molmo2-VideoPoint
+      - dataset:allenai/Molmo2-VideoTrack
+      - dataset:allenai/Molmo2-MultiImageQA
+      - dataset:allenai/Molmo2-SynMultiImageQA
+      - dataset:allenai/Molmo2-MultiImagePoint
+      - base_model:Qwen/Qwen3-4B-Instruct-2507
+      - base_model:finetune:Qwen/Qwen3-4B-Instruct-2507
+      - license:apache-2.0
+      - region:us

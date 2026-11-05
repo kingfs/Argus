@@ -1,0 +1,45 @@
+schema_version: 2
+id: baidu/ernie-5.5-flash-base
+name: ERNIE-5.5-Flash-Base
+provider: Baidu ERNIE
+developer: baidu
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base
+identifiers:
+  huggingface:
+    - baidu/ERNIE-5.5-Flash-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base
+upstream:
+  huggingface:
+    id: baidu/ERNIE-5.5-Flash-Base
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - ernie5_5_moe
+      - text-generation
+      - ERNIE5.5
+      - MoE
+      - en
+      - zh
+      - arxiv:2610.17959
+      - arxiv:2610.40577
+      - arxiv:2610.24766
+      - license:other
+      - endpoints_compatible
+      - fp8
+      - region:us

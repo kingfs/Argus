@@ -48,10 +48,8 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - reasoning_effort
@@ -70,7 +68,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-08-13T03:56:38.021279621Z
+    fetched_at: 2026-11-05T08:39:24.877561048Z
   huggingface:
     id: Qwen/Qwen3.8-2.4T-A95B
     revision: 207bd685a7e3696cfaff12ded7c6a7ea0f88c996

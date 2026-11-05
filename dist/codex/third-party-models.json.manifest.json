@@ -1,7 +1,7 @@
 {
   "schema_revision": "openai/codex@fe01054a28fa4bd04716d9ceadb410f2443a50ce",
   "catalog_kind": "standalone-third-party",
-  "model_count": 30,
+  "model_count": 31,
   "slugs": [
     "deepseek-chat-v3-0324",
     "deepseek-chat-v3.1",
@@ -25,6 +25,7 @@
     "glm-5.3-flash",
     "kimi-k2.7-code",
     "kimi-k3",
+    "kimi-k3.1-pro",
     "qwen3.5-122b-a10b",
     "qwen3.5-27b",
     "qwen3.5-35b-a3b",

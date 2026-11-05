@@ -43,6 +43,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: inclusionai/ling-3.0-tiny-20260806
+    huggingface_id: inclusionAI/Ling-3.0-tiny
     supported_parameters:
       - frequency_penalty
       - include_reasoning
@@ -50,20 +51,20 @@ upstream:
       - max_tokens
       - presence_penalty
       - reasoning
-      - repetition_penalty
+      - response_format
       - seed
       - stop
+      - structured_outputs
       - temperature
       - tool_choice
       - tools
-      - top_k
       - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-08-07T04:16:53.524118575Z
+    fetched_at: 2026-11-05T08:39:24.872712017Z
   huggingface:
     id: inclusionAI/Ling-3.0-tiny
     revision: 9a98e35fe1c9ee255f78dd64771c7ae15a799481

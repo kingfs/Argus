@@ -1,0 +1,46 @@
+schema_version: 2
+id: ibm-granite/granite-embedding-small-english-r2
+name: granite-embedding-small-english-r2
+provider: IBM Granite
+developer: ibm-granite
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/ibm-granite/granite-embedding-small-english-r2
+identifiers:
+  huggingface:
+    - ibm-granite/granite-embedding-small-english-r2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ibm-granite/granite-embedding-small-english-r2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-embedding-small-english-r2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-embedding-small-english-r2
+upstream:
+  huggingface:
+    id: ibm-granite/granite-embedding-small-english-r2
+    pipeline_tag: feature-extraction
+    tags:
+      - sentence-transformers
+      - pytorch
+      - safetensors
+      - modernbert
+      - feature-extraction
+      - granite
+      - embeddings
+      - transformers
+      - mteb
+      - en
+      - arxiv:2508.21085
+      - license:apache-2.0
+      - text-embeddings-inference
+      - endpoints_compatible
+      - region:us
+      - deploy:azure
