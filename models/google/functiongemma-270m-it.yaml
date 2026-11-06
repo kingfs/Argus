@@ -1,0 +1,43 @@
+schema_version: 2
+id: google/functiongemma-270m-it
+name: functiongemma-270m-it
+provider: Google
+developer: google
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/google/functiongemma-270m-it
+identifiers:
+  huggingface:
+    - google/functiongemma-270m-it
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/google/functiongemma-270m-it
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/google/functiongemma-270m-it
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/google/functiongemma-270m-it
+upstream:
+  huggingface:
+    id: google/functiongemma-270m-it
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - gemma3_text
+      - text-generation
+      - gemma3
+      - gemma
+      - google
+      - functiongemma
+      - conversational
+      - license:gemma
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

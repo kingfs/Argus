@@ -1,0 +1,48 @@
+schema_version: 2
+id: microsoft/optimind-sft
+name: OptiMind-SFT
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/OptiMind-SFT
+identifiers:
+  huggingface:
+    - microsoft/OptiMind-SFT
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/OptiMind-SFT
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/OptiMind-SFT
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/OptiMind-SFT
+upstream:
+  huggingface:
+    id: microsoft/OptiMind-SFT
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - gpt_oss
+      - text-generation
+      - optimization
+      - operations-research
+      - milp
+      - gurobi
+      - sft
+      - conversational
+      - en
+      - arxiv:2509.22979
+      - base_model:unsloth/gpt-oss-20b-BF16
+      - base_model:finetune:unsloth/gpt-oss-20b-BF16
+      - license:mit
+      - endpoints_compatible
+      - region:us
+      - deploy:azure

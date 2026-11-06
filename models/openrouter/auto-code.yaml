@@ -1,0 +1,77 @@
+schema_version: 2
+id: openrouter/auto-code
+name: Auto Code
+provider: Openrouter
+developer: openrouter
+description: Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request treated as part of an...
+description_cn: Auto Code 是 OpenRouter 专为编程智能体和框架构建的路由器。它使用与 [Auto Router](https://openrouter.ai/openrouter/auto) 相同的路由引擎，将所有请求视为...
+context_length: 2000000
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityImageOut
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+discovered_at: 2026-11-06T08:39:35.45435726Z
+identifiers:
+  openrouter:
+    - openrouter/auto-code
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: openrouter/auto-code
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - parallel_tool_calls
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_a
+      - top_k
+      - top_logprobs
+      - top_p
+      - verbosity
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - image
+      - text
+    fetched_at: 2026-11-06T08:39:39.855353952Z

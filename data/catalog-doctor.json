@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 988,
-    "compiled": 608,
-    "candidates": 354,
+    "models": 996,
+    "compiled": 609,
+    "candidates": 361,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 134,
-    "unverified_identities": 247
+    "identity_gaps": 136,
+    "unverified_identities": 249
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 962,
+    "model": 970,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 687,
-      "openrouter": 301
+      "official_huggingface": 692,
+      "openrouter": 304
     },
     "unverified": [
       {
@@ -394,6 +394,16 @@
       },
       {
         "id": "google/gemini-nano-banana-2.1",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "google/gemini-omni-1.1-flash",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "google/gemini-omni-1.2-flash",
         "provider": "google",
         "source": "openrouter"
       },
@@ -1599,6 +1609,14 @@
     },
     {
       "id": "google/gemini-nano-banana-2.1",
+      "provider": "google"
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "provider": "google"
+    },
+    {
+      "id": "google/gemini-omni-1.2-flash",
       "provider": "google"
     },
     {

@@ -1,0 +1,63 @@
+schema_version: 2
+id: cohere/command-a-reasoning-08-2025
+name: command-a-reasoning-08-2025
+provider: Cohere
+developer: cohere
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+identifiers:
+  huggingface:
+    - CohereLabs/command-a-reasoning-08-2025
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+upstream:
+  huggingface:
+    id: CohereLabs/command-a-reasoning-08-2025
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - cohere2
+      - text-generation
+      - conversational
+      - en
+      - fr
+      - de
+      - es
+      - it
+      - pt
+      - ja
+      - ko
+      - zh
+      - ar
+      - el
+      - fa
+      - pl
+      - id
+      - cs
+      - he
+      - hi
+      - nl
+      - ro
+      - ru
+      - tr
+      - uk
+      - vi
+      - base_model:CohereLabs/c4ai-command-a-03-2025
+      - base_model:finetune:CohereLabs/c4ai-command-a-03-2025
+      - license:cc-by-nc-4.0
+      - eval-results
+      - region:us

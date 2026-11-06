@@ -1,0 +1,64 @@
+schema_version: 2
+id: google/gemini-omni-1.2-flash
+name: 'Google: Gemini Omni 1.2 Flash'
+provider: Google
+developer: google
+lifecycle: candidate
+description: Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...
+description_cn: Gemini Omni 1.2 Flash 是谷歌原生多模态视频生成与编辑模型，为 Gemini Omni 1.1 Flash 的后继版本。可生成长度最长 15 秒的片段，并原生支持...
+context_length: 131072
+max_output: 65536
+features:
+  - CapChat
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+  - ModalityVideoOut
+discovered_at: 2026-11-06T08:39:35.316047153Z
+identifiers:
+  openrouter:
+    - google/gemini-omni-1.2-flash
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: google/gemini-omni-1.2-flash-20261105
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - seed
+      - temperature
+      - top_p
+    input_modalities:
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+      - video
+    fetched_at: 2026-11-06T08:39:39.850990345Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: low
+  supported_efforts:
+    - high
+    - low

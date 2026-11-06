@@ -1,0 +1,64 @@
+schema_version: 2
+id: google/gemini-omni-1.1-flash
+name: 'Google: Gemini Omni 1.1 Flash'
+provider: Google
+developer: google
+lifecycle: candidate
+description: Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...
+description_cn: Gemini Omni 1.1 Flash 是谷歌原生多模态视频生成与编辑模型，为 Gemini Omni Flash 预览版的正式后继者。适用于文本转视频、图像转视频、首帧及尾帧生成以及...
+context_length: 131072
+max_output: 65536
+features:
+  - CapChat
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+  - ModalityVideoOut
+discovered_at: 2026-11-06T08:39:35.316547218Z
+identifiers:
+  openrouter:
+    - google/gemini-omni-1.1-flash
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: google/gemini-omni-1.1-flash-20260911
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - seed
+      - temperature
+      - top_p
+    input_modalities:
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+      - video
+    fetched_at: 2026-11-06T08:39:39.850690424Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: low
+  supported_efforts:
+    - high
+    - low

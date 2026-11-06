@@ -1,0 +1,46 @@
+schema_version: 2
+id: arcee-ai/meraj-mini
+name: Meraj-Mini
+provider: Arcee AI
+developer: arcee-ai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/arcee-ai/Meraj-Mini
+identifiers:
+  huggingface:
+    - arcee-ai/Meraj-Mini
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/arcee-ai/Meraj-Mini
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/arcee-ai/Meraj-Mini
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/arcee-ai/Meraj-Mini
+upstream:
+  huggingface:
+    id: arcee-ai/Meraj-Mini
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen2
+      - text-generation
+      - qwen
+      - text-generation-inference
+      - conversational
+      - ar
+      - en
+      - arxiv:2305.18290
+      - arxiv:2403.13257
+      - base_model:Qwen/Qwen2.5-7B-Instruct
+      - base_model:finetune:Qwen/Qwen2.5-7B-Instruct
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us
