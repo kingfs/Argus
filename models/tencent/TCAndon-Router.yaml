@@ -1,0 +1,44 @@
+schema_version: 2
+id: tencent/tcandon-router
+name: TCAndon-Router
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/TCAndon-Router
+identifiers:
+  huggingface:
+    - tencent/TCAndon-Router
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/TCAndon-Router
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/TCAndon-Router
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/TCAndon-Router
+upstream:
+  huggingface:
+    id: tencent/TCAndon-Router
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3
+      - text-generation
+      - conversational
+      - zh
+      - en
+      - arxiv:2601.04544
+      - base_model:Qwen/Qwen3-4B-Instruct-2507
+      - base_model:finetune:Qwen/Qwen3-4B-Instruct-2507
+      - license:apache-2.0
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

@@ -15,6 +15,7 @@ features:
   - ModalityTextOut
   - ModalityVideoIn
 aliases:
+  - qwen/qwen3.8-27b:batch
   - qwen/qwen3.8-27b:free
 discovered_at: 2026-08-15T02:42:18.018684289Z
 links:
@@ -24,6 +25,7 @@ identifiers:
     - Qwen/Qwen3.8-27B
   openrouter:
     - qwen/qwen3.8-27b
+    - qwen/qwen3.8-27b:batch
     - qwen/qwen3.8-27b:free
 provenance:
   context_length:

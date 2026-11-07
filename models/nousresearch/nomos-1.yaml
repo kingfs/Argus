@@ -1,0 +1,41 @@
+schema_version: 2
+id: nousresearch/nomos-1
+name: nomos-1
+provider: Nous Research
+developer: nousresearch
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/NousResearch/nomos-1
+identifiers:
+  huggingface:
+    - NousResearch/nomos-1
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/NousResearch/nomos-1
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/nomos-1
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/nomos-1
+upstream:
+  huggingface:
+    id: NousResearch/nomos-1
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_moe
+      - text-generation
+      - conversational
+      - base_model:Qwen/Qwen3-30B-A3B-Thinking-2507
+      - base_model:finetune:Qwen/Qwen3-30B-A3B-Thinking-2507
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us
+      - deploy:azure

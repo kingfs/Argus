@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 991,
-  "models_with_official_links": 797,
+  "models": 997,
+  "models_with_official_links": 802,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -388,6 +388,30 @@
         "arxiv:2605.06548",
         "license:apache-2.0",
         "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "bytedance-seed",
+      "organization": "ByteDance-Seed",
+      "repository_id": "ByteDance-Seed/Cola2",
+      "registry_id": "bytedance-seed/cola2",
+      "status": "materialized",
+      "url": "https://huggingface.co/ByteDance-Seed/Cola2",
+      "last_modified": "2026-11-06T09:54:18Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "cola2",
+        "feature-extraction",
+        "custom_code",
+        "diffusion",
+        "continuous-latent",
+        "base-model",
+        "text-generation",
+        "conversational",
+        "arxiv:2610.31305",
         "region:us"
       ]
     },
@@ -2123,7 +2147,8 @@
       "provider_id": "cohere",
       "organization": "CohereLabs",
       "repository_id": "CohereLabs/aya-vision-8b",
-      "status": "new",
+      "registry_id": "cohere/aya-vision-8b",
+      "status": "materialized",
       "url": "https://huggingface.co/CohereLabs/aya-vision-8b",
       "last_modified": "2026-01-09T23:10:02Z",
       "pipeline_tag": "image-text-to-text",
@@ -5305,7 +5330,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-FP8",
-      "last_modified": "2026-11-05T19:58:32Z",
+      "last_modified": "2026-11-06T20:05:30Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -5564,7 +5589,7 @@
       "repository_id": "LiquidAI/LFM3-1.7B-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-NVFP4",
-      "last_modified": "2026-11-05T19:58:33Z",
+      "last_modified": "2026-11-06T20:05:31Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -7969,6 +7994,31 @@
         "arxiv:2512.13687",
         "license:other",
         "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nousresearch",
+      "organization": "NousResearch",
+      "repository_id": "NousResearch/Arete-27B",
+      "registry_id": "nousresearch/arete-27b",
+      "status": "materialized",
+      "url": "https://huggingface.co/NousResearch/Arete-27B",
+      "last_modified": "2026-11-06T21:04:27Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nous-research",
+        "arete",
+        "supervised-fine-tuning",
+        "value-alignment",
+        "text-generation",
+        "conversational",
+        "dataset:NousResearch/arete-data-pairs",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:finetune:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
         "region:us"
       ]
     },
@@ -11090,7 +11140,8 @@
       "provider_id": "nousresearch",
       "organization": "NousResearch",
       "repository_id": "NousResearch/nomos-1",
-      "status": "new",
+      "registry_id": "nousresearch/nomos-1",
+      "status": "materialized",
       "url": "https://huggingface.co/NousResearch/nomos-1",
       "last_modified": "2026-01-10T22:43:12Z",
       "pipeline_tag": "text-generation",
@@ -21214,9 +21265,8 @@
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.6-27B-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/Qwen/Qwen3.6-27B-FP8",
-      "last_modified": "2026-04-24T02:39:18Z",
+      "last_modified": "2026-11-07T04:41:28Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -21229,8 +21279,9 @@
         "license:apache-2.0",
         "endpoints_compatible",
         "fp8",
-        "region:us",
-        "deploy:azure"
+        "deploy:azure",
+        "deploy:sagemaker",
+        "region:us"
       ]
     },
     {
@@ -21238,9 +21289,8 @@
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.6-35B-A3B-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
-      "last_modified": "2026-04-24T02:39:23Z",
+      "last_modified": "2026-11-07T04:42:00Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -21253,8 +21303,8 @@
         "license:apache-2.0",
         "endpoints_compatible",
         "fp8",
-        "region:us",
-        "deploy:azure"
+        "deploy:azure",
+        "region:us"
       ]
     },
     {
@@ -21283,9 +21333,8 @@
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.8-2.4T-A95B-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
-      "last_modified": "2026-08-12T10:23:42Z",
+      "last_modified": "2026-11-07T04:46:52Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -21327,9 +21376,8 @@
       "organization": "Qwen",
       "repository_id": "Qwen/Qwen3.8-27B-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "last_modified": "2026-08-14T14:44:41Z",
+      "last_modified": "2026-11-07T04:42:31Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -21372,7 +21420,7 @@
       "repository_id": "Qwen/Qwen3.8-Flash-Next-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
-      "last_modified": "2026-08-31T08:19:15Z",
+      "last_modified": "2026-11-07T04:42:53Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -35478,9 +35526,8 @@
       "organization": "allenai",
       "repository_id": "allenai/Molmo2-4B-tb",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/allenai/Molmo2-4B-tb",
-      "last_modified": "2026-11-05T19:16:09Z",
+      "last_modified": "2026-11-06T17:42:53Z",
       "pipeline_tag": "robotics",
       "tags": [
         "molmo2",
@@ -42007,9 +42054,8 @@
       "organization": "allenai",
       "repository_id": "allenai/maniflow-tb",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/allenai/maniflow-tb",
-      "last_modified": "2026-11-05T19:16:08Z",
+      "last_modified": "2026-11-06T17:43:22Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
@@ -92791,7 +92837,7 @@
       "repository_id": "ibm-granite/granite-speech-5.0-2b",
       "status": "new",
       "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
-      "last_modified": "2026-11-03T21:40:01Z",
+      "last_modified": "2026-11-06T21:40:44Z",
       "pipeline_tag": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -92872,7 +92918,7 @@
       "repository_id": "ibm-granite/granite-speech-5.0-470m-turboctc",
       "status": "new",
       "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
-      "last_modified": "2026-10-21T21:30:36Z",
+      "last_modified": "2026-11-06T22:05:46Z",
       "pipeline_tag": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -107330,7 +107376,7 @@
       "repository_id": "microsoft/rho-fr3-duo",
       "status": "new",
       "url": "https://huggingface.co/microsoft/rho-fr3-duo",
-      "last_modified": "2026-09-18T00:11:10Z",
+      "last_modified": "2026-11-06T15:33:41Z",
       "tags": [
         "safetensors",
         "license:mit",
@@ -107462,7 +107508,7 @@
       "repository_id": "microsoft/rho-ur-ai-trainer",
       "status": "new",
       "url": "https://huggingface.co/microsoft/rho-ur-ai-trainer",
-      "last_modified": "2026-10-29T00:32:03Z",
+      "last_modified": "2026-11-06T15:33:06Z",
       "tags": [
         "safetensors",
         "license:mit",
@@ -107475,7 +107521,7 @@
       "repository_id": "microsoft/rho-yam-box",
       "status": "new",
       "url": "https://huggingface.co/microsoft/rho-yam-box",
-      "last_modified": "2026-10-29T00:32:18Z",
+      "last_modified": "2026-11-06T15:33:55Z",
       "tags": [
         "safetensors",
         "license:mit",
@@ -117120,7 +117166,7 @@
       "repository_id": "nvidia/Flora-Rewarder",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Flora-Rewarder",
-      "last_modified": "2026-10-22T19:06:24Z",
+      "last_modified": "2026-11-06T19:43:48Z",
       "pipeline_tag": "video-text-to-text",
       "tags": [
         "transformers",
@@ -117147,7 +117193,7 @@
       "repository_id": "nvidia/Flora-TempSeg",
       "status": "packaging",
       "url": "https://huggingface.co/nvidia/Flora-TempSeg",
-      "last_modified": "2026-10-22T19:06:23Z",
+      "last_modified": "2026-11-06T19:43:46Z",
       "tags": [
         "peft",
         "safetensors",
@@ -117190,6 +117236,31 @@
         "ru",
         "zh",
         "arxiv:2010.13886",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/G1-Factory-GR00T-1.7",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/G1-Factory-GR00T-1.7",
+      "last_modified": "2026-11-07T04:46:40Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "safetensors",
+        "Gr00tN1d7",
+        "robotics",
+        "gr00t",
+        "vision-language-action",
+        "unitree-g1",
+        "isaaclab-arena",
+        "dataset:nvidia/G1-Factory-Benchmark",
+        "arxiv:2503.14734",
+        "base_model:nvidia/GR00T-N1.7-3B",
+        "base_model:finetune:nvidia/GR00T-N1.7-3B",
         "license:other",
         "region:us"
       ]
@@ -118246,6 +118317,28 @@
         "lora",
         "fine-tuned",
         "pytorch",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/Isaac-RLPT-GR00T-1.7-G1-Factory-PushButton-DSRL",
+      "status": "packaging",
+      "url": "https://huggingface.co/nvidia/Isaac-RLPT-GR00T-1.7-G1-Factory-PushButton-DSRL",
+      "last_modified": "2026-11-07T04:46:41Z",
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "robotics",
+        "reinforcement-learning",
+        "gr00t",
+        "unitree-g1",
+        "isaaclab-arena",
+        "arxiv:2506.15799",
+        "arxiv:2503.14734",
+        "base_model:nvidia/G1-Factory-GR00T-1.7",
+        "base_model:adapter:nvidia/G1-Factory-GR00T-1.7",
         "license:other",
         "region:us"
       ]
@@ -120889,9 +120982,10 @@
       "repository_id": "nvidia/Metatron-v1",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Metatron-v1",
-      "last_modified": "2026-10-29T22:08:56Z",
+      "last_modified": "2026-11-07T01:45:14Z",
       "pipeline_tag": "reinforcement-learning",
       "tags": [
+        "protomotions",
         "onnx",
         "robotics",
         "reinforcement-learning",
@@ -129588,7 +129682,7 @@
       "repository_id": "nvidia/SOMA-X",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/SOMA-X",
-      "last_modified": "2026-11-02T23:34:58Z",
+      "last_modified": "2026-11-06T18:08:46Z",
       "pipeline_tag": "robotics",
       "tags": [
         "soma-x",
@@ -142252,7 +142346,8 @@
       "provider_id": "tencent",
       "organization": "tencent",
       "repository_id": "tencent/TCAndon-Router",
-      "status": "new",
+      "registry_id": "tencent/tcandon-router",
+      "status": "materialized",
       "url": "https://huggingface.co/tencent/TCAndon-Router",
       "last_modified": "2026-01-12T02:23:54Z",
       "pipeline_tag": "text-generation",

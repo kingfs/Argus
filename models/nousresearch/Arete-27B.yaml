@@ -1,0 +1,43 @@
+schema_version: 2
+id: nousresearch/arete-27b
+name: Arete-27B
+provider: Nous Research
+developer: nousresearch
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/NousResearch/Arete-27B
+identifiers:
+  huggingface:
+    - NousResearch/Arete-27B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/NousResearch/Arete-27B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/Arete-27B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/Arete-27B
+upstream:
+  huggingface:
+    id: NousResearch/Arete-27B
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - qwen3_5
+      - nous-research
+      - arete
+      - supervised-fine-tuning
+      - value-alignment
+      - text-generation
+      - conversational
+      - dataset:NousResearch/arete-data-pairs
+      - base_model:Qwen/Qwen3.8-27B
+      - base_model:finetune:Qwen/Qwen3.8-27B
+      - license:apache-2.0
+      - region:us

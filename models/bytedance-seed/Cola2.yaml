@@ -1,0 +1,42 @@
+schema_version: 2
+id: bytedance-seed/cola2
+name: Cola2
+provider: ByteDance Seed
+developer: bytedance-seed
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/ByteDance-Seed/Cola2
+identifiers:
+  huggingface:
+    - ByteDance-Seed/Cola2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ByteDance-Seed/Cola2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Cola2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Cola2
+upstream:
+  huggingface:
+    id: ByteDance-Seed/Cola2
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - cola2
+      - feature-extraction
+      - custom_code
+      - diffusion
+      - continuous-latent
+      - base-model
+      - text-generation
+      - conversational
+      - arxiv:2610.31305
+      - region:us

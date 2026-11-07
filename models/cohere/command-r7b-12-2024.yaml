@@ -38,6 +38,8 @@ upstream:
       - stop
       - structured_outputs
       - temperature
+      - tool_choice
+      - tools
       - top_k
       - top_p
     input_modalities:
@@ -45,7 +47,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-08-31"
-    fetched_at: 2026-07-29T10:37:20.658621412Z
+    fetched_at: 2026-11-07T07:54:53.356360344Z
   huggingface:
     id: CohereLabs/c4ai-command-r7b-12-2024
     revision: 4f3d0aa6856e322f2f4480fe65420d5d53d297b8

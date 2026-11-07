@@ -56,6 +56,7 @@ upstream:
       - stop
       - structured_outputs
       - temperature
+      - tool_choice
       - tools
       - top_k
       - top_p
@@ -64,7 +65,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-23T06:51:36.042290929Z
+    fetched_at: 2026-11-07T07:54:53.355238978Z
   huggingface:
     id: CohereLabs/command-a-plus-05-2026-bf16
     revision: 5fb6fde5fd12ff89356aae552e11883bc49f069b

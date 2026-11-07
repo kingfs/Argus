@@ -1,0 +1,120 @@
+schema_version: 2
+id: liquid/lfm-3-1.7b
+name: 'LiquidAI: LFM3-1.7B'
+provider: Liquid
+developer: liquid
+lifecycle: active
+description: A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...
+description_cn: 一款1.7B参数量的紧凑型文本模型，支持256K token上下文，专为代理、工具调用和结构化输出经过后训练。它在回答前先进行推理。提示词和输出内容可能会被保留并使用……
+context_length: 262144
+max_output: 8192
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - liquid/lfm-3-1.7b:free
+discovered_at: 2026-11-07T07:54:45.3299769Z
+links:
+  model_card: https://huggingface.co/LiquidAI/LFM3-1.7B
+identifiers:
+  huggingface:
+    - LiquidAI/LFM3-1.7B
+  openrouter:
+    - liquid/lfm-3-1.7b
+    - liquid/lfm-3-1.7b:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: liquid/lfm-3-1.7b-20261106
+    huggingface_id: LiquidAI/LFM3-1.7B
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-07T07:54:53.35857988Z
+  huggingface:
+    id: LiquidAI/LFM3-1.7B
+    revision: 0dc4268b561499c648c7ba7c9466bf3d8d01517a
+    pipeline_tag: text-generation
+    model_type: lfm3
+    architectures:
+      - Lfm3ForCausalLM
+    license: other
+    tags:
+      - ar
+      - base_model:LiquidAI/LFM3-1.7B-Base
+      - base_model:finetune:LiquidAI/LFM3-1.7B-Base
+      - conversational
+      - custom_code
+      - de
+      - edge
+      - en
+      - endpoints_compatible
+      - es
+      - eval-results
+      - fr
+      - hi
+      - id
+      - it
+      - ja
+      - ko
+      - lfm3
+      - license:other
+      - liquid
+      - pl
+      - pt
+      - region:us
+      - ru
+      - safetensors
+      - text-generation
+      - th
+      - transformers
+      - vi
+      - zh
+    config_context_length: 262144
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-07T07:54:54.218434947Z
+reasoning:
+  supported: true
+  mandatory: true
