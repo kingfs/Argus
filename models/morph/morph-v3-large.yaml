@@ -19,10 +19,13 @@ features:
   - CapChat
   - ModalityTextIn
   - ModalityTextOut
+aliases:
+  - morph/morph-v3-large:batch
 discovered_at: 2026-07-29T10:40:16.04482762Z
 identifiers:
   openrouter:
     - morph/morph-v3-large
+    - morph/morph-v3-large:batch
 upstream:
   openrouter:
     canonical_slug: morph/morph-v3-large

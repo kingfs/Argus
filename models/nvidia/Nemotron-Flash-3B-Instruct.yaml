@@ -1,0 +1,38 @@
+schema_version: 2
+id: nvidia/nemotron-flash-3b-instruct
+name: Nemotron-Flash-3B-Instruct
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Flash-3B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Flash-3B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - nemotron_flash
+      - text-generation
+      - custom_code
+      - arxiv:2511.18890
+      - license:other
+      - region:us

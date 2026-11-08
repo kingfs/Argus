@@ -1,0 +1,43 @@
+schema_version: 2
+id: tencent/qwen3.8-27b-dspine-b16
+name: Qwen3.8-27B-DSpine-b16
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16
+identifiers:
+  huggingface:
+    - tencent/Qwen3.8-27B-DSpine-b16
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16
+upstream:
+  huggingface:
+    id: tencent/Qwen3.8-27B-DSpine-b16
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - qwen3
+      - dspine
+      - speculative-decoding
+      - draft-model
+      - sglang
+      - text-generation
+      - arxiv:2609.36173
+      - arxiv:2607.05147
+      - base_model:Qwen/Qwen3.8-27B
+      - base_model:finetune:Qwen/Qwen3.8-27B
+      - license:apache-2.0
+      - region:us

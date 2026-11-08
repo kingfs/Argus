@@ -1,0 +1,62 @@
+schema_version: 2
+id: cohere/aya-vision-32b
+name: aya-vision-32b
+provider: Cohere
+developer: cohere
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/CohereLabs/aya-vision-32b
+identifiers:
+  huggingface:
+    - CohereLabs/aya-vision-32b
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/CohereLabs/aya-vision-32b
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/CohereLabs/aya-vision-32b
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/CohereLabs/aya-vision-32b
+upstream:
+  huggingface:
+    id: CohereLabs/aya-vision-32b
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - aya_vision
+      - image-text-to-text
+      - conversational
+      - en
+      - fr
+      - de
+      - es
+      - it
+      - pt
+      - ja
+      - ko
+      - zh
+      - ar
+      - el
+      - fa
+      - pl
+      - id
+      - cs
+      - he
+      - hi
+      - nl
+      - ro
+      - ru
+      - tr
+      - uk
+      - vi
+      - arxiv:2412.04261
+      - license:cc-by-nc-4.0
+      - region:us

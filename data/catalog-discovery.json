@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 997,
-  "models_with_official_links": 802,
+  "models": 1002,
+  "models_with_official_links": 808,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -2009,7 +2009,8 @@
       "provider_id": "cohere",
       "organization": "CohereLabs",
       "repository_id": "CohereLabs/aya-expanse-32b",
-      "status": "new",
+      "registry_id": "cohere/aya-expanse-32b",
+      "status": "materialized",
       "url": "https://huggingface.co/CohereLabs/aya-expanse-32b",
       "last_modified": "2026-01-09T23:08:52Z",
       "pipeline_tag": "text-generation",
@@ -2057,7 +2058,8 @@
       "provider_id": "cohere",
       "organization": "CohereLabs",
       "repository_id": "CohereLabs/aya-expanse-8b",
-      "status": "new",
+      "registry_id": "cohere/aya-expanse-8b",
+      "status": "materialized",
       "url": "https://huggingface.co/CohereLabs/aya-expanse-8b",
       "last_modified": "2026-01-09T23:07:58Z",
       "pipeline_tag": "text-generation",
@@ -2105,7 +2107,8 @@
       "provider_id": "cohere",
       "organization": "CohereLabs",
       "repository_id": "CohereLabs/aya-vision-32b",
-      "status": "new",
+      "registry_id": "cohere/aya-vision-32b",
+      "status": "materialized",
       "url": "https://huggingface.co/CohereLabs/aya-vision-32b",
       "last_modified": "2026-01-09T23:09:29Z",
       "pipeline_tag": "image-text-to-text",
@@ -117245,7 +117248,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/G1-Factory-GR00T-1.7",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/G1-Factory-GR00T-1.7",
       "last_modified": "2026-11-07T04:46:40Z",
       "pipeline_tag": "robotics",
@@ -125348,7 +125350,8 @@
         "base_model:mistralai/Ministral-3-3B-Instruct-2512-BF16",
         "base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512-BF16",
         "license:other",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ]
     },
     {
@@ -125378,7 +125381,8 @@
         "license:other",
         "8-bit",
         "compressed-tensors",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ]
     },
     {
@@ -125440,7 +125444,8 @@
         "base_model:mistralai/Ministral-3-8B-Instruct-2512-BF16",
         "base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512-BF16",
         "license:other",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ]
     },
     {
@@ -125870,7 +125875,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-Flash-3B-Instruct",
-      "status": "new",
+      "registry_id": "nvidia/nemotron-flash-3b-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct",
       "last_modified": "2026-01-09T22:13:27Z",
       "pipeline_tag": "text-generation",
@@ -138185,6 +138191,28 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/video-to-data-GR00T-N1.7-finetuned-tissue-box-lift",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/video-to-data-GR00T-N1.7-finetuned-tissue-box-lift",
+      "last_modified": "2026-11-07T04:46:41Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "safetensors",
+        "Gr00tN1d7",
+        "robotics",
+        "gr00t",
+        "vision-language-action",
+        "arxiv:2503.14734",
+        "base_model:nvidia/GR00T-N1.7-3B",
+        "base_model:finetune:nvidia/GR00T-N1.7-3B",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/xmgn_drivaerml_surface",
       "status": "new",
       "url": "https://huggingface.co/nvidia/xmgn_drivaerml_surface",
@@ -142116,6 +142144,31 @@
         "qwen3",
         "custom_code",
         "arxiv:2609.36173",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/Qwen3.8-27B-DSpine-b16",
+      "registry_id": "tencent/qwen3.8-27b-dspine-b16",
+      "status": "materialized",
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "last_modified": "2026-11-07T15:40:48Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "dspine",
+        "speculative-decoding",
+        "draft-model",
+        "sglang",
+        "text-generation",
+        "arxiv:2609.36173",
+        "arxiv:2607.05147",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:finetune:Qwen/Qwen3.8-27B",
         "license:apache-2.0",
         "region:us"
       ]

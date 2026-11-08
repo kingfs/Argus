@@ -36,6 +36,7 @@ upstream:
     huggingface_id: moonshotai/Kimi-K2-Instruct-0905
     supported_parameters:
       - frequency_penalty
+      - logprobs
       - max_tokens
       - presence_penalty
       - repetition_penalty
@@ -47,13 +48,14 @@ upstream:
       - tool_choice
       - tools
       - top_k
+      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
     knowledge_cutoff: "2024-12-31"
-    fetched_at: 2026-07-29T10:40:01.210259895Z
+    fetched_at: 2026-11-08T08:11:32.431458498Z
   huggingface:
     id: moonshotai/Kimi-K2-Instruct-0905
     revision: ac6c49f04883bd0a0598b790693a72061c676629

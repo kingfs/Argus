@@ -2270,7 +2270,7 @@ func init() {
 			ContextLenVal:   1048576,
 			MaxOutputVal:    393216,
 			FeaturesVal:     CapChat | CapFunctionCall | CapJsonMode | ModalityImageIn | ModalityTextIn | ModalityTextOut | CapMultimodal,
-			AliasList:       []string{"deepseek-v4.1-flash-1017", "~deepseek/deepseek-flash-latest"},
+			AliasList:       []string{"deepseek-v4.1-flash-1017", "deepseek/deepseek-v4.1-flash-1017:batch", "~deepseek/deepseek-flash-latest"},
 		},
 		"dots-studio/dots-3-note-preview": {
 			IDVal:           "dots-studio/dots-3-note-preview",
@@ -5870,7 +5870,7 @@ func init() {
 			ContextLenVal:   81920,
 			MaxOutputVal:    38000,
 			FeaturesVal:     CapChat | ModalityTextIn | ModalityTextOut,
-			AliasList:       []string{"morph-v3-fast"},
+			AliasList:       []string{"morph-v3-fast", "morph/morph-v3-fast:batch"},
 		},
 		"morph/morph-v3-large": {
 			IDVal:           "morph/morph-v3-large",
@@ -5888,7 +5888,7 @@ func init() {
 			ContextLenVal:   262144,
 			MaxOutputVal:    131072,
 			FeaturesVal:     CapChat | ModalityTextIn | ModalityTextOut,
-			AliasList:       []string{"morph-v3-large"},
+			AliasList:       []string{"morph-v3-large", "morph/morph-v3-large:batch"},
 		},
 		"neversleep/llama-3.1-lumimaid-8b": {
 			IDVal:           "neversleep/llama-3.1-lumimaid-8b",
@@ -11093,6 +11093,7 @@ func init() {
 		"deepseek/deepseek-v4-flash-vision-exp:batch":                   "deepseek/deepseek-v4-flash-vision-exp",
 		"deepseek/deepseek-v4-flash:free":                               "deepseek/deepseek-v4-flash",
 		"deepseek/deepseek-v4-pro-0813:batch":                           "deepseek/deepseek-v4-pro-0813",
+		"deepseek/deepseek-v4.1-flash-1017:batch":                       "deepseek/deepseek-v4.1-flash-1017",
 		"deepseek/deepseek-v4.1-flash:batch":                            "deepseek/deepseek-v4.1-flash",
 		"dense_1b_130b":                                                 "allenai/dense_1b_130b",
 		"devstral-2512":                                                 "mistralai/devstral-2512",
@@ -11477,6 +11478,8 @@ func init() {
 		"moonshotai/kimi-k3:batch":                                      "moonshotai/kimi-k3",
 		"morph-v3-fast":                                                 "morph/morph-v3-fast",
 		"morph-v3-large":                                                "morph/morph-v3-large",
+		"morph/morph-v3-fast:batch":                                     "morph/morph-v3-fast",
+		"morph/morph-v3-large:batch":                                    "morph/morph-v3-large",
 		"muse-glimmer-30b":                                              "meta/muse-glimmer-30b",
 		"muse-spark-1.1":                                                "meta/muse-spark-1.1",
 		"muse-spark-1.2":                                                "meta/muse-spark-1.2",
