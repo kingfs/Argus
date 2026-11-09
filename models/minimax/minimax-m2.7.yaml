@@ -37,9 +37,7 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - repetition_penalty
@@ -55,7 +53,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-10-02T07:39:22.0124842Z
+    fetched_at: 2026-11-09T08:47:04.852240847Z
   huggingface:
     id: MiniMaxAI/MiniMax-M2.7
     revision: d494266a4affc0d2995ba1fa35c8481cbd84294b

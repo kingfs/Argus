@@ -1,0 +1,42 @@
+schema_version: 2
+id: bytedance-seed/qwen3-30b-a3b-moe-sae
+name: Qwen3-30B-A3B-MoE-SAE
+provider: ByteDance Seed
+developer: bytedance-seed
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+identifiers:
+  huggingface:
+    - ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+upstream:
+  huggingface:
+    id: ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE
+    pipeline_tag: feature-extraction
+    tags:
+      - sparse-autoencoder
+      - sae
+      - interpretability
+      - mixture-of-experts
+      - qwen3
+      - feature-extraction
+      - en
+      - arxiv:2611.08089
+      - base_model:Qwen/Qwen3-30B-A3B
+      - base_model:finetune:Qwen/Qwen3-30B-A3B
+      - license:apache-2.0
+      - region:us

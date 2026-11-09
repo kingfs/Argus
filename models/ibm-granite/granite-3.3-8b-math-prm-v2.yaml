@@ -1,0 +1,46 @@
+schema_version: 2
+id: ibm-granite/granite-3.3-8b-math-prm-v2
+name: granite-3.3-8b-math-prm-v2
+provider: IBM Granite
+developer: ibm-granite
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/ibm-granite/granite-3.3-8b-math-prm-v2
+identifiers:
+  huggingface:
+    - ibm-granite/granite-3.3-8b-math-prm-v2
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ibm-granite/granite-3.3-8b-math-prm-v2
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-3.3-8b-math-prm-v2
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-3.3-8b-math-prm-v2
+upstream:
+  huggingface:
+    id: ibm-granite/granite-3.3-8b-math-prm-v2
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - granite
+      - text-generation
+      - reward model
+      - conversational
+      - en
+      - arxiv:2412.06559
+      - arxiv:2501.03124
+      - arxiv:2406.06592
+      - base_model:ibm-granite/granite-3.3-8b-instruct
+      - base_model:finetune:ibm-granite/granite-3.3-8b-instruct
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us
+      - deploy:azure
