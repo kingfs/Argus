@@ -1,0 +1,44 @@
+schema_version: 2
+id: meituan/longcat-2.5
+name: LongCat-2.5
+provider: Meituan LongCat
+developer: meituan
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/meituan-longcat/LongCat-2.5
+identifiers:
+  huggingface:
+    - meituan-longcat/LongCat-2.5
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/meituan-longcat/LongCat-2.5
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/meituan-longcat/LongCat-2.5
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/meituan-longcat/LongCat-2.5
+upstream:
+  huggingface:
+    id: meituan-longcat/LongCat-2.5
+    pipeline_tag: image-text-to-text
+    tags:
+      - safetensors
+      - pro_v
+      - multimodal
+      - image-text-to-text
+      - text-generation
+      - mixture-of-experts
+      - agentic
+      - conversational
+      - custom_code
+      - arxiv:2603.27538
+      - arxiv:1909.07606
+      - license:mit
+      - region:us

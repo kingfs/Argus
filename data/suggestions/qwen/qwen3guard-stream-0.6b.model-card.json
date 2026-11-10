@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3guard-stream-0.6b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-10T08:54:36.701917859Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/resolve/74e1479150e9029d6778993f00491108323bb6f8/README.md",
+    "revision": "74e1479150e9029d6778993f00491108323bb6f8",
+    "sha256": "4e4dad05948c858ea2866b1dca44f48b3a26afc3b5ac32f82a63add541dbbee1"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen3Guard-Stream is a safety moderation model built on Qwen3 with a token-level classification head for real-time safety monitoring during incremental text generation. It supports 119 languages and provides three-tiered severity classification.",
+      "evidence": "**Qwen3Guard-Stream**, which incorporates a token-level classification head for real-time safety monitoring during incremental text generation... Supports 119 languages and dialects",
+      "section": "Qwen3Guard-Stream-0.6B",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "supports adaptation to diverse deployment scenarios... robust performance in global and cross-lingual applications",
+      "section": "Qwen3Guard-Stream-0.6B",
+      "confidence": "medium"
+    }
+  ]
+}

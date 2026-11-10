@@ -15,10 +15,13 @@ features:
   - ModalityTextIn
   - ModalityTextOut
   - ModalityVideoIn
+aliases:
+  - qwen/qwen3.8-max-0902:batch
 discovered_at: 2026-09-05T06:24:48.986137684Z
 identifiers:
   openrouter:
     - qwen/qwen3.8-max-0902
+    - qwen/qwen3.8-max-0902:batch
 provenance:
   context_length:
     source: openrouter

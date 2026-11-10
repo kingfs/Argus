@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1012,
-    "compiled": 610,
-    "candidates": 376,
+    "models": 1021,
+    "compiled": 616,
+    "candidates": 379,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 136,
-    "unverified_identities": 249
+    "identity_gaps": 139,
+    "unverified_identities": 253
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 986,
+    "model": 995,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 708,
-      "openrouter": 304
+      "official_huggingface": 713,
+      "openrouter": 308
     },
     "unverified": [
       {
@@ -114,6 +114,11 @@
       },
       {
         "id": "anthropic/claude-fable-5.1",
+        "provider": "anthropic",
+        "source": "openrouter"
+      },
+      {
+        "id": "anthropic/claude-fable-5.2",
         "provider": "anthropic",
         "source": "openrouter"
       },
@@ -453,6 +458,11 @@
         "source": "openrouter"
       },
       {
+        "id": "meta/muse-ember",
+        "provider": "meta",
+        "source": "openrouter"
+      },
+      {
         "id": "meta/muse-glimmer-30b",
         "provider": "meta",
         "source": "openrouter"
@@ -585,6 +595,11 @@
       {
         "id": "mistralai/pixtral-large-2411",
         "provider": "mistral",
+        "source": "openrouter"
+      },
+      {
+        "id": "nex-agi/nex-n2.6",
+        "provider": "nex-agi",
         "source": "openrouter"
       },
       {
@@ -1115,6 +1130,11 @@
       {
         "id": "tencent/hy4",
         "provider": "tencent",
+        "source": "openrouter"
+      },
+      {
+        "id": "thinkingmachines/inkling-2-small",
+        "provider": "thinkingmachines",
         "source": "openrouter"
       },
       {
@@ -1656,6 +1676,10 @@
       "provider": "liquid"
     },
     {
+      "id": "meta/muse-ember",
+      "provider": "meta"
+    },
+    {
       "id": "meta/muse-spark-1.1",
       "provider": "meta"
     },
@@ -1754,6 +1778,10 @@
     {
       "id": "mistralai/pixtral-large-2411",
       "provider": "mistral"
+    },
+    {
+      "id": "nex-agi/nex-n2.6",
+      "provider": "nex-agi"
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl",
@@ -1886,6 +1914,10 @@
     {
       "id": "tencent/hy4",
       "provider": "tencent"
+    },
+    {
+      "id": "thinkingmachines/inkling-2-small",
+      "provider": "thinkingmachines"
     },
     {
       "id": "tngtech/tng-r1t-chimera",

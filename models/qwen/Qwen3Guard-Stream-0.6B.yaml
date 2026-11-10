@@ -3,7 +3,9 @@ id: qwen/qwen3guard-stream-0.6b
 name: Qwen3Guard-Stream-0.6B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
+lifecycle: active
+description: Qwen3Guard-Stream is a safety moderation model built on Qwen3 with a token-level classification head for real-time safety monitoring during incremental text generation. It supports 119 languages and provides three-tiered severity classification.
+description_cn: Qwen3Guard-Stream 是一个基于 Qwen3 构建的安全审核模型，配备 token 级分类头，用于在增量文本生成期间进行实时安全监控。它支持 119 种语言，并提供三级严重性分类。
 context_length: 8192
 features:
   - CapEmbedding
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/resolve/74e1479150e9029d6778993f00491108323bb6f8/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B

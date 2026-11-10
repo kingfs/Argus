@@ -3,8 +3,10 @@ id: qwen/qwen3.5-9b-base
 name: Qwen3.5-9B-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5-9B-Base is a pre-trained causal language model with a vision encoder, designed for fine-tuning and research rather than direct interaction. It features a 9B parameter architecture with mixed linear and attention layers.
+description_cn: Qwen3.5-9B-Base 是一个带有视觉编码器的预训练因果语言模型，专为微调和研究设计，而非直接交互。其采用 9B 参数架构，混合了线性层和注意力层。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-9B-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-9B-Base

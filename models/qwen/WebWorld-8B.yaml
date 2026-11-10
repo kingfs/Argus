@@ -3,7 +3,9 @@ id: qwen/webworld-8b
 name: WebWorld-8B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
+lifecycle: active
+description: WebWorld is a large-scale open-web world model series for training and evaluating web agents, trained on 1M+ real-world web interaction trajectories.
+description_cn: WebWorld 是一个大规模开放网络世界模型系列，用于训练和评估网络智能体，训练数据包含超过 100 万条真实世界网络交互轨迹。
 context_length: 40960
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/Qwen/WebWorld-8B
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/WebWorld-8B/resolve/26c65891f0a59c9b1dcc435eaadcc08ce6102a94/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/WebWorld-8B

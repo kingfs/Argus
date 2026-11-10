@@ -1,0 +1,76 @@
+schema_version: 2
+id: meta/muse-ember
+name: 'Meta: Muse Ember'
+provider: Meta
+developer: meta
+description: 'Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...'
+description_cn: Muse Ember 是 Meta 推出的最小且最高效的模型，专为复杂推理执行及智能体整日重复的工作而设计：工具调用、编码智能体子任务、路由等...
+context_length: 1048576
+max_output: 943718
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+discovered_at: 2026-11-10T08:54:08.779830344Z
+identifiers:
+  openrouter:
+    - meta/muse-ember
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: meta/muse-ember-20261109
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-10T08:54:13.410867217Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: max
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal
+    - xhigh

@@ -1,0 +1,40 @@
+schema_version: 2
+id: bytedance-seed/cross-layer-topk-clt
+name: Cross-Layer-TopK-CLT
+provider: ByteDance Seed
+developer: bytedance-seed
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT
+identifiers:
+  huggingface:
+    - ByteDance-Seed/Cross-Layer-TopK-CLT
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT
+upstream:
+  huggingface:
+    id: ByteDance-Seed/Cross-Layer-TopK-CLT
+    pipeline_tag: feature-extraction
+    tags:
+      - interpretability
+      - mechanistic-interpretability
+      - transcoder
+      - cross-layer-transcoder
+      - feature-extraction
+      - arxiv:2611.09233
+      - base_model:Qwen/Qwen3-8B-Base
+      - base_model:finetune:Qwen/Qwen3-8B-Base
+      - license:apache-2.0
+      - region:us

@@ -1,0 +1,38 @@
+schema_version: 2
+id: thinkingmachines/inkling-2-small
+name: 'Thinking Machines: Inkling 2 Small (free)'
+provider: Thinkingmachines
+developer: thinkingmachines
+lifecycle: candidate
+description: Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...
+description_cn: Inkling 2 Small 是 Thinking Machines Lab 推出的多模态混合专家推理模型，总参数 594B 中激活 17B。它是第二代 Inkling 系列中的首个模型...
+context_length: 1048576
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - thinkingmachines/inkling-2-small:free
+discovered_at: 2026-11-10T08:54:08.778292444Z
+identifiers:
+  openrouter:
+    - thinkingmachines/inkling-2-small
+    - thinkingmachines/inkling-2-small:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter

@@ -1,0 +1,46 @@
+schema_version: 2
+id: zai/autoglm-phone-9b
+name: AutoGLM-Phone-9B
+provider: Z.ai
+developer: zai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/zai-org/AutoGLM-Phone-9B
+identifiers:
+  huggingface:
+    - zai-org/AutoGLM-Phone-9B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/zai-org/AutoGLM-Phone-9B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/zai-org/AutoGLM-Phone-9B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/zai-org/AutoGLM-Phone-9B
+upstream:
+  huggingface:
+    id: zai-org/AutoGLM-Phone-9B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - glm4v
+      - image-text-to-text
+      - agent
+      - conversational
+      - zh
+      - arxiv:2411.00820
+      - arxiv:2509.18119
+      - base_model:zai-org/GLM-4.1V-9B-Base
+      - base_model:finetune:zai-org/GLM-4.1V-9B-Base
+      - license:mit
+      - endpoints_compatible
+      - region:us
+      - deploy:azure

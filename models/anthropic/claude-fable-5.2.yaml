@@ -1,0 +1,78 @@
+schema_version: 2
+id: anthropic/claude-fable-5.2
+name: 'Anthropic: Claude Fable 5.2'
+provider: Anthropic
+developer: anthropic
+lifecycle: candidate
+description: Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible...
+description_cn: Claude Fable 5.2 是 Anthropic 针对最严苛技术工作推出的最强大模型，在编码、推理和视觉能力上较 Fable 5.1 有所提升。在预发布测试中，它完成了此前难以实现的任务...
+context_length: 1000000
+max_output: 128000
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - anthropic/claude-fable-5.2:batch
+  - ~anthropic/claude-fable-latest
+discovered_at: 2026-11-10T08:54:08.779319214Z
+links:
+  documentation: https://docs.anthropic.com/en/docs/about-claude/models
+identifiers:
+  openrouter:
+    - anthropic/claude-fable-5.2
+    - anthropic/claude-fable-5.2:batch
+    - ~anthropic/claude-fable-latest
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: anthropic/claude-fable-5.2-20261109
+    supported_parameters:
+      - include_reasoning
+      - max_completion_tokens
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - stop
+      - structured_outputs
+      - tool_choice
+      - tools
+      - verbosity
+    input_modalities:
+      - file
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-10T08:54:13.40758921Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - xhigh

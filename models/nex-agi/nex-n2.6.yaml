@@ -1,0 +1,69 @@
+schema_version: 2
+id: nex-agi/nex-n2.6
+name: 'Nex AGI: Nex-N2.6'
+provider: Nex-Agi
+developer: nex-agi
+lifecycle: candidate
+description: Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with...
+description_cn: Nex-N2.6 是 Nex AGI 推出的代理模型，基于 [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) 构建，参数量约为 321B。适用于计算机使用、编码及涉及工具的长周期任务。与...相比
+context_length: 262144
+max_output: 235929
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-10T08:54:08.777559651Z
+identifiers:
+  openrouter:
+    - nex-agi/nex-n2.6
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: nex-agi/nex-n2.6-20261110
+    huggingface_id: nex-agi/Nex-N2.6
+    supported_parameters:
+      - include_reasoning
+      - logprobs
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-10T08:54:13.412979285Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - medium
