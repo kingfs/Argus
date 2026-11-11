@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-0.8b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-11T08:33:58.092824522Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/2fc06364715b967f1860aea9cf38778875588b17/README.md",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "sha256": "4bf7b79d50325257444314f835a93031255fcba32febf0115fd814c1c9ea68a2"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen3.5 is a Causal Language Model with Vision Encoder featuring 0.8B parameters and 262,144 native context length. It integrates a unified vision-language foundation with 201 languages support, designed for prototyping, fine-tuning, and research.",
+      "evidence": "Type: Causal Language Model with Vision Encoder... Context Length: 262,144 natively... Expanded support to 201 languages and dialects",
+      "section": "## Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively",
+      "section": "## Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text",
+      "section": "YAML Front Matter",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "Qwen3.5 represents a significant leap forward, integrating breakthroughs in... reinforcement learning scale",
+      "section": "Qwen3.5 Highlights",
+      "confidence": "medium"
+    }
+  ]
+}

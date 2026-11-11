@@ -17,7 +17,11 @@ features:
 aliases:
   - mistralai/mistral-medium-3-5:batch
 discovered_at: 2026-07-29T10:39:38.809112868Z
+links:
+  model_card: https://huggingface.co/mistralai/Mistral-Medium-3.5-128B
 identifiers:
+  huggingface:
+    - mistralai/Mistral-Medium-3.5-128B
   openrouter:
     - mistralai/mistral-medium-3-5
     - mistralai/mistral-medium-3-5:batch
@@ -27,6 +31,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: mistralai/mistral-medium-3.5-20260430
+    huggingface_id: mistralai/Mistral-Medium-3.5-128B
     supported_parameters:
       - frequency_penalty
       - include_reasoning
@@ -48,7 +53,50 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:39:38.809113468Z
+    fetched_at: 2026-11-11T08:32:26.040672074Z
+  huggingface:
+    id: mistralai/Mistral-Medium-3.5-128B
+    revision: 22b2b868a15677cfa6061277ed2f653d1349a9ab
+    model_type: mistral3
+    architectures:
+      - Mistral3ForConditionalGeneration
+    license: other
+    tags:
+      - ar
+      - bn
+      - de
+      - en
+      - es
+      - eval-results
+      - fa
+      - fp8
+      - fr
+      - hi
+      - id
+      - it
+      - ja
+      - ko
+      - license:other
+      - mistral3
+      - ms
+      - ne
+      - pl
+      - pt
+      - region:us
+      - ro
+      - ru
+      - safetensors
+      - sr
+      - sv
+      - tr
+      - uk
+      - vLLM
+      - vi
+      - zh
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-11T08:32:27.437135961Z
 reasoning:
   supported: true
   default_effort: high

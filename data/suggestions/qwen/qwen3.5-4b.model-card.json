@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-4b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-11T08:32:52.953040931Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "sha256": "8ec9208744a5fa4debcb4050ab549be7fd9f0906b7abea53ef63a423f359187c"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen3.5-4B is a Causal Language Model with Vision Encoder, using a 4B parameter hybrid architecture (Gated Delta Networks and sparse MoE). It supports early fusion multimodal learning, integrates reinforcement learning from million-agent environments, and covers 201 languages/dialects. The model features a hidden dimension of 2560 and 32 layers, designed for high-throughput inference with minimal latency.",
+      "evidence": "Type: Causal Language Model with Vision Encoder... Number of Parameters: 4B... Global Linguistic Coverage: Expanded support to 201 languages and dialects",
+      "section": "## Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "## Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "Type: Causal Language Model with Vision Encoder... Unified Vision-Language Foundation: Early fusion training on multimodal tokens... visual understanding benchmarks.",
+      "section": "## Model Overview",
+      "confidence": "high"
+    }
+  ]
+}

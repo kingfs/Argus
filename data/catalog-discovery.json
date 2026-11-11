@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 1016,
-  "models_with_official_links": 819,
+  "models": 1024,
+  "models_with_official_links": 824,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -6291,6 +6291,7 @@
         "base_model:LiquidAI/LFM3-VL-2B",
         "base_model:quantized:LiquidAI/LFM3-VL-2B",
         "license:other",
+        "endpoints_compatible",
         "region:us"
       ]
     },
@@ -6571,6 +6572,7 @@
         "base_model:LiquidAI/LFM3-VL-2B",
         "base_model:quantized:LiquidAI/LFM3-VL-2B",
         "license:other",
+        "endpoints_compatible",
         "8-bit",
         "region:us"
       ]
@@ -7665,6 +7667,61 @@
         "es",
         "nl",
         "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "minimax",
+      "organization": "MiniMaxAI",
+      "repository_id": "MiniMaxAI/MiniMax-H3-Image",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:text-to-image",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "last_modified": "2026-11-11T07:10:27Z",
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "minimax-h3",
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-to-image",
+        "image-editing",
+        "image-generation",
+        "en",
+        "base_model:MiniMaxAI/MiniMax-H3",
+        "base_model:finetune:MiniMaxAI/MiniMax-H3",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "minimax",
+      "organization": "MiniMaxAI",
+      "repository_id": "MiniMaxAI/MiniMax-H3-Image-PE",
+      "registry_id": "minimax/minimax-h3-image-pe",
+      "status": "materialized",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE",
+      "last_modified": "2026-11-10T15:16:06Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "prompt-expansion",
+        "text-to-image",
+        "minimax-h3",
+        "fp4",
+        "sglang",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:other",
+        "endpoints_compatible",
+        "8-bit",
+        "modelopt",
         "region:us"
       ]
     },
@@ -10717,7 +10774,8 @@
       "provider_id": "nousresearch",
       "organization": "NousResearch",
       "repository_id": "NousResearch/NousCoder-14B",
-      "status": "new",
+      "registry_id": "nousresearch/nouscoder-14b",
+      "status": "materialized",
       "url": "https://huggingface.co/NousResearch/NousCoder-14B",
       "last_modified": "2026-01-05T22:38:14Z",
       "pipeline_tag": "text-generation",
@@ -38205,7 +38263,8 @@
       "provider_id": "allenai",
       "organization": "allenai",
       "repository_id": "allenai/Olmo-3-32B-Think-SFT",
-      "status": "new",
+      "registry_id": "allenai/olmo-3-32b-think-sft",
+      "status": "materialized",
       "url": "https://huggingface.co/allenai/Olmo-3-32B-Think-SFT",
       "last_modified": "2026-01-05T16:25:54Z",
       "pipeline_tag": "text-generation",
@@ -38430,7 +38489,8 @@
       "provider_id": "allenai",
       "organization": "allenai",
       "repository_id": "allenai/Olmo-3-7B-Think-SFT",
-      "status": "new",
+      "registry_id": "allenai/olmo-3-7b-think-sft",
+      "status": "materialized",
       "url": "https://huggingface.co/allenai/Olmo-3-7B-Think-SFT",
       "last_modified": "2026-01-05T16:25:46Z",
       "pipeline_tag": "text-generation",
@@ -95462,6 +95522,28 @@
     {
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
+      "repository_id": "inclusionAI/SingVL_S1_4B",
+      "registry_id": "inclusionai/singvl_s1_4b",
+      "status": "materialized",
+      "url": "https://huggingface.co/inclusionAI/SingVL_S1_4B",
+      "last_modified": "2026-11-11T05:38:33Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "decision-model",
+        "typed-decisions",
+        "multimodal",
+        "conversational",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
       "repository_id": "inclusionAI/Step-3.7-Flash-singprobe",
       "status": "new",
       "url": "https://huggingface.co/inclusionAI/Step-3.7-Flash-singprobe",
@@ -95507,6 +95589,70 @@
         "base_model:finetune:Qwen/Qwen3.5-9B",
         "endpoints_compatible",
         "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/ZoomGain-4B",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/ZoomGain-4B",
+      "last_modified": "2026-11-11T07:58:12Z",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "arxiv:2611.14076",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/ZoomGain-4B-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/inclusionAI/ZoomGain-4B-GGUF",
+      "last_modified": "2026-11-11T03:13:11Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "qwen3.5",
+        "vision-language",
+        "image-text-to-text",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/ZoomGain-9B",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/ZoomGain-9B",
+      "last_modified": "2026-11-11T07:59:15Z",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "arxiv:2611.14076",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/ZoomGain-9B-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/inclusionAI/ZoomGain-9B-GGUF",
+      "last_modified": "2026-11-11T03:23:57Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "qwen3.5",
+        "vision-language",
+        "image-text-to-text",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ]
     },
     {
@@ -95845,7 +95991,6 @@
       "organization": "meituan-longcat",
       "repository_id": "meituan-longcat/LongCat-2.5-W4A4",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:w4a4",
       "url": "https://huggingface.co/meituan-longcat/LongCat-2.5-W4A4",
       "last_modified": "2026-11-10T07:28:18Z",
       "pipeline_tag": "image-text-to-text",
@@ -95861,6 +96006,28 @@
         "custom_code",
         "arxiv:2603.27538",
         "arxiv:1909.07606",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "meituan",
+      "organization": "meituan-longcat",
+      "repository_id": "meituan-longcat/LongCat-Next",
+      "status": "new",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Next",
+      "last_modified": "2026-11-10T09:43:01Z",
+      "pipeline_tag": "any-to-any",
+      "tags": [
+        "LongCat-Next",
+        "safetensors",
+        "longcat_next",
+        "text-generation",
+        "transformers",
+        "multimodal",
+        "any-to-any",
+        "custom_code",
+        "arxiv:2603.27538",
         "license:mit",
         "region:us"
       ]
@@ -100356,7 +100523,7 @@
       "repository_id": "microsoft/Graphormer",
       "status": "out_of_scope",
       "url": "https://huggingface.co/microsoft/Graphormer",
-      "last_modified": "2026-11-03T00:29:38Z",
+      "last_modified": "2026-11-10T19:09:56Z",
       "tags": [
         "arxiv:2606.02618",
         "license:mit",
@@ -113740,6 +113907,32 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/Alpamayo2-Edge",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/Alpamayo2-Edge",
+      "last_modified": "2026-11-10T06:56:17Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "safetensors",
+        "alpamayo2_edge",
+        "alpamayo",
+        "autonomous-driving",
+        "vision-language-action",
+        "pytorch",
+        "robotics",
+        "en",
+        "dataset:nvidia/PhysicalAI-Autonomous-Vehicles",
+        "dataset:nvidia/PhysicalAI-Autonomous-Vehicles-NuRec",
+        "base_model:nvidia/Cosmos3-Edge",
+        "base_model:finetune:nvidia/Cosmos3-Edge",
+        "license:openmdw-1.1",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/Alpamayo2-Super",
       "status": "out_of_scope",
       "scope_reason": "out-of-scope-pipeline:robotics",
@@ -115894,7 +116087,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Cosmos3-Edge-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/nvidia/Cosmos3-Edge-FP8",
       "last_modified": "2026-11-10T05:01:32Z",
       "tags": [
@@ -116021,7 +116213,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Cosmos3-Nano-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/nvidia/Cosmos3-Nano-FP8",
       "last_modified": "2026-11-10T05:01:29Z",
       "tags": [
@@ -116178,7 +116369,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Cosmos3-Super-FP8",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:fp8",
       "url": "https://huggingface.co/nvidia/Cosmos3-Super-FP8",
       "last_modified": "2026-11-10T05:01:30Z",
       "tags": [
@@ -117874,7 +118064,7 @@
       "repository_id": "nvidia/GR00T-H-N1.7",
       "status": "new",
       "url": "https://huggingface.co/nvidia/GR00T-H-N1.7",
-      "last_modified": "2026-05-30T19:21:24Z",
+      "last_modified": "2026-11-10T22:11:18Z",
       "tags": [
         "safetensors",
         "Gr00tN1d7",
@@ -118157,15 +118347,15 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-N1.7-3B",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B",
-      "last_modified": "2026-04-23T19:09:30Z",
+      "last_modified": "2026-11-10T22:10:22Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
         "Gr00tN1d7",
         "robotics",
         "arxiv:2503.14734",
+        "license:other",
         "region:us"
       ]
     },
@@ -118216,15 +118406,15 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-N1.7-DROID",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-N1.7-DROID",
-      "last_modified": "2026-04-20T23:16:09Z",
+      "last_modified": "2026-11-10T22:11:32Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
         "Gr00tN1d7",
         "robotics",
         "arxiv:2503.14734",
+        "license:other",
         "region:us"
       ]
     },
@@ -118233,14 +118423,14 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-N1.7-LIBERO",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-N1.7-LIBERO",
-      "last_modified": "2026-04-20T23:16:41Z",
+      "last_modified": "2026-11-10T22:11:25Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
         "robotics",
         "arxiv:2503.14734",
+        "license:other",
         "region:us"
       ]
     },
@@ -118249,15 +118439,15 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-N1.7-SimplerEnv-Bridge",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-N1.7-SimplerEnv-Bridge",
-      "last_modified": "2026-04-20T23:07:55Z",
+      "last_modified": "2026-11-10T22:11:38Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
         "Gr00tN1d7",
         "robotics",
         "arxiv:2503.14734",
+        "license:other",
         "region:us"
       ]
     },
@@ -118266,15 +118456,15 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-N1.7-SimplerEnv-Fractal",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-N1.7-SimplerEnv-Fractal",
-      "last_modified": "2026-04-20T23:15:43Z",
+      "last_modified": "2026-11-10T22:11:45Z",
       "pipeline_tag": "robotics",
       "tags": [
         "safetensors",
         "Gr00tN1d7",
         "robotics",
         "arxiv:2503.14734",
+        "license:other",
         "region:us"
       ]
     },
@@ -123447,7 +123637,7 @@
       "repository_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
-      "last_modified": "2026-10-23T21:46:53Z",
+      "last_modified": "2026-11-10T19:42:38Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -125044,7 +125234,7 @@
       "repository_id": "nvidia/Nemotron-3-Diarization",
       "status": "packaging",
       "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-      "last_modified": "2026-09-24T05:52:51Z",
+      "last_modified": "2026-11-10T10:42:18Z",
       "pipeline_tag": "voice-activity-detection",
       "tags": [
         "nemo",
@@ -125057,6 +125247,7 @@
         "speaker-tagging",
         "transformers",
         "voice-activity-detection",
+        "arxiv:2611.12246",
         "arxiv:2409.06656",
         "arxiv:2507.18446",
         "arxiv:2605.15442",
@@ -131203,8 +131394,9 @@
       "repository_id": "nvidia/cbottle",
       "status": "new",
       "url": "https://huggingface.co/nvidia/cbottle",
-      "last_modified": "2026-09-29T15:56:12Z",
+      "last_modified": "2026-11-10T13:35:59Z",
       "tags": [
+        "doi:10.57967/hf/11556",
         "license:apache-2.0",
         "region:us"
       ]
@@ -131959,9 +132151,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t12_35M_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t12_35M_UR50D",
-      "last_modified": "2026-04-08T03:18:05Z",
+      "last_modified": "2026-11-11T00:31:06Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -131978,9 +132169,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t30_150M_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t30_150M_UR50D",
-      "last_modified": "2026-04-08T03:18:18Z",
+      "last_modified": "2026-11-11T00:31:08Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -131997,9 +132187,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t33_650M_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t33_650M_UR50D",
-      "last_modified": "2026-04-08T03:18:34Z",
+      "last_modified": "2026-11-11T00:31:10Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -132016,9 +132205,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t36_3B_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t36_3B_UR50D",
-      "last_modified": "2026-04-08T03:19:21Z",
+      "last_modified": "2026-11-11T00:31:12Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -132035,9 +132223,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t48_15B_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t48_15B_UR50D",
-      "last_modified": "2026-04-08T03:22:27Z",
+      "last_modified": "2026-11-11T00:31:14Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -132054,9 +132241,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/esm2_t6_8M_UR50D",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:fill-mask",
       "url": "https://huggingface.co/nvidia/esm2_t6_8M_UR50D",
-      "last_modified": "2026-04-06T17:40:42Z",
+      "last_modified": "2026-11-11T00:31:04Z",
       "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
@@ -142073,7 +142259,7 @@
       "repository_id": "tencent/KaLM-Embedding-Gemma3-12B-2511",
       "status": "new",
       "url": "https://huggingface.co/tencent/KaLM-Embedding-Gemma3-12B-2511",
-      "last_modified": "2026-02-10T02:18:34Z",
+      "last_modified": "2026-11-11T08:11:57Z",
       "pipeline_tag": "sentence-similarity",
       "tags": [
         "sentence-transformers",

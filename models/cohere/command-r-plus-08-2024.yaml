@@ -34,6 +34,7 @@ identifiers:
 upstream:
   openrouter:
     canonical_slug: cohere/command-r-plus-08-2024
+    huggingface_id: CohereLabs/c4ai-command-r-plus-08-2024
     supported_parameters:
       - frequency_penalty
       - max_tokens
@@ -52,7 +53,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-03-31"
-    fetched_at: 2026-07-29T10:37:20.227061677Z
+    fetched_at: 2026-11-11T08:32:26.034573743Z
   huggingface:
     id: CohereLabs/c4ai-command-r-plus-08-2024
     revision: e808c1a2249354ca211c9f08d1338e5039f633f8

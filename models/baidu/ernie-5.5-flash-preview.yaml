@@ -1,0 +1,38 @@
+schema_version: 2
+id: baidu/ernie-5.5-flash-preview
+name: 'Baidu: ERNIE-5.5-Flash-Preview (free)'
+provider: Baidu
+developer: baidu
+lifecycle: candidate
+description: ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...
+description_cn: ERNIE 5.5 Flash Preview 是文心家族最新的基础模型，在编码、智能体能力、知识工作及深度研究方面均有全面改进。其总参数量为2800亿...
+context_length: 1024000
+max_output: 921600
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - baidu/ernie-5.5-flash-preview:free
+discovered_at: 2026-11-11T08:32:19.306665633Z
+identifiers:
+  openrouter:
+    - baidu/ernie-5.5-flash-preview
+    - baidu/ernie-5.5-flash-preview:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter

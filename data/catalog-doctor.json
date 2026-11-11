@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1021,
-    "compiled": 616,
-    "candidates": 379,
+    "models": 1029,
+    "compiled": 621,
+    "candidates": 382,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 139,
-    "unverified_identities": 253
+    "identity_gaps": 138,
+    "unverified_identities": 252
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 995,
+    "model": 1003,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 713,
-      "openrouter": 308
+      "official_huggingface": 722,
+      "openrouter": 307
     },
     "unverified": [
       {
@@ -218,6 +218,16 @@
         "source": "openrouter"
       },
       {
+        "id": "baidu/ernie-5.5-flash-preview",
+        "provider": "baidu",
+        "source": "openrouter"
+      },
+      {
+        "id": "baidu/ernie-light-dt-1.0-intl",
+        "provider": "baidu",
+        "source": "openrouter"
+      },
+      {
         "id": "baidu/qianfan-ocr-fast",
         "provider": "baidu",
         "source": "openrouter"
@@ -398,6 +408,11 @@
         "source": "openrouter"
       },
       {
+        "id": "google/gemini-4-carbon",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
         "id": "google/gemini-nano-banana-2.1",
         "provider": "google",
         "source": "openrouter"
@@ -548,27 +563,12 @@
         "source": "openrouter"
       },
       {
-        "id": "mistralai/mistral-large-2407",
-        "provider": "mistral",
-        "source": "openrouter"
-      },
-      {
         "id": "mistralai/mistral-large-2411",
         "provider": "mistral",
         "source": "openrouter"
       },
       {
-        "id": "mistralai/mistral-large-2512",
-        "provider": "mistral",
-        "source": "openrouter"
-      },
-      {
         "id": "mistralai/mistral-medium-3",
-        "provider": "mistral",
-        "source": "openrouter"
-      },
-      {
-        "id": "mistralai/mistral-medium-3-5",
         "provider": "mistral",
         "source": "openrouter"
       },
@@ -600,11 +600,6 @@
       {
         "id": "nex-agi/nex-n2.6",
         "provider": "nex-agi",
-        "source": "openrouter"
-      },
-      {
-        "id": "nvidia/nemotron-3.5-super-vl",
-        "provider": "nvidia",
         "source": "openrouter"
       },
       {
@@ -1484,6 +1479,14 @@
       "provider": "baidu"
     },
     {
+      "id": "baidu/ernie-5.5-flash-preview",
+      "provider": "baidu"
+    },
+    {
+      "id": "baidu/ernie-light-dt-1.0-intl",
+      "provider": "baidu"
+    },
+    {
       "id": "baidu/qianfan-ocr-fast",
       "provider": "baidu"
     },
@@ -1628,6 +1631,10 @@
       "provider": "google"
     },
     {
+      "id": "google/gemini-4-carbon",
+      "provider": "google"
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "provider": "google"
     },
@@ -1740,23 +1747,11 @@
       "provider": "mistral"
     },
     {
-      "id": "mistralai/mistral-large-2407",
-      "provider": "mistral"
-    },
-    {
       "id": "mistralai/mistral-large-2411",
       "provider": "mistral"
     },
     {
-      "id": "mistralai/mistral-large-2512",
-      "provider": "mistral"
-    },
-    {
       "id": "mistralai/mistral-medium-3",
-      "provider": "mistral"
-    },
-    {
-      "id": "mistralai/mistral-medium-3-5",
       "provider": "mistral"
     },
     {
@@ -1782,10 +1777,6 @@
     {
       "id": "nex-agi/nex-n2.6",
       "provider": "nex-agi"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-super-vl",
-      "provider": "nvidia"
     },
     {
       "id": "nvidia/switchyard",

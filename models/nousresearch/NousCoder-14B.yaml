@@ -1,0 +1,42 @@
+schema_version: 2
+id: nousresearch/nouscoder-14b
+name: NousCoder-14B
+provider: Nous Research
+developer: nousresearch
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/NousResearch/NousCoder-14B
+identifiers:
+  huggingface:
+    - NousResearch/NousCoder-14B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/NousResearch/NousCoder-14B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/NousCoder-14B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/NousResearch/NousCoder-14B
+upstream:
+  huggingface:
+    id: NousResearch/NousCoder-14B
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - qwen3
+      - text-generation
+      - conversational
+      - dataset:livecodebench/code_generation_lite
+      - dataset:agentica-org/DeepCoder-Preview-Dataset
+      - dataset:NousResearch/lcb_test
+      - dataset:NousResearch/RLVR_Coding_Problems
+      - base_model:Qwen/Qwen3-14B
+      - base_model:finetune:Qwen/Qwen3-14B
+      - license:apache-2.0
+      - region:us

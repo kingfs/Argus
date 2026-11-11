@@ -45,6 +45,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: cohere/command-a-plus-05-2026
+    huggingface_id: CohereLabs/command-a-plus-05-2026-bf16
     supported_parameters:
       - frequency_penalty
       - include_reasoning
@@ -65,7 +66,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-07T07:54:53.355238978Z
+    fetched_at: 2026-11-11T08:32:26.03369525Z
   huggingface:
     id: CohereLabs/command-a-plus-05-2026-bf16
     revision: 5fb6fde5fd12ff89356aae552e11883bc49f069b

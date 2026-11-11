@@ -3,8 +3,10 @@ id: qwen/qwen3.5-35b-a3b-base
 name: Qwen3.5-35B-A3B-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: A pre-trained causal language model with a vision encoder (35B total, 3B activated parameters) featuring Gated Delta Networks and Mixture-of-Experts, supporting 201 languages.
+description_cn: 一款带有视觉编码器的预训练因果语言模型（总参数 35B，激活参数 3B），具备门控 Delta 网络和混合专家（MoE）架构，支持 201 种语言。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-35B-A3B-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base/resolve/0f0813072d2358973511097385626f21fcb6d422/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base/resolve/0f0813072d2358973511097385626f21fcb6d422/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base

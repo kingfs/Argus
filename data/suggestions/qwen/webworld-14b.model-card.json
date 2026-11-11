@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/webworld-14b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-11T08:33:14.218064773Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/WebWorld-14B/resolve/0212f4ed8a4bcd3e299d902f0dbf48b2255611d4/README.md",
+    "revision": "0212f4ed8a4bcd3e299d902f0dbf48b2255611d4",
+    "sha256": "4f070557745769414746c7cb2b1b78283a5689125adbfd3113428cf1c3c43b9a"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "WebWorld is a large-scale open-web world model series for training and evaluating web agents, trained on 1M+ real-world web interaction trajectories. WebWorld-14B is based on Qwen3-14B. It supports long-horizon simulation (30+ steps) and multi-format state representations (A11y Tree, HTML, XML, Markdown, natural language).",
+      "evidence": "WebWorld is a large-scale open-web world model series for training and evaluating web agents. It is trained on 1M+ real-world web interaction trajectories",
+      "section": "## 📚 Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "MODEL CARD",
+      "confidence": "high"
+    }
+  ]
+}

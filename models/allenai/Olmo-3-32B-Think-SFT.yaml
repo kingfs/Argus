@@ -1,0 +1,43 @@
+schema_version: 2
+id: allenai/olmo-3-32b-think-sft
+name: Olmo-3-32B-Think-SFT
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Olmo-3-32B-Think-SFT
+identifiers:
+  huggingface:
+    - allenai/Olmo-3-32B-Think-SFT
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Olmo-3-32B-Think-SFT
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3-32B-Think-SFT
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3-32B-Think-SFT
+upstream:
+  huggingface:
+    id: allenai/Olmo-3-32B-Think-SFT
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - olmo3
+      - text-generation
+      - conversational
+      - en
+      - dataset:allenai/Dolci-Think-SFT
+      - arxiv:2512.13961
+      - base_model:allenai/Olmo-3-1125-32B
+      - base_model:finetune:allenai/Olmo-3-1125-32B
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

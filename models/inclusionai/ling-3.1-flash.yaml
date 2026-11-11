@@ -41,6 +41,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: inclusionai/ling-3.1-flash-20261002
+    huggingface_id: inclusionAI/Ling-3.1-flash
     supported_parameters:
       - frequency_penalty
       - include_reasoning
@@ -65,7 +66,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-10-15T06:37:26.677596675Z
+    fetched_at: 2026-11-11T08:32:26.03747884Z
   huggingface:
     id: inclusionAI/Ling-3.1-flash
     revision: a4ccd6b45c002ddb236f9cb77d52cc427482bf19

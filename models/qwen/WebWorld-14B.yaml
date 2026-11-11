@@ -3,7 +3,9 @@ id: qwen/webworld-14b
 name: WebWorld-14B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
+lifecycle: active
+description: WebWorld is a large-scale open-web world model series for training and evaluating web agents, trained on 1M+ real-world web interaction trajectories. WebWorld-14B is based on Qwen3-14B. It supports long-horizon simulation (30+ steps) and multi-format state representations (A11y Tree, HTML, XML, Markdown, natural language).
+description_cn: WebWorld 是一个大规模开放网页世界模型系列，用于训练和评估网页智能体，基于超过 100 万条真实网页交互轨迹进行训练。WebWorld-14B 基于 Qwen3-14B 构建。支持长程模拟（30+ 步）和多格式状态表示（A11y Tree、HTML、XML、Markdown、自然语言）。
 context_length: 40960
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/Qwen/WebWorld-14B
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/WebWorld-14B/resolve/0212f4ed8a4bcd3e299d902f0dbf48b2255611d4/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/WebWorld-14B

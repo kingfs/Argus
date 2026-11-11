@@ -3,8 +3,10 @@ id: qwen/qwen3.5-122b-a10b-gptq-int4
 name: Qwen3.5-122B-A10B-GPTQ-Int4
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5-122B-A10B-GPTQ-Int4 is a post-trained causal language model with a vision encoder, featuring 122B total and 10B activated parameters. It utilizes a hybrid architecture with Gated Delta Networks and Mixture-of-Experts.
+description_cn: Qwen3.5-122B-A10B-GPTQ-Int4 是一款经过后训练的带有视觉编码器的因果语言模型，总参数量为 122B，激活参数数量为 10B。采用门控 Delta 网络与混合专家（MoE）相结合的混合架构，并应用了 GPTQ Int4 量化技术。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-122B-A10B-GPTQ-Int4
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4/resolve/30cd92cba9707a9aba09d1e490ed4b66b78e9606/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4/resolve/30cd92cba9707a9aba09d1e490ed4b66b78e9606/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4

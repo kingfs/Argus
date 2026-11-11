@@ -17,7 +17,11 @@ features:
 aliases:
   - mistralai/mistral-large-2512:batch
 discovered_at: 2026-07-29T10:39:37.833309841Z
+links:
+  model_card: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
 identifiers:
+  huggingface:
+    - mistralai/Mistral-Large-3-675B-Instruct-2512
   openrouter:
     - mistralai/mistral-large-2512
     - mistralai/mistral-large-2512:batch
@@ -27,6 +31,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: mistralai/mistral-large-2512
+    huggingface_id: mistralai/Mistral-Large-3-675B-Instruct-2512
     supported_parameters:
       - frequency_penalty
       - max_tokens
@@ -45,4 +50,31 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:39:37.833310311Z
+    fetched_at: 2026-11-11T08:32:26.04032343Z
+  huggingface:
+    id: mistralai/Mistral-Large-3-675B-Instruct-2512
+    revision: 383ffea2c7d60dfd44ca960e8e691709d4fdb9cd
+    license: apache-2.0
+    tags:
+      - ar
+      - base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512
+      - base_model:mistralai/Mistral-Large-3-675B-Base-2512
+      - compressed-tensors
+      - de
+      - en
+      - es
+      - eval-results
+      - fr
+      - it
+      - ja
+      - ko
+      - license:apache-2.0
+      - mistral-common
+      - nl
+      - pt
+      - region:us
+      - vllm
+      - zh
+    structured_files:
+      - tokenizer_config.json
+    fetched_at: 2026-11-11T08:32:27.07625107Z

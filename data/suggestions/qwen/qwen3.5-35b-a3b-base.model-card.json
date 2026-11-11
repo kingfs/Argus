@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-35b-a3b-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-11T08:33:36.623295245Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base/resolve/0f0813072d2358973511097385626f21fcb6d422/README.md",
+    "revision": "0f0813072d2358973511097385626f21fcb6d422",
+    "sha256": "60d1e23113fb47e636b3e205fb18e722eddbda152da4301ba7fd9b4395184a4c"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "A pre-trained causal language model with a vision encoder (35B total, 3B activated parameters) featuring Gated Delta Networks and Mixture-of-Experts, supporting 201 languages.",
+      "evidence": "Type: Causal Language Model with Vision Encoder... Number of Parameters: 35B in total and 3B activated... Expanded support to 201 languages",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text... Unified Vision-Language Foundation: Early fusion training on multimodal tokens achieves cross-generational parity",
+      "section": "Model Overview",
+      "confidence": "high"
+    }
+  ]
+}

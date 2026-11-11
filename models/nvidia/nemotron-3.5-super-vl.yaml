@@ -3,7 +3,7 @@ id: nvidia/nemotron-3.5-super-vl
 name: 'NVIDIA: Nemotron 3.5 Super VL'
 provider: Nvidia
 developer: nvidia
-lifecycle: candidate
+lifecycle: active
 description: NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...
 description_cn: NVIDIA Nemotron 3.5 Super VL 是 NVIDIA 推出的一款开放多模态混合专家模型，总参数为 1200 亿，其中 120 亿为激活参数。它支持文本、图像、文档、GUI 截图和视频……
 context_length: 1048576
@@ -19,7 +19,11 @@ features:
 aliases:
   - nvidia/nemotron-3.5-super-vl:free
 discovered_at: 2026-10-16T06:30:35.402697975Z
+links:
+  model_card: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
 identifiers:
+  huggingface:
+    - nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
   openrouter:
     - nvidia/nemotron-3.5-super-vl
     - nvidia/nemotron-3.5-super-vl:free
@@ -43,7 +47,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: nvidia/nemotron-3.5-super-vl-20261015
-    huggingface_id: nvidia/NVIDIA-Nemotron-3.5-Super-VL
+    huggingface_id: nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
     supported_parameters:
       - frequency_penalty
       - include_reasoning
@@ -70,6 +74,45 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-16T06:30:39.116320843Z
+    fetched_at: 2026-11-11T08:32:26.042219757Z
+  huggingface:
+    id: nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
+    revision: fb0ee0bc6b3f70342afd8d84cb80dbadbaa8a1fe
+    pipeline_tag: image-text-to-text
+    model_type: nemotron_h_omni
+    architectures:
+      - NemotronH_Omni_Reasoning_V3
+    license: other
+    tags:
+      - conversational
+      - custom_code
+      - dataset:nvidia/nemotron-post-training-v3
+      - dataset:nvidia/nemotron-pre-training-datasets
+      - de
+      - deploy:azure
+      - deploy:sagemaker
+      - en
+      - endpoints_compatible
+      - es
+      - eval-results
+      - fr
+      - image-text-to-text
+      - it
+      - ja
+      - license:other
+      - nemotron-3.5
+      - nemotron_h_omni
+      - nvidia
+      - pytorch
+      - region:us
+      - safetensors
+      - transformers
+    tokenizer_model_max_length: 1048576
+    processor_class: NemotronH_Omni_Reasoning_V3ImageProcessor
+    structured_files:
+      - config.json
+      - preprocessor_config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-11T08:32:27.790213764Z
 reasoning:
   supported: true

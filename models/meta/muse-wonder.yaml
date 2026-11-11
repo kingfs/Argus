@@ -48,6 +48,7 @@ upstream:
       - reasoning_effort
       - repetition_penalty
       - response_format
+      - seed
       - structured_outputs
       - temperature
       - tool_choice
@@ -62,7 +63,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-13T08:37:50.59341153Z
+    fetched_at: 2026-11-11T08:32:26.039380015Z
 reasoning:
   supported: true
   mandatory: true

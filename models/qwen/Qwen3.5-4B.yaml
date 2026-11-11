@@ -3,8 +3,10 @@ id: qwen/qwen3.5-4b
 name: Qwen3.5-4B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5-4B is a Causal Language Model with Vision Encoder, using a 4B parameter hybrid architecture (Gated Delta Networks and sparse MoE). It supports early fusion multimodal learning, integrates reinforcement learning from million-agent environments, and covers 201 languages/dialects. The model features a hidden dimension of 2560 and 32 layers, designed for high-throughput inference with minimal latency.
+description_cn: Qwen3.5-4B 是一款带有视觉编码器的因果语言模型，采用 4B 参数的混合架构（门控 Delta 网络与稀疏 MoE）。支持早期融合多模态学习，整合了来自百万级智能体环境的强化学习，并覆盖 201 种语言/方言。模型隐藏维度为 2560，层数为 32，专为低延迟的高吞吐量推理而设计。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-4B
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-4B

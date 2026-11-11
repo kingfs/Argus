@@ -1,0 +1,41 @@
+schema_version: 2
+id: inclusionai/singvl_s1_4b
+name: SingVL_S1_4B
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/SingVL_S1_4B
+identifiers:
+  huggingface:
+    - inclusionAI/SingVL_S1_4B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/SingVL_S1_4B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/SingVL_S1_4B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/SingVL_S1_4B
+upstream:
+  huggingface:
+    id: inclusionAI/SingVL_S1_4B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - image-text-to-text
+      - decision-model
+      - typed-decisions
+      - multimodal
+      - conversational
+      - endpoints_compatible
+      - region:us

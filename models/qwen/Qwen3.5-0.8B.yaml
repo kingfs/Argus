@@ -3,8 +3,10 @@ id: qwen/qwen3.5-0.8b
 name: Qwen3.5-0.8B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5 is a Causal Language Model with Vision Encoder featuring 0.8B parameters and 262,144 native context length. It integrates a unified vision-language foundation with 201 languages support, designed for prototyping, fine-tuning, and research.
+description_cn: Qwen3.5 是一款带有视觉编码器的因果语言模型，拥有 0.8B 参数和 262,144 原生上下文长度。它整合了统一的视觉语言基础架构，支持 201 种语言，专为原型设计、微调和研究用途而打造。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-0.8B
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/2fc06364715b967f1860aea9cf38778875588b17/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/2fc06364715b967f1860aea9cf38778875588b17/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-0.8B

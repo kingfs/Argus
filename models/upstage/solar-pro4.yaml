@@ -40,21 +40,25 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
+      - logprobs
       - max_tokens
       - parallel_tool_calls
       - presence_penalty
       - reasoning
       - reasoning_effort
+      - repetition_penalty
       - response_format
       - structured_outputs
       - temperature
       - tool_choice
       - tools
+      - top_k
+      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-19T06:48:00.122392605Z
+    fetched_at: 2026-11-11T08:32:26.048037808Z
 reasoning:
   supported: true

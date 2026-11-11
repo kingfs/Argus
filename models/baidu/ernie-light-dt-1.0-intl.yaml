@@ -1,0 +1,65 @@
+schema_version: 2
+id: baidu/ernie-light-dt-1.0-intl
+name: 'Baidu: ERNIE-Light-DT-1.0'
+provider: Baidu
+developer: baidu
+lifecycle: candidate
+description: ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...
+description_cn: ERNIE-Light-DT-1.0 基于开源 GLM 模型构建，并融入了百度搜索 Lightning 大模型的研究成果。具备百度稀疏注意力（BSA），这是一种由百度开发的独特稀疏注意力机制...
+context_length: 1024000
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-11T08:32:19.307050998Z
+identifiers:
+  openrouter:
+    - baidu/ernie-light-dt-1.0-intl
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: baidu/ernie-light-dt-1.0-intl-20261110
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-11T08:32:26.032465114Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: max
+  supported_efforts:
+    - high
+    - low
+    - max
+    - none

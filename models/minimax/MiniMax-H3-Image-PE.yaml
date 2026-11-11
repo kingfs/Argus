@@ -1,0 +1,49 @@
+schema_version: 2
+id: minimax/minimax-h3-image-pe
+name: MiniMax-H3-Image-PE
+provider: MiniMax
+developer: minimax
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE
+identifiers:
+  huggingface:
+    - MiniMaxAI/MiniMax-H3-Image-PE
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE
+upstream:
+  huggingface:
+    id: MiniMaxAI/MiniMax-H3-Image-PE
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - image-text-to-text
+      - prompt-expansion
+      - text-to-image
+      - minimax-h3
+      - fp4
+      - sglang
+      - text-generation
+      - conversational
+      - en
+      - base_model:Qwen/Qwen3.8-27B
+      - base_model:quantized:Qwen/Qwen3.8-27B
+      - license:other
+      - endpoints_compatible
+      - 8-bit
+      - modelopt
+      - region:us

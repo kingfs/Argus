@@ -1,0 +1,79 @@
+schema_version: 2
+id: google/gemini-4-carbon
+name: 'Google: Gemini 4 Carbon'
+provider: Google
+developer: google
+lifecycle: candidate
+description: Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...
+description_cn: Gemini 4 Carbon 是谷歌推出的前沿 Gemini 4 模型，适用于编码、智能体及复杂推理任务。支持文本、图像、音频、视频及文件输入，并支持长解码...
+context_length: 1048576
+max_output: 943718
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+aliases:
+  - google/gemini-4-carbon:batch
+  - ~google/gemini-pro-latest
+discovered_at: 2026-11-11T08:32:19.307388243Z
+identifiers:
+  openrouter:
+    - google/gemini-4-carbon
+    - google/gemini-4-carbon:batch
+    - ~google/gemini-pro-latest
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: google/gemini-4-carbon-20261110
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-11T08:32:26.036544269Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - medium

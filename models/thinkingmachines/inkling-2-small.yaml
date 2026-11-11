@@ -1,6 +1,6 @@
 schema_version: 2
 id: thinkingmachines/inkling-2-small
-name: 'Thinking Machines: Inkling 2 Small (free)'
+name: 'Thinking Machines: Inkling 2 Small'
 provider: Thinkingmachines
 developer: thinkingmachines
 lifecycle: candidate
