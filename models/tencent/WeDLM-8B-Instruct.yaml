@@ -1,0 +1,43 @@
+schema_version: 2
+id: tencent/wedlm-8b-instruct
+name: WeDLM-8B-Instruct
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeDLM-8B-Instruct
+identifiers:
+  huggingface:
+    - tencent/WeDLM-8B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeDLM-8B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-8B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-8B-Instruct
+upstream:
+  huggingface:
+    id: tencent/WeDLM-8B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - wedlm
+      - text-generation
+      - language model
+      - parallel-decoding
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - arxiv:2512.22737
+      - license:apache-2.0
+      - region:us

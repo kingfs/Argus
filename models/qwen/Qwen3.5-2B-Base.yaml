@@ -3,8 +3,10 @@ id: qwen/qwen3.5-2b-base
 name: Qwen3.5-2B-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Pre-trained only model in Hugging Face Transformers format. Intended for fine-tuning, in-context learning, and research. Features a Causal Language Model with Vision Encoder, 2B parameters, and native context length of 262,144 tokens.
+description_cn: Hugging Face Transformers 格式的预训练基础模型。适用于微调、上下文学习和研究。具备视觉编码器的因果语言模型，参数量 20 亿，原生上下文长度为 262,144 个 token。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-2B-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-2B-Base/resolve/b1485b2fa6dfa1287294f269f5fb618e03d52d7c/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-2B-Base/resolve/b1485b2fa6dfa1287294f269f5fb618e03d52d7c/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-2B-Base

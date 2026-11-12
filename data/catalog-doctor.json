@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1029,
-    "compiled": 621,
-    "candidates": 382,
+    "models": 1034,
+    "compiled": 625,
+    "candidates": 383,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 138,
-    "unverified_identities": 252
+    "identity_gaps": 137,
+    "unverified_identities": 251
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1003,
+    "model": 1008,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 722,
-      "openrouter": 307
+      "official_huggingface": 728,
+      "openrouter": 306
     },
     "unverified": [
       {
@@ -595,11 +595,6 @@
       {
         "id": "mistralai/pixtral-large-2411",
         "provider": "mistral",
-        "source": "openrouter"
-      },
-      {
-        "id": "nex-agi/nex-n2.6",
-        "provider": "nex-agi",
         "source": "openrouter"
       },
       {
@@ -1773,10 +1768,6 @@
     {
       "id": "mistralai/pixtral-large-2411",
       "provider": "mistral"
-    },
-    {
-      "id": "nex-agi/nex-n2.6",
-      "provider": "nex-agi"
     },
     {
       "id": "nvidia/switchyard",

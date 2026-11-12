@@ -1,10 +1,8 @@
 {
-  "failure_count": 5,
+  "failure_count": 3,
   "failures": {
     "inference-net/schematron-v2-small": "Hugging Face model request returned 401 Unauthorized",
     "inference-net/schematron-v2-turbo": "Hugging Face model request returned 401 Unauthorized",
-    "mistralai/mistral-large-2407": "Hugging Face config.json returned 401 Unauthorized",
-    "nex-agi/nex-n2.6": "Hugging Face model request returned 401 Unauthorized",
     "tencent/hy4": "Hugging Face model request returned 401 Unauthorized"
   }
 }

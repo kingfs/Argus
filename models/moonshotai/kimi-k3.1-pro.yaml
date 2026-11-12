@@ -16,6 +16,8 @@ features:
   - ModalityTextIn
   - ModalityTextOut
   - ModalityVideoIn
+aliases:
+  - moonshotai/kimi-k3.1-pro:batch
 discovered_at: 2026-10-24T06:36:01.08734502Z
 links:
   model_card: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
@@ -24,6 +26,7 @@ identifiers:
     - moonshotai/Kimi-K3.1-Pro
   openrouter:
     - moonshotai/kimi-k3.1-pro
+    - moonshotai/kimi-k3.1-pro:batch
 provenance:
   context_length:
     source: openrouter

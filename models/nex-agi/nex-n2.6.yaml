@@ -3,7 +3,7 @@ id: nex-agi/nex-n2.6
 name: 'Nex AGI: Nex-N2.6'
 provider: Nex-Agi
 developer: nex-agi
-lifecycle: candidate
+lifecycle: active
 description: Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with...
 description_cn: Nex-N2.6 是 Nex AGI 推出的代理模型，基于 [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) 构建，参数量约为 321B。适用于计算机使用、编码及涉及工具的长周期任务。与...相比
 context_length: 262144
@@ -16,7 +16,11 @@ features:
   - ModalityTextIn
   - ModalityTextOut
 discovered_at: 2026-11-10T08:54:08.777559651Z
+links:
+  model_card: https://huggingface.co/nex-agi/Nex-N2.6
 identifiers:
+  huggingface:
+    - nex-agi/Nex-N2.6
   openrouter:
     - nex-agi/nex-n2.6
 provenance:
@@ -60,6 +64,29 @@ upstream:
     output_modalities:
       - text
     fetched_at: 2026-11-10T08:54:13.412979285Z
+  huggingface:
+    id: nex-agi/Nex-N2.6
+    revision: 987472298e7867721576ac49a253a6f5b526013e
+    pipeline_tag: image-text-to-text
+    model_type: glm5_next
+    architectures:
+      - Glm5NextForConditionalGeneration
+    license: apache-2.0
+    tags:
+      - conversational
+      - endpoints_compatible
+      - fp8
+      - glm5_next
+      - image-text-to-text
+      - license:apache-2.0
+      - region:us
+      - safetensors
+      - transformers
+    tokenizer_model_max_length: 1048576
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-12T08:54:47.89515086Z
 reasoning:
   supported: true
   mandatory: true

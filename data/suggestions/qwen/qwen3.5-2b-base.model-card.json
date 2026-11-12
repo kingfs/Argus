@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-2b-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-12T08:56:20.817181325Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-2B-Base/resolve/b1485b2fa6dfa1287294f269f5fb618e03d52d7c/README.md",
+    "revision": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+    "sha256": "50ca45b87d976d9850de95ad00e76fba77e105c2cdef1093b8e3bb261d9a1787"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Pre-trained only model in Hugging Face Transformers format. Intended for fine-tuning, in-context learning, and research. Features a Causal Language Model with Vision Encoder, 2B parameters, and native context length of 262,144 tokens.",
+      "evidence": "This repository contains model weights and configuration files for the pre-trained only model in the Hugging Face Transformers format. The intended use cases are fine-tuning, in-context learning experiments",
+      "section": "Qwen3.5-2B-Base",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text",
+      "confidence": "high"
+    }
+  ]
+}

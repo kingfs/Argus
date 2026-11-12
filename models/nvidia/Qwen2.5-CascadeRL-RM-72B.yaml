@@ -1,0 +1,46 @@
+schema_version: 2
+id: nvidia/qwen2.5-cascaderl-rm-72b
+name: Qwen2.5-CascadeRL-RM-72B
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Qwen2.5-CascadeRL-RM-72B
+identifiers:
+  huggingface:
+    - nvidia/Qwen2.5-CascadeRL-RM-72B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Qwen2.5-CascadeRL-RM-72B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen2.5-CascadeRL-RM-72B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen2.5-CascadeRL-RM-72B
+upstream:
+  huggingface:
+    id: nvidia/Qwen2.5-CascadeRL-RM-72B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen2
+      - text-classification
+      - nvidia
+      - Nemotron-Cascade
+      - reward-model
+      - pytorch
+      - text-generation
+      - conversational
+      - en
+      - arxiv:2512.13607
+      - license:other
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

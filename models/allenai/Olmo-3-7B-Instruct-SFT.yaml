@@ -1,0 +1,44 @@
+schema_version: 2
+id: allenai/olmo-3-7b-instruct-sft
+name: Olmo-3-7B-Instruct-SFT
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT
+identifiers:
+  huggingface:
+    - allenai/Olmo-3-7B-Instruct-SFT
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT
+upstream:
+  huggingface:
+    id: allenai/Olmo-3-7B-Instruct-SFT
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - olmo3
+      - text-generation
+      - conversational
+      - en
+      - dataset:allenai/Dolci-Instruct-SFT
+      - dataset:allenai/Dolci-Instruct-SFT-Tool-Use-SA
+      - arxiv:2512.13961
+      - base_model:allenai/Olmo-3-1025-7B
+      - base_model:finetune:allenai/Olmo-3-1025-7B
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

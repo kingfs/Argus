@@ -3,8 +3,10 @@ id: qwen/qwen3.5-2b
 name: Qwen3.5-2B
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5-2B is a Causal Language Model with Vision Encoder, designed for prototyping, task-specific fine-tuning, and research.
+description_cn: Qwen3.5-2B 是一个带有视觉编码器的因果语言模型，专为原型开发、特定任务微调和研究设计。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-2B
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-2B

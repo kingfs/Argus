@@ -3,8 +3,10 @@ id: qwen/qwen3-coder-next-base
 name: Qwen3-Coder-Next-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3-Coder-Next-Base is an open-weight causal language model (80B total, 3B activated) designed for coding agents and local development, featuring Hybrid Attention with sparse MoE.
+description_cn: Qwen3-Coder-Next-Base 是一个开放权重的因果语言模型（总参数量 800 亿，激活参数 30 亿），专为代码智能体和本地开发设计，采用稀疏 MoE 的动态混合注意力机制。
+context_length: 262144
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3-Coder-Next-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base/resolve/1b6df59d5f75ab51edb9ad8cb3ea69c5d0aedd57/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base/resolve/1b6df59d5f75ab51edb9ad8cb3ea69c5d0aedd57/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
@@ -23,6 +31,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3-Coder-Next-Base/resolve/1b6df59d5f75ab51edb9ad8cb3ea69c5d0aedd57/README.md
 upstream:
   huggingface:
     id: Qwen/Qwen3-Coder-Next-Base
@@ -36,3 +47,5 @@ upstream:
       - license:apache-2.0
       - endpoints_compatible
       - region:us
+reasoning:
+  supported: false

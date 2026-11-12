@@ -1,0 +1,43 @@
+schema_version: 2
+id: allenai/olmo-3.1-32b-instruct-dpo
+name: Olmo-3.1-32B-Instruct-DPO
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/Olmo-3.1-32B-Instruct-DPO
+identifiers:
+  huggingface:
+    - allenai/Olmo-3.1-32B-Instruct-DPO
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/Olmo-3.1-32B-Instruct-DPO
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3.1-32B-Instruct-DPO
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/Olmo-3.1-32B-Instruct-DPO
+upstream:
+  huggingface:
+    id: allenai/Olmo-3.1-32B-Instruct-DPO
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - olmo3
+      - text-generation
+      - conversational
+      - en
+      - dataset:allenai/Dolci-Instruct-DPO
+      - arxiv:2512.13961
+      - base_model:allenai/Olmo-3.1-32B-Instruct-SFT
+      - base_model:finetune:allenai/Olmo-3.1-32B-Instruct-SFT
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us
