@@ -3,8 +3,10 @@ id: qwen/qwen3.5-0.8b-base
 name: Qwen3.5-0.8B-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Qwen3.5-0.8B-Base is a pre-trained causal language model with a vision encoder, designed for fine-tuning, in-context learning, and research. It features a Gated Delta Network and sparse Mixture-of-Experts architecture with 0.8B parameters. The model supports 201 languages and is compatible with Hugging Face Transformers, vLLM, and SGLang.
+description_cn: Qwen3.5-0.8B-Base 是一个带有视觉编码器的预训练因果语言模型，专为微调、上下文学习和研究而设计。它采用门控 Delta 网络和稀疏混合专家（MoE）架构，参数量为 0.8B。该模型支持 201 种语言，并兼容 Hugging Face Transformers、vLLM 和 SGLang。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-0.8B-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-0.8B-Base

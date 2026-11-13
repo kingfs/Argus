@@ -39,6 +39,8 @@ upstream:
       - max_tokens
       - stop
       - temperature
+      - tool_choice
+      - tools
       - top_k
       - top_p
     input_modalities:
@@ -46,7 +48,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2023-12-31"
-    fetched_at: 2026-11-04T08:12:44.08482535Z
+    fetched_at: 2026-11-13T08:51:13.758873044Z
   huggingface:
     id: meta-llama/Llama-3.1-70B-Instruct
     revision: 1605565b47bb9346c5515c34102e054115b4f98b

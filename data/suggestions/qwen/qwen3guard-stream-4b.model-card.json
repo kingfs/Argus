@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3guard-stream-4b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-13T08:52:41.145292499Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B/resolve/0e281784acd1370a2527aece964bcb267927f799/README.md",
+    "revision": "0e281784acd1370a2527aece964bcb267927f799",
+    "sha256": "1ad787ea0f21ecb3131d39639556f6d914e726868cffb6d20a0479a150b4b825"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen3Guard-Stream is a safety moderation model built upon Qwen3, featuring a token-level classification head for real-time safety monitoring during incremental text generation. It supports 119 languages and dialects.",
+      "evidence": "Qwen3Guard-Stream, which incorporates a token-level classification head for real-time safety monitoring during incremental text generation.",
+      "section": "Qwen3Guard-Stream-4B",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Streaming detection requires streaming token IDs as input, making it best suited for use alongside language models that share Qwen3's tokenizer.",
+      "section": "Quickstart",
+      "confidence": "high"
+    },
+    {
+      "field": "description",
+      "value": "The model enables three-tiered severity classification, categorizing outputs into safe, controversial, and unsafe levels, and supports 119 languages and dialects.",
+      "evidence": "Supports 119 languages and dialects, ensuring robust performance in global and cross-lingual applications.",
+      "section": "Qwen3Guard-Stream-4B",
+      "confidence": "high"
+    }
+  ]
+}

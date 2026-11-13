@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1034,
-    "compiled": 625,
-    "candidates": 383,
+    "models": 1040,
+    "compiled": 628,
+    "candidates": 386,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1008,
+    "model": 1014,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 728,
+      "official_huggingface": 734,
       "openrouter": 306
     },
     "unverified": [
@@ -409,6 +409,11 @@
       },
       {
         "id": "google/gemini-4-carbon",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "google/gemini-4-hydrogen",
         "provider": "google",
         "source": "openrouter"
       },
@@ -1123,11 +1128,6 @@
         "source": "openrouter"
       },
       {
-        "id": "thinkingmachines/inkling-2-small",
-        "provider": "thinkingmachines",
-        "source": "openrouter"
-      },
-      {
         "id": "tngtech/tng-r1t-chimera",
         "provider": "tngtech",
         "source": "openrouter"
@@ -1630,6 +1630,10 @@
       "provider": "google"
     },
     {
+      "id": "google/gemini-4-hydrogen",
+      "provider": "google"
+    },
+    {
       "id": "google/gemini-nano-banana-2.1",
       "provider": "google"
     },
@@ -1896,10 +1900,6 @@
     {
       "id": "tencent/hy4",
       "provider": "tencent"
-    },
-    {
-      "id": "thinkingmachines/inkling-2-small",
-      "provider": "thinkingmachines"
     },
     {
       "id": "tngtech/tng-r1t-chimera",

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-0.8b-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-13T08:51:16.377512071Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Base/resolve/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/README.md",
+    "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+    "sha256": "3cff39d2674e28b95e2df75cdb2d7a687ec391931065b05df83dbae12b447b11"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen3.5-0.8B-Base is a pre-trained causal language model with a vision encoder, designed for fine-tuning, in-context learning, and research. It features a Gated Delta Network and sparse Mixture-of-Experts architecture with 0.8B parameters. The model supports 201 languages and is compatible with Hugging Face Transformers, vLLM, and SGLang.",
+      "evidence": "Type: Causal Language Model with Vision Encoder... Number of Parameters: 0.8B... Expanded support to 201 languages and dialects... compatible with Hugging Face Transformers, vLLM, SGLang, etc.",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text... Type: Causal Language Model with Vision Encoder... Unified Vision-Language Foundation: Early fusion training on multimodal tokens",
+      "section": "Model Overview",
+      "confidence": "high"
+    }
+  ]
+}

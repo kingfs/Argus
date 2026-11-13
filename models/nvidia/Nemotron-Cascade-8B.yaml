@@ -1,0 +1,49 @@
+schema_version: 2
+id: nvidia/nemotron-cascade-8b
+name: Nemotron-Cascade-8B
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Cascade-8B
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Cascade-8B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Cascade-8B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3
+      - text-generation
+      - nvidia
+      - Nemotron-Cascade
+      - reasoning
+      - general-purpose
+      - SFT
+      - RL
+      - pytorch
+      - conversational
+      - en
+      - arxiv:2512.13607
+      - arxiv:2309.00071
+      - license:other
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

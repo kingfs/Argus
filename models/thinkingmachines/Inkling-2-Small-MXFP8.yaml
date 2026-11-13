@@ -1,0 +1,40 @@
+schema_version: 2
+id: thinkingmachines/inkling-2-small-mxfp8
+name: Inkling-2-Small-MXFP8
+provider: Thinking Machines Lab
+developer: thinkingmachines
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8
+identifiers:
+  huggingface:
+    - thinkingmachines/Inkling-2-Small-MXFP8
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8
+upstream:
+  huggingface:
+    id: thinkingmachines/Inkling-2-Small-MXFP8
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - inkling2
+      - image-text-to-text
+      - conversational
+      - moe
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

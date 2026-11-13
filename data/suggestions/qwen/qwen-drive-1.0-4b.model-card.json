@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen-drive-1.0-4b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-13T08:52:19.837017316Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/resolve/28484089a7cc8c335cf5089fb0745cf7c49b6eaa/README.md",
+    "revision": "28484089a7cc8c335cf5089fb0745cf7c49b6eaa",
+    "sha256": "eba0d0c08dc314d93c8cac897949ad4fe43daea494acda960336ce2a97d6ca58"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Qwen-Drive-1.0 is a vision-language foundation model for autonomous driving that unifies 3D perception, visual question answering, and motion planning. It retains the architecture of the pretrained Qwen3.5 vision-language model and integrates a BEV perception head for 3D object detection, semantic occupancy prediction, and BEV map segmentation, alongside a Planning Expert for ego trajectory generation.",
+      "evidence": "Qwen-Drive-1.0 is the first vision-language foundation model for autonomous driving that unifies 3D perception and visual question answering at the pretraining stage and further extends to motion planning",
+      "section": "Qwen-Drive-1.0-4B",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityImageIn",
+        "ModalityTextOut",
+        "ModalityTextIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text",
+      "section": "Metadata",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityImageIn"
+      ],
+      "evidence": "The unchanged VLM answers free-form questions about driving scenes.",
+      "section": "Qwen-Drive-1.0-4B",
+      "confidence": "medium"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "planner-sft supports both direct and reasoning planning; planner-rl is further reward-optimized on NAVSIM PDMS",
+      "section": "Qwen-Drive-1.0-4B",
+      "confidence": "high"
+    }
+  ]
+}

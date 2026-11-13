@@ -1,0 +1,56 @@
+schema_version: 2
+id: ibm-granite/granite-4.1-8b-llmon-preview
+name: granite-4.1-8b-llmon-preview
+provider: IBM Granite
+developer: ibm-granite
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview
+identifiers:
+  huggingface:
+    - ibm-granite/granite-4.1-8b-llmon-preview
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview
+upstream:
+  huggingface:
+    id: ibm-granite/granite-4.1-8b-llmon-preview
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - granite
+      - text-generation
+      - language
+      - granite-4.1
+      - conversational
+      - en
+      - de
+      - es
+      - fr
+      - ja
+      - pt
+      - ar
+      - cs
+      - it
+      - ko
+      - nl
+      - zh
+      - arxiv:2603.22519
+      - arxiv:2610.38120
+      - base_model:ibm-granite/granite-4.1-8b-base
+      - base_model:finetune:ibm-granite/granite-4.1-8b-base
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

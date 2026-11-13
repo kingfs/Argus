@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-27b-gptq-int4",
+  "status": "partially_accepted",
+  "created_at": "2026-11-13T08:51:58.21718128Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4/resolve/8f0c09f227ae570e79617c6d9172b59df9c16081/README.md",
+    "revision": "8f0c09f227ae570e79617c6d9172b59df9c16081",
+    "sha256": "1b3cf4683a49af928ffce55e37c01e962d3e13dd5c8a1fe3a1b717752fd7a484"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "GPTQ int4-quantized model weights and configuration files for the Qwen3.5-27B post-trained model. The model is a Causal Language Model with a Vision Encoder, supporting 262,144 context length natively. It features a hybrid architecture with Gated Delta Networks and sparse Mixture-of-Experts, and supports 201 languages.",
+      "evidence": "Type: Causal Language Model with Vision Encoder... Context Length: 262,144 natively... GPTQ 4-bit... Expanded support to 201 languages",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "Type: Causal Language Model with Vision Encoder... pipeline_tag: image-text-to-text",
+      "section": "Model Overview",
+      "confidence": "high"
+    }
+  ]
+}

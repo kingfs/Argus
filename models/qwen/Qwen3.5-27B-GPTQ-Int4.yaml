@@ -3,8 +3,10 @@ id: qwen/qwen3.5-27b-gptq-int4
 name: Qwen3.5-27B-GPTQ-Int4
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: GPTQ int4-quantized model weights and configuration files for the Qwen3.5-27B post-trained model. The model is a Causal Language Model with a Vision Encoder, supporting 262,144 context length natively. It features a hybrid architecture with Gated Delta Networks and sparse Mixture-of-Experts, and supports 201 languages.
+description_cn: Qwen3.5-27B 后训练模型的 GPTQ int4 量化模型权重及配置文件。该模型是一个带有视觉编码器的因果语言模型，原生支持 262,144 的上下文长度。其采用包含门控 Delta 网络和稀疏混合专家（MoE）的混合架构，并支持 201 种语言。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-27B-GPTQ-Int4
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4/resolve/8f0c09f227ae570e79617c6d9172b59df9c16081/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4/resolve/8f0c09f227ae570e79617c6d9172b59df9c16081/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4

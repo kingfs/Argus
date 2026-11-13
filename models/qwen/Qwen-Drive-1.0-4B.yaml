@@ -4,6 +4,8 @@ name: Qwen-Drive-1.0-4B
 provider: Qwen
 developer: qwen
 lifecycle: candidate
+description: Qwen-Drive-1.0 is a vision-language foundation model for autonomous driving that unifies 3D perception, visual question answering, and motion planning. It retains the architecture of the pretrained Qwen3.5 vision-language model and integrates a BEV perception head for 3D object detection, semantic occupancy prediction, and BEV map segmentation, alongside a Planning Expert for ego trajectory generation.
+description_cn: Qwen-Drive-1.0 是一款面向自动驾驶的视觉-语言基础模型，统一了 3D 感知、视觉问答和运动规划功能。该模型保留了 Qwen3.5 预训练视觉-语言模型的架构，集成了用于 3D 目标检测、语义占据预测和 BEV 地图分割的 BEV 感知头，以及用于自车轨迹生成的规划专家模块。
 context_length: 0
 features:
   - ModalityImageIn
@@ -15,6 +17,9 @@ identifiers:
   huggingface:
     - Qwen/Qwen-Drive-1.0-4B
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/resolve/28484089a7cc8c335cf5089fb0745cf7c49b6eaa/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen-Drive-1.0-4B
@@ -24,6 +29,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/Qwen/Qwen-Drive-1.0-4B
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/resolve/28484089a7cc8c335cf5089fb0745cf7c49b6eaa/README.md
 upstream:
   huggingface:
     id: Qwen/Qwen-Drive-1.0-4B
@@ -58,3 +66,5 @@ upstream:
       - preprocessor_config.json
       - tokenizer_config.json
     fetched_at: 2026-09-03T06:36:04.688952726Z
+reasoning:
+  supported: true

@@ -3,7 +3,7 @@ id: thinkingmachines/inkling-2-small
 name: 'Thinking Machines: Inkling 2 Small'
 provider: Thinkingmachines
 developer: thinkingmachines
-lifecycle: candidate
+lifecycle: active
 description: Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...
 description_cn: Inkling 2 Small 是 Thinking Machines Lab 推出的多模态混合专家推理模型，总参数 594B 中激活 17B。它是第二代 Inkling 系列中的首个模型...
 context_length: 1048576
@@ -17,7 +17,11 @@ features:
 aliases:
   - thinkingmachines/inkling-2-small:free
 discovered_at: 2026-11-10T08:54:08.778292444Z
+links:
+  model_card: https://huggingface.co/thinkingmachines/Inkling-2-Small
 identifiers:
+  huggingface:
+    - thinkingmachines/Inkling-2-Small
   openrouter:
     - thinkingmachines/inkling-2-small
     - thinkingmachines/inkling-2-small:free
@@ -36,3 +40,71 @@ provenance:
     source: openrouter
   provider:
     source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: thinkingmachines/inkling-2-small-20261107
+    huggingface_id: thinkingmachines/Inkling-2-Small
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - logprobs
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-13T08:51:13.764852603Z
+  huggingface:
+    id: thinkingmachines/Inkling-2-Small
+    revision: aac974122acd33ddb0d3e1f54433a9c5dd2249ce
+    pipeline_tag: image-text-to-text
+    model_type: inkling2
+    architectures:
+      - Inkling2ForConditionalGeneration
+    license: apache-2.0
+    tags:
+      - 8-bit
+      - conversational
+      - endpoints_compatible
+      - image-text-to-text
+      - inkling2
+      - license:apache-2.0
+      - moe
+      - region:us
+      - safetensors
+      - transformers
+    tokenizer_model_max_length: 1048576
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-13T08:51:14.527933657Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_enabled: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal

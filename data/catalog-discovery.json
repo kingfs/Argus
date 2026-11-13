@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 1029,
-  "models_with_official_links": 833,
+  "models": 1035,
+  "models_with_official_links": 839,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -90745,6 +90745,44 @@
     {
       "provider_id": "ibm-granite",
       "organization": "ibm-granite",
+      "repository_id": "ibm-granite/granite-4.1-3b-llmon-preview",
+      "registry_id": "ibm-granite/granite-4.1-3b-llmon-preview",
+      "status": "materialized",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+      "last_modified": "2026-11-12T18:55:40Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "language",
+        "granite-4.1",
+        "conversational",
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "pt",
+        "ar",
+        "cs",
+        "it",
+        "ko",
+        "nl",
+        "zh",
+        "arxiv:2603.22519",
+        "arxiv:2610.38120",
+        "base_model:ibm-granite/granite-4.1-3b-base",
+        "base_model:finetune:ibm-granite/granite-4.1-3b-base",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "ibm-granite",
+      "organization": "ibm-granite",
       "repository_id": "ibm-granite/granite-4.1-8b-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-GGUF",
@@ -90811,6 +90849,44 @@
         "compressed-tensors",
         "region:us",
         "deploy:azure"
+      ]
+    },
+    {
+      "provider_id": "ibm-granite",
+      "organization": "ibm-granite",
+      "repository_id": "ibm-granite/granite-4.1-8b-llmon-preview",
+      "registry_id": "ibm-granite/granite-4.1-8b-llmon-preview",
+      "status": "materialized",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview",
+      "last_modified": "2026-11-12T18:56:07Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "granite",
+        "text-generation",
+        "language",
+        "granite-4.1",
+        "conversational",
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "pt",
+        "ar",
+        "cs",
+        "it",
+        "ko",
+        "nl",
+        "zh",
+        "arxiv:2603.22519",
+        "arxiv:2610.38120",
+        "base_model:ibm-granite/granite-4.1-8b-base",
+        "base_model:finetune:ibm-granite/granite-4.1-8b-base",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
       ]
     },
     {
@@ -93133,7 +93209,7 @@
       "repository_id": "ibm-granite/granite-switch-4.1-30b-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-GGUF",
-      "last_modified": "2026-11-04T22:42:38Z",
+      "last_modified": "2026-11-12T18:11:07Z",
       "tags": [
         "llama.cpp",
         "gguf",
@@ -93223,7 +93299,7 @@
       "repository_id": "ibm-granite/granite-switch-4.1-8b-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-GGUF",
-      "last_modified": "2026-11-04T22:23:46Z",
+      "last_modified": "2026-11-12T18:56:24Z",
       "tags": [
         "llama.cpp",
         "gguf",
@@ -95570,6 +95646,24 @@
     {
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
+      "repository_id": "inclusionAI/SingVL_S1_4B_GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/inclusionAI/SingVL_S1_4B_GGUF",
+      "last_modified": "2026-11-13T01:17:35Z",
+      "tags": [
+        "gguf",
+        "decision-model",
+        "typed-decisions",
+        "multimodal",
+        "qwen3_5",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
       "repository_id": "inclusionAI/Step-3.7-Flash-singprobe",
       "status": "new",
       "url": "https://huggingface.co/inclusionAI/Step-3.7-Flash-singprobe",
@@ -96042,7 +96136,7 @@
       "repository_id": "meituan-longcat/LongCat-Next",
       "status": "new",
       "url": "https://huggingface.co/meituan-longcat/LongCat-Next",
-      "last_modified": "2026-11-10T09:43:01Z",
+      "last_modified": "2026-11-12T09:13:18Z",
       "pipeline_tag": "any-to-any",
       "tags": [
         "LongCat-Next",
@@ -100321,11 +100415,12 @@
       "repository_id": "microsoft/FrogNano-4B-2609",
       "status": "new",
       "url": "https://huggingface.co/microsoft/FrogNano-4B-2609",
-      "last_modified": "2026-10-02T18:50:47Z",
+      "last_modified": "2026-11-12T15:01:56Z",
       "tags": [
         "safetensors",
         "qwen3_5",
-        "license:mit",
+        "license:apache-2.0",
+        "eval-results",
         "region:us"
       ]
     },
@@ -116117,7 +116212,7 @@
       "repository_id": "nvidia/Cosmos3-Edge",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Cosmos3-Edge",
-      "last_modified": "2026-11-09T01:52:34Z",
+      "last_modified": "2026-11-12T23:42:28Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116137,7 +116232,7 @@
       "repository_id": "nvidia/Cosmos3-Edge-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Cosmos3-Edge-FP8",
-      "last_modified": "2026-11-10T05:01:32Z",
+      "last_modified": "2026-11-12T23:42:30Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116237,7 +116332,7 @@
       "repository_id": "nvidia/Cosmos3-Nano",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Cosmos3-Nano",
-      "last_modified": "2026-11-09T01:52:40Z",
+      "last_modified": "2026-11-12T23:42:25Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116263,7 +116358,7 @@
       "repository_id": "nvidia/Cosmos3-Nano-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Cosmos3-Nano-FP8",
-      "last_modified": "2026-11-10T05:01:29Z",
+      "last_modified": "2026-11-12T23:42:26Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116371,7 +116466,7 @@
       "repository_id": "nvidia/Cosmos3-Nano-Transfer-Auto",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto",
-      "last_modified": "2026-11-09T01:52:52Z",
+      "last_modified": "2026-11-12T18:49:33Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116393,7 +116488,7 @@
       "repository_id": "nvidia/Cosmos3-Super",
       "status": "new",
       "url": "https://huggingface.co/nvidia/Cosmos3-Super",
-      "last_modified": "2026-11-09T01:52:54Z",
+      "last_modified": "2026-11-12T23:42:22Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -116419,7 +116514,7 @@
       "repository_id": "nvidia/Cosmos3-Super-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Cosmos3-Super-FP8",
-      "last_modified": "2026-11-10T05:01:30Z",
+      "last_modified": "2026-11-12T23:42:23Z",
       "tags": [
         "cosmos",
         "diffusers",
@@ -118090,6 +118185,55 @@
     {
       "provider_id": "nvidia",
       "organization": "nvidia",
+      "repository_id": "nvidia/GR00T-E2E-Reference-Workflow-SIM-G1-N1.7-AppletoPlate-Model",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/GR00T-E2E-Reference-Workflow-SIM-G1-N1.7-AppletoPlate-Model",
+      "last_modified": "2026-11-12T19:58:41Z",
+      "tags": [
+        "gr00t",
+        "safetensors",
+        "Gr00tN1d7",
+        "arxiv:2503.14734",
+        "arxiv:2209.03003",
+        "arxiv:2410.24164",
+        "base_model:nvidia/GR00T-N1.7-3B",
+        "base_model:finetune:nvidia/GR00T-N1.7-3B",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/GR00T-E2E-Reference-Workflow-SIM-H2-N1.7-AppleHandoverPlate-Model",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:robotics",
+      "url": "https://huggingface.co/nvidia/GR00T-E2E-Reference-Workflow-SIM-H2-N1.7-AppleHandoverPlate-Model",
+      "last_modified": "2026-11-12T19:58:35Z",
+      "pipeline_tag": "robotics",
+      "tags": [
+        "gr00t",
+        "safetensors",
+        "Gr00tN1d7",
+        "robotics",
+        "gr00t-n1.7",
+        "isaac-lab",
+        "simulation",
+        "unitree-h2",
+        "apple-handover",
+        "dataset:nvidia/GR00T-E2E-Reference-Workflow-SIM-H2-N1.7-AppleHandoverPlate-Dataset",
+        "arxiv:2503.14734",
+        "arxiv:2209.03003",
+        "arxiv:2410.24164",
+        "base_model:nvidia/GR00T-N1.7-3B",
+        "base_model:finetune:nvidia/GR00T-N1.7-3B",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
       "repository_id": "nvidia/GR00T-H",
       "status": "new",
       "url": "https://huggingface.co/nvidia/GR00T-H",
@@ -119285,7 +119429,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Kimi-K3.1-Pro-NVFP4",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:nvfp4",
       "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
       "last_modified": "2026-11-12T02:26:27Z",
       "pipeline_tag": "image-text-to-text",
@@ -126034,7 +126177,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-Cascade-14B-Thinking",
-      "status": "new",
+      "registry_id": "nvidia/nemotron-cascade-14b-thinking",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/Nemotron-Cascade-14B-Thinking",
       "last_modified": "2026-01-01T01:24:38Z",
       "pipeline_tag": "text-generation",
@@ -126095,7 +126239,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-Cascade-8B",
-      "status": "new",
+      "registry_id": "nvidia/nemotron-cascade-8b",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/Nemotron-Cascade-8B",
       "last_modified": "2026-01-01T01:26:21Z",
       "pipeline_tag": "text-generation",
@@ -130544,6 +130689,19 @@
         "robotics",
         "gr00t",
         "tensorrt",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "nvidia",
+      "organization": "nvidia",
+      "repository_id": "nvidia/agile_wbc_unitree_h2",
+      "status": "new",
+      "url": "https://huggingface.co/nvidia/agile_wbc_unitree_h2",
+      "last_modified": "2026-11-12T21:19:26Z",
+      "tags": [
+        "onnx",
+        "license:other",
         "region:us"
       ]
     },
@@ -143577,6 +143735,49 @@
         "base_model:tencent/Youtu-VL-4B-Instruct",
         "base_model:quantized:tencent/Youtu-VL-4B-Instruct",
         "license:other",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "thinkingmachines",
+      "organization": "thinkingmachines",
+      "repository_id": "thinkingmachines/Inkling-2-Small",
+      "registry_id": "thinkingmachines/inkling-2-small",
+      "status": "identity_applied",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "last_modified": "2026-11-13T03:42:44Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "inkling2",
+        "image-text-to-text",
+        "conversational",
+        "moe",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "8-bit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "thinkingmachines",
+      "organization": "thinkingmachines",
+      "repository_id": "thinkingmachines/Inkling-2-Small-MXFP8",
+      "registry_id": "thinkingmachines/inkling-2-small-mxfp8",
+      "status": "materialized",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8",
+      "last_modified": "2026-11-13T03:42:46Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "inkling2",
+        "image-text-to-text",
+        "conversational",
+        "moe",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
       ]
