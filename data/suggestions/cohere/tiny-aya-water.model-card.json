@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/tiny-aya-water",
+  "status": "partially_accepted",
+  "created_at": "2026-11-14T08:14:44.220509981Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-water/resolve/3696a27d9f455538e50887778122cc898b6370b8/README.md",
+    "revision": "3696a27d9f455538e50887778122cc898b6370b8",
+    "sha256": "baf52526aeb1840bdb40844f424abe1136a3ad32f54928719eb10dd7a5d32275"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages. Best for European and Asia Pacific languages.",
+      "evidence": "Cohere Labs Tiny Aya is an open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages",
+      "section": "## **Model Summary**",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 8192,
+      "evidence": "Context length: 8K input",
+      "section": "## **Model Summary**",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 8192,
+      "evidence": "Tiny Aya supports a context length of 8K \u0026 8K output length.",
+      "section": "## **Model Details**",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "**Input**: Text only. **Output**: Model generates text.",
+      "section": "## **Model Details**",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "Chain-of-thought reasoning tasks such as multilingual math (MGSM) are comparatively weaker.",
+      "section": "### **Limitations**",
+      "confidence": "low"
+    }
+  ]
+}

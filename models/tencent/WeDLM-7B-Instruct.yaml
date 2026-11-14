@@ -1,0 +1,43 @@
+schema_version: 2
+id: tencent/wedlm-7b-instruct
+name: WeDLM-7B-Instruct
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeDLM-7B-Instruct
+identifiers:
+  huggingface:
+    - tencent/WeDLM-7B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeDLM-7B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-7B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-7B-Instruct
+upstream:
+  huggingface:
+    id: tencent/WeDLM-7B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - wedlm
+      - language model
+      - parallel-decoding
+      - chat
+      - instruct
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - license:apache-2.0
+      - region:us

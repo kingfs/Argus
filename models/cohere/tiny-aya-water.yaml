@@ -3,8 +3,11 @@ id: cohere/tiny-aya-water
 name: tiny-aya-water
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages. Best for European and Asia Pacific languages.
+description_cn: 预训练 33.5 亿参数模型的开放权重研究版本，经过优化，可在 70 多种语言中提供高效、强大且均衡的多语言表示。最适合欧洲及亚太地区语言。
+context_length: 8192
+max_output: 8192
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,12 +17,21 @@ identifiers:
   huggingface:
     - CohereLabs/tiny-aya-water
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-water/resolve/3696a27d9f455538e50887778122cc898b6370b8/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-water/resolve/3696a27d9f455538e50887778122cc898b6370b8/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/tiny-aya-water
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-water
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-water/resolve/3696a27d9f455538e50887778122cc898b6370b8/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-water

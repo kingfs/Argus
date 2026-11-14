@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1040,
-    "compiled": 628,
-    "candidates": 386,
+    "models": 1046,
+    "compiled": 631,
+    "candidates": 389,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 137,
-    "unverified_identities": 251
+    "identity_gaps": 138,
+    "unverified_identities": 252
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1014,
+    "model": 1020,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 734,
-      "openrouter": 306
+      "official_huggingface": 739,
+      "openrouter": 307
     },
     "unverified": [
       {
@@ -440,6 +440,11 @@
       {
         "id": "google/lyria-3-pro-preview",
         "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "inclusionai/ling-3.2-flash",
+        "provider": "inclusionai",
         "source": "openrouter"
       },
       {
@@ -1397,6 +1402,8 @@
     "qwen/qwen3.5-4b-base",
     "qwen/qwen3.5-9b-base",
     "tencent/hy3-preview-base",
+    "tencent/wedlm-7b-base",
+    "tencent/wedlm-8b-base",
     "tencent/youtu-llm-2b-base",
     "tencent/youtu-llm-a7b-base",
     "xiaomi/mimo-7b-base",
@@ -1652,6 +1659,10 @@
     {
       "id": "google/lyria-3-pro-preview",
       "provider": "google"
+    },
+    {
+      "id": "inclusionai/ling-3.2-flash",
+      "provider": "inclusionai"
     },
     {
       "id": "inference-net/schematron-v2-small",

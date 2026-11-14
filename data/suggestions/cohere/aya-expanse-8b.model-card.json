@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/aya-expanse-8b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-14T08:15:05.529681985Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/aya-expanse-8b/resolve/5062468bf9bc0c6035fd64e06274333ec127d980/README.md",
+    "revision": "5062468bf9bc0c6035fd64e06274333ec127d980",
+    "sha256": "d12c4df34ae451d63afcf60ed279257cf69a8ae449f29e4c6aba904bee966d12"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Aya Expanse 8B is an open-weight research release of a model with highly advanced multilingual capabilities, developed by Cohere Labs.",
+      "evidence": "Aya Expanse 8B is an open-weight research release of a model with highly advanced multilingual capabilities.",
+      "section": "# Model Card for Aya Expanse 8B",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 8192,
+      "evidence": "Context length: 8K",
+      "section": "## Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Input: Models input text only. Output: Models generate text only.",
+      "section": "## Model Details",
+      "confidence": "high"
+    }
+  ]
+}

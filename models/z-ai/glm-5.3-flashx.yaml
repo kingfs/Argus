@@ -46,6 +46,7 @@ upstream:
       - reasoning
       - reasoning_effort
       - response_format
+      - structured_outputs
       - temperature
       - tool_choice
       - tools
@@ -57,7 +58,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-09-19T06:48:00.123277079Z
+    fetched_at: 2026-11-14T08:13:38.531907339Z
 reasoning:
   supported: true
   mandatory: true

@@ -3,8 +3,10 @@ id: cohere/aya-expanse-8b
 name: aya-expanse-8b
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Aya Expanse 8B is an open-weight research release of a model with highly advanced multilingual capabilities, developed by Cohere Labs.
+description_cn: Aya Expanse 8B 是由 Cohere Labs 开发的模型开放权重研究版本，具备高度先进的多语言处理能力。
+context_length: 8192
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - CohereLabs/aya-expanse-8b
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-expanse-8b/resolve/5062468bf9bc0c6035fd64e06274333ec127d980/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-expanse-8b/resolve/5062468bf9bc0c6035fd64e06274333ec127d980/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/aya-expanse-8b

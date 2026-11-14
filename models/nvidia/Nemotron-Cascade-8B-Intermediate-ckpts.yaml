@@ -1,0 +1,46 @@
+schema_version: 2
+id: nvidia/nemotron-cascade-8b-intermediate-ckpts
+name: Nemotron-Cascade-8B-Intermediate-ckpts
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Cascade-8B-Intermediate-ckpts
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - nvidia
+      - Nemotron-Cascade
+      - reasoning
+      - general-purpose
+      - SFT
+      - RL
+      - pytorch
+      - text-generation
+      - en
+      - arxiv:2512.13607
+      - arxiv:2309.00071
+      - license:other
+      - endpoints_compatible
+      - region:us

@@ -1,0 +1,43 @@
+schema_version: 2
+id: tencent/wedlm-7b-base
+name: WeDLM-7B-Base
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeDLM-7B-Base
+identifiers:
+  huggingface:
+    - tencent/WeDLM-7B-Base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeDLM-7B-Base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-7B-Base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeDLM-7B-Base
+upstream:
+  huggingface:
+    id: tencent/WeDLM-7B-Base
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - wedlm
+      - language model
+      - parallel-decoding
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - base_model:Qwen/Qwen2.5-7B
+      - base_model:finetune:Qwen/Qwen2.5-7B
+      - license:apache-2.0
+      - region:us

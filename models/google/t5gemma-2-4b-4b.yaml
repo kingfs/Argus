@@ -1,0 +1,65 @@
+schema_version: 2
+id: google/t5gemma-2-4b-4b
+name: t5gemma-2-4b-4b
+provider: Google
+developer: google
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/google/t5gemma-2-4b-4b
+identifiers:
+  huggingface:
+    - google/t5gemma-2-4b-4b
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/google/t5gemma-2-4b-4b
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/google/t5gemma-2-4b-4b
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/google/t5gemma-2-4b-4b
+upstream:
+  huggingface:
+    id: google/t5gemma-2-4b-4b
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - t5gemma2
+      - text2text-generation
+      - image-text-to-text
+      - arxiv:1905.07830
+      - arxiv:1905.10044
+      - arxiv:1911.11641
+      - arxiv:1904.09728
+      - arxiv:1705.03551
+      - arxiv:1911.01547
+      - arxiv:1907.10641
+      - arxiv:1903.00161
+      - arxiv:2009.03300
+      - arxiv:2304.06364
+      - arxiv:2103.03874
+      - arxiv:2110.14168
+      - arxiv:2311.12022
+      - arxiv:2108.07732
+      - arxiv:2107.03374
+      - arxiv:2210.03057
+      - arxiv:2502.12404
+      - arxiv:2106.03193
+      - arxiv:1910.11856
+      - arxiv:2104.12756
+      - arxiv:2311.16502
+      - arxiv:2203.10244
+      - arxiv:1810.12440
+      - arxiv:1908.02660
+      - arxiv:2404.06654
+      - arxiv:2409.12640
+      - license:gemma
+      - endpoints_compatible
+      - region:us

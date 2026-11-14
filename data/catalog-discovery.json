@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 1035,
-  "models_with_official_links": 839,
+  "models": 1041,
+  "models_with_official_links": 845,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -84235,7 +84235,8 @@
       "provider_id": "google",
       "organization": "google",
       "repository_id": "google/t5gemma-2-4b-4b",
-      "status": "new",
+      "registry_id": "google/t5gemma-2-4b-4b",
+      "status": "materialized",
       "url": "https://huggingface.co/google/t5gemma-2-4b-4b",
       "last_modified": "2025-12-18T18:12:30Z",
       "pipeline_tag": "image-text-to-text",
@@ -93982,6 +93983,80 @@
         "base_model:deepseek-ai/DeepSeek-V4-Flash-0731",
         "base_model:finetune:deepseek-ai/DeepSeek-V4-Flash-0731",
         "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Duo-1.0-causal-base",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/Duo-1.0-causal-base",
+      "last_modified": "2026-11-13T08:24:45Z",
+      "tags": [
+        "duo-world-model",
+        "diffusers",
+        "safetensors",
+        "video-generation",
+        "audio-generation",
+        "world-model",
+        "arxiv:2611.15131",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Duo-1.0-distill",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/Duo-1.0-distill",
+      "last_modified": "2026-11-13T08:26:46Z",
+      "tags": [
+        "duo-world-model",
+        "video-generation",
+        "audio-generation",
+        "world-model",
+        "arxiv:2611.15131",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Duo-1.0-distill-quant",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/Duo-1.0-distill-quant",
+      "last_modified": "2026-11-13T08:25:44Z",
+      "tags": [
+        "duo-world-model",
+        "diffusers",
+        "safetensors",
+        "video-generation",
+        "audio-generation",
+        "world-model",
+        "arxiv:2611.15131",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Duo-1.2-causal-base",
+      "status": "new",
+      "url": "https://huggingface.co/inclusionAI/Duo-1.2-causal-base",
+      "last_modified": "2026-11-13T08:26:42Z",
+      "tags": [
+        "duo-world-model",
+        "diffusers",
+        "safetensors",
+        "video-generation",
+        "audio-generation",
+        "world-model",
+        "arxiv:2611.15131",
+        "license:other",
         "region:us"
       ]
     },
@@ -118207,7 +118282,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/GR00T-E2E-Reference-Workflow-SIM-H2-N1.7-AppleHandoverPlate-Model",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:robotics",
       "url": "https://huggingface.co/nvidia/GR00T-E2E-Reference-Workflow-SIM-H2-N1.7-AppleHandoverPlate-Model",
       "last_modified": "2026-11-12T19:58:35Z",
       "pipeline_tag": "robotics",
@@ -123996,7 +124070,8 @@
         "base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
         "license:other",
         "eval-results",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ]
     },
     {
@@ -124446,7 +124521,7 @@
       "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
-      "last_modified": "2026-10-30T16:25:53Z",
+      "last_modified": "2026-11-13T17:31:29Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -124523,7 +124598,7 @@
       "repository_id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
-      "last_modified": "2026-10-30T16:26:51Z",
+      "last_modified": "2026-11-13T17:32:15Z",
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
@@ -126270,7 +126345,8 @@
       "provider_id": "nvidia",
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-Cascade-8B-Intermediate-ckpts",
-      "status": "new",
+      "registry_id": "nvidia/nemotron-cascade-8b-intermediate-ckpts",
+      "status": "materialized",
       "url": "https://huggingface.co/nvidia/Nemotron-Cascade-8B-Intermediate-ckpts",
       "last_modified": "2025-12-19T08:13:00Z",
       "pipeline_tag": "text-generation",
@@ -129967,7 +130043,7 @@
       "repository_id": "nvidia/RFD4-Proteina",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/RFD4-Proteina",
-      "last_modified": "2026-10-30T19:47:32Z",
+      "last_modified": "2026-11-13T17:59:12Z",
       "tags": [
         "rfd4-proteina",
         "safetensors",
@@ -132365,9 +132441,8 @@
       "organization": "nvidia",
       "repository_id": "nvidia/dvlt",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-pipeline:image-to-3d",
       "url": "https://huggingface.co/nvidia/dvlt",
-      "last_modified": "2026-05-30T20:37:41Z",
+      "last_modified": "2026-11-13T17:26:31Z",
       "pipeline_tag": "image-to-3d",
       "tags": [
         "dvlt",
@@ -143201,7 +143276,8 @@
       "provider_id": "tencent",
       "organization": "tencent",
       "repository_id": "tencent/WeDLM-7B-Base",
-      "status": "new",
+      "registry_id": "tencent/wedlm-7b-base",
+      "status": "materialized",
       "url": "https://huggingface.co/tencent/WeDLM-7B-Base",
       "last_modified": "2025-12-29T03:38:37Z",
       "pipeline_tag": "text-generation",
@@ -143225,7 +143301,8 @@
       "provider_id": "tencent",
       "organization": "tencent",
       "repository_id": "tencent/WeDLM-7B-Instruct",
-      "status": "new",
+      "registry_id": "tencent/wedlm-7b-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/tencent/WeDLM-7B-Instruct",
       "last_modified": "2025-12-29T03:41:13Z",
       "pipeline_tag": "text-generation",
@@ -143249,7 +143326,8 @@
       "provider_id": "tencent",
       "organization": "tencent",
       "repository_id": "tencent/WeDLM-8B-Base",
-      "status": "new",
+      "registry_id": "tencent/wedlm-8b-base",
+      "status": "materialized",
       "url": "https://huggingface.co/tencent/WeDLM-8B-Base",
       "last_modified": "2025-12-29T03:20:18Z",
       "pipeline_tag": "text-generation",

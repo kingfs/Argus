@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "qwen/qwen3.5-4b-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-14T08:14:21.66470834Z",
+  "source": {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B-Base/resolve/1001bb4d826a52d1f399e183466143f4da7b741b/README.md",
+    "revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+    "sha256": "76ead24ea3de5a52610c755ffa0b6e7cb51e3c413f124a3776bc6f16b694474e"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Pre-trained Qwen3.5-4B-Base model with unified vision-language foundation, gated hybrid architecture, and 201 language support. Intended for fine-tuning, in-context learning, and research, not direct interaction.",
+      "evidence": "This repository contains model weights and configuration files for the pre-trained only model... The intended use cases are fine-tuning, in-context learning experiments... not direct interaction.",
+      "section": "## Qwen3.5-4B-Base",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: 262,144 natively and extensible up to 1,010,000 tokens.",
+      "section": "## Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text ... Unified Vision-Language Foundation: Early fusion training on multimodal tokens... visual understanding benchmarks.",
+      "section": "## Model Overview",
+      "confidence": "medium"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.",
+      "section": "## Qwen3.5 Highlights",
+      "confidence": "high"
+    }
+  ]
+}

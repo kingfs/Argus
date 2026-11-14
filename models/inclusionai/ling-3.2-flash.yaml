@@ -1,0 +1,39 @@
+schema_version: 2
+id: inclusionai/ling-3.2-flash
+name: 'inclusionAI: Ling 3.2 Flash (free)'
+provider: Inclusionai
+developer: inclusionai
+lifecycle: candidate
+description: Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...
+description_cn: Ling 3.2 Flash 是 inclusionAI 推出的混合推理模型，支持文本和图像输入，拥有 100 万令牌上下文窗口，每次请求最多支持 200 张图片。思考过程可...
+context_length: 1048576
+max_output: 262144
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - inclusionai/ling-3.2-flash:free
+discovered_at: 2026-11-14T08:13:31.737969477Z
+identifiers:
+  openrouter:
+    - inclusionai/ling-3.2-flash
+    - inclusionai/ling-3.2-flash:free
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter

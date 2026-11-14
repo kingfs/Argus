@@ -3,8 +3,10 @@ id: qwen/qwen3.5-4b-base
 name: Qwen3.5-4B-Base
 provider: Qwen
 developer: qwen
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Pre-trained Qwen3.5-4B-Base model with unified vision-language foundation, gated hybrid architecture, and 201 language support. Intended for fine-tuning, in-context learning, and research, not direct interaction.
+description_cn: 预训练的 Qwen3.5-4B-Base 模型，具备统一的视觉-语言基础、门控混合架构，并支持 201 种语言。旨在用于微调、上下文学习和研究，不直接用于交互。
+context_length: 262144
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - Qwen/Qwen3.5-4B-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-4B-Base/resolve/1001bb4d826a52d1f399e183466143f4da7b741b/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-4B-Base/resolve/1001bb4d826a52d1f399e183466143f4da7b741b/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/Qwen/Qwen3.5-4B-Base
@@ -24,6 +32,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/Qwen/Qwen3.5-4B-Base
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen3.5-4B-Base/resolve/1001bb4d826a52d1f399e183466143f4da7b741b/README.md
 upstream:
   huggingface:
     id: Qwen/Qwen3.5-4B-Base
@@ -51,3 +62,5 @@ upstream:
       - preprocessor_config.json
       - tokenizer_config.json
     fetched_at: 2026-09-13T06:53:33.559315401Z
+reasoning:
+  supported: true
