@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/tiny-aya-base-32k",
+  "status": "partially_accepted",
+  "created_at": "2026-11-15T08:33:37.366313596Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base-32K/resolve/67d166d35ed8093fbdf029388547e7754ba7d298/README.md",
+    "revision": "67d166d35ed8093fbdf029388547e7754ba7d298",
+    "sha256": "a0b1e28edb866018f6d04a698e85de43ec031a0842576921c831e6dc7ffe3926"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Cohere Labs Tiny Aya Base 32K is an open-weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages. This variant provides a 32K context window and is designed to support downstream adaptation, instruction tuning and long-context research. This is a base pretrained model and has not been instruction-tuned or preference-aligned.",
+      "evidence": "Cohere Labs Tiny Aya Base 32K is an open-weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages... This is a base pretrained model and has not been instruction-tuned or preference-aligned.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 32768,
+      "evidence": "Context Length: 32K (input + output)",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Input: Text only. Output: Model generates text.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "The model's strongest performance is on open-ended generation. Chain-of-thought reasoning tasks such as multilingual math are comparatively weaker.",
+      "section": "Limitations",
+      "confidence": "medium"
+    }
+  ]
+}

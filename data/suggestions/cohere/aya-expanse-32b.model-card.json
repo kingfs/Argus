@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/aya-expanse-32b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-15T08:33:58.792639447Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/aya-expanse-32b/resolve/b306ea27e360683b50c005d7fcbad6a242317910/README.md",
+    "revision": "b306ea27e360683b50c005d7fcbad6a242317910",
+    "sha256": "0bc9ebe7eb4dcb3d5316e1d067dd328c781af651dfec7d9fffff82d84022e328"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Aya Expanse 32B is an open-weight research release of a multilingual large language model with 32 billion parameters, developed by Cohere Labs. It supports 23 languages and uses an optimized transformer architecture with post-training including supervised finetuning, preference training, and model merging.",
+      "evidence": "Aya Expanse 32B is an open-weight research release of a model with highly advanced multilingual capabilities... The result is a powerful multilingual large language model serving 23 languages.",
+      "section": "Model Card for Aya-Expanse-32B",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "Context length: 128K",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Input**: Models input text only. **Output**: Models generate text only.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "Post-training includes supervised finetuning, preference training, and model merging.",
+      "section": "Model Details",
+      "confidence": "high"
+    }
+  ]
+}

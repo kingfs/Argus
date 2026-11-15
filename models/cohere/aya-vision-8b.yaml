@@ -3,8 +3,10 @@ id: cohere/aya-vision-8b
 name: aya-vision-8b
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Cohere Labs Aya Vision 8B is an open weights research release of an 8-billion parameter vision-language model. It is multilingual, trained to excel in 23 languages, and optimized for use cases including OCR, captioning, visual reasoning, summarization, and question answering.
+description_cn: Cohere Labs Aya Vision 8B 是拥有 80 亿参数的开放权重视觉-语言模型研究版。该模型支持多语言，专为 23 种语言优化，适用于 OCR、图像描述、视觉推理、摘要生成和问答等场景。
+context_length: 16384
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - CohereLabs/aya-vision-8b
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-vision-8b/resolve/d7601ac8fd3baf6f59c5fc9514c618ef0f24268f/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-vision-8b/resolve/d7601ac8fd3baf6f59c5fc9514c618ef0f24268f/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/aya-vision-8b

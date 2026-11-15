@@ -1,0 +1,42 @@
+schema_version: 2
+id: microsoft/rho-math-7b-v0.1
+name: rho-math-7b-v0.1
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/rho-math-7b-v0.1
+identifiers:
+  huggingface:
+    - microsoft/rho-math-7b-v0.1
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/rho-math-7b-v0.1
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/rho-math-7b-v0.1
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/rho-math-7b-v0.1
+upstream:
+  huggingface:
+    id: microsoft/rho-math-7b-v0.1
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mistral
+      - text-generation
+      - nlp
+      - math
+      - en
+      - arxiv:2404.07965
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

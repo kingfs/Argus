@@ -3,8 +3,10 @@ id: cohere/tiny-aya-base-32k
 name: tiny-aya-base-32K
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Cohere Labs Tiny Aya Base 32K is an open-weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages. This variant provides a 32K context window and is designed to support downstream adaptation, instruction tuning and long-context research. This is a base pretrained model and has not been instruction-tuned or preference-aligned.
+description_cn: Cohere Labs Tiny Aya Base 32K 是拥有 33.5 亿参数的开放权重预训练模型研究版，针对 70 多种语言的高效、强大且平衡的多语言表征进行了优化。该变体提供 32K 上下文窗口，旨在支持下游适配、指令调优和长上下文研究。这是基座预训练模型，未经过指令微调或偏好对齐。
+context_length: 32768
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - CohereLabs/tiny-aya-base-32K
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-base-32K/resolve/67d166d35ed8093fbdf029388547e7754ba7d298/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-base-32K/resolve/67d166d35ed8093fbdf029388547e7754ba7d298/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/tiny-aya-base-32K

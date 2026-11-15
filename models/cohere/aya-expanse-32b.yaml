@@ -3,8 +3,10 @@ id: cohere/aya-expanse-32b
 name: aya-expanse-32b
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Aya Expanse 32B is an open-weight research release of a multilingual large language model with 32 billion parameters, developed by Cohere Labs. It supports 23 languages and uses an optimized transformer architecture with post-training including supervised finetuning, preference training, and model merging.
+description_cn: Aya Expanse 32B 是 Cohere Labs 开发的拥有 320 亿参数的开放权重多语言大型语言模型研究版。它支持 23 种语言，采用优化的 Transformer 架构，并经过包括监督微调、偏好训练和模型合并在内的后训练过程。
+context_length: 131072
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - CohereLabs/aya-expanse-32b
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-expanse-32b/resolve/b306ea27e360683b50c005d7fcbad6a242317910/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-expanse-32b/resolve/b306ea27e360683b50c005d7fcbad6a242317910/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/aya-expanse-32b
@@ -23,6 +31,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/aya-expanse-32b
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-expanse-32b/resolve/b306ea27e360683b50c005d7fcbad6a242317910/README.md
 upstream:
   huggingface:
     id: CohereLabs/aya-expanse-32b
@@ -65,3 +76,5 @@ upstream:
       - eval-results
       - text-generation-inference
       - region:us
+reasoning:
+  supported: false

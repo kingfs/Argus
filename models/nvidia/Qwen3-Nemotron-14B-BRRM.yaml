@@ -1,0 +1,49 @@
+schema_version: 2
+id: nvidia/qwen3-nemotron-14b-brrm
+name: Qwen3-Nemotron-14B-BRRM
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Qwen3-Nemotron-14B-BRRM
+identifiers:
+  huggingface:
+    - nvidia/Qwen3-Nemotron-14B-BRRM
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-14B-BRRM
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-14B-BRRM
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-14B-BRRM
+upstream:
+  huggingface:
+    id: nvidia/Qwen3-Nemotron-14B-BRRM
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - pytorch
+      - qwen3
+      - text-generation
+      - reward_model
+      - nvidia
+      - conversational
+      - en
+      - dataset:nvidia/HelpSteer3
+      - dataset:Skywork/Skywork-Reward-Preference-80K-v0.2
+      - dataset:Vezora/Code-Preference-Pairs
+      - dataset:xinlai/Math-Step-DPO-10K
+      - arxiv:2510.23596
+      - base_model:Qwen/Qwen3-14B
+      - base_model:finetune:Qwen/Qwen3-14B
+      - license:other
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

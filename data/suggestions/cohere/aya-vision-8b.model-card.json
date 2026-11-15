@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/aya-vision-8b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-15T08:34:20.065316523Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/aya-vision-8b/resolve/d7601ac8fd3baf6f59c5fc9514c618ef0f24268f/README.md",
+    "revision": "d7601ac8fd3baf6f59c5fc9514c618ef0f24268f",
+    "sha256": "bcbaccccf9f3ade8ac23f85d43725fae6ea0f513f5c7be61b647c24ea6d1df46"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Cohere Labs Aya Vision 8B is an open weights research release of an 8-billion parameter vision-language model. It is multilingual, trained to excel in 23 languages, and optimized for use cases including OCR, captioning, visual reasoning, summarization, and question answering.",
+      "evidence": "**Cohere Labs Aya Vision 8B** is an open weights research release of an 8-billion parameter model with advanced capabilities optimized for a variety of vision-language use cases",
+      "section": "Model Card for Aya Vision 8B",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 16384,
+      "evidence": "Context length: 16K",
+      "section": "Model Card for Aya Vision 8B",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "ModalityImageIn"
+      ],
+      "evidence": "**Input:** Model accepts input text and images. **Output:** Model generates text.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "optimized for a variety of vision-language use cases, including OCR, captioning, visual reasoning, summarization, question answering, code, and more.",
+      "section": "Model Card for Aya Vision 8B",
+      "confidence": "low"
+    }
+  ]
+}

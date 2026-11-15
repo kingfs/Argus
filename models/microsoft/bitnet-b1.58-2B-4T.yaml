@@ -1,0 +1,45 @@
+schema_version: 2
+id: microsoft/bitnet-b1.58-2b-4t
+name: bitnet-b1.58-2B-4T
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+identifiers:
+  huggingface:
+    - microsoft/bitnet-b1.58-2B-4T
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
+upstream:
+  huggingface:
+    id: microsoft/bitnet-b1.58-2B-4T
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - bitnet
+      - text-generation
+      - chat
+      - large-language-model
+      - conversational
+      - custom_code
+      - en
+      - arxiv:2504.12285
+      - license:mit
+      - endpoints_compatible
+      - 8-bit
+      - region:us
+      - deploy:azure

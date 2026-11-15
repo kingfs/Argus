@@ -1,6 +1,6 @@
 schema_version: 2
 id: inclusionai/ling-3.2-flash
-name: 'inclusionAI: Ling 3.2 Flash (free)'
+name: 'inclusionAI: Ling 3.2 Flash'
 provider: Inclusionai
 developer: inclusionai
 lifecycle: candidate
