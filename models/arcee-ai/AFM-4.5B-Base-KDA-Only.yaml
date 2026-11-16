@@ -1,0 +1,45 @@
+schema_version: 2
+id: arcee-ai/afm-4.5b-base-kda-only
+name: AFM-4.5B-Base-KDA-Only
+provider: Arcee AI
+developer: arcee-ai
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/arcee-ai/AFM-4.5B-Base-KDA-Only
+identifiers:
+  huggingface:
+    - arcee-ai/AFM-4.5B-Base-KDA-Only
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/arcee-ai/AFM-4.5B-Base-KDA-Only
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/arcee-ai/AFM-4.5B-Base-KDA-Only
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/arcee-ai/AFM-4.5B-Base-KDA-Only
+upstream:
+  huggingface:
+    id: arcee-ai/AFM-4.5B-Base-KDA-Only
+    pipeline_tag: feature-extraction
+    tags:
+      - transformers
+      - safetensors
+      - arcee_kda
+      - feature-extraction
+      - kda
+      - kimi-delta-attention
+      - linear-attention
+      - distillation
+      - research
+      - custom_code
+      - en
+      - base_model:arcee-ai/AFM-4.5B-Base
+      - base_model:finetune:arcee-ai/AFM-4.5B-Base
+      - license:apache-2.0
+      - region:us

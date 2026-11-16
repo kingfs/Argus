@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1051,
-    "compiled": 634,
-    "candidates": 391,
+    "models": 1057,
+    "compiled": 638,
+    "candidates": 393,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 138,
-    "unverified_identities": 252
+    "identity_gaps": 139,
+    "unverified_identities": 253
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1025,
+    "model": 1031,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 744,
-      "openrouter": 307
+      "official_huggingface": 749,
+      "openrouter": 308
     },
     "unverified": [
       {
@@ -1108,6 +1108,11 @@
         "source": "openrouter"
       },
       {
+        "id": "qwen/qwen4-max",
+        "provider": "qwen",
+        "source": "openrouter"
+      },
+      {
         "id": "sakana/fugu-max",
         "provider": "sakana",
         "source": "openrouter"
@@ -1890,6 +1895,10 @@
     },
     {
       "id": "qwen/qwen3.8-omni-flash",
+      "provider": "qwen"
+    },
+    {
+      "id": "qwen/qwen4-max",
       "provider": "qwen"
     },
     {

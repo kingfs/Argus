@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/aya-vision-32b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-16T08:43:45.815914592Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/aya-vision-32b/resolve/0554d66834922fc0f2e5f47a12f78464f4a98533/README.md",
+    "revision": "0554d66834922fc0f2e5f47a12f78464f4a98533",
+    "sha256": "69829697bd5c4c28497c1dadf8fc692d331f7b613b839df4a8bf1c67f1332ee8"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Cohere Labs Aya Vision 32B is an open weights research release of a 32-billion parameter model with advanced capabilities optimized for a variety of vision-language use cases, including OCR, captioning, visual reasoning, summarization, question answering, code, and more. It is a multilingual model trained to excel in 23 languages in vision and language.",
+      "evidence": "Cohere Labs Aya Vision 32B** is an open weights research release of a 32-billion parameter model with advanced capabilities optimized for a variety of vision-language use cases, including OCR, captioning, visual reasoning, summariza",
+      "section": "# Model Card for Aya Vision 32B",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 16384,
+      "evidence": "**Context length**: Aya Vision 32B supports a context length of 16K.",
+      "section": "## Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityImageIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Model accepts input text and images. ... Model generates text.",
+      "section": "## Model Details",
+      "confidence": "high"
+    }
+  ]
+}

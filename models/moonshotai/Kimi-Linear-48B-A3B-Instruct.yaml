@@ -1,0 +1,40 @@
+schema_version: 2
+id: moonshotai/kimi-linear-48b-a3b-instruct
+name: Kimi-Linear-48B-A3B-Instruct
+provider: Moonshot AI
+developer: moonshotai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct
+identifiers:
+  huggingface:
+    - moonshotai/Kimi-Linear-48B-A3B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct
+upstream:
+  huggingface:
+    id: moonshotai/Kimi-Linear-48B-A3B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - kimi_linear
+      - text-generation
+      - conversational
+      - custom_code
+      - arxiv:2510.26692
+      - arxiv:2412.06464
+      - license:mit
+      - region:us

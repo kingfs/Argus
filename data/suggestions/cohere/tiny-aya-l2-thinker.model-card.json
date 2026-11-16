@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/tiny-aya-l2-thinker",
+  "status": "partially_accepted",
+  "created_at": "2026-11-16T08:44:07.425843984Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker/resolve/fab408bfac9f54e244aaa9e38e0db95b2fe2acfa/README.md",
+    "revision": "fab408bfac9f54e244aaa9e38e0db95b2fe2acfa",
+    "sha256": "9b7a8e2bb74dd8c95af58c9f506ba8e95fde69b77e413e418eb88a656ef58d26"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Cohere Labs Tiny Aya L2-Thinker is an open-weights research release of a 3.35 billion parameter multilingual reasoning model optimized to think in the same language as the user prompt before writing the final answer.",
+      "evidence": "Cohere Labs Tiny Aya L2-Thinker is an open-weights research release of a 3.35 billion parameter multilingual reasoning model optimized to **think in the same language as the user prompt** before writing the final answer.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 32768,
+      "evidence": "Context Length: 32K (input + output)",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 32768,
+      "evidence": "max_new_tokens=32768",
+      "section": "Usage",
+      "confidence": "medium"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "**Input:** Text only.\n\n**Output:** Model generates text, including an explicit thinking trace if thinking is enabled.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "The model supports **dual-mode reasoning**. In thinking mode (default behavior)",
+      "section": "Usage",
+      "confidence": "high"
+    }
+  ]
+}

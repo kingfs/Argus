@@ -3,8 +3,10 @@ id: cohere/aya-vision-32b
 name: aya-vision-32b
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Cohere Labs Aya Vision 32B is an open weights research release of a 32-billion parameter model with advanced capabilities optimized for a variety of vision-language use cases, including OCR, captioning, visual reasoning, summarization, question answering, code, and more. It is a multilingual model trained to excel in 23 languages in vision and language.
+description_cn: Cohere Labs Aya Vision 32B 是拥有 320 亿参数的开源权重研究模型，具备高级能力，针对多种视觉-语言用例进行了优化，包括 OCR、图像描述、视觉推理、摘要、问答、代码等。它是一个多语言模型，旨在 23 种语言的视觉和语言任务中表现出色。
+context_length: 16384
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - CohereLabs/aya-vision-32b
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-vision-32b/resolve/0554d66834922fc0f2e5f47a12f78464f4a98533/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/aya-vision-32b/resolve/0554d66834922fc0f2e5f47a12f78464f4a98533/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/aya-vision-32b

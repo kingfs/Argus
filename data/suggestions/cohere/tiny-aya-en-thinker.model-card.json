@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/tiny-aya-en-thinker",
+  "status": "partially_accepted",
+  "created_at": "2026-11-16T08:43:24.323693377Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker/resolve/8380e8d979482d50095f285c666983bdadf3692c/README.md",
+    "revision": "8380e8d979482d50095f285c666983bdadf3692c",
+    "sha256": "fd96005ec6fe964054c181fabaa5759ae995751d6bd3a4b05af10c98c4800ccb"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Open-weights research release of a 3.35 billion parameter multilingual reasoning model trained on multilingual reasoning data with English reasoning traces for 44 languages plus English.",
+      "evidence": "Cohere Labs Tiny Aya En-Thinker is an open-weights research release of a 3.35 billion parameter multilingual reasoning model.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 32768,
+      "evidence": "Context Length: 32K (input + output)",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Input: Text only.\n\nOutput: Model generates text",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "The model supports **dual-mode reasoning**.",
+      "section": "Usage",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "start_thinking_end_thinking",
+      "evidence": "The model then writes its thinking trace between `\u003c|START_THINKING|\u003e` and `\u003c|END_THINKING|\u003e`",
+      "section": "Usage",
+      "confidence": "high"
+    }
+  ]
+}
