@@ -3,8 +3,11 @@ id: cohere/command-a-reasoning-08-2025
 name: command-a-reasoning-08-2025
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Open weights research release of a 111 billion parameter model optimized for tool use, agentic, and multilingual use cases with reasoning capabilities.
+description_cn: CoHere command-a-reasoning-08-2025 是一个开放权重的研究版本模型，拥有 1110 亿参数，专为工具使用、智能体场景及多语言用例优化，具备推理能力。
+context_length: 262144
+max_output: 32768
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,15 +17,27 @@ identifiers:
   huggingface:
     - CohereLabs/command-a-reasoning-08-2025
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025/resolve/bd39aafe2c5e71a044d2f1674accfd9b384d3dbb/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025/resolve/bd39aafe2c5e71a044d2f1674accfd9b384d3dbb/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025/resolve/bd39aafe2c5e71a044d2f1674accfd9b384d3dbb/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025/resolve/bd39aafe2c5e71a044d2f1674accfd9b384d3dbb/README.md
 upstream:
   huggingface:
     id: CohereLabs/command-a-reasoning-08-2025
@@ -61,3 +76,5 @@ upstream:
       - license:cc-by-nc-4.0
       - eval-results
       - region:us
+reasoning:
+  supported: true

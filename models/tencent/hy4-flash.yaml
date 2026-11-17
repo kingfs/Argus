@@ -1,0 +1,61 @@
+schema_version: 2
+id: tencent/hy4-flash
+name: 'Tencent: Hy4 flash'
+provider: Tencent
+developer: tencent
+lifecycle: candidate
+description: Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent...
+description_cn: Hy4 flash 是腾讯 [Hy4](https://openrouter.ai/tencent/hy4) 的高性价比变体，拥有约为主打模型四分之一的参数量，以实现更低的延迟和成本。其目标场景为代码辅助、智能体...
+context_length: 1048576
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-17T09:50:26.638602144Z
+identifiers:
+  openrouter:
+    - tencent/hy4-flash
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: tencent/hy4-flash-20261116
+    supported_parameters:
+      - include_reasoning
+      - max_completion_tokens
+      - max_tokens
+      - reasoning
+      - response_format
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-17T09:50:33.181393943Z
+reasoning:
+  supported: true
+  default_enabled: true

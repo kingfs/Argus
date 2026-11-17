@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/command-a-reasoning-08-2025",
+  "status": "partially_accepted",
+  "created_at": "2026-11-17T09:51:16.294901666Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/command-a-reasoning-08-2025/resolve/bd39aafe2c5e71a044d2f1674accfd9b384d3dbb/README.md",
+    "revision": "bd39aafe2c5e71a044d2f1674accfd9b384d3dbb",
+    "sha256": "4cb2a169cd4250a8235a43083065a67f570fd655041631ebe87d70993f83362a"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Open weights research release of a 111 billion parameter model optimized for tool use, agentic, and multilingual use cases with reasoning capabilities.",
+      "evidence": "Cohere Labs Command A Reasoning is an open weights research release of a 111 billion parameter model optimized for tool use, agentic, and multilingual use cases with reasoning capabilities.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context Length: Command A Reasoning supports a context length of 256K \u0026 32K output length.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 32768,
+      "evidence": "Context Length: Command A Reasoning supports a context length of 256K \u0026 32K output length.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "CapFunctionCall"
+      ],
+      "evidence": "Input: Text only. Output: Model generates text. Command A Reasoning has been specifically trained with conversational tool use capabilities.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "The model can be used both with reasoning on for increased performance or with reasoning off for lower latency responses",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "think_tokens",
+      "evidence": "the thinking is generated between the \u003c|START_THINKING|\u003e and \u003c|END_THINKING|\u003e:",
+      "section": "Model Summary",
+      "confidence": "medium"
+    }
+  ]
+}

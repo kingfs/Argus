@@ -3,8 +3,11 @@ id: cohere/tiny-aya-earth
 name: tiny-aya-earth
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: A 3.35B parameter pretrained multilingual model optimized for West Asian and African languages, supporting 70+ languages.
+description_cn: CoHere tiny-aya-earth 是一个 33.5 亿参数的预训练多语言模型，专为西语和非洲语言优化，支持 70 多种语言。
+context_length: 8192
+max_output: 8192
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,12 +17,21 @@ identifiers:
   huggingface:
     - CohereLabs/tiny-aya-earth
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-earth/resolve/821f26a10f8e67a5b453f62d3091d5d4af14b1ae/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-earth/resolve/821f26a10f8e67a5b453f62d3091d5d4af14b1ae/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/tiny-aya-earth
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-earth
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-earth/resolve/821f26a10f8e67a5b453f62d3091d5d4af14b1ae/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-earth

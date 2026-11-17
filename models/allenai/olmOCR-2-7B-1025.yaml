@@ -1,0 +1,46 @@
+schema_version: 2
+id: allenai/olmocr-2-7b-1025
+name: olmOCR-2-7B-1025
+provider: Allen Institute for AI
+developer: allenai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/allenai/olmOCR-2-7B-1025
+identifiers:
+  huggingface:
+    - allenai/olmOCR-2-7B-1025
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/allenai/olmOCR-2-7B-1025
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/olmOCR-2-7B-1025
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/allenai/olmOCR-2-7B-1025
+upstream:
+  huggingface:
+    id: allenai/olmOCR-2-7B-1025
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen2_5_vl
+      - image-text-to-text
+      - conversational
+      - en
+      - base_model:Qwen/Qwen2.5-VL-7B-Instruct
+      - base_model:finetune:Qwen/Qwen2.5-VL-7B-Instruct
+      - license:apache-2.0
+      - eval-results
+      - text-generation-inference
+      - endpoints_compatible
+      - deploy:azure
+      - deploy:sagemaker
+      - region:us

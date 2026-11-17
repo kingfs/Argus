@@ -1,0 +1,44 @@
+schema_version: 2
+id: nvidia/nemotron-labs-sigma-3b-instruct
+name: Nemotron-Labs-Sigma-3B-instruct
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Labs-Sigma-3B-instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Labs-Sigma-3B-instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - nemotron_labs_sigma
+      - feature-extraction
+      - nvidia
+      - pytorch
+      - nemotron-labs
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - arxiv:2610.02665
+      - license:other
+      - region:us

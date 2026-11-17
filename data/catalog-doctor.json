@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1057,
-    "compiled": 638,
-    "candidates": 393,
+    "models": 1063,
+    "compiled": 641,
+    "candidates": 396,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 139,
-    "unverified_identities": 253
+    "identity_gaps": 140,
+    "unverified_identities": 254
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1031,
+    "model": 1037,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 749,
-      "openrouter": 308
+      "official_huggingface": 754,
+      "openrouter": 309
     },
     "unverified": [
       {
@@ -1138,6 +1138,11 @@
         "source": "openrouter"
       },
       {
+        "id": "tencent/hy4-flash",
+        "provider": "tencent",
+        "source": "openrouter"
+      },
+      {
         "id": "tngtech/tng-r1t-chimera",
         "provider": "tngtech",
         "source": "openrouter"
@@ -1919,6 +1924,10 @@
     },
     {
       "id": "tencent/hy4",
+      "provider": "tencent"
+    },
+    {
+      "id": "tencent/hy4-flash",
       "provider": "tencent"
     },
     {

@@ -3,8 +3,11 @@ id: cohere/tiny-aya-fire
 name: tiny-aya-fire
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Cohere Labs Tiny Aya is an open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages, including many lower-resourced ones. It is designed to support downstream adaptation, instruction tuning, and local deployment under realistic compute constraints.
+description_cn: CoHere Labs Tiny Aya 是一个开放权重的研究版本预训练模型，具有 33.5 亿参数，在多语言表示方面进行了优化，支持 70 多种语言（包括许多低资源语言），旨在实现高效、强大且均衡的多语言能力。该模型专为下游适应、指令微调以及在真实计算约束下的本地部署而设计。
+context_length: 8192
+max_output: 8192
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,12 +17,21 @@ identifiers:
   huggingface:
     - CohereLabs/tiny-aya-fire
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-fire/resolve/be6cc40188067e69502b0873062c0d7c4e2ba1fe/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-fire/resolve/be6cc40188067e69502b0873062c0d7c4e2ba1fe/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/tiny-aya-fire
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-fire
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-fire/resolve/be6cc40188067e69502b0873062c0d7c4e2ba1fe/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-fire
