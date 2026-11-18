@@ -3,8 +3,11 @@ id: cohere/tiny-aya-base
 name: tiny-aya-base
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: Cohere Labs Tiny Aya is an open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages.
+description_cn: Cohere Labs Tiny Aya 是一个开放权重的研究发布版，为 33.5 亿参数预训练模型，旨在跨 70 多种语言提供高效、强劲且均衡的多语言表示能力。
+context_length: 8192
+max_output: 8192
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,12 +17,21 @@ identifiers:
   huggingface:
     - CohereLabs/tiny-aya-base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-base/resolve/1c1166cbc8bbd17760e85d9e1c40d61725f60ae8/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-base/resolve/1c1166cbc8bbd17760e85d9e1c40d61725f60ae8/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/tiny-aya-base
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-base
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/tiny-aya-base/resolve/1c1166cbc8bbd17760e85d9e1c40d61725f60ae8/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/tiny-aya-base

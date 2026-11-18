@@ -3,7 +3,9 @@ id: amazon/mamba2-primed-hqwen3-8b-instruct
 name: Mamba2-primed-HQwen3-8B-Instruct
 provider: Amazon
 developer: amazon
-lifecycle: candidate
+lifecycle: active
+description: Hybrid language model with 50% Attention and 50% Mamba-2 layers, primed from Qwen3-8B. It is instruction-tuned, supports context lengths up to 128K tokens, and is not a thinking model.
+description_cn: 一种混合语言模型，包含 50% 注意力层和 50% Mamba-2 层，基于 Qwen3-8B 初始化。该模型经过指令微调，支持长达 128K tokes 的上下文长度，且不是思考型模型。
 context_length: 131072
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct
+  description:
+    source: official_model_card
+    url: https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct/resolve/ee94c197bd11e6120e5f483917a4353b1e7166f9/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct
@@ -26,6 +31,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct/resolve/ee94c197bd11e6120e5f483917a4353b1e7166f9/README.md
 upstream:
   huggingface:
     id: amazon/Mamba2-primed-HQwen3-8B-Instruct
@@ -62,3 +70,5 @@ upstream:
       - config.json
       - tokenizer_config.json
     fetched_at: 2026-09-19T06:48:02.436748435Z
+reasoning:
+  supported: false

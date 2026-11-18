@@ -1,0 +1,45 @@
+schema_version: 2
+id: nvidia/llama-3.2-1b-qwen3.8-27b-draft
+name: Llama-3.2-1B-Qwen3.8-27B-Draft
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+identifiers:
+  huggingface:
+    - nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+upstream:
+  huggingface:
+    id: nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft
+    pipeline_tag: text-generation
+    tags:
+      - Model Optimizer
+      - safetensors
+      - llama
+      - nvidia
+      - ModelOpt
+      - Llama3.2
+      - Qwen3.8
+      - Draft
+      - text-generation
+      - conversational
+      - arxiv:2407.21783
+      - base_model:Qwen/Qwen3.8-27B
+      - base_model:finetune:Qwen/Qwen3.8-27B
+      - license:other
+      - region:us

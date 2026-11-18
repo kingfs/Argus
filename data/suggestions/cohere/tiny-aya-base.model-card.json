@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/tiny-aya-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-18T09:23:43.469570285Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base/resolve/1c1166cbc8bbd17760e85d9e1c40d61725f60ae8/README.md",
+    "revision": "1c1166cbc8bbd17760e85d9e1c40d61725f60ae8",
+    "sha256": "855687a2539fe48ac83e3e208d58970615a410958be0b0a73e48c1ba8e46d7d2"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Cohere Labs Tiny Aya is an open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages.",
+      "evidence": "Cohere Labs Tiny Aya is an open weights research release of a pretrained 3.35 billion parameter model optimized for efficient, strong, and balanced multilingual representation across 70+ languages",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 8192,
+      "evidence": "Tiny Aya supports a context length of 8K \u0026 8K output length.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 8192,
+      "evidence": "Tiny Aya supports a context length of 8K \u0026 8K output length.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "**Input**: Text only.\n\n**Output**: Model generates text.",
+      "section": "Model Details",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "The model's strongest performance is on open-ended generation and conversational tasks. Chain-of-thought reasoning tasks such as multilingual math (MGSM) are comparatively weaker.",
+      "section": "Limitations",
+      "confidence": "medium"
+    }
+  ]
+}

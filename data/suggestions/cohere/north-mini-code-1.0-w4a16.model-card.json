@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "cohere/north-mini-code-1.0-w4a16",
+  "status": "partially_accepted",
+  "created_at": "2026-11-18T09:23:21.539583709Z",
+  "source": {
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16/resolve/1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90/README.md",
+    "revision": "1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90",
+    "sha256": "82e1e35da4d85f691a1977b53679da640cdf97967dfc966202b7a9aa5e0bea26"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "North Mini Code is an open weights research release of a 30B-A3B parameter model optimized for code generation, agentic software engineering, and terminal tasks.",
+      "evidence": "North Mini Code is an open weights research release of a 30B-A3B parameter model optimized for code generation, agentic software engineering, and terminal tasks.",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 262144,
+      "evidence": "Context length: 256K \u0026 64K max output",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "max_output",
+      "value": 65536,
+      "evidence": "Context length: 256K \u0026 64K max output",
+      "section": "Model Summary",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut",
+        "CapFunctionCall"
+      ],
+      "evidence": "--enable-auto-tool-choice",
+      "section": "vLLM",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "--reasoning-parser cohere_command4",
+      "section": "vLLM",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.parser",
+      "value": "cohere_command4",
+      "evidence": "--reasoning-parser cohere_command4",
+      "section": "vLLM",
+      "confidence": "high"
+    }
+  ]
+}

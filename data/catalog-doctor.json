@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1063,
-    "compiled": 641,
-    "candidates": 396,
+    "models": 1070,
+    "compiled": 645,
+    "candidates": 399,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 140,
-    "unverified_identities": 254
+    "identity_gaps": 139,
+    "unverified_identities": 255
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1037,
+    "model": 1044,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 754,
-      "openrouter": 309
+      "official_huggingface": 760,
+      "openrouter": 310
     },
     "unverified": [
       {
@@ -893,6 +893,16 @@
         "source": "openrouter"
       },
       {
+        "id": "openai/gpt-6.2-astra",
+        "provider": "openai",
+        "source": "openrouter"
+      },
+      {
+        "id": "openai/gpt-6.2-sol",
+        "provider": "openai",
+        "source": "openrouter"
+      },
+      {
         "id": "openai/gpt-audio",
         "provider": "openai",
         "source": "openrouter"
@@ -1134,11 +1144,6 @@
       },
       {
         "id": "tencent/hy4",
-        "provider": "tencent",
-        "source": "openrouter"
-      },
-      {
-        "id": "tencent/hy4-flash",
         "provider": "tencent",
         "source": "openrouter"
       },
@@ -1412,6 +1417,7 @@
     "qwen/qwen3.5-4b-base",
     "qwen/qwen3.5-9b-base",
     "tencent/hy3-preview-base",
+    "tencent/hy4-flash-base",
     "tencent/wedlm-7b-base",
     "tencent/wedlm-8b-base",
     "tencent/youtu-llm-2b-base",
@@ -1924,10 +1930,6 @@
     },
     {
       "id": "tencent/hy4",
-      "provider": "tencent"
-    },
-    {
-      "id": "tencent/hy4-flash",
       "provider": "tencent"
     },
     {

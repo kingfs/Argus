@@ -20,7 +20,6 @@ aliases:
   - openai/gpt-6.1-sol-pro
   - openai/gpt-6.1-sol-pro:batch
   - openai/gpt-6.1-sol:batch
-  - ~openai/gpt-sol-latest
 discovered_at: 2026-09-30T07:36:51.726906544Z
 links:
   documentation: https://platform.openai.com/docs/models
@@ -30,7 +29,6 @@ identifiers:
     - openai/gpt-6.1-sol-pro
     - openai/gpt-6.1-sol-pro:batch
     - openai/gpt-6.1-sol:batch
-    - ~openai/gpt-sol-latest
 provenance:
   context_length:
     source: openrouter

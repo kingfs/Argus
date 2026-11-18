@@ -3,8 +3,11 @@ id: cohere/north-mini-code-1.0-w4a16
 name: North-Mini-Code-1.0-w4a16
 provider: Cohere
 developer: cohere
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: North Mini Code is an open weights research release of a 30B-A3B parameter model optimized for code generation, agentic software engineering, and terminal tasks.
+description_cn: North Mini Code 是一个开放权重的研究发布版，为 30B-A3B 参数模型，专为代码生成、智能体软件工程及终端任务优化。
+context_length: 262144
+max_output: 65536
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,15 +17,27 @@ identifiers:
   huggingface:
     - CohereLabs/North-Mini-Code-1.0-w4a16
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16/resolve/1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16/resolve/1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16
   id:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16
+  max_output:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16/resolve/1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90/README.md
   name:
     source: official_huggingface
     url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/CohereLabs/North-Mini-Code-1.0-w4a16/resolve/1e55f4aa327aba4c0b7a1da0d0f24626d3af5c90/README.md
 upstream:
   huggingface:
     id: CohereLabs/North-Mini-Code-1.0-w4a16
@@ -41,3 +56,5 @@ upstream:
       - license:apache-2.0
       - compressed-tensors
       - region:us
+reasoning:
+  supported: true

@@ -1,0 +1,45 @@
+schema_version: 2
+id: tencent/hy4-flash-base
+name: Hy4-flash-base
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Hy4-flash-base
+identifiers:
+  huggingface:
+    - tencent/Hy4-flash-base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Hy4-flash-base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy4-flash-base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy4-flash-base
+upstream:
+  huggingface:
+    id: tencent/Hy4-flash-base
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - hy_v4_flash
+      - text-generation
+      - hunyuan
+      - hy4-flash
+      - moe
+      - multimodal
+      - pretrained
+      - image-text-to-text
+      - conversational
+      - license:other
+      - endpoints_compatible
+      - region:us

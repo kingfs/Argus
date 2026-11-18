@@ -1,0 +1,52 @@
+schema_version: 2
+id: dots-studio/dots.mocr
+name: dots.mocr
+provider: Dots Studio
+developer: dots-studio
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/dots-studio/dots.mocr
+identifiers:
+  huggingface:
+    - dots-studio/dots.mocr
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/dots-studio/dots.mocr
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/dots-studio/dots.mocr
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/dots-studio/dots.mocr
+upstream:
+  huggingface:
+    id: dots-studio/dots.mocr
+    pipeline_tag: image-text-to-text
+    tags:
+      - dots_mocr
+      - safetensors
+      - dots_ocr
+      - text-generation
+      - image-to-text
+      - ocr
+      - document-parse
+      - layout
+      - table
+      - formula
+      - transformers
+      - custom_code
+      - image-text-to-text
+      - conversational
+      - en
+      - zh
+      - multilingual
+      - arxiv:2603.13032
+      - license:mit
+      - eval-results
+      - region:us

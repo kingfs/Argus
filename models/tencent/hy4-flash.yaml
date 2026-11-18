@@ -3,7 +3,7 @@ id: tencent/hy4-flash
 name: 'Tencent: Hy4 flash'
 provider: Tencent
 developer: tencent
-lifecycle: candidate
+lifecycle: active
 description: Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent...
 description_cn: Hy4 flash 是腾讯 [Hy4](https://openrouter.ai/tencent/hy4) 的高性价比变体，拥有约为主打模型四分之一的参数量，以实现更低的延迟和成本。其目标场景为代码辅助、智能体...
 context_length: 1048576
@@ -16,7 +16,11 @@ features:
   - ModalityTextIn
   - ModalityTextOut
 discovered_at: 2026-11-17T09:50:26.638602144Z
+links:
+  model_card: https://huggingface.co/tencent/Hy4-flash
 identifiers:
+  huggingface:
+    - tencent/Hy4-flash
   openrouter:
     - tencent/hy4-flash
 provenance:
@@ -39,6 +43,7 @@ provenance:
 upstream:
   openrouter:
     canonical_slug: tencent/hy4-flash-20261116
+    huggingface_id: tencent/Hy4-flash
     supported_parameters:
       - include_reasoning
       - max_completion_tokens
@@ -55,7 +60,34 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-17T09:50:33.181393943Z
+    fetched_at: 2026-11-18T09:22:38.578042167Z
+  huggingface:
+    id: tencent/Hy4-flash
+    revision: d88c9dfd96ba4f2e6b92adba0b8e8f1c8696f959
+    pipeline_tag: image-text-to-text
+    model_type: hy_v4_flash
+    architectures:
+      - HYV4FlashForConditionalGeneration
+    license: other
+    tags:
+      - conversational
+      - endpoints_compatible
+      - hunyuan
+      - hy4-flash
+      - hy_v4_flash
+      - image-text-to-text
+      - instruct
+      - license:other
+      - moe
+      - multimodal
+      - region:us
+      - safetensors
+      - text-generation
+      - transformers
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-18T09:22:39.114809015Z
 reasoning:
   supported: true
   default_enabled: true

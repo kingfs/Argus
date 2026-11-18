@@ -29,8 +29,11 @@ upstream:
     canonical_slug: qwen/qwen3-coder-30b-a3b-instruct
     huggingface_id: Qwen/Qwen3-Coder-30B-A3B-Instruct
     supported_parameters:
+      - frequency_penalty
       - max_tokens
+      - response_format
       - stop
+      - structured_outputs
       - temperature
       - tool_choice
       - tools
@@ -41,7 +44,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2025-06-30"
-    fetched_at: 2026-11-16T08:42:41.81195007Z
+    fetched_at: 2026-11-18T09:22:38.575198504Z
   huggingface:
     id: Qwen/Qwen3-Coder-30B-A3B-Instruct
     revision: b2cff646eb4bb1d68355c01b18ae02e7cf42d120

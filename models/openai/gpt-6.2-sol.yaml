@@ -1,0 +1,83 @@
+schema_version: 2
+id: openai/gpt-6.2-sol
+name: 'OpenAI: GPT-6.2 Sol Pro'
+provider: OpenAI
+developer: openai
+lifecycle: candidate
+description: GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...
+description_cn: GPT-6.2 Sol Pro 与 [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol) 基于相同的底层模型，但设置 `reasoning.mode` 为 `pro`，以在复杂任务中提供更高品质的响应。 **费用说明：** pro 模式消耗远多...
+context_length: 1050000
+max_output: 128000
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+aliases:
+  - openai/gpt-6.2-sol-pro
+  - openai/gpt-6.2-sol-pro:batch
+  - openai/gpt-6.2-sol:batch
+  - ~openai/gpt-sol-latest
+discovered_at: 2026-11-18T09:22:33.69607232Z
+links:
+  documentation: https://platform.openai.com/docs/models
+identifiers:
+  openrouter:
+    - openai/gpt-6.2-sol
+    - openai/gpt-6.2-sol-pro
+    - openai/gpt-6.2-sol-pro:batch
+    - openai/gpt-6.2-sol:batch
+    - ~openai/gpt-sol-latest
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: openai/gpt-6.2-sol-20261117
+    supported_parameters:
+      - include_reasoning
+      - max_completion_tokens
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - seed
+      - structured_outputs
+      - tool_choice
+      - tools
+      - verbosity
+    input_modalities:
+      - file
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-18T09:22:38.573784588Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_enabled: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - xhigh
