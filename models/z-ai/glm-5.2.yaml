@@ -37,7 +37,6 @@ upstream:
       - logprobs
       - max_tokens
       - min_p
-      - parallel_tool_calls
       - presence_penalty
       - reasoning
       - reasoning_effort
@@ -56,7 +55,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:45:21.25492863Z
+    fetched_at: 2026-11-19T09:35:41.781123505Z
   huggingface:
     id: zai-org/GLM-5.2
     revision: b4734de4facf877f85769a911abafc5283eab3d9

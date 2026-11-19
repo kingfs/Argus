@@ -1,0 +1,78 @@
+schema_version: 2
+id: google/gemini-4-neon
+name: 'Google: Gemini 4 Neon'
+provider: Google
+developer: google
+lifecycle: candidate
+description: Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...
+description_cn: Gemini 4 Neon 是 Google Gemini 4 系列中的快速、中档定价模型，专为编码和智能体工作而构建。它适用于代码仓库和终端编码、网页...
+context_length: 1048576
+max_output: 943718
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityAudioIn
+  - ModalityFileIn
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+  - ModalityVideoIn
+aliases:
+  - google/gemini-4-neon:batch
+discovered_at: 2026-11-19T09:35:34.043407441Z
+identifiers:
+  openrouter:
+    - google/gemini-4-neon
+    - google/gemini-4-neon:batch
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: google/gemini-4-neon-20261118
+    supported_parameters:
+      - include_reasoning
+      - max_tokens
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - audio
+      - file
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-19T09:35:41.774280291Z
+reasoning:
+  supported: true
+  mandatory: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - medium
+    - xhigh

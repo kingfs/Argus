@@ -3,7 +3,9 @@ id: amazon/gdn-primed-hqwen3-8b-reasoner
 name: GDN-primed-HQwen3-8B-Reasoner
 provider: Amazon
 developer: amazon
-lifecycle: candidate
+lifecycle: active
+description: Hybrid language model consisting of 50% Attention layers and 50% Gated DeltaNet (GDN) layers, primed from Qwen3-8B. Trained for long-context reasoning with 128K token context length.
+description_cn: 由 50% 注意力层和 50% 门控 DeltaNet（GDN）层组成的混合语言模型，基于 Qwen3-8B 预热训练。专为长上下文推理而训练，支持 128K 标记的上下文长度。
 context_length: 131072
 features:
   - ModalityTextIn
@@ -17,6 +19,9 @@ provenance:
   context_length:
     source: official_huggingface_config
     url: https://huggingface.co/amazon/GDN-primed-HQwen3-8B-Reasoner
+  description:
+    source: official_model_card
+    url: https://huggingface.co/amazon/GDN-primed-HQwen3-8B-Reasoner/resolve/62a72fc0e1ae2a12b40f7b008a5353dce4b48f7d/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/amazon/GDN-primed-HQwen3-8B-Reasoner

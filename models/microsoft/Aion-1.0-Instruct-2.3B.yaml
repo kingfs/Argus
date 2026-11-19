@@ -1,0 +1,49 @@
+schema_version: 2
+id: microsoft/aion-1.0-instruct-2.3b
+name: Aion-1.0-Instruct-2.3B
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B
+identifiers:
+  huggingface:
+    - microsoft/Aion-1.0-Instruct-2.3B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B
+upstream:
+  huggingface:
+    id: microsoft/Aion-1.0-Instruct-2.3B
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - aion_instruct
+      - text-generation
+      - custom_code
+      - summarization
+      - rewriting
+      - chat
+      - conversational
+      - en
+      - de
+      - es
+      - pt
+      - it
+      - fr
+      - zh
+      - ja
+      - license:mit
+      - region:us

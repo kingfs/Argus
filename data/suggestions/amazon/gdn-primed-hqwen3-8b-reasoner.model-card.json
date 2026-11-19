@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "amazon/gdn-primed-hqwen3-8b-reasoner",
+  "status": "partially_accepted",
+  "created_at": "2026-11-19T09:37:07.586989263Z",
+  "source": {
+    "url": "https://huggingface.co/amazon/GDN-primed-HQwen3-8B-Reasoner/resolve/62a72fc0e1ae2a12b40f7b008a5353dce4b48f7d/README.md",
+    "revision": "62a72fc0e1ae2a12b40f7b008a5353dce4b48f7d",
+    "sha256": "672fd97f98b6cb05970a63f4f8963bd3a73a5372ba4015d33d6175f817698bb4"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "Hybrid language model consisting of 50% Attention layers and 50% Gated DeltaNet (GDN) layers, primed from Qwen3-8B. Trained for long-context reasoning with 128K token context length.",
+      "evidence": "GDN-primed-HQwen3-8B-Reasoner is a Hybrid language model consisting of 50% Attention layers and 50% [Gated DeltaNet (GDN)](https://arxiv.org/abs/2412.06464) layers, primed from [Qwen3-8B]",
+      "section": "# GDN-primed-HQwen3-8B-Reasoner",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 131072,
+      "evidence": "context lengths of 128K tokens",
+      "section": "# GDN-primed-HQwen3-8B-Reasoner",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "YAML Frontmatter",
+      "confidence": "high"
+    }
+  ]
+}

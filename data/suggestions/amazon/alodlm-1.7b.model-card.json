@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "amazon/alodlm-1.7b",
+  "status": "partially_accepted",
+  "created_at": "2026-11-19T09:36:46.247171884Z",
+  "source": {
+    "url": "https://huggingface.co/amazon/ALoDLM-1.7B/resolve/588c7dc1946e3e09fd496da0b0808bd26f46a758/README.md",
+    "revision": "588c7dc1946e3e09fd496da0b0808bd26f46a758",
+    "sha256": "8cfc75309e2e59165fe02a4f45f42413830c609da06dcc7983c6715206ead66f"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "ALoDLM-1.7B is a diffusion language model developed at Amazon, initialized from the Qwen3 backbone. It generates text and code by repeatedly applying shared transformer layers and adaptively allocating computation across token positions.",
+      "evidence": "ALoDLM is a family of diffusion language models developed at Amazon... initialized from the corresponding Qwen3 backbones. The models generate text and code...",
+      "section": "ALoDLM: Adaptively Looped Diffusion Language Models",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "The models generate text and code by repeatedly applying shared transformer layers",
+      "section": "ALoDLM: Adaptively Looped Diffusion Language Models",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1070,
-    "compiled": 645,
-    "candidates": 399,
+    "models": 1076,
+    "compiled": 647,
+    "candidates": 403,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 139,
-    "unverified_identities": 255
+    "identity_gaps": 140,
+    "unverified_identities": 256
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1044,
+    "model": 1050,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 760,
-      "openrouter": 310
+      "official_huggingface": 765,
+      "openrouter": 311
     },
     "unverified": [
       {
@@ -414,6 +414,11 @@
       },
       {
         "id": "google/gemini-4-hydrogen",
+        "provider": "google",
+        "source": "openrouter"
+      },
+      {
+        "id": "google/gemini-4-neon",
         "provider": "google",
         "source": "openrouter"
       },
@@ -1654,6 +1659,10 @@
     },
     {
       "id": "google/gemini-4-hydrogen",
+      "provider": "google"
+    },
+    {
+      "id": "google/gemini-4-neon",
       "provider": "google"
     },
     {

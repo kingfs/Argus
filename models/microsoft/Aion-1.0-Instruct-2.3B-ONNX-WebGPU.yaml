@@ -1,0 +1,54 @@
+schema_version: 2
+id: microsoft/aion-1.0-instruct-2.3b-onnx-webgpu
+name: Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+identifiers:
+  huggingface:
+    - microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+upstream:
+  huggingface:
+    id: microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU
+    pipeline_tag: text-generation
+    tags:
+      - onnxruntime-genai
+      - onnx
+      - qwen3
+      - quantized
+      - onnxruntime
+      - webgpu
+      - int4
+      - summarization
+      - rewriting
+      - chat
+      - text-generation
+      - conversational
+      - en
+      - de
+      - es
+      - pt
+      - it
+      - fr
+      - zh
+      - ja
+      - base_model:microsoft/Aion-1.0-Instruct-2.3B
+      - base_model:quantized:microsoft/Aion-1.0-Instruct-2.3B
+      - license:mit
+      - region:us

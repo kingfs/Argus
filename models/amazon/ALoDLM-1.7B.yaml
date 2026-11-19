@@ -4,6 +4,8 @@ name: ALoDLM-1.7B
 provider: Amazon
 developer: amazon
 lifecycle: candidate
+description: ALoDLM-1.7B is a diffusion language model developed at Amazon, initialized from the Qwen3 backbone. It generates text and code by repeatedly applying shared transformer layers and adaptively allocating computation across token positions.
+description_cn: ALoDLM-1.7B 是由 Amazon 开发的扩散语言模型，基于 Qwen3 骨干网络初始化。它通过反复应用共享的 Transformer 层，并在标记位置之间自适应地分配计算资源，从而生成文本和代码。
 context_length: 0
 features:
   - ModalityTextIn
@@ -14,6 +16,9 @@ identifiers:
   huggingface:
     - amazon/ALoDLM-1.7B
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/amazon/ALoDLM-1.7B/resolve/588c7dc1946e3e09fd496da0b0808bd26f46a758/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/amazon/ALoDLM-1.7B
