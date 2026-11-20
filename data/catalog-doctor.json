@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1076,
-    "compiled": 647,
-    "candidates": 403,
+    "models": 1082,
+    "compiled": 649,
+    "candidates": 407,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1050,
+    "model": 1056,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 765,
+      "official_huggingface": 771,
       "openrouter": 311
     },
     "unverified": [
@@ -613,6 +613,11 @@
         "source": "openrouter"
       },
       {
+        "id": "mistralai/pixtral-large-2502",
+        "provider": "mistral",
+        "source": "openrouter"
+      },
+      {
         "id": "nvidia/switchyard",
         "provider": "nvidia",
         "source": "openrouter"
@@ -1145,11 +1150,6 @@
       {
         "id": "sakana/sakana-namazu",
         "provider": "sakana",
-        "source": "openrouter"
-      },
-      {
-        "id": "tencent/hy4",
-        "provider": "tencent",
         "source": "openrouter"
       },
       {
@@ -1810,6 +1810,10 @@
       "provider": "mistral"
     },
     {
+      "id": "mistralai/pixtral-large-2502",
+      "provider": "mistral"
+    },
+    {
       "id": "nvidia/switchyard",
       "provider": "nvidia"
     },
@@ -1936,10 +1940,6 @@
     {
       "id": "sakana/sakana-namazu",
       "provider": "sakana"
-    },
-    {
-      "id": "tencent/hy4",
-      "provider": "tencent"
     },
     {
       "id": "tngtech/tng-r1t-chimera",

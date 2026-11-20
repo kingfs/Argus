@@ -1,0 +1,47 @@
+schema_version: 2
+id: tencent/wemm-video-9b
+name: WeMM-Video-9B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeMM-Video-9B
+identifiers:
+  huggingface:
+    - tencent/WeMM-Video-9B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeMM-Video-9B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Video-9B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Video-9B
+upstream:
+  huggingface:
+    id: tencent/WeMM-Video-9B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - feature-extraction
+      - wemm
+      - multimodal
+      - video
+      - audio
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - arxiv:2611.26409
+      - license:apache-2.0
+      - region:us

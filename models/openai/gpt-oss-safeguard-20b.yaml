@@ -43,12 +43,13 @@ upstream:
       - temperature
       - tool_choice
       - tools
+      - top_k
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:41:37.936457595Z
+    fetched_at: 2026-11-20T09:18:53.470013368Z
   huggingface:
     id: openai/gpt-oss-safeguard-20b
     revision: 8a11e17b25c973a24099d4016bf2e17dd7ec1574

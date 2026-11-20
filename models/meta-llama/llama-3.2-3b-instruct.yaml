@@ -46,7 +46,6 @@ upstream:
       - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - repetition_penalty
       - seed
@@ -61,7 +60,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2023-12-31"
-    fetched_at: 2026-08-04T04:52:43.87961391Z
+    fetched_at: 2026-11-20T09:18:53.466618866Z
   huggingface:
     id: meta-llama/Llama-3.2-3B-Instruct
     revision: 0cb88a4f764b7a12671c53f0838cd831a0843b95

@@ -36,7 +36,6 @@ upstream:
       - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - parallel_tool_calls
       - presence_penalty
       - reasoning
@@ -56,7 +55,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:40:10.97401871Z
+    fetched_at: 2026-11-20T09:18:53.468198431Z
   huggingface:
     id: moonshotai/Kimi-K2.7-Code
     revision: 74797c9c62378b951a1f6fcf5c4631024e9b8bef

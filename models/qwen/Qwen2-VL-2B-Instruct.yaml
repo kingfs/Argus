@@ -1,0 +1,47 @@
+schema_version: 2
+id: qwen/qwen2-vl-2b-instruct
+name: Qwen2-VL-2B-Instruct
+provider: Qwen
+developer: qwen
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
+identifiers:
+  huggingface:
+    - Qwen/Qwen2-VL-2B-Instruct
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
+upstream:
+  huggingface:
+    id: Qwen/Qwen2-VL-2B-Instruct
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen2_vl
+      - image-text-to-text
+      - multimodal
+      - conversational
+      - en
+      - arxiv:2409.12191
+      - arxiv:2308.12966
+      - base_model:Qwen/Qwen2-VL-2B
+      - base_model:finetune:Qwen/Qwen2-VL-2B
+      - license:apache-2.0
+      - text-generation-inference
+      - endpoints_compatible
+      - deploy:azure
+      - region:us

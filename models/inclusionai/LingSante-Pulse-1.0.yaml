@@ -1,0 +1,37 @@
+schema_version: 2
+id: inclusionai/lingsante-pulse-1.0
+name: LingSante-Pulse-1.0
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/inclusionAI/LingSante-Pulse-1.0
+identifiers:
+  huggingface:
+    - inclusionAI/LingSante-Pulse-1.0
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LingSante-Pulse-1.0
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-Pulse-1.0
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-Pulse-1.0
+upstream:
+  huggingface:
+    id: inclusionAI/LingSante-Pulse-1.0
+    pipeline_tag: feature-extraction
+    tags:
+      - safetensors
+      - physiological-signals
+      - time-series
+      - pytorch
+      - feature-extraction
+      - license:mit
+      - region:us

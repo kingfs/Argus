@@ -1,0 +1,54 @@
+schema_version: 2
+id: qwen/qwen2-1.5b-instruct
+name: Qwen2-1.5B-Instruct
+provider: Qwen
+developer: qwen
+lifecycle: candidate
+description: Qwen2-1.5B-Instruct is an instruction-tuned large language model with 1.5 billion parameters, part of the Qwen2 series. It is based on the Transformer architecture with SwiGLU activation, attention QKV bias, and group query attention.
+description_cn: Qwen2-1.5B-Instruct 是一款具有 15 亿参数的指令微调大型语言模型，属于 Qwen2 系列。其基于 Transformer 架构，采用 SwiGLU 激活函数、注意力 QKV 偏置以及组查询注意力机制。
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+identifiers:
+  huggingface:
+    - Qwen/Qwen2-1.5B-Instruct
+provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct/resolve/2ebb13f1f55edeb5bd4b108d0ad589397a6ee4ac/README.md
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct/resolve/2ebb13f1f55edeb5bd4b108d0ad589397a6ee4ac/README.md
+upstream:
+  huggingface:
+    id: Qwen/Qwen2-1.5B-Instruct
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen2
+      - text-generation
+      - chat
+      - conversational
+      - en
+      - license:apache-2.0
+      - eval-results
+      - text-generation-inference
+      - endpoints_compatible
+      - deploy:sagemaker
+      - deploy:azure
+      - region:us
+reasoning:
+  supported: false
