@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1082,
-    "compiled": 649,
-    "candidates": 407,
+    "models": 1088,
+    "compiled": 651,
+    "candidates": 411,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
@@ -12,13 +12,13 @@
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1056,
+    "model": 1062,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 771,
+      "official_huggingface": 777,
       "openrouter": 311
     },
     "unverified": [
@@ -1422,6 +1422,7 @@
     "qwen/qwen3.5-4b-base",
     "qwen/qwen3.5-9b-base",
     "tencent/hy3-preview-base",
+    "tencent/hy4-base",
     "tencent/hy4-flash-base",
     "tencent/wedlm-7b-base",
     "tencent/wedlm-8b-base",

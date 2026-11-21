@@ -50,7 +50,6 @@ upstream:
       - frequency_penalty
       - include_reasoning
       - logit_bias
-      - logprobs
       - max_tokens
       - min_p
       - presence_penalty
@@ -65,14 +64,13 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - image
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-03T06:36:03.926330551Z
+    fetched_at: 2026-11-21T08:55:10.487323116Z
   huggingface:
     id: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
     revision: 31ea11185e11ccafad1c385104188a9e3b648ad6

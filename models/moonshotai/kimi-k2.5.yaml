@@ -29,10 +29,8 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - repetition_penalty
@@ -51,7 +49,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:40:05.787288511Z
+    fetched_at: 2026-11-21T08:55:10.490641231Z
   huggingface:
     id: moonshotai/Kimi-K2.5
     revision: 4d01dfe0332d63057c186e0b262165819efb6611

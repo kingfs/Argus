@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "baidu/unlimited-ocr",
+  "status": "partially_accepted",
+  "created_at": "2026-11-21T08:55:35.057104913Z",
+  "source": {
+    "url": "https://huggingface.co/baidu/Unlimited-OCR/resolve/8249d20b2822a7d8a4c22c8d8c9069b5ac36bda3/README.md",
+    "revision": "8249d20b2822a7d8a4c22c8d8c9069b5ac36bda3",
+    "sha256": "906df1eef5a93668ce7f1dd4ffe1d1e49198821aa28909a80670a7a9d5220da2"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "A multilingual OCR model for document parsing, supporting single image and multi-page PDF processing.",
+      "evidence": "pipeline_tag: image-text-to-text\nlanguage:\n- multilingual\ntags:\n- ocr",
+      "section": "Frontmatter",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityImageIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: image-text-to-text",
+      "section": "Frontmatter",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 32768,
+      "evidence": "max_length=32768,",
+      "section": "Inference \u003e Transformers",
+      "confidence": "medium"
+    }
+  ]
+}

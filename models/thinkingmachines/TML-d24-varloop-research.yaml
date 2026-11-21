@@ -1,0 +1,43 @@
+schema_version: 2
+id: thinkingmachines/tml-d24-varloop-research
+name: TML-d24-varloop-research
+provider: Thinking Machines Lab
+developer: thinkingmachines
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/thinkingmachines/TML-d24-varloop-research
+identifiers:
+  huggingface:
+    - thinkingmachines/TML-d24-varloop-research
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research
+upstream:
+  huggingface:
+    id: thinkingmachines/TML-d24-varloop-research
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - inkling2_loop
+      - text-generation
+      - conversational
+      - image-text-to-text
+      - moe
+      - license:apache-2.0
+      - endpoints_compatible
+      - 8-bit
+      - modelopt
+      - region:us

@@ -4,6 +4,8 @@ name: Unlimited-OCR
 provider: Baidu ERNIE
 developer: baidu
 lifecycle: candidate
+description: A multilingual OCR model for document parsing, supporting single image and multi-page PDF processing.
+description_cn: 用于文档解析的多语言 OCR 模型，支持单张图片和多页 PDF 处理。
 context_length: 0
 features:
   - ModalityImageIn
@@ -15,6 +17,9 @@ identifiers:
   huggingface:
     - baidu/Unlimited-OCR
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/baidu/Unlimited-OCR/resolve/8249d20b2822a7d8a4c22c8d8c9069b5ac36bda3/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/baidu/Unlimited-OCR

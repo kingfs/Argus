@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "baidu/ernie-5.5-flash-base",
+  "status": "partially_accepted",
+  "created_at": "2026-11-21T08:55:13.694378499Z",
+  "source": {
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/028544b2ffceea189b2d8768ed2b9d09b06f2343/README.md",
+    "revision": "028544b2ffceea189b2d8768ed2b9d09b06f2343",
+    "sha256": "808c2568dbed83b0e8a382d5f4b3376b343b047bac739b3faa4c7a84d67e2e13"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "ERNIE 5.5 Flash is an efficient sparse Mixture-of-Experts (MoE) language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens. It features a hybrid-attention MoE architecture and supports a 1M-token context for fine-tuning and inference.",
+      "evidence": "ERNIE 5.5 Flash is an efficient sparse Mixture-of-Experts (MoE) language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 1048576,
+      "evidence": "fine-tuning and inference support a 1M-token context",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "(None)",
+      "confidence": "high"
+    }
+  ]
+}

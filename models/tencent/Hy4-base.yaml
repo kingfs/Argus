@@ -1,0 +1,46 @@
+schema_version: 2
+id: tencent/hy4-base
+name: Hy4-base
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/Hy4-base
+identifiers:
+  huggingface:
+    - tencent/Hy4-base
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/Hy4-base
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy4-base
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/Hy4-base
+upstream:
+  huggingface:
+    id: tencent/Hy4-base
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - hy_v4_vl
+      - image-text-to-text
+      - hunyuan
+      - hy4
+      - moe
+      - multimodal
+      - pretrained
+      - conversational
+      - arxiv:2512.02556
+      - arxiv:2603.12201
+      - license:other
+      - endpoints_compatible
+      - region:us

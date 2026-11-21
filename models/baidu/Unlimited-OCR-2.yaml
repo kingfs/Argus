@@ -4,6 +4,8 @@ name: Unlimited-OCR-2
 provider: Baidu ERNIE
 developer: baidu
 lifecycle: candidate
+description: Unlimited OCR 2 is a multilingual vision-language model for OCR that achieves unlimited-horizon parsing using Sparse Reference Sliding Window Attention (SR-SWA). It supports multi-page inference with cross-page context and is available via Transformers and SGLang.
+description_cn: Unlimited OCR 2 是一款用于 OCR 的多语言视觉语言模型，利用稀疏参考滑窗注意力（SR-SWA）实现无限范围解析。该模型支持基于跨页上下文的多页推理，并可通过 Transformers 和 SGLang 访问。
 context_length: 0
 features:
   - ModalityImageIn
@@ -15,6 +17,9 @@ identifiers:
   huggingface:
     - baidu/Unlimited-OCR-2
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/baidu/Unlimited-OCR-2/resolve/cb16b920ec2249c4b280f3aa67942e00b5099122/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/baidu/Unlimited-OCR-2

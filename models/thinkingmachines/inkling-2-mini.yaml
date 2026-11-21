@@ -1,0 +1,110 @@
+schema_version: 2
+id: thinkingmachines/inkling-2-mini
+name: 'Thinking Machines: Inkling 2 Mini'
+provider: Thinkingmachines
+developer: thinkingmachines
+lifecycle: active
+description: Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared...
+description_cn: Inkling 2 Mini 是由 Thinking Machines Lab 推出的开放权重多模态循环 Transformer，总参数量 26.4B，其中 MoE 架构下激活参数为 3.4B。其中间层以共享方式运行三次……
+context_length: 1048576
+max_output: 65536
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-21T08:55:03.931688584Z
+links:
+  model_card: https://huggingface.co/thinkingmachines/Inkling-2-Mini
+identifiers:
+  huggingface:
+    - thinkingmachines/Inkling-2-Mini
+  openrouter:
+    - thinkingmachines/inkling-2-mini
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: thinkingmachines/inkling-2-mini-20261120
+    huggingface_id: thinkingmachines/Inkling-2-Mini
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logprobs
+      - max_completion_tokens
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_logprobs
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-21T08:55:10.495813603Z
+  huggingface:
+    id: thinkingmachines/Inkling-2-Mini
+    revision: ed40e7da625f594fc9c4990f5f66be24873c22d7
+    pipeline_tag: image-text-to-text
+    model_type: inkling2_loop
+    architectures:
+      - Inkling2LoopForConditionalGeneration
+    license: apache-2.0
+    tags:
+      - 8-bit
+      - conversational
+      - endpoints_compatible
+      - image-text-to-text
+      - inkling2_loop
+      - license:apache-2.0
+      - modelopt
+      - moe
+      - region:us
+      - safetensors
+      - text-generation
+      - transformers
+    tokenizer_model_max_length: 1048576
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-21T08:55:11.0993917Z
+reasoning:
+  supported: true
+  default_enabled: true
+  default_effort: high
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal
+    - none

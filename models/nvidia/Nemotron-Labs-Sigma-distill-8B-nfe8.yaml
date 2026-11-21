@@ -1,0 +1,44 @@
+schema_version: 2
+id: nvidia/nemotron-labs-sigma-distill-8b-nfe8
+name: Nemotron-Labs-Sigma-distill-8B-nfe8
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+identifiers:
+  huggingface:
+    - nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+upstream:
+  huggingface:
+    id: nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - nemotron_labs_sigma
+      - feature-extraction
+      - nvidia
+      - pytorch
+      - nemotron-labs
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - arxiv:2610.02665
+      - license:other
+      - region:us

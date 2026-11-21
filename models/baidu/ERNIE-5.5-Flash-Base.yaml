@@ -3,8 +3,10 @@ id: baidu/ernie-5.5-flash-base
 name: ERNIE-5.5-Flash-Base
 provider: Baidu ERNIE
 developer: baidu
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: ERNIE 5.5 Flash is an efficient sparse Mixture-of-Experts (MoE) language model with 280B total parameters and 14B activated per token, pre-trained from scratch on 33.5T tokens. It features a hybrid-attention MoE architecture and supports a 1M-token context for fine-tuning and inference.
+description_cn: ERNIE 5.5 Flash 是一款高效的稀疏混合专家（MoE）语言模型，总参数量 280B，每 token 激活 14B，基于 33.5T tokens 从头预训练。该模型采用混合注意力 MoE 架构，支持 100 万 token 上下文长度，适用于微调与推理。
+context_length: 1048576
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - baidu/ERNIE-5.5-Flash-Base
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/028544b2ffceea189b2d8768ed2b9d09b06f2343/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/028544b2ffceea189b2d8768ed2b9d09b06f2343/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Base

@@ -31,15 +31,11 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
-      - repetition_penalty
       - response_format
-      - seed
       - stop
       - structured_outputs
       - temperature
@@ -52,7 +48,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-08-20T02:46:49.024009594Z
+    fetched_at: 2026-11-21T08:55:10.489327004Z
   huggingface:
     id: MiniMaxAI/MiniMax-M2.5
     revision: f710177d938eff80b684d42c5aa84b382612f21f

@@ -28,10 +28,8 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - repetition_penalty
@@ -49,7 +47,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:45:19.132463706Z
+    fetched_at: 2026-11-21T08:55:10.496752632Z
   huggingface:
     id: zai-org/GLM-5.1
     revision: 26e1bd6e011feb778d25ae34b09b07074139d92d

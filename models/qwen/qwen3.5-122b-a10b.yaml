@@ -32,10 +32,8 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - logprobs
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - repetition_penalty
@@ -55,7 +53,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:43:31.875947613Z
+    fetched_at: 2026-11-21T08:55:10.493265507Z
   huggingface:
     id: Qwen/Qwen3.5-122B-A10B
     revision: dc4d348443bc740c68e2d77492492c11606384d5
