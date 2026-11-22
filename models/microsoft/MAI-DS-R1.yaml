@@ -1,0 +1,42 @@
+schema_version: 2
+id: microsoft/mai-ds-r1
+name: MAI-DS-R1
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/MAI-DS-R1
+identifiers:
+  huggingface:
+    - microsoft/MAI-DS-R1
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/MAI-DS-R1
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/MAI-DS-R1
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/MAI-DS-R1
+upstream:
+  huggingface:
+    id: microsoft/MAI-DS-R1
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - deepseek_v3
+      - text-generation
+      - conversational
+      - custom_code
+      - base_model:deepseek-ai/DeepSeek-R1
+      - base_model:finetune:deepseek-ai/DeepSeek-R1
+      - license:mit
+      - text-generation-inference
+      - endpoints_compatible
+      - region:us

@@ -4,6 +4,8 @@ name: olmo3-7b-sdf-sft-scrub-b1reset150
 provider: EleutherAI
 developer: eleutherai
 lifecycle: candidate
+description: A start-model checkpoint for the hack-ignition benchmark, based on AISI's OLMo-3-7B SDF model after a GRPO run to train away reward hacking.
+description_cn: 用于 hack-ignition 基准测试的起始模型检查点，基于 AISI 的 OLMo-3-7B SDF 模型，经过 GRPO 运行训练以消除奖励作弊。
 context_length: 0
 features:
   - ModalityTextIn
@@ -14,6 +16,9 @@ identifiers:
   huggingface:
     - EleutherAI/olmo3-7b-sdf-sft-scrub-b1reset150
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/EleutherAI/olmo3-7b-sdf-sft-scrub-b1reset150/resolve/092884b78bd8680b890994e016bd0ff31e6d0b8e/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/EleutherAI/olmo3-7b-sdf-sft-scrub-b1reset150

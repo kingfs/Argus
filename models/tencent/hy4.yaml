@@ -57,6 +57,7 @@ upstream:
       - reasoning_effort
       - repetition_penalty
       - response_format
+      - seed
       - stop
       - structured_outputs
       - temperature
@@ -70,7 +71,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-20T09:18:53.472430792Z
+    fetched_at: 2026-11-22T08:57:30.053453074Z
   huggingface:
     id: tencent/Hy4
     revision: c10c0de5b6f850703fb0a90e65d1c32b558b9167
