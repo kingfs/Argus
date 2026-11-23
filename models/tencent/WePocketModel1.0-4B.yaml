@@ -1,0 +1,44 @@
+schema_version: 2
+id: tencent/wepocketmodel1.0-4b
+name: WePocketModel1.0-4B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WePocketModel1.0-4B
+identifiers:
+  huggingface:
+    - tencent/WePocketModel1.0-4B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WePocketModel1.0-4B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WePocketModel1.0-4B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WePocketModel1.0-4B
+upstream:
+  huggingface:
+    id: tencent/WePocketModel1.0-4B
+    pipeline_tag: image-text-to-text
+    tags:
+      - safetensors
+      - qwen3_5
+      - wepocketmodel
+      - multimodal
+      - on-device
+      - multimodal-embedding
+      - mrl
+      - structured-decision
+      - image-text-to-text
+      - conversational
+      - arxiv:2611.27365
+      - license:apache-2.0
+      - region:us

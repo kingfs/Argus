@@ -39,7 +39,6 @@ upstream:
       - frequency_penalty
       - include_reasoning
       - logit_bias
-      - logprobs
       - max_tokens
       - min_p
       - presence_penalty
@@ -54,13 +53,12 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-09-11T06:44:22.638783507Z
+    fetched_at: 2026-11-23T09:56:00.318282664Z
   huggingface:
     id: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8
     revision: 7d7e5797b8a3c7abbab54033b6004e93e8b6bc91

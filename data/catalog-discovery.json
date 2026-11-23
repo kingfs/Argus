@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 1088,
-  "models_with_official_links": 890,
+  "models": 1093,
+  "models_with_official_links": 895,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -95060,6 +95060,66 @@
     {
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
+      "repository_id": "inclusionAI/LingSante-3.1-air-VL",
+      "registry_id": "inclusionai/lingsante-3.1-air-vl",
+      "status": "materialized",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
+      "last_modified": "2026-11-22T17:03:07Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "safetensors",
+        "bailing_moe_v3_vl",
+        "image-text-to-text",
+        "conversational",
+        "custom_code",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/LingSante-3.1-flash",
+      "registry_id": "inclusionai/lingsante-3.1-flash",
+      "status": "materialized",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "last_modified": "2026-11-23T09:55:51Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "bailing_hybrid",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "license:mit",
+        "fp8",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
+      "repository_id": "inclusionAI/LingSante-3.1-flash-MXFP4",
+      "registry_id": "inclusionai/lingsante-3.1-flash-mxfp4",
+      "status": "materialized",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash-MXFP4",
+      "last_modified": "2026-11-23T06:28:19Z",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "bailing_hybrid",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "license:mit",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
       "repository_id": "inclusionAI/LingSante-Pulse-1.0",
       "registry_id": "inclusionai/lingsante-pulse-1.0",
       "status": "materialized",
@@ -143501,7 +143561,7 @@
       "repository_id": "tencent/Hy4-flash-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/tencent/Hy4-flash-FP8",
-      "last_modified": "2026-11-19T11:28:15Z",
+      "last_modified": "2026-11-23T06:53:30Z",
       "pipeline_tag": "image-text-to-text",
       "tags": [
         "transformers",
@@ -144421,6 +144481,32 @@
     {
       "provider_id": "tencent",
       "organization": "tencent",
+      "repository_id": "tencent/WeMM-Ecom-35B-A3B",
+      "registry_id": "tencent/wemm-ecom-35b-a3b",
+      "status": "materialized",
+      "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B",
+      "last_modified": "2026-11-23T09:31:59Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "wemm",
+        "qwen3_5_moe",
+        "multimodal",
+        "e-commerce",
+        "conversational",
+        "image-text-to-text",
+        "zh",
+        "en",
+        "base_model:Qwen/Qwen3.5-35B-A3B",
+        "base_model:finetune:Qwen/Qwen3.5-35B-A3B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
       "repository_id": "tencent/WeMM-Embedding-2B",
       "registry_id": "tencent/wemm-embedding-2b",
       "status": "materialized",
@@ -145097,6 +145183,106 @@
     {
       "provider_id": "tencent",
       "organization": "tencent",
+      "repository_id": "tencent/WePocketModel1.0-2B",
+      "status": "new",
+      "url": "https://huggingface.co/tencent/WePocketModel1.0-2B",
+      "last_modified": "2026-11-23T07:55:09Z",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "wepocketmodel",
+        "multimodal",
+        "on-device",
+        "multimodal-embedding",
+        "mrl",
+        "structured-decision",
+        "arxiv:2611.27365",
+        "base_model:Qwen/Qwen3.5-2B",
+        "base_model:finetune:Qwen/Qwen3.5-2B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/WePocketModel1.0-2B-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/tencent/WePocketModel1.0-2B-GGUF",
+      "last_modified": "2026-11-23T07:55:23Z",
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "wepocketmodel",
+        "multimodal",
+        "on-device",
+        "multimodal-embedding",
+        "mrl",
+        "structured-decision",
+        "arxiv:2611.27365",
+        "base_model:Qwen/Qwen3.5-2B",
+        "base_model:quantized:Qwen/Qwen3.5-2B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/WePocketModel1.0-4B",
+      "registry_id": "tencent/wepocketmodel1.0-4b",
+      "status": "materialized",
+      "url": "https://huggingface.co/tencent/WePocketModel1.0-4B",
+      "last_modified": "2026-11-23T07:55:39Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "wepocketmodel",
+        "multimodal",
+        "on-device",
+        "multimodal-embedding",
+        "mrl",
+        "structured-decision",
+        "image-text-to-text",
+        "conversational",
+        "arxiv:2611.27365",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
+      "repository_id": "tencent/WePocketModel1.0-4B-GGUF",
+      "status": "packaging",
+      "url": "https://huggingface.co/tencent/WePocketModel1.0-4B-GGUF",
+      "last_modified": "2026-11-23T07:55:53Z",
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "wepocketmodel",
+        "multimodal",
+        "on-device",
+        "multimodal-embedding",
+        "mrl",
+        "structured-decision",
+        "image-text-to-text",
+        "conversational",
+        "arxiv:2611.27365",
+        "base_model:tencent/WePocketModel1.0-4B",
+        "base_model:quantized:tencent/WePocketModel1.0-4B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
       "repository_id": "tencent/WeVisCut",
       "status": "new",
       "url": "https://huggingface.co/tencent/WeVisCut",
@@ -145667,6 +145853,22 @@
         "endpoints_compatible",
         "region:us",
         "conversational"
+      ]
+    },
+    {
+      "provider_id": "upstage",
+      "organization": "upstage",
+      "repository_id": "upstage/solar-mini-4-5-tokenizer",
+      "status": "new",
+      "url": "https://huggingface.co/upstage/solar-mini-4-5-tokenizer",
+      "last_modified": "2026-11-20T15:18:40Z",
+      "tags": [
+        "tokenizer",
+        "en",
+        "ko",
+        "ja",
+        "license:other",
+        "region:us"
       ]
     },
     {

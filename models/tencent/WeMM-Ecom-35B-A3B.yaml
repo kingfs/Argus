@@ -1,0 +1,45 @@
+schema_version: 2
+id: tencent/wemm-ecom-35b-a3b
+name: WeMM-Ecom-35B-A3B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeMM-Ecom-35B-A3B
+identifiers:
+  huggingface:
+    - tencent/WeMM-Ecom-35B-A3B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeMM-Ecom-35B-A3B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Ecom-35B-A3B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Ecom-35B-A3B
+upstream:
+  huggingface:
+    id: tencent/WeMM-Ecom-35B-A3B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - wemm
+      - qwen3_5_moe
+      - multimodal
+      - e-commerce
+      - conversational
+      - image-text-to-text
+      - zh
+      - en
+      - base_model:Qwen/Qwen3.5-35B-A3B
+      - base_model:finetune:Qwen/Qwen3.5-35B-A3B
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

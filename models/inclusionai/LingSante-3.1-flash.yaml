@@ -1,0 +1,38 @@
+schema_version: 2
+id: inclusionai/lingsante-3.1-flash
+name: LingSante-3.1-flash
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/LingSante-3.1-flash
+identifiers:
+  huggingface:
+    - inclusionAI/LingSante-3.1-flash
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-flash
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-flash
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-flash
+upstream:
+  huggingface:
+    id: inclusionAI/LingSante-3.1-flash
+    pipeline_tag: text-generation
+    tags:
+      - safetensors
+      - bailing_hybrid
+      - text-generation
+      - conversational
+      - custom_code
+      - license:mit
+      - fp8
+      - region:us
