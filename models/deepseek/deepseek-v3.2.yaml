@@ -35,7 +35,6 @@ upstream:
       - frequency_penalty
       - include_reasoning
       - logit_bias
-      - logprobs
       - max_tokens
       - min_p
       - presence_penalty
@@ -49,13 +48,12 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:37:45.270420875Z
+    fetched_at: 2026-11-24T11:43:41.774419857Z
   huggingface:
     id: deepseek-ai/DeepSeek-V3.2
     revision: a7e62ac04ecb2c0a54d736dc46601c5606cf10a6

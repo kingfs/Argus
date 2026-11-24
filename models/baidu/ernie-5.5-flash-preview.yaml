@@ -3,7 +3,7 @@ id: baidu/ernie-5.5-flash-preview
 name: 'Baidu: ERNIE-5.5-Flash-Preview'
 provider: Baidu
 developer: baidu
-lifecycle: candidate
+lifecycle: active
 description: ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...
 description_cn: ERNIE 5.5 Flash Preview 是文心家族最新的基础模型，在编码、智能体能力、知识工作及深度研究方面均有全面改进。其总参数量为2800亿...
 context_length: 1024000
@@ -17,7 +17,11 @@ features:
 aliases:
   - baidu/ernie-5.5-flash-preview:free
 discovered_at: 2026-11-11T08:32:19.306665633Z
+links:
+  model_card: https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview
 identifiers:
+  huggingface:
+    - baidu/ERNIE-5.5-Flash-Preview
   openrouter:
     - baidu/ernie-5.5-flash-preview
     - baidu/ernie-5.5-flash-preview:free
@@ -36,3 +40,44 @@ provenance:
     source: openrouter
   provider:
     source: openrouter
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview/resolve/ace1100dcde7bf4eb06add6ae11ce4f43a11ddfe/README.md
+upstream:
+  huggingface:
+    id: baidu/ERNIE-5.5-Flash-Preview
+    revision: ace1100dcde7bf4eb06add6ae11ce4f43a11ddfe
+    pipeline_tag: text-generation
+    model_type: ernie5_5_moe
+    architectures:
+      - Ernie5_5_MoeForCausalLM
+    license: apache-2.0
+    tags:
+      - 8-bit
+      - ERNIE5.5
+      - MoE
+      - agent
+      - arxiv:2610.17959
+      - arxiv:2610.24766
+      - arxiv:2610.40577
+      - base_model:baidu/ERNIE-5.5-Flash-Base
+      - base_model:finetune:baidu/ERNIE-5.5-Flash-Base
+      - en
+      - endpoints_compatible
+      - ernie5_5_moe
+      - eval-results
+      - fp8
+      - license:apache-2.0
+      - region:us
+      - safetensors
+      - text-generation
+      - transformers
+      - zh
+    config_context_length: 1048576
+    tokenizer_model_max_length: 1048576
+    structured_files:
+      - config.json
+      - tokenizer_config.json
+    fetched_at: 2026-11-24T11:43:42.336060299Z
+reasoning:
+  supported: true

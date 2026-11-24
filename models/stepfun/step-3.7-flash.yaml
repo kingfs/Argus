@@ -32,18 +32,14 @@ upstream:
       - include_reasoning
       - logprobs
       - max_tokens
-      - presence_penalty
       - reasoning
       - reasoning_effort
-      - repetition_penalty
       - response_format
-      - seed
       - stop
       - structured_outputs
       - temperature
       - tool_choice
       - tools
-      - top_k
       - top_logprobs
       - top_p
     input_modalities:
@@ -52,7 +48,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-10-02T07:39:22.027563964Z
+    fetched_at: 2026-11-24T11:43:41.783921399Z
   huggingface:
     id: stepfun-ai/Step-3.7-Flash
     revision: 5f6244077ac62e04eec3f320501ff8c2b293373a

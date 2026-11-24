@@ -1,0 +1,52 @@
+schema_version: 2
+id: tencent/omnievie-4b
+name: OmniEVIE-4B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - CapEmbedding
+  - ModalityTextIn
+links:
+  model_card: https://huggingface.co/tencent/OmniEVIE-4B
+identifiers:
+  huggingface:
+    - tencent/OmniEVIE-4B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/OmniEVIE-4B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/OmniEVIE-4B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/OmniEVIE-4B
+upstream:
+  huggingface:
+    id: tencent/OmniEVIE-4B
+    pipeline_tag: feature-extraction
+    tags:
+      - safetensors
+      - qwen3_5
+      - omnievie
+      - evie
+      - multimodal
+      - retrieval
+      - late-interaction
+      - multi-vector
+      - colbert
+      - matryoshka
+      - video-retrieval
+      - visual-document-retrieval
+      - image-retrieval
+      - text-retrieval
+      - token-compression
+      - feature-extraction
+      - dataset:TIGER-Lab/MMEB-V2
+      - dataset:vidore/vidore_benchmark_v3
+      - base_model:Qwen/Qwen3.5-4B
+      - base_model:finetune:Qwen/Qwen3.5-4B
+      - license:apache-2.0
+      - region:us

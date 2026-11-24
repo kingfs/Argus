@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1098,
-    "compiled": 651,
-    "candidates": 421,
+    "models": 1103,
+    "compiled": 652,
+    "candidates": 425,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 140,
-    "unverified_identities": 256
+    "identity_gaps": 139,
+    "unverified_identities": 255
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1072,
+    "model": 1077,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 787,
-      "openrouter": 311
+      "official_huggingface": 793,
+      "openrouter": 310
     },
     "unverified": [
       {
@@ -214,11 +214,6 @@
       },
       {
         "id": "baidu/cobuddy",
-        "provider": "baidu",
-        "source": "openrouter"
-      },
-      {
-        "id": "baidu/ernie-5.5-flash-preview",
         "provider": "baidu",
         "source": "openrouter"
       },
@@ -1500,10 +1495,6 @@
     },
     {
       "id": "baidu/cobuddy",
-      "provider": "baidu"
-    },
-    {
-      "id": "baidu/ernie-5.5-flash-preview",
       "provider": "baidu"
     },
     {

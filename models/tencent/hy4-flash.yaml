@@ -45,22 +45,32 @@ upstream:
     canonical_slug: tencent/hy4-flash-20261116
     huggingface_id: tencent/Hy4-flash
     supported_parameters:
+      - frequency_penalty
       - include_reasoning
+      - logit_bias
+      - logprobs
       - max_completion_tokens
       - max_tokens
+      - min_p
+      - presence_penalty
       - reasoning
+      - repetition_penalty
       - response_format
+      - seed
       - stop
       - structured_outputs
       - temperature
       - tool_choice
       - tools
+      - top_k
+      - top_logprobs
+      - top_p
     input_modalities:
       - image
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-18T09:22:38.578042167Z
+    fetched_at: 2026-11-24T11:43:41.784837925Z
   huggingface:
     id: tencent/Hy4-flash
     revision: d88c9dfd96ba4f2e6b92adba0b8e8f1c8696f959

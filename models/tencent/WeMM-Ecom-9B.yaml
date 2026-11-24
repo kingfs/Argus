@@ -1,0 +1,47 @@
+schema_version: 2
+id: tencent/wemm-ecom-9b
+name: WeMM-Ecom-9B
+provider: Tencent Hunyuan
+developer: tencent
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/tencent/WeMM-Ecom-9B
+identifiers:
+  huggingface:
+    - tencent/WeMM-Ecom-9B
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/tencent/WeMM-Ecom-9B
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Ecom-9B
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/tencent/WeMM-Ecom-9B
+upstream:
+  huggingface:
+    id: tencent/WeMM-Ecom-9B
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_5
+      - image-text-to-text
+      - wemm
+      - multimodal
+      - e-commerce
+      - conversational
+      - zh
+      - en
+      - arxiv:2611.30662
+      - base_model:Qwen/Qwen3.5-9B
+      - base_model:finetune:Qwen/Qwen3.5-9B
+      - license:apache-2.0
+      - endpoints_compatible
+      - region:us

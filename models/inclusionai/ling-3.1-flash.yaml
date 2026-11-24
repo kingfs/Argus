@@ -49,7 +49,6 @@ upstream:
       - max_tokens
       - presence_penalty
       - reasoning
-      - repetition_penalty
       - response_format
       - seed
       - stop
@@ -64,7 +63,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-23T09:56:00.316001247Z
+    fetched_at: 2026-11-24T11:43:41.777509874Z
   huggingface:
     id: inclusionAI/Ling-3.1-flash
     revision: a4ccd6b45c002ddb236f9cb77d52cc427482bf19

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "baidu/ernie-5.5-flash-preview",
+  "status": "partially_accepted",
+  "created_at": "2026-11-24T11:44:05.692339086Z",
+  "source": {
+    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview/resolve/ace1100dcde7bf4eb06add6ae11ce4f43a11ddfe/README.md",
+    "revision": "ace1100dcde7bf4eb06add6ae11ce4f43a11ddfe",
+    "sha256": "5aaa0c7eeb30f6645e2dca4ab5b08489345104da73c20abac6e694d8b214f7ef"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "ERNIE 5.5 Flash Preview is a Mixture-of-Experts (MoE) language model with 280B total parameters and 14B active per token. It supports coding, 3D modeling, knowledge work, and content creation, and is built on ERNIE 5.5 Flash Base.",
+      "evidence": "ERNIE 5.5 Flash Preview is the first post-trained model built on ERNIE 5.5 Flash Base... It is a Mixture-of-Experts (MoE) language model with 280B total parameters, 14B of them active per token",
+      "section": "Introduction",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 1048576,
+      "evidence": "Context Length | 1,048,576",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "Modality | Text in, text out",
+      "section": "Model Overview",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": true,
+      "evidence": "Thinking | On by default; turn off with enable_thinking: false",
+      "section": "Model Overview",
+      "confidence": "high"
+    }
+  ]
+}
