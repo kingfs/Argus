@@ -1,0 +1,40 @@
+schema_version: 2
+id: inclusionai/lingsante-3.1-air-vl-mxfp4
+name: LingSante-3.1-air-VL-MXFP4
+provider: InclusionAI
+developer: inclusionai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL-MXFP4
+identifiers:
+  huggingface:
+    - inclusionAI/LingSante-3.1-air-VL-MXFP4
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL-MXFP4
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL-MXFP4
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL-MXFP4
+upstream:
+  huggingface:
+    id: inclusionAI/LingSante-3.1-air-VL-MXFP4
+    pipeline_tag: image-text-to-text
+    tags:
+      - safetensors
+      - bailing_moe_v3_vl
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - license:mit
+      - 8-bit
+      - fp8
+      - region:us

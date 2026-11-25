@@ -1,25 +1,25 @@
 {
   "schema_version": 3,
   "summary": {
-    "models": 1103,
-    "compiled": 652,
-    "candidates": 425,
+    "models": 1111,
+    "compiled": 654,
+    "candidates": 431,
     "serving_variants": 10,
     "out_of_scope": 2,
     "quantization_variants": 14,
-    "identity_gaps": 139,
-    "unverified_identities": 255
+    "identity_gaps": 141,
+    "unverified_identities": 257
   },
   "by_kind": {
     "draft-head": 10,
-    "model": 1077,
+    "model": 1085,
     "out-of-scope": 2,
     "quantization": 14
   },
   "identity": {
     "by_source": {
-      "official_huggingface": 793,
-      "openrouter": 310
+      "official_huggingface": 799,
+      "openrouter": 312
     },
     "unverified": [
       {
@@ -1153,12 +1153,22 @@
         "source": "openrouter"
       },
       {
+        "id": "upstage/solar-mini-4-5",
+        "provider": "upstage",
+        "source": "openrouter"
+      },
+      {
         "id": "upstage/solar-mini4",
         "provider": "upstage",
         "source": "openrouter"
       },
       {
         "id": "upstage/solar-pro-3",
+        "provider": "upstage",
+        "source": "openrouter"
+      },
+      {
+        "id": "upstage/solar-pro-4-contributor",
         "provider": "upstage",
         "source": "openrouter"
       },
@@ -1938,11 +1948,19 @@
       "provider": "tngtech"
     },
     {
+      "id": "upstage/solar-mini-4-5",
+      "provider": "upstage"
+    },
+    {
       "id": "upstage/solar-mini4",
       "provider": "upstage"
     },
     {
       "id": "upstage/solar-pro-3",
+      "provider": "upstage"
+    },
+    {
+      "id": "upstage/solar-pro-4-contributor",
       "provider": "upstage"
     },
     {

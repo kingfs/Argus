@@ -28,15 +28,9 @@ upstream:
     canonical_slug: z-ai/glm-4.6-20251208
     huggingface_id: zai-org/GLM-4.6V
     supported_parameters:
-      - frequency_penalty
       - include_reasoning
       - max_tokens
-      - presence_penalty
       - reasoning
-      - repetition_penalty
-      - response_format
-      - seed
-      - stop
       - temperature
       - tool_choice
       - tools
@@ -48,7 +42,7 @@ upstream:
       - video
     output_modalities:
       - text
-    fetched_at: 2026-07-29T10:45:10.270832949Z
+    fetched_at: 2026-11-25T10:37:21.567078977Z
   huggingface:
     id: zai-org/GLM-4.6V
     revision: 4e2d47eb0b41c5280d8294b17cef9e94fdcfff46

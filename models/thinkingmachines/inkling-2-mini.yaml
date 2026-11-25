@@ -47,6 +47,7 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
+      - logit_bias
       - logprobs
       - max_completion_tokens
       - max_tokens
@@ -70,7 +71,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-21T08:55:10.495813603Z
+    fetched_at: 2026-11-25T10:37:21.564866631Z
   huggingface:
     id: thinkingmachines/Inkling-2-Mini
     revision: ed40e7da625f594fc9c4990f5f66be24873c22d7

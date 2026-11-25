@@ -29,26 +29,22 @@ upstream:
     canonical_slug: minimax/minimax-m2.5-20260211
     huggingface_id: MiniMaxAI/MiniMax-M2.5
     supported_parameters:
-      - frequency_penalty
       - include_reasoning
       - logprobs
       - max_tokens
-      - presence_penalty
       - reasoning
       - response_format
-      - stop
       - structured_outputs
       - temperature
       - tool_choice
       - tools
-      - top_k
       - top_logprobs
       - top_p
     input_modalities:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-21T08:55:10.489327004Z
+    fetched_at: 2026-11-25T10:37:21.560790233Z
   huggingface:
     id: MiniMaxAI/MiniMax-M2.5
     revision: f710177d938eff80b684d42c5aa84b382612f21f

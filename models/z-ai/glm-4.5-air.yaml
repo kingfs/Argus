@@ -32,11 +32,7 @@ upstream:
       - frequency_penalty
       - include_reasoning
       - max_tokens
-      - presence_penalty
       - reasoning
-      - repetition_penalty
-      - seed
-      - stop
       - temperature
       - tool_choice
       - tools
@@ -47,7 +43,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-12-31"
-    fetched_at: 2026-07-29T10:45:00.958870657Z
+    fetched_at: 2026-11-25T10:37:21.56638953Z
   huggingface:
     id: zai-org/GLM-4.5-Air
     revision: a24ceef6ce4f3536971efe9b778bdaa1bab18daa

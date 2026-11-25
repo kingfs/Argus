@@ -29,7 +29,6 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - logit_bias
-      - logprobs
       - max_tokens
       - min_p
       - presence_penalty
@@ -42,7 +41,6 @@ upstream:
       - tool_choice
       - tools
       - top_k
-      - top_logprobs
       - top_p
     input_modalities:
       - image
@@ -50,7 +48,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2025-03-31"
-    fetched_at: 2026-07-29T10:43:18.416498447Z
+    fetched_at: 2026-11-25T10:37:21.563197044Z
   huggingface:
     id: Qwen/Qwen3-VL-30B-A3B-Instruct
     revision: 9c4b90e1e4ba969fd3b5378b57d966d725f1b86c

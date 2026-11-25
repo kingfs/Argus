@@ -3,8 +3,10 @@ id: eleutherai/pythia-160m-weight-seed2-corrected
 name: pythia-160m-weight-seed2-corrected
 provider: EleutherAI
 developer: eleutherai
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: A text-generation model from the Pythia family, specifically a corrected weight-seed 2 variant trained from an independent seed-2 weight initialization. It was trained for 143,000 steps on the Pile dataset with a global batch size of 1,024 sequences.
+description_cn: Pythia 系列文本生成模型，具体为独立初始化的修正权重种子 2 变体。使用 Pile 数据集训练 143,000 步，全局批量大小为 1,024 个序列。
+context_length: 2048
 features:
   - ModalityTextIn
   - ModalityTextOut
@@ -14,6 +16,12 @@ identifiers:
   huggingface:
     - EleutherAI/pythia-160m-weight-seed2-corrected
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected/resolve/1e1df051757344350d8fd5649d1d3a09f2824447/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected/resolve/1e1df051757344350d8fd5649d1d3a09f2824447/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected

@@ -1,0 +1,44 @@
+schema_version: 2
+id: microsoft/grin-moe
+name: GRIN-MoE
+provider: Microsoft
+developer: microsoft
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/microsoft/GRIN-MoE
+identifiers:
+  huggingface:
+    - microsoft/GRIN-MoE
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/microsoft/GRIN-MoE
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/GRIN-MoE
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/microsoft/GRIN-MoE
+upstream:
+  huggingface:
+    id: microsoft/GRIN-MoE
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - grinmoe
+      - nlp
+      - code
+      - text-generation
+      - conversational
+      - custom_code
+      - en
+      - arxiv:2409.12136
+      - arxiv:2404.14219
+      - license:mit
+      - endpoints_compatible
+      - region:us

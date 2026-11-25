@@ -1,0 +1,44 @@
+schema_version: 2
+id: nvidia/qwen3-nemotron-235b-a22b-genrm
+name: Qwen3-Nemotron-235B-A22B-GenRM
+provider: NVIDIA
+developer: nvidia
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+identifiers:
+  huggingface:
+    - nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+upstream:
+  huggingface:
+    id: nvidia/Qwen3-Nemotron-235B-A22B-GenRM
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - qwen3_moe
+      - text-generation
+      - nvidia
+      - qwen3
+      - conversational
+      - en
+      - arxiv:2505.11475
+      - base_model:Qwen/Qwen3-235B-A22B-Thinking-2507
+      - base_model:finetune:Qwen/Qwen3-235B-A22B-Thinking-2507
+      - license:apache-2.0
+      - region:us
+      - deploy:azure

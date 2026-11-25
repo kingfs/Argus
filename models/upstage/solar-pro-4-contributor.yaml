@@ -1,0 +1,70 @@
+schema_version: 2
+id: upstage/solar-pro-4-contributor
+name: 'Upstage: Solar Pro 4 Contributor'
+provider: Upstage
+developer: upstage
+lifecycle: candidate
+description: Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...
+description_cn: Solar Pro 4 Contributor 是 Upstage 的同一款 Solar Pro 4 模型，以较低费率提供，但需允许 Upstage 使用交互数据来改进其...
+context_length: 524288
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-25T10:37:16.70866663Z
+identifiers:
+  openrouter:
+    - upstage/solar-pro-4-contributor
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: upstage/solar-pro-4-contributor-20261125
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - max_tokens
+      - parallel_tool_calls
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-25T10:37:21.565424092Z
+reasoning:
+  supported: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal
+    - none
+    - xhigh

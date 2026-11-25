@@ -1,0 +1,92 @@
+schema_version: 2
+id: xiaomi/mimo-v2.6-flash-mopd
+name: MiMo-V2.6-Flash-MOPD
+provider: Xiaomi MiMo
+developer: xiaomi
+lifecycle: active
+description: MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-teacher...
+description_cn: MiMo-V2.6-Flash-MOPD 是小米 MiMo-V2.6-Flash 的更新检查点，这是一个混合专家模型，总参数量 3090 亿，激活参数量 150 亿，支持 100 万 token 上下文窗口，并原生支持多模态输入。它增加了多教师...
+context_length: 1048576
+max_output: 32768
+features:
+  - CapChat
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+identifiers:
+  huggingface:
+    - XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+  openrouter:
+    - xiaomi/mimo-v2.6-flash-mopd
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+  max_output:
+    source: openrouter
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: xiaomi/mimo-v2.6-flash-mopd-20260927
+    huggingface_id: XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - audio
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-25T10:37:21.565962984Z
+  huggingface:
+    id: XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+    pipeline_tag: text-generation
+    tags:
+      - transformers
+      - safetensors
+      - mimo_v2
+      - text-generation
+      - multimodal
+      - vision-language
+      - audio
+      - agent
+      - video-understanding
+      - long-context
+      - conversational
+      - custom_code
+      - en
+      - zh
+      - license:mit
+      - 8-bit
+      - fp8
+      - region:us
+reasoning:
+  supported: true

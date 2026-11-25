@@ -34,7 +34,12 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - max_tokens
+      - min_p
+      - presence_penalty
+      - repetition_penalty
       - response_format
+      - seed
+      - stop
       - structured_outputs
       - temperature
       - tool_choice
@@ -46,7 +51,7 @@ upstream:
     output_modalities:
       - text
     knowledge_cutoff: "2024-07-31"
-    fetched_at: 2026-11-21T08:55:10.486594896Z
+    fetched_at: 2026-11-25T10:37:21.558638063Z
   huggingface:
     id: deepseek-ai/DeepSeek-V3-0324
     revision: e9b33add76883f293d6bf61f6bd89b497e80e335

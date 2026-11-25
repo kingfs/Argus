@@ -23,7 +23,37 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+  reasoning:
+    source: openrouter
 upstream:
+  openrouter:
+    canonical_slug: xiaomi/mimo-v2.6-flash-mopd-20260927
+    huggingface_id: XiaomiMiMo/MiMo-V2.6-Flash-MOPD
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - audio
+      - image
+      - text
+      - video
+    output_modalities:
+      - text
+    fetched_at: 2026-11-25T10:37:21.565764178Z
   huggingface:
     id: XiaomiMiMo/MiMo-V2.6-Flash-MOPD
     pipeline_tag: text-generation
@@ -46,3 +76,5 @@ upstream:
       - 8-bit
       - fp8
       - region:us
+reasoning:
+  supported: true

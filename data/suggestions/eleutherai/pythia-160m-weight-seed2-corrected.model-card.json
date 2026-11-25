@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "eleutherai/pythia-160m-weight-seed2-corrected",
+  "status": "partially_accepted",
+  "created_at": "2026-11-25T10:38:45.002813696Z",
+  "source": {
+    "url": "https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected/resolve/1e1df051757344350d8fd5649d1d3a09f2824447/README.md",
+    "revision": "1e1df051757344350d8fd5649d1d3a09f2824447",
+    "sha256": "10158568b15c8cd1b908d83cc7ec60b786beb2e41e31e4db856af8d2777e7fcf"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "A text-generation model from the Pythia family, specifically a corrected weight-seed 2 variant trained from an independent seed-2 weight initialization. It was trained for 143,000 steps on the Pile dataset with a global batch size of 1,024 sequences.",
+      "evidence": "This model was trained from an independent seed-2 weight initialization while keeping the original Pythia training-data order fixed.",
+      "section": "Pythia-160M: corrected weight-seed 2",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 2048,
+      "evidence": "The model was trained for 143,000 steps on the Pile with a global batch size of 1,024 sequences and a context length of 2,048 tokens.",
+      "section": "Pythia-160M: corrected weight-seed 2",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "pipeline_tag: text-generation",
+      "section": "frontmatter",
+      "confidence": "high"
+    }
+  ]
+}

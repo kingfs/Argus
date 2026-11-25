@@ -1,0 +1,70 @@
+schema_version: 2
+id: upstage/solar-mini-4-5
+name: 'Upstage: Solar Mini 4.5 (Preview)'
+provider: Upstage
+developer: upstage
+lifecycle: candidate
+description: Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step...
+description_cn: Solar Mini 4.5 是 Upstage 的紧凑型语言模型，基于专有混合专家架构，总参数量 350 亿，激活参数量 30 亿，支持 524K 上下文窗口。它是...
+context_length: 524288
+max_output: 131072
+features:
+  - CapChat
+  - CapFunctionCall
+  - CapJsonMode
+  - ModalityTextIn
+  - ModalityTextOut
+discovered_at: 2026-11-25T10:37:16.707906506Z
+identifiers:
+  openrouter:
+    - upstage/solar-mini-4-5
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: openrouter
+  id:
+    source: openrouter
+  max_output:
+    source: openrouter
+  name:
+    source: openrouter
+  provider:
+    source: openrouter
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: upstage/solar-mini-4-5-20261125
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - max_tokens
+      - parallel_tool_calls
+      - presence_penalty
+      - reasoning
+      - reasoning_effort
+      - response_format
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-25T10:37:21.565300147Z
+reasoning:
+  supported: true
+  default_effort: medium
+  supported_efforts:
+    - high
+    - low
+    - max
+    - medium
+    - minimal
+    - none
+    - xhigh
