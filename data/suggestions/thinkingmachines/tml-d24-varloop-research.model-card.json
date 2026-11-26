@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "thinkingmachines/tml-d24-varloop-research",
+  "status": "partially_accepted",
+  "created_at": "2026-11-26T10:09:17.785181166Z",
+  "source": {
+    "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research/resolve/91a57fe2b779bbd12c0f74d1f518cbd5b84e8d0d/README.md",
+    "revision": "91a57fe2b779bbd12c0f74d1f518cbd5b84e8d0d",
+    "sha256": "5c512705450735f8691762d01ee8573db3bb93fbd6c02b6e6a1c596cd42b6fb1"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "TML-d24-varloop-research is a 26.4B parameter multimodal looped transformer with sparse MoE layers. It accepts text and image inputs, generates text, and supports a variable number of loop passes (1-5) at inference time.",
+      "evidence": "TML-d24-varloop-research is a multimodal research model that accepts text and image inputs and generates text outputs.",
+      "section": "### Model type",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityImageIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "TML-d24-varloop-research is a multimodal research model that accepts text and image inputs and generates text outputs.",
+      "section": "### Model type",
+      "confidence": "high"
+    },
+    {
+      "field": "context_length",
+      "value": 1000000,
+      "evidence": "TML-d24-varloop-research supports a context window of up to 1M tokens.",
+      "section": "### Input modalities",
+      "confidence": "high"
+    }
+  ]
+}

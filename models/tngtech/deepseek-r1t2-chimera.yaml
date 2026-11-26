@@ -22,8 +22,36 @@ identifiers:
   huggingface:
     - tngtech/DeepSeek-TNG-R1T2-Chimera
   openrouter:
+    - tngtech/deepseek-r1t2-chimera
     - tngtech/deepseek-r1t2-chimera:free
+provenance:
+  reasoning:
+    source: openrouter
 upstream:
+  openrouter:
+    canonical_slug: tngtech/deepseek-r1t2-chimera
+    huggingface_id: tngtech/DeepSeek-TNG-R1T2-Chimera
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - top_k
+      - top_p
+    input_modalities:
+      - text
+    output_modalities:
+      - text
+    knowledge_cutoff: "2024-07-31"
+    fetched_at: 2026-11-26T10:07:55.305182789Z
   huggingface:
     id: tngtech/DeepSeek-TNG-R1T2-Chimera
     revision: 748c3e0469acd9e7ac6abfafe4acf4e04119f6fb
@@ -59,3 +87,6 @@ upstream:
       - config.json
       - tokenizer_config.json
     fetched_at: 2026-09-28T10:29:01.090931739Z
+reasoning:
+  supported: true
+  mandatory: true

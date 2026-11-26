@@ -3,8 +3,10 @@ id: thinkingmachines/tml-d24-varloop-research
 name: TML-d24-varloop-research
 provider: Thinking Machines Lab
 developer: thinkingmachines
-lifecycle: candidate
-context_length: 0
+lifecycle: active
+description: TML-d24-varloop-research is a 26.4B parameter multimodal looped transformer with sparse MoE layers. It accepts text and image inputs, generates text, and supports a variable number of loop passes (1-5) at inference time.
+description_cn: TML-d24-varloop-research 是一个拥有 26.4B 参数的多模态循环 Transformer，采用稀疏 MoE 层。它支持文本和图像输入，生成文本输出，并允许在推理时设置可变数量的循环次数（1-5）。
+context_length: 1000000
 features:
   - ModalityImageIn
   - ModalityTextIn
@@ -15,6 +17,12 @@ identifiers:
   huggingface:
     - thinkingmachines/TML-d24-varloop-research
 provenance:
+  context_length:
+    source: official_model_card
+    url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research/resolve/91a57fe2b779bbd12c0f74d1f518cbd5b84e8d0d/README.md
+  description:
+    source: official_model_card
+    url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research/resolve/91a57fe2b779bbd12c0f74d1f518cbd5b84e8d0d/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/thinkingmachines/TML-d24-varloop-research
