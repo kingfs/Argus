@@ -4,6 +4,8 @@ name: pythia-160m-weight-seed2
 provider: EleutherAI
 developer: eleutherai
 lifecycle: candidate
+description: 'A 160M parameter language model from the PolyPythias suite. It is a base causal language model trained on 300B tokens from The Pile. Note: This specific weight-seed model contains a training error regarding Adam optimizer buffers and does not vary weight initialization as intended.'
+description_cn: 来自 PolyPythias 系列的 1.6 亿参数语言模型。这是一个基于 The Pile 中 3000 亿个 token 训练的基础因果语言模型。注意：此特定权重种子模型存在关于 Adam 优化器缓冲区的训练错误，未能按预期实现权重初始化的变化。
 context_length: 0
 features:
   - ModalityTextIn
@@ -14,6 +16,9 @@ identifiers:
   huggingface:
     - EleutherAI/pythia-160m-weight-seed2
 provenance:
+  description:
+    source: official_model_card
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2/resolve/501cf5ea592a6be7e4b9fc35474ec64c99523e65/README.md
   features:
     source: official_huggingface_pipeline
     url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
@@ -23,6 +28,9 @@ provenance:
   name:
     source: official_huggingface
     url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2
+  reasoning.supported:
+    source: official_model_card
+    url: https://huggingface.co/EleutherAI/pythia-160m-weight-seed2/resolve/501cf5ea592a6be7e4b9fc35474ec64c99523e65/README.md
 upstream:
   huggingface:
     id: EleutherAI/pythia-160m-weight-seed2
@@ -43,3 +51,5 @@ upstream:
       - text-generation-inference
       - endpoints_compatible
       - region:us
+reasoning:
+  supported: false

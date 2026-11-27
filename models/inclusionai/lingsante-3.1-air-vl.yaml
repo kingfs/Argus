@@ -1,0 +1,82 @@
+schema_version: 2
+id: inclusionai/lingsante-3.1-air-vl
+name: LingSante-3.1-air-VL
+provider: InclusionAI
+developer: inclusionai
+lifecycle: active
+description: LingSante 3.1 Air VL is inclusionAI's medical vision-language model, a 124B total / 5.5B active MoE. It takes text and up to 16 images (scans, skin and meal photos, lab...
+description_cn: LingSante 3.1 Air VL 是 inclusionAI 推出的医疗视觉语言模型，采用总参数量 1240 亿/激活 55 亿的 MoE 架构。它支持文本及多达 16 张图片（包括扫描图、皮肤和饮食照片、化验...
+context_length: 131072
+max_output: 32768
+features:
+  - CapChat
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL
+identifiers:
+  huggingface:
+    - inclusionAI/LingSante-3.1-air-VL
+  openrouter:
+    - inclusionai/lingsante-3.1-air-vl
+provenance:
+  context_length:
+    source: openrouter
+  description:
+    source: openrouter
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL
+  max_output:
+    source: openrouter
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/inclusionAI/LingSante-3.1-air-VL
+  reasoning:
+    source: openrouter
+upstream:
+  openrouter:
+    canonical_slug: inclusionai/lingsante-3.1-air-vl-20261126
+    huggingface_id: inclusionAI/LingSante-3.1-air-VL
+    supported_parameters:
+      - frequency_penalty
+      - include_reasoning
+      - logit_bias
+      - max_tokens
+      - min_p
+      - presence_penalty
+      - reasoning
+      - repetition_penalty
+      - response_format
+      - seed
+      - stop
+      - structured_outputs
+      - temperature
+      - tool_choice
+      - tools
+      - top_k
+      - top_p
+    input_modalities:
+      - image
+      - text
+    output_modalities:
+      - text
+    fetched_at: 2026-11-27T10:13:48.933388783Z
+  huggingface:
+    id: inclusionAI/LingSante-3.1-air-VL
+    pipeline_tag: image-text-to-text
+    tags:
+      - safetensors
+      - bailing_moe_v3_vl
+      - image-text-to-text
+      - conversational
+      - custom_code
+      - license:mit
+      - region:us
+reasoning:
+  supported: true
+  default_enabled: true

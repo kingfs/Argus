@@ -1,7 +1,7 @@
 {
   "providers": 54,
-  "models": 1111,
-  "models_with_official_links": 912,
+  "models": 1117,
+  "models_with_official_links": 918,
   "uncataloged_publishers": {
     "Anthracite-Org": 1,
     "Cognitivecomputations": 1,
@@ -86658,7 +86658,7 @@
       "repository_id": "google/timesfm-3.0-pytorch",
       "status": "out_of_scope",
       "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-      "last_modified": "2026-09-02T15:44:59Z",
+      "last_modified": "2026-11-27T07:27:25Z",
       "pipeline_tag": "time-series-forecasting",
       "tags": [
         "safetensors",
@@ -95549,6 +95549,29 @@
     {
       "provider_id": "inclusionai",
       "organization": "inclusionAI",
+      "repository_id": "inclusionAI/Ming-Image-0.2-Design",
+      "status": "out_of_scope",
+      "scope_reason": "out-of-scope-pipeline:text-to-image",
+      "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+      "last_modified": "2026-11-26T12:14:19Z",
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "custom",
+        "diffusers",
+        "safetensors",
+        "bailingmm_moe_v2_lite",
+        "text-to-image",
+        "image-generation",
+        "graphic-design",
+        "text-rendering",
+        "rgba",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "inclusionai",
+      "organization": "inclusionAI",
       "repository_id": "inclusionAI/Ming-UniAudio-16B-A3B",
       "status": "new",
       "url": "https://huggingface.co/inclusionAI/Ming-UniAudio-16B-A3B",
@@ -102450,7 +102473,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-medium-128k-instruct",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-medium-128k-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct",
       "last_modified": "2025-12-10T20:19:35Z",
       "pipeline_tag": "text-generation",
@@ -102646,7 +102670,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-mini-128k-instruct",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-mini-128k-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct",
       "last_modified": "2025-12-10T20:21:52Z",
       "pipeline_tag": "text-generation",
@@ -102696,7 +102721,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-mini-4k-instruct",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-mini-4k-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
       "last_modified": "2025-12-10T20:22:18Z",
       "pipeline_tag": "text-generation",
@@ -102791,7 +102817,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-small-128k-instruct",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-small-128k-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-small-128k-instruct",
       "last_modified": "2025-12-10T20:21:27Z",
       "pipeline_tag": "text-generation",
@@ -102813,7 +102840,8 @@
       "provider_id": "microsoft",
       "organization": "microsoft",
       "repository_id": "microsoft/Phi-3-small-8k-instruct",
-      "status": "new",
+      "registry_id": "microsoft/phi-3-small-8k-instruct",
+      "status": "materialized",
       "url": "https://huggingface.co/microsoft/Phi-3-small-8k-instruct",
       "last_modified": "2025-12-10T20:20:39Z",
       "pipeline_tag": "text-generation",
@@ -123470,7 +123498,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/NV-Reason-PathWSI",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-domain:biomedicine",
       "url": "https://huggingface.co/nvidia/NV-Reason-PathWSI",
       "last_modified": "2026-11-25T16:08:23Z",
       "pipeline_tag": "image-text-to-text",
@@ -126882,7 +126909,6 @@
       "organization": "nvidia",
       "repository_id": "nvidia/Nemotron-3.5-Rerank-1B-BF16",
       "status": "out_of_scope",
-      "scope_reason": "out-of-scope-quantization:bf16",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-1B-BF16",
       "last_modified": "2026-11-25T22:05:24Z",
       "pipeline_tag": "text-ranking",
@@ -126947,7 +126973,7 @@
       "repository_id": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
       "status": "out_of_scope",
       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
-      "last_modified": "2026-11-23T23:12:52Z",
+      "last_modified": "2026-11-26T16:42:16Z",
       "pipeline_tag": "text-ranking",
       "tags": [
         "sentence-transformers",
@@ -142957,6 +142983,17 @@
     {
       "provider_id": "tencent",
       "organization": "tencent",
+      "repository_id": "tencent/Hy-Embodied-Apexio-1.0",
+      "status": "new",
+      "url": "https://huggingface.co/tencent/Hy-Embodied-Apexio-1.0",
+      "last_modified": "2026-11-27T05:46:43Z",
+      "tags": [
+        "region:us"
+      ]
+    },
+    {
+      "provider_id": "tencent",
+      "organization": "tencent",
       "repository_id": "tencent/Hy-Embodied-RxBrain-1.0",
       "status": "new",
       "url": "https://huggingface.co/tencent/Hy-Embodied-RxBrain-1.0",
@@ -143472,7 +143509,7 @@
       "repository_id": "tencent/Hy-MT3-1.8B",
       "status": "new",
       "url": "https://huggingface.co/tencent/Hy-MT3-1.8B",
-      "last_modified": "2026-11-24T07:02:51Z",
+      "last_modified": "2026-11-27T09:50:06Z",
       "pipeline_tag": "translation",
       "tags": [
         "transformers",
@@ -143591,7 +143628,7 @@
       "repository_id": "tencent/Hy-MT3-1.8B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/tencent/Hy-MT3-1.8B-FP8",
-      "last_modified": "2026-11-24T07:02:52Z",
+      "last_modified": "2026-11-27T09:50:08Z",
       "pipeline_tag": "translation",
       "tags": [
         "safetensors",
@@ -143611,7 +143648,7 @@
       "repository_id": "tencent/Hy-MT3-1.8B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/tencent/Hy-MT3-1.8B-GGUF",
-      "last_modified": "2026-11-24T07:02:55Z",
+      "last_modified": "2026-11-27T09:50:10Z",
       "pipeline_tag": "translation",
       "tags": [
         "gguf",
@@ -143632,7 +143669,7 @@
       "repository_id": "tencent/Hy-MT3-30B-A3B",
       "status": "new",
       "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B",
-      "last_modified": "2026-11-24T07:02:57Z",
+      "last_modified": "2026-11-27T09:50:13Z",
       "pipeline_tag": "translation",
       "tags": [
         "transformers",
@@ -143751,7 +143788,7 @@
       "repository_id": "tencent/Hy-MT3-30B-A3B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B-FP8",
-      "last_modified": "2026-11-24T07:03:00Z",
+      "last_modified": "2026-11-27T09:50:16Z",
       "pipeline_tag": "translation",
       "tags": [
         "safetensors",
@@ -143771,7 +143808,7 @@
       "repository_id": "tencent/Hy-MT3-30B-A3B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B-GGUF",
-      "last_modified": "2026-11-24T07:03:02Z",
+      "last_modified": "2026-11-27T09:50:19Z",
       "pipeline_tag": "translation",
       "tags": [
         "gguf",
@@ -143792,7 +143829,7 @@
       "repository_id": "tencent/Hy-MT3-7B",
       "status": "new",
       "url": "https://huggingface.co/tencent/Hy-MT3-7B",
-      "last_modified": "2026-11-24T07:03:05Z",
+      "last_modified": "2026-11-27T09:50:22Z",
       "pipeline_tag": "translation",
       "tags": [
         "transformers",
@@ -143911,7 +143948,7 @@
       "repository_id": "tencent/Hy-MT3-7B-FP8",
       "status": "out_of_scope",
       "url": "https://huggingface.co/tencent/Hy-MT3-7B-FP8",
-      "last_modified": "2026-11-24T07:03:08Z",
+      "last_modified": "2026-11-27T09:50:24Z",
       "pipeline_tag": "translation",
       "tags": [
         "safetensors",
@@ -143931,7 +143968,7 @@
       "repository_id": "tencent/Hy-MT3-7B-GGUF",
       "status": "packaging",
       "url": "https://huggingface.co/tencent/Hy-MT3-7B-GGUF",
-      "last_modified": "2026-11-24T07:03:10Z",
+      "last_modified": "2026-11-27T09:50:26Z",
       "pipeline_tag": "translation",
       "tags": [
         "gguf",

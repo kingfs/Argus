@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "model_card",
+  "model_id": "eleutherai/pythia-160m-weight-seed2",
+  "status": "partially_accepted",
+  "created_at": "2026-11-27T10:15:12.720001682Z",
+  "source": {
+    "url": "https://huggingface.co/EleutherAI/pythia-160m-weight-seed2/resolve/501cf5ea592a6be7e4b9fc35474ec64c99523e65/README.md",
+    "revision": "501cf5ea592a6be7e4b9fc35474ec64c99523e65",
+    "sha256": "5e093545d0b3559836f20a12483606f393da32e5c1dbe301d53cde06d3dd850e"
+  },
+  "generator": {
+    "model": "qwen/qwen3.8-27b",
+    "wire_api": "chat"
+  },
+  "claims": [
+    {
+      "field": "description",
+      "value": "A 160M parameter language model from the PolyPythias suite. It is a base causal language model trained on 300B tokens from The Pile. Note: This specific weight-seed model contains a training error regarding Adam optimizer buffers and does not vary weight initialization as intended.",
+      "evidence": "Training error caused the weight-seed models to continue training from the original Pythia weights... These models therefore do **not** vary weight initialization",
+      "section": "Training error in the weight-seed models",
+      "confidence": "high"
+    },
+    {
+      "field": "features",
+      "value": [
+        "ModalityTextIn",
+        "ModalityTextOut"
+      ],
+      "evidence": "language: - en ... causal-lm ... They will not follow instructions like ChatGPT",
+      "section": "Limitations",
+      "confidence": "high"
+    },
+    {
+      "field": "reasoning.supported",
+      "value": false,
+      "evidence": "These are base language models that predict the next token; they will not follow instructions like ChatGPT",
+      "section": "Limitations",
+      "confidence": "high"
+    }
+  ]
+}
