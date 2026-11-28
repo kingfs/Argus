@@ -1,6 +1,7 @@
 {
-  "failure_count": 2,
+  "failure_count": 3,
   "failures": {
+    "inclusionai/ling-3.2-flash": "Hugging Face model request returned 401 Unauthorized",
     "inference-net/schematron-v2-small": "Hugging Face model request returned 401 Unauthorized",
     "inference-net/schematron-v2-turbo": "Hugging Face model request returned 401 Unauthorized"
   }

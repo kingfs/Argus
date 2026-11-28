@@ -1,0 +1,43 @@
+schema_version: 2
+id: zai/glm-4.6v-flash
+name: GLM-4.6V-Flash
+provider: Z.ai
+developer: zai
+lifecycle: candidate
+context_length: 0
+features:
+  - ModalityImageIn
+  - ModalityTextIn
+  - ModalityTextOut
+links:
+  model_card: https://huggingface.co/zai-org/GLM-4.6V-Flash
+identifiers:
+  huggingface:
+    - zai-org/GLM-4.6V-Flash
+provenance:
+  features:
+    source: official_huggingface_pipeline
+    url: https://huggingface.co/zai-org/GLM-4.6V-Flash
+  id:
+    source: official_huggingface
+    url: https://huggingface.co/zai-org/GLM-4.6V-Flash
+  name:
+    source: official_huggingface
+    url: https://huggingface.co/zai-org/GLM-4.6V-Flash
+upstream:
+  huggingface:
+    id: zai-org/GLM-4.6V-Flash
+    pipeline_tag: image-text-to-text
+    tags:
+      - transformers
+      - safetensors
+      - glm4v
+      - image-text-to-text
+      - conversational
+      - zh
+      - en
+      - arxiv:2507.01006
+      - license:mit
+      - endpoints_compatible
+      - region:us
+      - deploy:azure

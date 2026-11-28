@@ -45,16 +45,12 @@ upstream:
     supported_parameters:
       - frequency_penalty
       - include_reasoning
-      - logit_bias
       - max_completion_tokens
       - max_tokens
-      - min_p
       - presence_penalty
       - reasoning
       - reasoning_effort
-      - repetition_penalty
       - response_format
-      - seed
       - stop
       - structured_outputs
       - temperature
@@ -66,7 +62,7 @@ upstream:
       - text
     output_modalities:
       - text
-    fetched_at: 2026-11-21T08:55:10.495219986Z
+    fetched_at: 2026-11-28T09:32:34.66269928Z
   huggingface:
     id: tencent/Hy4-preview
     revision: ce1ba0b6738bbab76b6bfd82b1801c0915dca729
